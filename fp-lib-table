@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ddr4-datacenter-tester-footprints)(type Kicad)(uri ${KIPRJMOD}/lib/ddr4-datacenter-tester-footprints)(options "")(descr ""))
+)
