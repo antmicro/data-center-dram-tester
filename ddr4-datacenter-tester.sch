@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -2794,4 +2794,10 @@ F 3 "" H 3675 11150 50  0001 C CNN
 	1    3675 10800
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 4500 7175 750  500 
+U 60D4969D
+F0 "temp" 50
+F1 "temp.sch" 50
+$EndSheet
 $EndSCHEMATC

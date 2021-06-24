@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 9
+Sheet 4 10
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -2913,10 +2913,10 @@ F 6 "100u" H 5900 4775 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:C_100n_0201 C?
+L ddr4-datacenter-tester:C_100n_0201 C21
 U 1 1 60DDB800
 P 4625 7700
-F 0 "C?" H 4650 7800 60  0000 L CNN
+F 0 "C21" H 4650 7800 60  0000 L CNN
 F 1 "C_100n_0201" H 4625 7550 60  0001 C CNN
 F 2 "ddr4-datacenter-tester-footprints:0201-res" H 4825 7900 60  0001 L CNN
 F 3 "" H 4625 7700 50  0001 C CNN
@@ -2931,8 +2931,8 @@ L ddr4-datacenter-tester:GND #PWR?
 U 1 1 60DDB806
 P 4625 7925
 AR Path="/5F96C515/60DDB806" Ref="#PWR?"  Part="1" 
-AR Path="/600295C1/60DDB806" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4625 7675 50  0001 C CNN
+AR Path="/600295C1/60DDB806" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 4625 7675 50  0001 C CNN
 F 1 "GND" H 4630 7752 50  0000 C CNN
 F 2 "" H 4625 7925 50  0001 C CNN
 F 3 "" H 4625 7925 50  0001 C CNN
@@ -2946,10 +2946,10 @@ Wire Wire Line
 Wire Wire Line
 	4625 7850 4625 7925
 $Comp
-L ddr4-datacenter-tester:C_100n_0201 C?
+L ddr4-datacenter-tester:C_100n_0201 C143
 U 1 1 60DDB812
 P 4975 7700
-F 0 "C?" H 5000 7800 60  0000 L CNN
+F 0 "C143" H 5000 7800 60  0000 L CNN
 F 1 "C_100n_0201" H 4975 7550 60  0001 C CNN
 F 2 "ddr4-datacenter-tester-footprints:0201-res" H 5175 7900 60  0001 L CNN
 F 3 "" H 4975 7700 50  0001 C CNN
@@ -2964,8 +2964,8 @@ L ddr4-datacenter-tester:GND #PWR?
 U 1 1 60DDB818
 P 4975 7925
 AR Path="/5F96C515/60DDB818" Ref="#PWR?"  Part="1" 
-AR Path="/600295C1/60DDB818" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4975 7675 50  0001 C CNN
+AR Path="/600295C1/60DDB818" Ref="#PWR049"  Part="1" 
+F 0 "#PWR049" H 4975 7675 50  0001 C CNN
 F 1 "GND" H 4980 7752 50  0000 C CNN
 F 2 "" H 4975 7925 50  0001 C CNN
 F 3 "" H 4975 7925 50  0001 C CNN
