@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 10
+Sheet 4 13
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -13,536 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	9550 3975 9400 3975
-Wire Wire Line
-	9550 8275 9400 8275
-Wire Wire Line
-	9400 3975 9400 4075
-Connection ~ 9400 8275
-Wire Wire Line
-	9550 8175 9400 8175
-Connection ~ 9400 8175
-Wire Wire Line
-	9400 8175 9400 8275
-Wire Wire Line
-	9550 8075 9400 8075
-Connection ~ 9400 8075
-Wire Wire Line
-	9400 8075 9400 8175
-Wire Wire Line
-	9550 7975 9400 7975
-Connection ~ 9400 7975
-Wire Wire Line
-	9400 7975 9400 8075
-Wire Wire Line
-	9550 7875 9400 7875
-Connection ~ 9400 7875
-Wire Wire Line
-	9400 7875 9400 7975
-Wire Wire Line
-	9550 7775 9400 7775
-Connection ~ 9400 7775
-Wire Wire Line
-	9400 7775 9400 7875
-Wire Wire Line
-	9550 7675 9400 7675
-Connection ~ 9400 7675
-Wire Wire Line
-	9400 7675 9400 7775
-Wire Wire Line
-	9550 7575 9400 7575
-Connection ~ 9400 7575
-Wire Wire Line
-	9400 7575 9400 7675
-Wire Wire Line
-	9550 7475 9400 7475
-Connection ~ 9400 7475
-Wire Wire Line
-	9400 7475 9400 7575
-Wire Wire Line
-	9550 7375 9400 7375
-Connection ~ 9400 7375
-Wire Wire Line
-	9400 7375 9400 7475
-Wire Wire Line
-	9550 7275 9400 7275
-Connection ~ 9400 7275
-Wire Wire Line
-	9400 7275 9400 7375
-Wire Wire Line
-	9550 7175 9400 7175
-Connection ~ 9400 7175
-Wire Wire Line
-	9400 7175 9400 7275
-Wire Wire Line
-	9550 7075 9400 7075
-Connection ~ 9400 7075
-Wire Wire Line
-	9400 7075 9400 7175
-Wire Wire Line
-	9550 6975 9400 6975
-Connection ~ 9400 6975
-Wire Wire Line
-	9400 6975 9400 7075
-Wire Wire Line
-	9550 6875 9400 6875
-Connection ~ 9400 6875
-Wire Wire Line
-	9400 6875 9400 6975
-Wire Wire Line
-	9550 6775 9400 6775
-Connection ~ 9400 6775
-Wire Wire Line
-	9400 6775 9400 6875
-Wire Wire Line
-	9550 6675 9400 6675
-Connection ~ 9400 6675
-Wire Wire Line
-	9400 6675 9400 6775
-Wire Wire Line
-	9550 6575 9400 6575
-Connection ~ 9400 6575
-Wire Wire Line
-	9400 6575 9400 6675
-Wire Wire Line
-	9550 6475 9400 6475
-Connection ~ 9400 6475
-Wire Wire Line
-	9400 6475 9400 6575
-Wire Wire Line
-	9550 6375 9400 6375
-Connection ~ 9400 6375
-Wire Wire Line
-	9400 6375 9400 6475
-Wire Wire Line
-	9550 6275 9400 6275
-Connection ~ 9400 6275
-Wire Wire Line
-	9400 6275 9400 6375
-Wire Wire Line
-	9550 6175 9400 6175
-Connection ~ 9400 6175
-Wire Wire Line
-	9400 6175 9400 6275
-Wire Wire Line
-	9550 6075 9400 6075
-Connection ~ 9400 6075
-Wire Wire Line
-	9400 6075 9400 6175
-Wire Wire Line
-	9550 5975 9400 5975
-Connection ~ 9400 5975
-Wire Wire Line
-	9400 5975 9400 6075
-Wire Wire Line
-	9550 5875 9400 5875
-Connection ~ 9400 5875
-Wire Wire Line
-	9400 5875 9400 5975
-Wire Wire Line
-	9550 5775 9400 5775
-Connection ~ 9400 5775
-Wire Wire Line
-	9400 5775 9400 5875
-Wire Wire Line
-	9550 5675 9400 5675
-Connection ~ 9400 5675
-Wire Wire Line
-	9400 5675 9400 5775
-Wire Wire Line
-	9550 5575 9400 5575
-Connection ~ 9400 5575
-Wire Wire Line
-	9400 5575 9400 5675
-Wire Wire Line
-	9550 5475 9400 5475
-Connection ~ 9400 5475
-Wire Wire Line
-	9400 5475 9400 5575
-Wire Wire Line
-	9550 4075 9400 4075
-Connection ~ 9400 4075
-Wire Wire Line
-	9400 4075 9400 4175
-Wire Wire Line
-	9550 4175 9400 4175
-Connection ~ 9400 4175
-Wire Wire Line
-	9400 4175 9400 4275
-Wire Wire Line
-	9550 4275 9400 4275
-Connection ~ 9400 4275
-Wire Wire Line
-	9400 4275 9400 4375
-Wire Wire Line
-	9550 4375 9400 4375
-Connection ~ 9400 4375
-Wire Wire Line
-	9400 4375 9400 4475
-Wire Wire Line
-	9550 4475 9400 4475
-Connection ~ 9400 4475
-Wire Wire Line
-	9400 4475 9400 4575
-Wire Wire Line
-	9550 4575 9400 4575
-Connection ~ 9400 4575
-Wire Wire Line
-	9400 4575 9400 4675
-Wire Wire Line
-	9550 4675 9400 4675
-Connection ~ 9400 4675
-Wire Wire Line
-	9400 4675 9400 4775
-Wire Wire Line
-	9550 4775 9400 4775
-Connection ~ 9400 4775
-Wire Wire Line
-	9400 4775 9400 4875
-Wire Wire Line
-	9550 4875 9400 4875
-Connection ~ 9400 4875
-Wire Wire Line
-	9550 4975 9400 4975
-Wire Wire Line
-	9400 4875 9400 4975
-Connection ~ 9400 4975
-Wire Wire Line
-	9400 4975 9400 5075
-Wire Wire Line
-	9550 5075 9400 5075
-Connection ~ 9400 5075
-Wire Wire Line
-	9400 5075 9400 5175
-Wire Wire Line
-	9550 5175 9400 5175
-Connection ~ 9400 5175
-Wire Wire Line
-	9400 5175 9400 5275
-Wire Wire Line
-	9550 5275 9400 5275
-Connection ~ 9400 5275
-Wire Wire Line
-	9400 5275 9400 5375
-Wire Wire Line
-	9550 5375 9400 5375
-Connection ~ 9400 5375
-Wire Wire Line
-	9400 5375 9400 5475
-$Comp
-L ddr4-datacenter-tester:GND #PWR0112
-U 1 1 600E3E40
-P 9400 8900
-F 0 "#PWR0112" H 9400 8650 50  0001 C CNN
-F 1 "GND" H 9405 8727 50  0000 C CNN
-F 2 "" H 9400 8900 50  0001 C CNN
-F 3 "" H 9400 8900 50  0001 C CNN
-	1    9400 8900
-	1    0    0    -1  
-$EndComp
-$Comp
-L ddr4-datacenter-tester:XC7K70T-FBG484 U1
-U 7 1 6246CC56
-P 10550 5375
-F 0 "U1" H 10550 8542 50  0000 C CNN
-F 1 "XC7K70T-FBG484" H 10550 8451 50  0000 C CNN
-F 2 "ddr4-datacenter-tester-footprints:BGA484C100P22X22_2300X2300X244N" H 10550 5375 50  0001 C CNN
-F 3 "" H 10550 5375 50  0000 C CNN
-F 4 "XC7K70T-1FBG484C" H 10550 5375 50  0001 C CNN "MPN"
-F 5 "Xilinx" H 10550 5375 50  0001 C CNN "Manufacturer"
-	7    10550 5375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 8275 9400 8900
-Wire Wire Line
-	11550 4075 11700 4075
-Wire Wire Line
-	11700 4075 11700 4175
-Wire Wire Line
-	11550 8275 11700 8275
-Connection ~ 11700 8275
-Wire Wire Line
-	11550 8175 11700 8175
-Connection ~ 11700 8175
-Wire Wire Line
-	11700 8175 11700 8275
-Wire Wire Line
-	11550 8075 11700 8075
-Connection ~ 11700 8075
-Wire Wire Line
-	11700 8075 11700 8175
-Wire Wire Line
-	11550 7975 11700 7975
-Connection ~ 11700 7975
-Wire Wire Line
-	11700 7975 11700 8075
-Wire Wire Line
-	11550 7875 11700 7875
-Connection ~ 11700 7875
-Wire Wire Line
-	11700 7875 11700 7975
-Wire Wire Line
-	11550 7775 11700 7775
-Connection ~ 11700 7775
-Wire Wire Line
-	11700 7775 11700 7875
-Wire Wire Line
-	11550 7675 11700 7675
-Connection ~ 11700 7675
-Wire Wire Line
-	11700 7675 11700 7775
-Wire Wire Line
-	11550 7575 11700 7575
-Connection ~ 11700 7575
-Wire Wire Line
-	11700 7575 11700 7675
-Wire Wire Line
-	11550 7475 11700 7475
-Connection ~ 11700 7475
-Wire Wire Line
-	11700 7475 11700 7575
-Wire Wire Line
-	11550 7375 11700 7375
-Connection ~ 11700 7375
-Wire Wire Line
-	11700 7375 11700 7475
-Wire Wire Line
-	11550 7275 11700 7275
-Connection ~ 11700 7275
-Wire Wire Line
-	11700 7275 11700 7375
-Wire Wire Line
-	11550 7175 11700 7175
-Connection ~ 11700 7175
-Wire Wire Line
-	11700 7175 11700 7275
-Wire Wire Line
-	11550 7075 11700 7075
-Connection ~ 11700 7075
-Wire Wire Line
-	11700 7075 11700 7175
-Wire Wire Line
-	11550 6975 11700 6975
-Connection ~ 11700 6975
-Wire Wire Line
-	11700 6975 11700 7075
-Wire Wire Line
-	11550 6875 11700 6875
-Connection ~ 11700 6875
-Wire Wire Line
-	11700 6875 11700 6975
-Wire Wire Line
-	11550 6775 11700 6775
-Connection ~ 11700 6775
-Wire Wire Line
-	11700 6775 11700 6875
-Wire Wire Line
-	11550 6675 11700 6675
-Connection ~ 11700 6675
-Wire Wire Line
-	11700 6675 11700 6775
-Wire Wire Line
-	11550 6575 11700 6575
-Connection ~ 11700 6575
-Wire Wire Line
-	11700 6575 11700 6675
-Wire Wire Line
-	11550 6475 11700 6475
-Connection ~ 11700 6475
-Wire Wire Line
-	11700 6475 11700 6575
-Wire Wire Line
-	11550 6375 11700 6375
-Connection ~ 11700 6375
-Wire Wire Line
-	11700 6375 11700 6475
-Wire Wire Line
-	11550 6275 11700 6275
-Connection ~ 11700 6275
-Wire Wire Line
-	11700 6275 11700 6375
-Wire Wire Line
-	11550 6175 11700 6175
-Connection ~ 11700 6175
-Wire Wire Line
-	11700 6175 11700 6275
-Wire Wire Line
-	11550 6075 11700 6075
-Connection ~ 11700 6075
-Wire Wire Line
-	11700 6075 11700 6175
-Wire Wire Line
-	11550 5975 11700 5975
-Connection ~ 11700 5975
-Wire Wire Line
-	11700 5975 11700 6075
-Wire Wire Line
-	11550 5875 11700 5875
-Connection ~ 11700 5875
-Wire Wire Line
-	11700 5875 11700 5975
-Wire Wire Line
-	11550 5775 11700 5775
-Connection ~ 11700 5775
-Wire Wire Line
-	11700 5775 11700 5875
-Wire Wire Line
-	11550 5675 11700 5675
-Connection ~ 11700 5675
-Wire Wire Line
-	11700 5675 11700 5775
-Wire Wire Line
-	11550 5575 11700 5575
-Connection ~ 11700 5575
-Wire Wire Line
-	11700 5575 11700 5675
-Wire Wire Line
-	11550 4175 11700 4175
-Connection ~ 11700 4175
-Wire Wire Line
-	11700 4175 11700 4275
-Wire Wire Line
-	11550 4275 11700 4275
-Connection ~ 11700 4275
-Wire Wire Line
-	11700 4275 11700 4375
-Wire Wire Line
-	11550 4375 11700 4375
-Connection ~ 11700 4375
-Wire Wire Line
-	11700 4375 11700 4475
-Wire Wire Line
-	11550 4475 11700 4475
-Connection ~ 11700 4475
-Wire Wire Line
-	11700 4475 11700 4575
-Wire Wire Line
-	11550 4575 11700 4575
-Connection ~ 11700 4575
-Wire Wire Line
-	11700 4575 11700 4675
-Wire Wire Line
-	11550 4675 11700 4675
-Connection ~ 11700 4675
-Wire Wire Line
-	11700 4675 11700 4775
-Wire Wire Line
-	11550 4775 11700 4775
-Connection ~ 11700 4775
-Wire Wire Line
-	11700 4775 11700 4875
-Wire Wire Line
-	11550 4875 11700 4875
-Connection ~ 11700 4875
-Wire Wire Line
-	11700 4875 11700 4975
-Wire Wire Line
-	11550 4975 11700 4975
-Connection ~ 11700 4975
-Wire Wire Line
-	11550 5075 11700 5075
-Wire Wire Line
-	11700 4975 11700 5075
-Connection ~ 11700 5075
-Wire Wire Line
-	11700 5075 11700 5175
-Wire Wire Line
-	11550 5175 11700 5175
-Connection ~ 11700 5175
-Wire Wire Line
-	11700 5175 11700 5275
-Wire Wire Line
-	11550 5275 11700 5275
-Connection ~ 11700 5275
-Wire Wire Line
-	11700 5275 11700 5375
-Wire Wire Line
-	11550 5375 11700 5375
-Connection ~ 11700 5375
-Wire Wire Line
-	11700 5375 11700 5475
-Wire Wire Line
-	11550 5475 11700 5475
-Connection ~ 11700 5475
-Wire Wire Line
-	11700 5475 11700 5575
-$Comp
-L ddr4-datacenter-tester:GND #PWR0121
-U 1 1 6259B1A2
-P 11700 8875
-F 0 "#PWR0121" H 11700 8625 50  0001 C CNN
-F 1 "GND" H 11705 8702 50  0000 C CNN
-F 2 "" H 11700 8875 50  0001 C CNN
-F 3 "" H 11700 8875 50  0001 C CNN
-	1    11700 8875
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	11700 8275 11700 8875
-Wire Wire Line
-	9550 3075 9550 2975
-Connection ~ 9550 2575
-Wire Wire Line
-	9550 2575 9550 2475
-Connection ~ 9550 2675
-Wire Wire Line
-	9550 2675 9550 2575
-Connection ~ 9550 2775
-Wire Wire Line
-	9550 2775 9550 2675
-Connection ~ 9550 2875
-Wire Wire Line
-	9550 2875 9550 2775
-Connection ~ 9550 2975
-Wire Wire Line
-	9550 2975 9550 2875
-Wire Wire Line
-	9300 3375 9550 3375
-Wire Wire Line
-	9550 3475 9300 3475
-Connection ~ 9550 3675
-Wire Wire Line
-	9550 3675 9550 3775
-Wire Wire Line
-	9550 3575 9550 3675
-Connection ~ 9550 3575
-Connection ~ 11550 2575
-Wire Wire Line
-	11550 2575 11550 2675
-Connection ~ 11550 2675
-Wire Wire Line
-	11550 2675 11550 2775
-Connection ~ 11550 2775
-Wire Wire Line
-	11550 2775 11550 2875
-Connection ~ 11550 2875
-Wire Wire Line
-	11550 2875 11550 2975
-Connection ~ 11550 2975
-Wire Wire Line
-	11550 2975 11550 3075
-Wire Wire Line
-	11550 3175 11550 3075
-Connection ~ 11550 3075
-Wire Wire Line
-	11550 3275 11550 3375
-Connection ~ 11550 3375
-Wire Wire Line
-	11550 3375 11550 3475
-Connection ~ 11550 3475
-Wire Wire Line
-	11550 3475 11550 3575
-Connection ~ 11550 3575
-Wire Wire Line
-	11550 3575 11550 3675
-Connection ~ 11550 3675
-Wire Wire Line
-	11550 3675 11550 3775
-Wire Wire Line
-	9550 2475 9550 2325
-Connection ~ 9550 2475
 $Comp
 L ddr4-datacenter-tester:C_47u_0603 C22
 U 1 1 64DC1502
@@ -599,19 +69,8 @@ F 6 "4u7" H 800 6425 50  0000 L CNN "Val"
 	1    775  6525
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9300 3575 9550 3575
-Wire Wire Line
-	11550 3175 11550 3275
-Connection ~ 11550 3175
-Connection ~ 11550 3275
-Wire Wire Line
-	11550 2275 11550 2475
-Connection ~ 11550 2475
-Wire Wire Line
-	11550 2475 11550 2575
-Text Notes 9700 1775 0    50   ~ 0
-Decoupling referenced from 7 Series FPGAs\nPCB Design Guide UG483
+Text Notes 9475 1775 0    50   ~ 0
+Decoupling referenced from 7 Series FPGAs\nPCB Design Guide UG483 \nTODO: verify!
 $Comp
 L ddr4-datacenter-tester:C_47u_0603 C?
 U 1 1 60613726
@@ -824,76 +283,9 @@ Wire Notes Line
 	15350 1475 13425 1475
 Text Notes 13575 1675 0    50   ~ 0
 Place close to FPGA banks power supply
-Text Notes 9425 2700 1    50   ~ 0
-VCCAUX max: 2.0V
-Text Notes 8875 3400 2    50   ~ 0
-VCCADC max: 2.0V
-Text Notes 8875 3500 2    50   ~ 0
-VCCBATT max: 2.0V
-Text Notes 8875 3600 2    50   ~ 0
-VCCBRAM max: 1.1V
-Text Notes 11775 1975 3    50   ~ 0
-VCCINT max: 1.1V
-$Comp
-L ddr4-datacenter-tester:XC7K70T-FBG484 U1
-U 5 1 604C456D
-P 13975 4725
-F 0 "U1" H 12800 5300 50  0000 C CNN
-F 1 "XC7K70T-FBG484" H 13075 5200 50  0000 C CNN
-F 2 "ddr4-datacenter-tester-footprints:BGA484C100P22X22_2300X2300X244N" H 13975 4725 50  0001 C CNN
-F 3 "" H 13975 4725 50  0000 C CNN
-F 4 "XC7K70T-1FBG484C" H 13975 4725 50  0001 C CNN "MPN"
-F 5 "Xilinx" H 13975 4725 50  0001 C CNN "Manufacturer"
-	5    13975 4725
-	1    0    0    -1  
-$EndComp
-$Comp
-L ddr4-datacenter-tester:XC7K70T-FBG484 U1
-U 4 1 604D7DF0
-P 14000 6750
-F 0 "U1" H 12825 8075 50  0000 C CNN
-F 1 "XC7K70T-FBG484" H 13100 8000 50  0000 C CNN
-F 2 "ddr4-datacenter-tester-footprints:BGA484C100P22X22_2300X2300X244N" H 14000 6750 50  0001 C CNN
-F 3 "" H 14000 6750 50  0000 C CNN
-F 4 "XC7K70T-1FBG484C" H 14000 6750 50  0001 C CNN "MPN"
-F 5 "Xilinx" H 14000 6750 50  0001 C CNN "Manufacturer"
-	4    14000 6750
-	1    0    0    -1  
-$EndComp
-NoConn ~ 12475 4425
-NoConn ~ 12475 4525
-NoConn ~ 12475 4625
-NoConn ~ 12475 4725
-NoConn ~ 12475 4825
-NoConn ~ 15475 5025
-NoConn ~ 15475 4925
-NoConn ~ 15475 4725
-NoConn ~ 15475 4625
-NoConn ~ 15475 4525
-NoConn ~ 15475 4425
-NoConn ~ 12500 5650
-NoConn ~ 12500 5750
-NoConn ~ 12500 5850
-NoConn ~ 12500 5950
-NoConn ~ 12500 6050
-NoConn ~ 12500 6150
-NoConn ~ 12500 6250
-NoConn ~ 12500 6350
-NoConn ~ 12500 6550
-NoConn ~ 12500 6650
-NoConn ~ 12500 6750
-NoConn ~ 12500 6850
-NoConn ~ 12500 6950
-NoConn ~ 12500 7050
-NoConn ~ 12500 7150
-NoConn ~ 12500 7250
-NoConn ~ 12500 7450
-NoConn ~ 12500 7550
-NoConn ~ 12500 7650
-NoConn ~ 12500 7750
 Text Notes 12700 3900 0    98   ~ 20
 UNUSED
-Text Notes 9800 1500 0    98   ~ 20
+Text Notes 9775 1525 0    98   ~ 20
 POWER RAILS
 $Comp
 L ddr4-datacenter-tester:C_100n_0201 C9
@@ -1101,21 +493,6 @@ Wire Wire Line
 Wire Wire Line
 	3800 6375 3800 6250
 $Comp
-L ddr4-datacenter-tester:GND #PWR0204
-U 1 1 6081D53D
-P 9400 3725
-F 0 "#PWR0204" H 9400 3475 50  0001 C CNN
-F 1 "GND" H 9405 3552 50  0000 C CNN
-F 2 "" H 9400 3725 50  0001 C CNN
-F 3 "" H 9400 3725 50  0001 C CNN
-	1    9400 3725
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 3275 9400 3725
-Wire Wire Line
-	9400 3275 9550 3275
-$Comp
 L ddr4-datacenter-tester:C_100n_0201 C11
 U 1 1 608FFA4B
 P 4075 6525
@@ -1288,16 +665,6 @@ Text GLabel 4350 6250 1    50   Input ~ 0
 1V8_SYS
 Text GLabel 4075 6250 1    50   Input ~ 0
 1V8_SYS
-Text GLabel 9550 2325 1    50   Input ~ 0
-1V8_SYS
-Text GLabel 9300 3475 0    50   Input ~ 0
-1V8_SYS
-Text GLabel 9300 3375 0    50   Input ~ 0
-1V8_SYS
-Text GLabel 9300 3575 0    50   Input ~ 0
-1V0_SYS
-Text GLabel 11550 2275 1    50   Input ~ 0
-1V0_SYS
 Text GLabel 13875 2200 1    50   Input ~ 0
 3V3_SYS
 Text GLabel 14125 2200 1    50   Input ~ 0
@@ -2978,4 +2345,534 @@ Wire Wire Line
 	4975 7425 4975 7550
 Wire Wire Line
 	4975 7850 4975 7925
+$Comp
+L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+U 5 1 6109F0F5
+P 13900 5425
+F 0 "U15" H 13900 6882 50  0000 C CNN
+F 1 "XC7K160T-FFG676" H 13900 6791 50  0000 C CNN
+F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 13900 6700 50  0000 C CNN
+F 3 "" H 13900 5425 50  0000 C CNN
+	5    13900 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+U 6 1 610A821B
+P 13900 7625
+F 0 "U15" H 13900 8482 50  0000 C CNN
+F 1 "XC7K160T-FFG676" H 13900 8391 50  0000 C CNN
+F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 13900 8300 50  0000 C CNN
+F 3 "" H 13900 7625 50  0000 C CNN
+	6    13900 7625
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+U 8 1 610CA79C
+P 10300 6375
+F 0 "U15" H 10300 10632 50  0000 C CNN
+F 1 "XC7K160T-FFG676" H 10300 10541 50  0000 C CNN
+F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 10300 10450 50  0000 C CNN
+F 3 "" H 10300 6375 50  0000 C CNN
+	8    10300 6375
+	1    0    0    -1  
+$EndComp
+Text Notes 9175 2625 1    50   ~ 0
+VCCAUX max: 2.0V
+Text GLabel 9300 2250 1    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	9300 2875 9300 2775
+Connection ~ 9300 2475
+Wire Wire Line
+	9300 2475 9300 2250
+Connection ~ 9300 2575
+Wire Wire Line
+	9300 2575 9300 2475
+Connection ~ 9300 2675
+Wire Wire Line
+	9300 2675 9300 2575
+Connection ~ 9300 2775
+Wire Wire Line
+	9300 2775 9300 2675
+Wire Wire Line
+	9050 3575 9300 3575
+Wire Wire Line
+	9300 3675 9050 3675
+Wire Wire Line
+	9050 3775 9300 3775
+Text Notes 8625 3600 2    50   ~ 0
+VCCADC max: 2.0V
+Text Notes 8625 3700 2    50   ~ 0
+VCCBATT max: 2.0V
+Text Notes 8625 3800 2    50   ~ 0
+VCCBRAM max: 1.1V
+$Comp
+L ddr4-datacenter-tester:GND #PWR0112
+U 1 1 613B6AF2
+P 9150 3925
+F 0 "#PWR0112" H 9150 3675 50  0001 C CNN
+F 1 "GND" H 9155 3752 50  0000 C CNN
+F 2 "" H 9150 3925 50  0001 C CNN
+F 3 "" H 9150 3925 50  0001 C CNN
+	1    9150 3925
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3475 9150 3925
+Wire Wire Line
+	9150 3475 9300 3475
+Text GLabel 9050 3675 0    50   Input ~ 0
+1V8_SYS
+Text GLabel 9050 3575 0    50   Input ~ 0
+1V8_SYS
+Text GLabel 9050 3775 0    50   Input ~ 0
+1V0_SYS
+Wire Wire Line
+	9300 4075 9300 3975
+Connection ~ 9300 3775
+Connection ~ 9300 3875
+Wire Wire Line
+	9300 3875 9300 3775
+Connection ~ 9300 3975
+Wire Wire Line
+	9300 3975 9300 3875
+Text Notes 11525 1950 3    50   ~ 0
+VCCINT max: 1.1V
+Text GLabel 11300 2250 1    50   Input ~ 0
+1V0_SYS
+Wire Wire Line
+	11300 2250 11300 2475
+Connection ~ 11300 2475
+Wire Wire Line
+	11300 2475 11300 2575
+Connection ~ 11300 2575
+Wire Wire Line
+	11300 2575 11300 2675
+Connection ~ 11300 2675
+Wire Wire Line
+	11300 2675 11300 2775
+Connection ~ 11300 2775
+Wire Wire Line
+	11300 2775 11300 2875
+Connection ~ 11300 2875
+Wire Wire Line
+	11300 2875 11300 2975
+Connection ~ 11300 2975
+Wire Wire Line
+	11300 2975 11300 3075
+Connection ~ 11300 3075
+Wire Wire Line
+	11300 3075 11300 3175
+Connection ~ 11300 3175
+Wire Wire Line
+	11300 3175 11300 3275
+Connection ~ 11300 3275
+Wire Wire Line
+	11300 3275 11300 3375
+Connection ~ 11300 3375
+Wire Wire Line
+	11300 3375 11300 3475
+Connection ~ 11300 3475
+Wire Wire Line
+	11300 3475 11300 3575
+Connection ~ 11300 3575
+Wire Wire Line
+	11300 3575 11300 3675
+Connection ~ 11300 3675
+Wire Wire Line
+	11300 3675 11300 3775
+Connection ~ 11300 3775
+Wire Wire Line
+	11300 3775 11300 3875
+Connection ~ 11300 3875
+Wire Wire Line
+	11300 3875 11300 3975
+Wire Wire Line
+	9300 4375 9300 4475
+Connection ~ 9300 4475
+Wire Wire Line
+	9300 4475 9300 4575
+Connection ~ 9300 4575
+Wire Wire Line
+	9300 4575 9300 4675
+Connection ~ 9300 4675
+Wire Wire Line
+	9300 4675 9300 4775
+Connection ~ 9300 4775
+Wire Wire Line
+	9300 4775 9300 4875
+Connection ~ 9300 4875
+Wire Wire Line
+	9300 4875 9300 4975
+Connection ~ 9300 4975
+Wire Wire Line
+	9300 4975 9300 5075
+Connection ~ 9300 5075
+Wire Wire Line
+	9300 5075 9300 5175
+Connection ~ 9300 5175
+Wire Wire Line
+	9300 5175 9300 5275
+Connection ~ 9300 5275
+Wire Wire Line
+	9300 5275 9300 5375
+Connection ~ 9300 5375
+Wire Wire Line
+	9300 5375 9300 5475
+Connection ~ 9300 5475
+Wire Wire Line
+	9300 5475 9300 5575
+Connection ~ 9300 5575
+Wire Wire Line
+	9300 5575 9300 5675
+Connection ~ 9300 5675
+Wire Wire Line
+	9300 5675 9300 5775
+Connection ~ 9300 5775
+Wire Wire Line
+	9300 5775 9300 5875
+Connection ~ 9300 5875
+Wire Wire Line
+	9300 5875 9300 5975
+Connection ~ 9300 5975
+Wire Wire Line
+	9300 5975 9300 6075
+Connection ~ 9300 6075
+Wire Wire Line
+	9300 6075 9300 6175
+Connection ~ 9300 6175
+Wire Wire Line
+	9300 6175 9300 6275
+Connection ~ 9300 6275
+Wire Wire Line
+	9300 6275 9300 6375
+Connection ~ 9300 6375
+Wire Wire Line
+	9300 6375 9300 6475
+Connection ~ 9300 6475
+Wire Wire Line
+	9300 6475 9300 6575
+Connection ~ 9300 6575
+Wire Wire Line
+	9300 6575 9300 6675
+Connection ~ 9300 6675
+Wire Wire Line
+	9300 6675 9300 6775
+Connection ~ 9300 6775
+Wire Wire Line
+	9300 6775 9300 6875
+Connection ~ 9300 6875
+Wire Wire Line
+	9300 6875 9300 6975
+Connection ~ 9300 6975
+Wire Wire Line
+	9300 6975 9300 7075
+Connection ~ 9300 7075
+Wire Wire Line
+	9300 7075 9300 7175
+Connection ~ 9300 7175
+Wire Wire Line
+	9300 7175 9300 7275
+Connection ~ 9300 7275
+Wire Wire Line
+	9300 7275 9300 7375
+Connection ~ 9300 7375
+Wire Wire Line
+	9300 7375 9300 7475
+Connection ~ 9300 7475
+Wire Wire Line
+	9300 7475 9300 7575
+Connection ~ 9300 7575
+Wire Wire Line
+	9300 7575 9300 7675
+Connection ~ 9300 7675
+Wire Wire Line
+	9300 7675 9300 7775
+Connection ~ 9300 7775
+Wire Wire Line
+	9300 7775 9300 7875
+Connection ~ 9300 7875
+Wire Wire Line
+	9300 7875 9300 7975
+Connection ~ 9300 7975
+Wire Wire Line
+	9300 7975 9300 8075
+Connection ~ 9300 8075
+Wire Wire Line
+	9300 8075 9300 8175
+Connection ~ 9300 8175
+Wire Wire Line
+	9300 8175 9300 8275
+Connection ~ 9300 8275
+Wire Wire Line
+	9300 8275 9300 8375
+Connection ~ 9300 8375
+Wire Wire Line
+	9300 8375 9300 8475
+Connection ~ 9300 8475
+Wire Wire Line
+	9300 8475 9300 8575
+Connection ~ 9300 8575
+Wire Wire Line
+	9300 8575 9300 8675
+Connection ~ 9300 8675
+Wire Wire Line
+	9300 8675 9300 8775
+Connection ~ 9300 8775
+Wire Wire Line
+	9300 8775 9300 8875
+Connection ~ 9300 8875
+Wire Wire Line
+	9300 8875 9300 8975
+Connection ~ 9300 8975
+Wire Wire Line
+	9300 8975 9300 9075
+Connection ~ 9300 9075
+Wire Wire Line
+	9300 9075 9300 9175
+Connection ~ 9300 9175
+Wire Wire Line
+	9300 9175 9300 9275
+Connection ~ 9300 9275
+Wire Wire Line
+	9300 9275 9300 9375
+Connection ~ 9300 9375
+Wire Wire Line
+	9300 9375 9300 9475
+Connection ~ 9300 9475
+Wire Wire Line
+	9300 9475 9300 9575
+Connection ~ 9300 9575
+Wire Wire Line
+	9300 9575 9300 9675
+Connection ~ 9300 9675
+Wire Wire Line
+	9300 9675 9300 9775
+Connection ~ 9300 9775
+Wire Wire Line
+	9300 9775 9300 9875
+Connection ~ 9300 9875
+Wire Wire Line
+	9300 9875 9300 9975
+Connection ~ 9300 9975
+Wire Wire Line
+	9300 9975 9300 10075
+Connection ~ 9300 10075
+Wire Wire Line
+	9300 10075 9300 10175
+Connection ~ 9300 10175
+Wire Wire Line
+	9300 10175 9300 10275
+Connection ~ 9300 10275
+Wire Wire Line
+	9300 10275 9300 10550
+Wire Wire Line
+	11300 4375 11300 4475
+Connection ~ 11300 4475
+Wire Wire Line
+	11300 4475 11300 4575
+Connection ~ 11300 4575
+Wire Wire Line
+	11300 4575 11300 4675
+Connection ~ 11300 4675
+Wire Wire Line
+	11300 4675 11300 4775
+Connection ~ 11300 4775
+Wire Wire Line
+	11300 4775 11300 4875
+Connection ~ 11300 4875
+Wire Wire Line
+	11300 4875 11300 4975
+Connection ~ 11300 4975
+Wire Wire Line
+	11300 4975 11300 5075
+Connection ~ 11300 5075
+Wire Wire Line
+	11300 5075 11300 5175
+Connection ~ 11300 5175
+Wire Wire Line
+	11300 5175 11300 5275
+Connection ~ 11300 5275
+Wire Wire Line
+	11300 5275 11300 5375
+Connection ~ 11300 5375
+Wire Wire Line
+	11300 5375 11300 5475
+Connection ~ 11300 5475
+Wire Wire Line
+	11300 5475 11300 5575
+Connection ~ 11300 5575
+Wire Wire Line
+	11300 5575 11300 5675
+Connection ~ 11300 5675
+Wire Wire Line
+	11300 5675 11300 5775
+Connection ~ 11300 5775
+Wire Wire Line
+	11300 5775 11300 5875
+Connection ~ 11300 5875
+Wire Wire Line
+	11300 5875 11300 5975
+Connection ~ 11300 5975
+Wire Wire Line
+	11300 5975 11300 6075
+Connection ~ 11300 6075
+Wire Wire Line
+	11300 6075 11300 6175
+Connection ~ 11300 6175
+Wire Wire Line
+	11300 6175 11300 6275
+Connection ~ 11300 6275
+Wire Wire Line
+	11300 6275 11300 6375
+Connection ~ 11300 6375
+Wire Wire Line
+	11300 6375 11300 6475
+Connection ~ 11300 6475
+Wire Wire Line
+	11300 6475 11300 6575
+Connection ~ 11300 6575
+Wire Wire Line
+	11300 6575 11300 6675
+Connection ~ 11300 6675
+Wire Wire Line
+	11300 6675 11300 6775
+Connection ~ 11300 6775
+Wire Wire Line
+	11300 6775 11300 6875
+Connection ~ 11300 6875
+Wire Wire Line
+	11300 6875 11300 6975
+Connection ~ 11300 6975
+Wire Wire Line
+	11300 6975 11300 7075
+Connection ~ 11300 7075
+Wire Wire Line
+	11300 7075 11300 7175
+Connection ~ 11300 7175
+Wire Wire Line
+	11300 7175 11300 7275
+Connection ~ 11300 7275
+Wire Wire Line
+	11300 7275 11300 7375
+Connection ~ 11300 7375
+Wire Wire Line
+	11300 7375 11300 7475
+Connection ~ 11300 7475
+Wire Wire Line
+	11300 7475 11300 7575
+Connection ~ 11300 7575
+Wire Wire Line
+	11300 7575 11300 7675
+Connection ~ 11300 7675
+Wire Wire Line
+	11300 7675 11300 7775
+Connection ~ 11300 7775
+Wire Wire Line
+	11300 7775 11300 7875
+Connection ~ 11300 7875
+Wire Wire Line
+	11300 7875 11300 7975
+Connection ~ 11300 7975
+Wire Wire Line
+	11300 7975 11300 8075
+Connection ~ 11300 8075
+Wire Wire Line
+	11300 8075 11300 8175
+Connection ~ 11300 8175
+Wire Wire Line
+	11300 8175 11300 8275
+Connection ~ 11300 8275
+Wire Wire Line
+	11300 8275 11300 8375
+Connection ~ 11300 8375
+Wire Wire Line
+	11300 8375 11300 8475
+Connection ~ 11300 8475
+Wire Wire Line
+	11300 8475 11300 8575
+Connection ~ 11300 8575
+Wire Wire Line
+	11300 8575 11300 8675
+Connection ~ 11300 8675
+Wire Wire Line
+	11300 8675 11300 8775
+Connection ~ 11300 8775
+Wire Wire Line
+	11300 8775 11300 8875
+Connection ~ 11300 8875
+Wire Wire Line
+	11300 8875 11300 8975
+Connection ~ 11300 8975
+Wire Wire Line
+	11300 8975 11300 9075
+Connection ~ 11300 9075
+Wire Wire Line
+	11300 9075 11300 9175
+Connection ~ 11300 9175
+Wire Wire Line
+	11300 9175 11300 9275
+Connection ~ 11300 9275
+Wire Wire Line
+	11300 9275 11300 9375
+Connection ~ 11300 9375
+Wire Wire Line
+	11300 9375 11300 9475
+Connection ~ 11300 9475
+Wire Wire Line
+	11300 9475 11300 9575
+Connection ~ 11300 9575
+Wire Wire Line
+	11300 9575 11300 9675
+Connection ~ 11300 9675
+Wire Wire Line
+	11300 9675 11300 9775
+Connection ~ 11300 9775
+Wire Wire Line
+	11300 9775 11300 9875
+Connection ~ 11300 9875
+Wire Wire Line
+	11300 9875 11300 9975
+Connection ~ 11300 9975
+Wire Wire Line
+	11300 9975 11300 10075
+Connection ~ 11300 10075
+Wire Wire Line
+	11300 10075 11300 10175
+Connection ~ 11300 10175
+Wire Wire Line
+	11300 10175 11300 10275
+Connection ~ 11300 10275
+Wire Wire Line
+	11300 10275 11300 10550
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 6158D6DD
+P 9300 10550
+AR Path="/5F96C515/6158D6DD" Ref="#PWR?"  Part="1" 
+AR Path="/600295C1/6158D6DD" Ref="#PWR0121"  Part="1" 
+F 0 "#PWR0121" H 9300 10300 50  0001 C CNN
+F 1 "GND" H 9305 10377 50  0000 C CNN
+F 2 "" H 9300 10550 50  0001 C CNN
+F 3 "" H 9300 10550 50  0001 C CNN
+	1    9300 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 6158DFEF
+P 11300 10550
+AR Path="/5F96C515/6158DFEF" Ref="#PWR?"  Part="1" 
+AR Path="/600295C1/6158DFEF" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 11300 10300 50  0001 C CNN
+F 1 "GND" H 11305 10377 50  0000 C CNN
+F 2 "" H 11300 10550 50  0001 C CNN
+F 3 "" H 11300 10550 50  0001 C CNN
+	1    11300 10550
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 3950 0    50   ~ 0
+TODO: check if proper decoupling is used 
 $EndSCHEMATC

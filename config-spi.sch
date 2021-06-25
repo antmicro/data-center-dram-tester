@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 10
+Sheet 3 13
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -64,19 +64,6 @@ F 2 "" H 9800 6700 50  0001 C CNN
 F 3 "" H 9800 6700 50  0001 C CNN
 	1    9800 6700
 	1    0    0    -1  
-$EndComp
-$Comp
-L ddr4-datacenter-tester:XC7K70T-FBG484 U1
-U 6 1 61A5DF86
-P 13175 5300
-F 0 "U1" H 14000 6725 50  0000 R CNN
-F 1 "XC7K70T-FBG484" H 14375 3625 50  0000 R CNN
-F 2 "ddr4-datacenter-tester-footprints:BGA484C100P22X22_2300X2300X244N" H 13175 5300 50  0001 C CNN
-F 3 "" H 13175 5300 50  0000 C CNN
-F 4 "XC7K70T-1FBG484C" H 13175 5300 50  0001 C CNN "MPN"
-F 5 "Xilinx" H 13175 5300 50  0001 C CNN "Manufacturer"
-	6    13175 5300
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	11675 5300 10950 5300
@@ -166,7 +153,6 @@ Wire Wire Line
 	12075 3400 12075 3700
 Wire Wire Line
 	12175 3700 12075 3700
-Connection ~ 12075 3700
 $Comp
 L ddr4-datacenter-tester:C_47u_0603 C12
 U 1 1 622BD281
@@ -1158,4 +1144,18 @@ F 5 "Wurth Electronics Inc." H 8900 11250 60  0001 L CNN "Manufacturer"
 	1    8700 10150
 	0    -1   -1   0   
 $EndComp
+$Comp
+L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+U 7 1 617A1FB1
+P 13175 5300
+F 0 "U15" H 11895 5398 50  0000 R CNN
+F 1 "XC7K160T-FFG676" H 11895 5307 50  0000 R CNN
+F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 11895 5216 50  0000 R CNN
+F 3 "" H 13175 5300 50  0000 C CNN
+	7    13175 5300
+	-1   0    0    -1  
+$EndComp
+Connection ~ 12075 3700
+Text Notes 12550 3750 0    50   ~ 0
+TODO: verify after FPGA swap
 $EndSCHEMATC

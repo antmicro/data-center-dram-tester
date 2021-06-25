@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 10
+Sheet 1 13
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -2799,5 +2799,23 @@ S 4500 7175 750  500
 U 60D4969D
 F0 "temp" 50
 F1 "temp.sch" 50
+$EndSheet
+$Sheet
+S 5500 7175 725  500 
+U 61827943
+F0 "DDR4" 50
+F1 "DDR4.sch" 50
+$EndSheet
+$Sheet
+S 6500 7175 750  500 
+U 61AF7FF2
+F0 "FPGA banks 12-15" 50
+F1 "fpga-banks-12-15.sch" 50
+$EndSheet
+$Sheet
+S 7500 7175 750  500 
+U 61B4860C
+F0 "FPGA banks 16-34" 50
+F1 "fpga-banks-16-34.sch" 50
 $EndSheet
 $EndSCHEMATC
