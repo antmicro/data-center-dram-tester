@@ -228,18 +228,4 @@ Text GLabel 3150 4750 0    50   Input ~ 0
 SD_CMD
 Text GLabel 3150 4650 0    50   Input ~ 0
 SD_DAT3
-Text GLabel 1850 6150 2    50   Input ~ 0
-EMCCLK
-Text GLabel 3150 3450 0    50   Input ~ 0
-QSPI_DQ0
-Text GLabel 3150 3350 0    50   Input ~ 0
-QSPI_DQ3
-Text GLabel 3150 3550 0    50   Input ~ 0
-QSPI_DQ2
-Text GLabel 3150 5950 0    50   Input ~ 0
-FCS_B
-Text GLabel 3150 5350 0    50   Input ~ 0
-QSPI_DQ1
-Text GLabel 3150 5850 0    50   Input ~ 0
-PUDC_B
 $EndSCHEMATC

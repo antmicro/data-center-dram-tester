@@ -180,22 +180,6 @@ Wire Wire Line
 Connection ~ 9050 1325
 Wire Wire Line
 	9450 1325 9700 1325
-Text GLabel -1275 5800 2    50   Input ~ 0
-TMDS_CLK_P
-Text GLabel -1275 5900 2    50   Input ~ 0
-TMDS_CLK_N
-Text GLabel -1275 5400 2    50   Input ~ 0
-TMDS_D0_P
-Text GLabel -1275 5500 2    50   Input ~ 0
-TMDS_D0_N
-Text GLabel -1100 4200 2    50   Input ~ 0
-TMDS_D1_P
-Text GLabel -1100 4300 2    50   Input ~ 0
-TMDS_D1_N
-Text GLabel -1050 3000 2    50   Input ~ 0
-TMDS_D2_P
-Text GLabel -1050 3100 2    50   Input ~ 0
-TMDS_D2_N
 Wire Wire Line
 	-2475 300  -2475 75  
 Wire Wire Line
@@ -266,16 +250,6 @@ Text Notes -4750 -350 0    98   ~ 20
 INTERFACES
 Text GLabel -1125 1700 2    50   Input ~ 0
 EMCCLK
-Text GLabel -1125 1200 2    50   Input ~ 0
-QSPI_DQ0
-Text GLabel -1125 1500 2    50   Input ~ 0
-QSPI_DQ3
-Text GLabel -1125 1400 2    50   Input ~ 0
-QSPI_DQ2
-Text GLabel -1125 2200 2    50   Input ~ 0
-FCS_B
-Text GLabel -1125 1300 2    50   Input ~ 0
-QSPI_DQ1
 Wire Wire Line
 	-1625 1300 -1125 1300
 Wire Wire Line
@@ -329,7 +303,7 @@ Wire Wire Line
 Wire Wire Line
 	-1625 1700 -1125 1700
 NoConn ~ -4525 6000
-Text GLabel -1150 3400 2    50   Input ~ 0
+Text GLabel 7350 6475 2    50   Input ~ 0
 GCLK100
 NoConn ~ -1625 1100
 NoConn ~ -4525 1700
@@ -342,22 +316,6 @@ NoConn ~ -4525 1400
 NoConn ~ -4525 1300
 NoConn ~ -4525 1100
 NoConn ~ -4525 1600
-Text GLabel -4775 3300 0    50   Input ~ 0
-AUX_JTAG_TDI
-Text GLabel -4750 1800 0    50   Input ~ 0
-AUX_JTAG_TDO
-Text GLabel -4750 2400 0    50   Input ~ 0
-AUX_JTAG_TMS
-Text GLabel -4875 4000 0    50   Input ~ 0
-UART0_RX
-Text GLabel -4800 3100 0    50   Input ~ 0
-UART1_RX
-Text GLabel -4800 2600 0    50   Input ~ 0
-UART1_TX
-Text GLabel -4750 1900 0    50   Input ~ 0
-AUX_JTAG_TCK
-Text GLabel -4875 4500 0    50   Input ~ 0
-AUX_JTAG_RST
 Wire Wire Line
 	-4525 3100 -4800 3100
 Wire Wire Line
@@ -374,34 +332,8 @@ Wire Wire Line
 	-4525 4500 -4875 4500
 Wire Wire Line
 	-4525 4000 -4875 4000
-Text GLabel -4875 4100 0    50   Input ~ 0
-UART0_TX
 Wire Wire Line
 	-4525 4100 -4875 4100
-Text GLabel -4875 4400 0    50   Input ~ 0
-HR_CS
-Text GLabel -4875 4900 0    50   Input ~ 0
-HR_RST
-Text GLabel -4875 4200 0    50   Input ~ 0
-HR_CKP
-Text GLabel -4875 4300 0    50   Input ~ 0
-HR_CKN
-Text GLabel -4875 5700 0    50   Input ~ 0
-HR_DQ0
-Text GLabel -4875 4700 0    50   Input ~ 0
-HR_DQ1
-Text GLabel -4875 4600 0    50   Input ~ 0
-HR_DQ2
-Text GLabel -4875 5400 0    50   Input ~ 0
-HR_DQ3
-Text GLabel -4875 5500 0    50   Input ~ 0
-HR_DQ4
-Text GLabel -4875 5600 0    50   Input ~ 0
-HR_DQ5
-Text GLabel -4875 5300 0    50   Input ~ 0
-HR_DQ6
-Text GLabel -4875 3800 0    50   Input ~ 0
-HR_DQ7
 $Comp
 L ddr4-datacenter-tester:XC7K70T-FBG484 U?
 U 1 1 63D51B3A
@@ -443,27 +375,25 @@ Wire Wire Line
 	-4875 3800 -4525 3800
 Wire Wire Line
 	-4875 3900 -4525 3900
-Text GLabel -4875 3900 0    50   Input ~ 0
-HR_RW
 Wire Wire Line
 	-1625 3400 -1150 3400
-Text GLabel -775 10425 2    50   Input ~ 0
+Text GLabel 6225 6325 2    50   Input ~ 0
 USR_LED1
-Text GLabel -775 11225 2    50   Input ~ 0
+Text GLabel 6225 6425 2    50   Input ~ 0
 USR_LED2
-Text GLabel -775 11125 2    50   Input ~ 0
+Text GLabel 6225 7225 2    50   Input ~ 0
 USR_LED3
-Text GLabel -775 9925 2    50   Input ~ 0
+Text GLabel 6225 6225 2    50   Input ~ 0
 USR_LED5
-Text GLabel -775 11625 2    50   Input ~ 0
+Text GLabel 6225 2325 2    50   Input ~ 0
 USR_BTN1
-Text GLabel -775 11325 2    50   Input ~ 0
+Text GLabel 6225 6825 2    50   Input ~ 0
 USR_BTN2
-Text GLabel -775 10725 2    50   Input ~ 0
+Text GLabel 6225 6025 2    50   Input ~ 0
 USR_BTN3
-Text GLabel -775 10625 2    50   Input ~ 0
+Text GLabel 6225 6925 2    50   Input ~ 0
 USR_LED4
-Text GLabel -775 10025 2    50   Input ~ 0
+Text GLabel 6225 6525 2    50   Input ~ 0
 USR_BTN4
 Text GLabel 2225 3325 0    50   Input ~ 0
 ETH_RXD0
@@ -497,8 +427,64 @@ Text GLabel 2225 4225 0    50   Input ~ 0
 ETH_RX_DV
 Text GLabel 2225 4725 0    50   Input ~ 0
 ETH_TX_CLK
-Wire Wire Line
-	1450 6250 1850 6250
 Text GLabel 2225 4425 0    50   Input ~ 0
 ETH_REF_CLK
+Text GLabel 2225 5125 0    50   Input ~ 0
+HR_RST
+Text GLabel 2225 6625 0    50   Input ~ 0
+HR_DQ0
+Text GLabel 2225 6825 0    50   Input ~ 0
+HR_DQ1
+Text GLabel 2225 6225 0    50   Input ~ 0
+HR_DQ2
+Text GLabel 2225 7025 0    50   Input ~ 0
+HR_DQ3
+Text GLabel 2225 6725 0    50   Input ~ 0
+HR_DQ4
+Text GLabel 2225 6325 0    50   Input ~ 0
+HR_DQ5
+Text GLabel 2225 6925 0    50   Input ~ 0
+HR_DQ6
+Text GLabel 2225 4125 0    50   Input ~ 0
+HR_CS
+Text GLabel 2225 6425 0    50   Input ~ 0
+HR_CKP
+Text GLabel 2225 6525 0    50   Input ~ 0
+HR_CKN
+Text GLabel 2225 5525 0    50   Input ~ 0
+HR_DQ7
+Text GLabel 2225 5425 0    50   Input ~ 0
+HR_RW
+Text GLabel 8550 5250 0    50   Input ~ 0
+UART1_RX
+Text GLabel 8550 3250 0    50   Input ~ 0
+UART1_TX
+Text GLabel 8550 5650 0    50   Input ~ 0
+UART0_RX
+Text GLabel 8550 5750 0    50   Input ~ 0
+UART0_TX
+Text GLabel 8550 3350 0    50   Input ~ 0
+AUX_JTAG_TDO
+Text GLabel 8550 5350 0    50   Input ~ 0
+AUX_JTAG_TMS
+Text GLabel 8550 3550 0    50   Input ~ 0
+AUX_JTAG_TCK
+Text GLabel 7825 6300 0    50   Input ~ 0
+AUX_JTAG_RST
+Text GLabel 8550 4550 0    50   Input ~ 0
+AUX_JTAG_TDI
+Text GLabel 8550 2950 0    50   Input ~ 0
+EMCCLK
+Text GLabel 8550 2450 0    50   Input ~ 0
+QSPI_DQ0
+Text GLabel 8550 2750 0    50   Input ~ 0
+QSPI_DQ3
+Text GLabel 8550 2650 0    50   Input ~ 0
+QSPI_DQ2
+Text GLabel 8550 3450 0    50   Input ~ 0
+FCS_B
+Text GLabel 8550 2550 0    50   Input ~ 0
+QSPI_DQ1
+Text GLabel 8550 2850 0    50   Input ~ 0
+PUDC_B
 $EndSCHEMATC
