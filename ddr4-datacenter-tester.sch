@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 13
+Sheet 1 12
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -48,12 +48,6 @@ S 6500 6425 750  500
 U 600E76D8
 F0 "Interfaces" 50
 F1 "interfaces.sch" 50
-$EndSheet
-$Sheet
-S 11500 6425 750  500 
-U 5F9FE97C
-F0 "SO-DIMM" 50
-F1 "sodimm.sch" 50
 $EndSheet
 Text Notes 600  800  0    118  ~ 24
 LPDDR4 Test Board
@@ -2794,12 +2788,6 @@ F 3 "" H 3675 11150 50  0001 C CNN
 	1    3675 10800
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4500 7175 750  500 
-U 60D4969D
-F0 "temp" 50
-F1 "temp.sch" 50
-$EndSheet
 $Sheet
 S 5500 7175 725  500 
 U 61827943
