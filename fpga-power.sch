@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 13
+Sheet 4 11
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -2874,5 +2874,145 @@ F 3 "" H 11300 10550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1900 3950 0    50   ~ 0
-TODO: check if proper decoupling is used 
+Added capacitors coresponding to PCB Design Guide UG483
+Text GLabel 4975 3400 1    50   Input ~ 0
+1V0_SYS
+Wire Wire Line
+	4975 3950 4975 3825
+Wire Wire Line
+	4975 3525 4975 3400
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 641DA80C
+P 4975 3950
+F 0 "#PWR?" H 4975 3700 50  0001 C CNN
+F 1 "GND" H 4980 3777 50  0000 C CNN
+F 2 "" H 4975 3950 50  0001 C CNN
+F 3 "" H 4975 3950 50  0001 C CNN
+	1    4975 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ddr4-datacenter-tester:C_330u_KEMET_D C?
+U 1 1 641DA815
+P 4975 3625
+F 0 "C?" H 5000 3675 60  0000 L CNN
+F 1 "C_330u_KEMET_D" H 4975 3475 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:KEMET_D" H 5175 3825 60  0001 L CNN
+F 3 "" H 4975 3625 50  0001 C CNN
+F 4 "KEMET" H 5175 4025 60  0001 L CNN "Manufacturer"
+F 5 "T520D337M006ATE045" H 5175 3925 60  0001 L CNN "MPN"
+F 6 "330u" H 5000 3475 50  0000 L CNN "Val"
+	1    4975 3625
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 3400 1    50   Input ~ 0
+1V0_SYS
+Wire Wire Line
+	5300 3525 5300 3400
+Wire Wire Line
+	5300 3950 5300 3825
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 6421B6FA
+P 5300 3950
+F 0 "#PWR?" H 5300 3700 50  0001 C CNN
+F 1 "GND" H 5305 3777 50  0000 C CNN
+F 2 "" H 5300 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ddr4-datacenter-tester:C_4u7_0402 C?
+U 1 1 6421B703
+P 5300 3675
+F 0 "C?" H 5325 3775 60  0000 L CNN
+F 1 "C_4u7_0402" H 5300 3525 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 5500 3875 60  0001 L CNN
+F 3 "" H 5300 3675 50  0001 C CNN
+F 4 "MURATA" H 5500 4075 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 5500 3975 60  0001 L CNN "MPN"
+F 6 "4u7" H 5325 3575 50  0000 L CNN "Val"
+	1    5300 3675
+	1    0    0    -1  
+$EndComp
+$Comp
+L ddr4-datacenter-tester:C_47u_0603 C?
+U 1 1 642621C9
+P 4975 6525
+F 0 "C?" H 5000 6650 60  0000 L CNN
+F 1 "C_47u_0603" H 4975 6375 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0603-cap" H 5175 6725 60  0001 L CNN
+F 3 "" H 4975 6525 50  0001 C CNN
+F 4 "MURATA" H 5175 6925 60  0001 L CNN "Manufacturer"
+F 5 "GRM188R60J476ME15D" H 5175 6825 60  0001 L CNN "MPN"
+F 6 "47u" H 5000 6425 50  0000 L CNN "Val"
+	1    4975 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 6375 4975 6250
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 642621D0
+P 4975 6800
+F 0 "#PWR?" H 4975 6550 50  0001 C CNN
+F 1 "GND" H 4980 6627 50  0000 C CNN
+F 2 "" H 4975 6800 50  0001 C CNN
+F 3 "" H 4975 6800 50  0001 C CNN
+	1    4975 6800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 6800 4975 6675
+Text GLabel 4975 6250 1    50   Input ~ 0
+1V8_SYS
+$Comp
+L ddr4-datacenter-tester:C_4u7_0402 C?
+U 1 1 6429CA43
+P 5225 6525
+F 0 "C?" H 5250 6625 60  0000 L CNN
+F 1 "C_4u7_0402" H 5225 6375 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 5425 6725 60  0001 L CNN
+F 3 "" H 5225 6525 50  0001 C CNN
+F 4 "MURATA" H 5425 6925 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R61A475MEAAD" H 5425 6825 60  0001 L CNN "MPN"
+F 6 "4u7" H 5250 6425 50  0000 L CNN "Val"
+	1    5225 6525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 6375 5225 6250
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 6429CA4A
+P 5225 6800
+F 0 "#PWR?" H 5225 6550 50  0001 C CNN
+F 1 "GND" H 5230 6627 50  0000 C CNN
+F 2 "" H 5225 6800 50  0001 C CNN
+F 3 "" H 5225 6800 50  0001 C CNN
+	1    5225 6800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 6800 5225 6675
+Text GLabel 5225 6250 1    50   Input ~ 0
+1V8_SYS
+Wire Notes Line
+	5575 4200 4775 4200
+Wire Notes Line
+	4775 4200 4775 2950
+Wire Notes Line
+	4775 2950 5575 2950
+Wire Notes Line
+	5575 2950 5575 4200
+Wire Notes Line
+	5525 7075 4725 7075
+Wire Notes Line
+	4725 7075 4725 5825
+Wire Notes Line
+	4725 5825 5525 5825
+Wire Notes Line
+	5525 5825 5525 7075
 $EndSCHEMATC
