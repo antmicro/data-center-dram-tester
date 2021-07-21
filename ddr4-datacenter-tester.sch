@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 12
+Sheet 1 10
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -14,31 +14,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5500 6425 750  500 
-U 5F96C515
-F0 "FPGA Banks" 50
-F1 "fpga-banks.sch" 50
-$EndSheet
-$Sheet
-S 7500 6425 750  500 
+S 4475 7175 750  500 
 U 5FD53C7D
 F0 "Config SPI flash" 50
 F1 "config-spi.sch" 50
 $EndSheet
 $Sheet
-S 8500 6425 750  500 
+S 5550 7175 750  500 
 U 600295C1
 F0 "FPGA power" 50
 F1 "fpga-power.sch" 50
 $EndSheet
 $Sheet
-S 9500 6425 750  500 
+S 7500 6450 750  500 
 U 5F982999
 F0 "Ethernet" 50
 F1 "ethernet.sch" 50
 $EndSheet
 $Sheet
-S 10500 6425 750  500 
+S 8500 6450 750  500 
 U 60225B0C
 F0 "Supply" 50
 F1 "supply.sch" 50
@@ -2789,7 +2783,7 @@ F 3 "" H 3675 11150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 5500 7175 725  500 
+S 5550 6425 725  500 
 U 61827943
 F0 "DDR4" 50
 F1 "DDR4.sch" 50

@@ -226,9 +226,9 @@ Text GLabel 3150 4650 0    50   Input ~ 0
 SD_DAT3
 Text GLabel 8950 6900 0    50   Input ~ 0
 DQ4
-Text GLabel 8950 7100 0    50   Input ~ 0
+Text GLabel 8625 7050 0    50   Input ~ 0
 DQS9_T
-Text GLabel 8950 7200 0    50   Input ~ 0
+Text GLabel 8625 7150 0    50   Input ~ 0
 DQS9_C
 Text GLabel 8950 7300 0    50   Input ~ 0
 DQ6
@@ -236,9 +236,9 @@ Text GLabel 8950 7500 0    50   Input ~ 0
 DQ12
 Text GLabel 8950 7600 0    50   Input ~ 0
 DQ8
-Text GLabel 8950 7700 0    50   Input ~ 0
+Text GLabel 8650 7625 0    50   Input ~ 0
 DQS10_T
-Text GLabel 8950 7800 0    50   Input ~ 0
+Text GLabel 8650 7725 0    50   Input ~ 0
 DQS10_C
 Text GLabel 8950 7900 0    50   Input ~ 0
 DQ14
@@ -248,9 +248,9 @@ Text GLabel 8950 8000 0    50   Input ~ 0
 DQ20
 Text GLabel 8950 6800 0    50   Input ~ 0
 DQ16
-Text GLabel 13700 5000 2    50   Input ~ 0
+Text GLabel 14050 5000 2    50   Input ~ 0
 DQS11_T
-Text GLabel 13700 5100 2    50   Input ~ 0
+Text GLabel 14050 5100 2    50   Input ~ 0
 DQS11_C
 Text GLabel 13700 8100 2    50   Input ~ 0
 DQ22
@@ -260,9 +260,9 @@ Text GLabel 7575 3150 2    50   Input ~ 0
 DQ28
 Text GLabel 7575 3250 2    50   Input ~ 0
 DQ24
-Text GLabel 7575 3350 2    50   Input ~ 0
+Text GLabel 7850 3350 2    50   Input ~ 0
 DQS12_T
-Text GLabel 7575 3450 2    50   Input ~ 0
+Text GLabel 7850 3450 2    50   Input ~ 0
 DQS12_C
 Text GLabel 7575 3550 2    50   Input ~ 0
 DQ30
@@ -272,9 +272,9 @@ Text GLabel 7575 3750 2    50   Input ~ 0
 CB4
 Text GLabel 7575 3850 2    50   Input ~ 0
 CB0
-Text GLabel 7575 3950 2    50   Input ~ 0
+Text GLabel 7850 3950 2    50   Input ~ 0
 DQS17_T
-Text GLabel 7575 4050 2    50   Input ~ 0
+Text GLabel 7850 4050 2    50   Input ~ 0
 DQS17_C
 Text GLabel 7575 4150 2    50   Input ~ 0
 CB6
@@ -300,9 +300,9 @@ Text GLabel 7575 5150 2    50   Input ~ 0
 A3
 Text GLabel 7575 5250 2    50   Input ~ 0
 A1
-Text GLabel 7575 5350 2    50   Input ~ 0
+Text GLabel 7900 5350 2    50   Input ~ 0
 CK0_T
-Text GLabel 7575 5450 2    50   Input ~ 0
+Text GLabel 7900 5450 2    50   Input ~ 0
 CK0_C
 Text GLabel 7575 2650 2    50   Input ~ 0
 ~EVENT
@@ -326,9 +326,9 @@ Text GLabel 8950 4200 0    50   Input ~ 0
 DQ36
 Text GLabel 8950 4300 0    50   Input ~ 0
 DQ32
-Text GLabel 8950 4400 0    50   Input ~ 0
+Text GLabel 8625 5000 0    50   Input ~ 0
 DQS13_T
-Text GLabel 8950 4500 0    50   Input ~ 0
+Text GLabel 8625 5100 0    50   Input ~ 0
 DQS13_C
 Text GLabel 8950 4600 0    50   Input ~ 0
 DQ38
@@ -338,9 +338,9 @@ Text GLabel 8950 4800 0    50   Input ~ 0
 DQ44
 Text GLabel 8950 4900 0    50   Input ~ 0
 DQ40
-Text GLabel 8950 5000 0    50   Input ~ 0
+Text GLabel 8625 5375 0    50   Input ~ 0
 DQS14_T
-Text GLabel 8950 5100 0    50   Input ~ 0
+Text GLabel 8625 5475 0    50   Input ~ 0
 DQS14_C
 Text GLabel 8950 5200 0    50   Input ~ 0
 DQ46
@@ -350,9 +350,9 @@ Text GLabel 8950 5400 0    50   Input ~ 0
 DQ52
 Text GLabel 8950 5500 0    50   Input ~ 0
 DQ48
-Text GLabel 8950 5600 0    50   Input ~ 0
+Text GLabel 8625 5850 0    50   Input ~ 0
 DQS15_T
-Text GLabel 8950 5700 0    50   Input ~ 0
+Text GLabel 8625 5950 0    50   Input ~ 0
 DQS15_C
 Text GLabel 8950 5800 0    50   Input ~ 0
 DQ54
@@ -362,9 +362,9 @@ Text GLabel 8950 6000 0    50   Input ~ 0
 DQ60
 Text GLabel 8950 6100 0    50   Input ~ 0
 DQ56
-Text GLabel 8950 6200 0    50   Input ~ 0
+Text GLabel 8625 6425 0    50   Input ~ 0
 DQS16_T
-Text GLabel 8950 6300 0    50   Input ~ 0
+Text GLabel 8625 6525 0    50   Input ~ 0
 DQS16_C
 Text GLabel 8950 6400 0    50   Input ~ 0
 DQ62
@@ -380,9 +380,9 @@ Text GLabel 7575 5550 2    50   Input ~ 0
 VREFCA
 Text GLabel 7575 5650 2    50   Input ~ 0
 DQ5
-Text GLabel 7575 5950 2    50   Input ~ 0
+Text GLabel 7825 5950 2    50   Input ~ 0
 DQS10_T
-Text GLabel 7575 5850 2    50   Input ~ 0
+Text GLabel 7825 5850 2    50   Input ~ 0
 DQS10_C
 Text GLabel 7575 6050 2    50   Input ~ 0
 DQ7
@@ -390,9 +390,9 @@ Text GLabel 7575 6250 2    50   Input ~ 0
 DQ13
 Text GLabel 7575 6350 2    50   Input ~ 0
 DQ9
-Text GLabel 7575 6450 2    50   Input ~ 0
+Text GLabel 7850 6425 2    50   Input ~ 0
 DQS1_C
-Text GLabel 7575 6550 2    50   Input ~ 0
+Text GLabel 7850 6525 2    50   Input ~ 0
 DQS1_T
 Text GLabel 7575 6650 2    50   Input ~ 0
 DQ15
@@ -402,9 +402,9 @@ Text GLabel 7575 6850 2    50   Input ~ 0
 DQ21
 Text GLabel 7575 6950 2    50   Input ~ 0
 DQ17
-Text GLabel 7575 7050 2    50   Input ~ 0
+Text GLabel 7850 7025 2    50   Input ~ 0
 DQS2_C
-Text GLabel 7575 7150 2    50   Input ~ 0
+Text GLabel 7850 7125 2    50   Input ~ 0
 DQS2_T
 Text GLabel 7575 7250 2    50   Input ~ 0
 DQ23
@@ -414,7 +414,7 @@ Text GLabel 7575 7450 2    50   Input ~ 0
 DQ29
 Text GLabel 7575 7550 2    50   Input ~ 0
 DQ25
-Text GLabel 7575 7650 2    50   Input ~ 0
+Text GLabel 7875 7625 2    50   Input ~ 0
 DQS3_C
 Text GLabel 7575 7850 2    50   Input ~ 0
 DQ31
@@ -424,9 +424,9 @@ Text GLabel 7575 8050 2    50   Input ~ 0
 CB5
 Text GLabel 13700 3200 2    50   Input ~ 0
 CB1
-Text GLabel 13700 3300 2    50   Input ~ 0
+Text GLabel 13975 3300 2    50   Input ~ 0
 DQS8_C
-Text GLabel 13700 3400 2    50   Input ~ 0
+Text GLabel 13975 3400 2    50   Input ~ 0
 DQS8_T
 Text GLabel 13700 3500 2    50   Input ~ 0
 CB7
@@ -448,9 +448,9 @@ Text GLabel 13700 4300 2    50   Input ~ 0
 A4
 Text GLabel 13700 4400 2    50   Input ~ 0
 A2
-Text GLabel 13700 4500 2    50   Input ~ 0
+Text GLabel 14025 4475 2    50   Input ~ 0
 CK1_T
-Text GLabel 13700 4600 2    50   Input ~ 0
+Text GLabel 14025 4575 2    50   Input ~ 0
 CK1_C
 Text GLabel 13700 4700 2    50   Input ~ 0
 PARITY
@@ -474,9 +474,9 @@ Text GLabel 13700 5300 2    50   Input ~ 0
 DQ37
 Text GLabel 13700 5800 2    50   Input ~ 0
 DQ33
-Text GLabel 13700 5900 2    50   Input ~ 0
+Text GLabel 14025 5900 2    50   Input ~ 0
 DQS4_C
-Text GLabel 13700 6000 2    50   Input ~ 0
+Text GLabel 14025 6000 2    50   Input ~ 0
 DQS4_T
 Text GLabel 13700 6100 2    50   Input ~ 0
 DQ39
@@ -486,9 +486,9 @@ Text GLabel 13700 6300 2    50   Input ~ 0
 DQ45
 Text GLabel 13700 6400 2    50   Input ~ 0
 DQ41
-Text GLabel 13700 6500 2    50   Input ~ 0
+Text GLabel 14025 6500 2    50   Input ~ 0
 DQS5_C
-Text GLabel 13700 6600 2    50   Input ~ 0
+Text GLabel 14025 6600 2    50   Input ~ 0
 DQS5_T
 Text GLabel 13700 6700 2    50   Input ~ 0
 DQ47
@@ -498,9 +498,9 @@ Text GLabel 13700 7000 2    50   Input ~ 0
 DQ53
 Text GLabel 13700 6900 2    50   Input ~ 0
 DQ49
-Text GLabel 13700 7100 2    50   Input ~ 0
+Text GLabel 14000 7100 2    50   Input ~ 0
 DQS6_C
-Text GLabel 13700 7200 2    50   Input ~ 0
+Text GLabel 14000 7200 2    50   Input ~ 0
 DQS6_T
 Text GLabel 13700 7300 2    50   Input ~ 0
 DQ55
@@ -510,9 +510,9 @@ Text GLabel 13700 7500 2    50   Input ~ 0
 DQ61
 Text GLabel 13700 7600 2    50   Input ~ 0
 DQ57
-Text GLabel 13700 7700 2    50   Input ~ 0
+Text GLabel 14000 7675 2    50   Input ~ 0
 DQS7_C
-Text GLabel 13700 7800 2    50   Input ~ 0
+Text GLabel 14000 7775 2    50   Input ~ 0
 DQS7_T
 Text GLabel 13700 7900 2    50   Input ~ 0
 DQ63
@@ -532,7 +532,7 @@ Text GLabel 8950 3600 0    50   Input ~ 0
 ~CS0
 Text GLabel 7575 3050 2    50   Input ~ 0
 ~SAVE
-Text GLabel 7575 7750 2    50   Input ~ 0
+Text GLabel 7875 7725 2    50   Input ~ 0
 DQS3_T
 Wire Wire Line
 	3750 2175 3750 2125
@@ -556,4 +556,254 @@ Text Notes 7450 2425 0    50   ~ 0
 TODO: These pins need to be connected \n       during the routing process
 Text Notes 13275 2850 0    50   ~ 0
 TODO: These pins need to be connected \n       during the routing process
+Wire Notes Line
+	2075 10550 2100 10550
+Wire Wire Line
+	800  10825 800  10875
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 652BE04A
+P 800 10875
+F 0 "#PWR?" H 800 10625 50  0001 C CNN
+F 1 "GND" H 805 10702 50  0000 C CNN
+F 2 "" H 800 10875 50  0001 C CNN
+F 3 "" H 800 10875 50  0001 C CNN
+	1    800  10875
+	-1   0    0    -1  
+$EndComp
+Text GLabel 2900 10150 1    50   Input ~ 0
+3V3_SYS
+Wire Wire Line
+	2350 10250 2900 10250
+Wire Wire Line
+	2150 10825 2325 10825
+Wire Wire Line
+	2900 10250 2900 10150
+Connection ~ 2900 10250
+$Comp
+L ddr4-datacenter-tester:C_100n_0402_6V3 C?
+U 1 1 652BE058
+P 2900 10400
+F 0 "C?" H 2650 10425 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 2900 10250 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 3100 10600 60  0001 L CNN
+F 3 "" H 2900 10400 50  0001 C CNN
+F 4 "Walsin" H 3100 10800 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3100 10700 60  0001 L CNN "MPN"
+F 6 "100n" H 2575 10325 50  0000 L CNN "Val"
+	1    2900 10400
+	-1   0    0    -1  
+$EndComp
+Text Notes 900  10425 0    50   ~ 0
+IC2
+Wire Wire Line
+	900  10825 800  10825
+Text GLabel 2325 10825 2    50   Input ~ 0
+GCLK100
+Wire Wire Line
+	2150 10725 2350 10725
+Wire Wire Line
+	2350 10725 2350 10250
+Wire Wire Line
+	725  10250 725  10725
+Wire Wire Line
+	725  10725 900  10725
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 652BE065
+P 2900 10850
+F 0 "#PWR?" H 2900 10600 50  0001 C CNN
+F 1 "GND" H 2905 10677 50  0000 C CNN
+F 2 "" H 2900 10850 50  0001 C CNN
+F 3 "" H 2900 10850 50  0001 C CNN
+	1    2900 10850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	725  10250 2350 10250
+Connection ~ 2350 10250
+Wire Wire Line
+	2900 10550 2900 10850
+Text GLabel 4150 10475 0    50   Input ~ 0
+VRP
+Text GLabel 4175 10125 0    50   Input ~ 0
+VRN
+$Comp
+L ddr4-datacenter-tester:R_120R_0603 R?
+U 1 1 652BE073
+P 4500 10125
+F 0 "R?" H 4500 10338 60  0000 C CNN
+F 1 "R_120R_0603" H 4500 9975 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0603-res" H 4700 10325 60  0001 L CNN
+F 3 "" H 4500 10125 50  0001 C CNN
+F 4 "VISHAY" H 4700 10525 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 4700 10425 60  0001 L CNN "MPN"
+F 6 "120R" H 4500 10240 50  0000 C CNN "Val"
+	1    4500 10125
+	1    0    0    -1  
+$EndComp
+$Comp
+L ddr4-datacenter-tester:R_120R_0603 R?
+U 1 1 652BE07C
+P 4500 10475
+F 0 "R?" H 4500 10688 60  0000 C CNN
+F 1 "R_120R_0603" H 4500 10325 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0603-res" H 4700 10675 60  0001 L CNN
+F 3 "" H 4500 10475 50  0001 C CNN
+F 4 "VISHAY" H 4700 10875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 4700 10775 60  0001 L CNN "MPN"
+F 6 "120R" H 4500 10590 50  0000 C CNN "Val"
+	1    4500 10475
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 10125 2    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	4650 10125 4800 10125
+Wire Wire Line
+	4350 10125 4175 10125
+Wire Wire Line
+	4150 10475 4350 10475
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 652BE086
+P 4900 10575
+F 0 "#PWR?" H 4900 10325 50  0001 C CNN
+F 1 "GND" H 4905 10402 50  0000 C CNN
+F 2 "" H 4900 10575 50  0001 C CNN
+F 3 "" H 4900 10575 50  0001 C CNN
+	1    4900 10575
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 10475 4900 10475
+Wire Wire Line
+	4900 10475 4900 10575
+Text GLabel 6500 10450 2    50   Input ~ 0
+VREF_34
+$Comp
+L ddr4-datacenter-tester:R_1k_0603 R?
+U 1 1 652BE092
+P 5475 10300
+F 0 "R?" V 5425 10050 60  0000 L CNN
+F 1 "R_1k_0603" H 5475 10150 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0603-res" H 5675 10500 60  0001 L CNN
+F 3 "" H 5475 10300 50  0001 C CNN
+F 4 "BOURNS" H 5675 10700 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-102ELF" H 5675 10600 60  0001 L CNN "MPN"
+F 6 "1k" V 5525 10125 50  0000 L CNN "Val"
+	1    5475 10300
+	0    1    1    0   
+$EndComp
+$Comp
+L ddr4-datacenter-tester:R_1k_0603 R?
+U 1 1 652BE09B
+P 5475 10600
+F 0 "R?" V 5425 10350 60  0000 L CNN
+F 1 "R_1k_0603" H 5475 10450 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0603-res" H 5675 10800 60  0001 L CNN
+F 3 "" H 5475 10600 50  0001 C CNN
+F 4 "BOURNS" H 5675 11000 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-102ELF" H 5675 10900 60  0001 L CNN "MPN"
+F 6 "1k" V 5525 10425 50  0000 L CNN "Val"
+	1    5475 10600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 10450 6350 10450
+Connection ~ 5475 10450
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 652BE0A3
+P 5475 10750
+F 0 "#PWR?" H 5475 10500 50  0001 C CNN
+F 1 "GND" H 5480 10577 50  0000 C CNN
+F 2 "" H 5475 10750 50  0001 C CNN
+F 3 "" H 5475 10750 50  0001 C CNN
+	1    5475 10750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5475 10050 1    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	5475 10050 5475 10150
+Text Notes 625  9425 0    98   ~ 20
+Clock source
+Text Notes 3575 9550 0    98   ~ 20
+LPDDR VREF
+$Comp
+L ddr4-datacenter-tester:C_100n_0402_6V3 C?
+U 1 1 652BE0B0
+P 5950 10600
+F 0 "C?" H 5975 10700 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 5950 10450 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 6150 10800 60  0001 L CNN
+F 3 "" H 5950 10600 50  0001 C CNN
+F 4 "Walsin" H 6150 11000 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6150 10900 60  0001 L CNN "MPN"
+F 6 "100n" H 5975 10525 50  0000 L CNN "Val"
+	1    5950 10600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 10450 5475 10450
+$Comp
+L ddr4-datacenter-tester:C_100n_0402_6V3 C?
+U 1 1 652BE0BA
+P 6350 10600
+F 0 "C?" H 6375 10700 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 6350 10450 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 6550 10800 60  0001 L CNN
+F 3 "" H 6350 10600 50  0001 C CNN
+F 4 "Walsin" H 6550 11000 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6550 10900 60  0001 L CNN "MPN"
+F 6 "100n" H 6375 10525 50  0000 L CNN "Val"
+	1    6350 10600
+	-1   0    0    -1  
+$EndComp
+Connection ~ 6350 10450
+Wire Wire Line
+	6350 10450 5950 10450
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 652BE0C2
+P 5950 10750
+F 0 "#PWR?" H 5950 10500 50  0001 C CNN
+F 1 "GND" H 5955 10577 50  0000 C CNN
+F 2 "" H 5950 10750 50  0001 C CNN
+F 3 "" H 5950 10750 50  0001 C CNN
+	1    5950 10750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ddr4-datacenter-tester:GND #PWR?
+U 1 1 652BE0C8
+P 6350 10750
+F 0 "#PWR?" H 6350 10500 50  0001 C CNN
+F 1 "GND" H 6355 10577 50  0000 C CNN
+F 2 "" H 6350 10750 50  0001 C CNN
+F 3 "" H 6350 10750 50  0001 C CNN
+	1    6350 10750
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5950 10450
+$Comp
+L ddr4-datacenter-tester:ASFLMB-100.000MHZ-XY-T U?
+U 1 1 652BE0D1
+P 900 10725
+F 0 "U?" H 1525 11012 60  0000 C CNN
+F 1 "ASFLMB-100.000MHZ-XY-T" H 1525 10906 60  0000 C CNN
+F 2 "ddr4-datacenter-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 1700 10965 60  0001 C CNN
+F 3 "" H 900 10725 60  0000 C CNN
+F 4 "ASFLMB-100.000MHZ-XY-T" H 900 10725 50  0001 C CNN "MPN"
+F 5 "Abracon" H 900 10725 50  0001 C CNN "Manufacturer"
+	1    900  10725
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	500  9000 7125 9000
+Wire Notes Line
+	7125 9000 7125 11200
+Text Notes 675  9150 0    50   ~ 0
+TODO: Verify with the new design
 $EndSCHEMATC
