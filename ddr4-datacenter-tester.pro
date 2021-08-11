@@ -1,4 +1,4 @@
-update=Wed 21 Jul 2021 20:00:56 CEST
+update=Wed 11 Aug 2021 13:52:42 CEST
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -63,7 +73,7 @@ SolderMaskMinWidth=0.01
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=F.Cu
+Name=F_HS.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
@@ -71,19 +81,19 @@ Name=GND1
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
-Name=In2.Cu
+Name=In2_HS.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=GND2
-Type=1
-Enabled=1
-[pcbnew/Layer.In4.Cu]
 Name=VCC1
 Type=1
 Enabled=1
+[pcbnew/Layer.In4.Cu]
+Name=In3_LS.Cu
+Type=0
+Enabled=1
 [pcbnew/Layer.In5.Cu]
-Name=In5.Cu
+Name=In4_LS.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In6.Cu]
@@ -91,12 +101,12 @@ Name=VCC2
 Type=1
 Enabled=1
 [pcbnew/Layer.In7.Cu]
-Name=In7.Cu
+Name=In5_HS.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In8.Cu]
-Name=In8.Cu
-Type=0
+Name=GND2
+Type=1
 Enabled=1
 [pcbnew/Layer.In9.Cu]
 Name=In9.Cu
@@ -187,7 +197,7 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=B.Cu
+Name=B_HS.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
@@ -262,13 +272,3 @@ uViaDrill=0.1
 dPairWidth=0.14
 dPairGap=0.17
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 12
+Sheet 8 10
 Title ""
 Date ""
 Rev ""
@@ -1151,10 +1151,6 @@ Text GLabel 5250 2150 2    50   Input ~ 0
 VREFCA
 Text GLabel 5575 2350 2    50   Input ~ 0
 DQ5
-Text GLabel 5575 2850 2    50   Input ~ 0
-DQS10_T
-Text GLabel 5575 2750 2    50   Input ~ 0
-DQS10_C
 Text GLabel 5575 3050 2    50   Input ~ 0
 DQ7
 Text GLabel 5575 3450 2    50   Input ~ 0
@@ -1299,14 +1295,48 @@ Text GLabel 3225 2450 0    50   Input ~ 0
 DQ0
 Text GLabel 5575 2550 2    50   Input ~ 0
 DQ1
-Text GLabel 3225 3150 2    50   Input ~ 0
+Text GLabel 3225 3150 0    50   Input ~ 0
 DQ2
-Text GLabel 5575 3250 0    50   Input ~ 0
+Text GLabel 5575 3250 2    50   Input ~ 0
 DQ3
-Text GLabel 9600 2825 2    50   Input ~ 0
+Text GLabel 9600 2825 0    50   Input ~ 0
 ~CS0
-Text GLabel 11950 3025 0    50   Input ~ 0
+Text GLabel 11950 3025 2    50   Input ~ 0
 ~SAVE
-Text GLabel 5575 6150 0    50   Input ~ 0
+Text GLabel 5575 6150 2    50   Input ~ 0
 DQS3_T
+Text GLabel 5575 2750 2    50   Input ~ 0
+DQS0_C
+Text GLabel 5575 2850 2    50   Input ~ 0
+DQS0_T
+Wire Notes Line
+	2800 2200 5975 2200
+Wire Notes Line
+	5975 4400 2800 4400
+Wire Notes Line
+	2800 3300 5975 3300
+Wire Notes Line
+	2800 5500 5975 5500
+Wire Notes Line
+	2800 6600 5975 6600
+Wire Notes Line
+	9175 3875 12375 3875
+Wire Notes Line
+	12375 4975 9150 4975
+Wire Notes Line
+	9150 6075 12375 6075
+Wire Notes Line
+	9150 7175 12375 7175
+Wire Notes Line
+	9150 8175 12375 8175
+Wire Notes Line
+	12375 3875 12375 8175
+Wire Notes Line
+	9150 3875 9150 8175
+Wire Notes Line
+	2800 7700 5975 7700
+Wire Notes Line
+	2800 2200 2800 7700
+Wire Notes Line
+	5975 2200 5975 7700
 $EndSCHEMATC
