@@ -667,9 +667,9 @@ Wire Wire Line
 Wire Wire Line
 	9675 8775 8950 8775
 Wire Wire Line
-	9725 4550 9000 4550
+	9725 5050 9000 5050
 Wire Wire Line
-	9725 4650 9000 4650
+	9725 7150 9000 7150
 Wire Wire Line
 	9725 4150 9000 4150
 Wire Wire Line
@@ -778,9 +778,9 @@ Text GLabel 9000 4750 0    50   Input ~ 0
 A12\~BC
 Text GLabel 9000 4150 0    50   Input ~ 0
 A9
-Text GLabel 9000 4650 0    50   Input ~ 0
+Text GLabel 9000 7150 0    50   Input ~ 0
 A8
-Text GLabel 9000 4550 0    50   Input ~ 0
+Text GLabel 9000 5050 0    50   Input ~ 0
 A6
 Text GLabel 9000 6750 0    50   Input ~ 0
 A3
