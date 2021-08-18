@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 4 11
+Sheet 3 10
 Title "LPDDR4 Test Board"
 Date ""
 Rev "1.0.4"
@@ -2882,10 +2882,10 @@ Wire Wire Line
 Wire Wire Line
 	4975 3525 4975 3400
 $Comp
-L ddr4-datacenter-tester:GND #PWR?
+L ddr4-datacenter-tester:GND #PWR0101
 U 1 1 641DA80C
 P 4975 3950
-F 0 "#PWR?" H 4975 3700 50  0001 C CNN
+F 0 "#PWR0101" H 4975 3700 50  0001 C CNN
 F 1 "GND" H 4980 3777 50  0000 C CNN
 F 2 "" H 4975 3950 50  0001 C CNN
 F 3 "" H 4975 3950 50  0001 C CNN
@@ -2893,10 +2893,10 @@ F 3 "" H 4975 3950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:C_330u_KEMET_D C?
+L ddr4-datacenter-tester:C_330u_KEMET_D C8
 U 1 1 641DA815
 P 4975 3625
-F 0 "C?" H 5000 3675 60  0000 L CNN
+F 0 "C8" H 5000 3675 60  0000 L CNN
 F 1 "C_330u_KEMET_D" H 4975 3475 60  0001 C CNN
 F 2 "ddr4-datacenter-tester-footprints:KEMET_D" H 5175 3825 60  0001 L CNN
 F 3 "" H 4975 3625 50  0001 C CNN
@@ -2913,10 +2913,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 3950 5300 3825
 $Comp
-L ddr4-datacenter-tester:GND #PWR?
+L ddr4-datacenter-tester:GND #PWR0102
 U 1 1 6421B6FA
 P 5300 3950
-F 0 "#PWR?" H 5300 3700 50  0001 C CNN
+F 0 "#PWR0102" H 5300 3700 50  0001 C CNN
 F 1 "GND" H 5305 3777 50  0000 C CNN
 F 2 "" H 5300 3950 50  0001 C CNN
 F 3 "" H 5300 3950 50  0001 C CNN
@@ -2924,10 +2924,10 @@ F 3 "" H 5300 3950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:C_4u7_0402 C?
+L ddr4-datacenter-tester:C_4u7_0402 C144
 U 1 1 6421B703
 P 5300 3675
-F 0 "C?" H 5325 3775 60  0000 L CNN
+F 0 "C144" H 5325 3775 60  0000 L CNN
 F 1 "C_4u7_0402" H 5300 3525 60  0001 C CNN
 F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 5500 3875 60  0001 L CNN
 F 3 "" H 5300 3675 50  0001 C CNN
@@ -2938,10 +2938,10 @@ F 6 "4u7" H 5325 3575 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:C_47u_0603 C?
+L ddr4-datacenter-tester:C_47u_0603 C114
 U 1 1 642621C9
 P 4975 6525
-F 0 "C?" H 5000 6650 60  0000 L CNN
+F 0 "C114" H 5000 6650 60  0000 L CNN
 F 1 "C_47u_0603" H 4975 6375 60  0001 C CNN
 F 2 "ddr4-datacenter-tester-footprints:0603-cap" H 5175 6725 60  0001 L CNN
 F 3 "" H 4975 6525 50  0001 C CNN
@@ -2954,10 +2954,10 @@ $EndComp
 Wire Wire Line
 	4975 6375 4975 6250
 $Comp
-L ddr4-datacenter-tester:GND #PWR?
+L ddr4-datacenter-tester:GND #PWR0103
 U 1 1 642621D0
 P 4975 6800
-F 0 "#PWR?" H 4975 6550 50  0001 C CNN
+F 0 "#PWR0103" H 4975 6550 50  0001 C CNN
 F 1 "GND" H 4980 6627 50  0000 C CNN
 F 2 "" H 4975 6800 50  0001 C CNN
 F 3 "" H 4975 6800 50  0001 C CNN
@@ -2969,10 +2969,10 @@ Wire Wire Line
 Text GLabel 4975 6250 1    50   Input ~ 0
 1V8_SYS
 $Comp
-L ddr4-datacenter-tester:C_4u7_0402 C?
+L ddr4-datacenter-tester:C_4u7_0402 C115
 U 1 1 6429CA43
 P 5225 6525
-F 0 "C?" H 5250 6625 60  0000 L CNN
+F 0 "C115" H 5250 6625 60  0000 L CNN
 F 1 "C_4u7_0402" H 5225 6375 60  0001 C CNN
 F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 5425 6725 60  0001 L CNN
 F 3 "" H 5225 6525 50  0001 C CNN
@@ -2985,10 +2985,10 @@ $EndComp
 Wire Wire Line
 	5225 6375 5225 6250
 $Comp
-L ddr4-datacenter-tester:GND #PWR?
+L ddr4-datacenter-tester:GND #PWR0108
 U 1 1 6429CA4A
 P 5225 6800
-F 0 "#PWR?" H 5225 6550 50  0001 C CNN
+F 0 "#PWR0108" H 5225 6550 50  0001 C CNN
 F 1 "GND" H 5230 6627 50  0000 C CNN
 F 2 "" H 5225 6800 50  0001 C CNN
 F 3 "" H 5225 6800 50  0001 C CNN
