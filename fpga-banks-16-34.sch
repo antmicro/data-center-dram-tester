@@ -1426,4 +1426,48 @@ Wire Notes Line
 	8325 8025 8325 8725
 Text Notes 7200 8150 0    50   ~ 0
 TODO: Connect to RDIMM
+Wire Wire Line
+	9725 4650 9550 4650
+Wire Wire Line
+	9725 4550 9550 4550
+Text GLabel 9000 4550 0    50   Input ~ 0
+DQS17_T
+Text GLabel 9000 4650 0    50   Input ~ 0
+DQS17_C
+$Comp
+L antmicroResistorsmisc:R_0R_0201 R?
+U 1 1 6145FD9B
+P 9400 4550
+AR Path="/61B4860C/6145FD9B" Ref="R?"  Part="1" 
+AR Path="/61AF7FF2/6145FD9B" Ref="R?"  Part="1" 
+F 0 "R?" H 9175 4600 60  0000 C CNN
+F 1 "R_0R_0201" H 9400 4400 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9600 4750 60  0001 L CNN
+F 3 "" H 9400 4550 50  0001 C CNN
+F 4 "VISHAY" H 9600 4950 60  0001 L CNN "Manufacturer"
+F 5 "CRCW02010000Z0ED" H 9600 4850 60  0001 L CNN "MPN"
+F 6 "0R" H 9400 4550 50  0000 C CNN "Val"
+	1    9400 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroResistorsmisc:R_0R_0201 R?
+U 1 1 6145FDA4
+P 9400 4650
+AR Path="/61B4860C/6145FDA4" Ref="R?"  Part="1" 
+AR Path="/61AF7FF2/6145FDA4" Ref="R?"  Part="1" 
+F 0 "R?" H 9175 4700 60  0000 C CNN
+F 1 "R_0R_0201" H 9400 4500 60  0001 C CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9600 4850 60  0001 L CNN
+F 3 "" H 9400 4650 50  0001 C CNN
+F 4 "VISHAY" H 9600 5050 60  0001 L CNN "Manufacturer"
+F 5 "CRCW02010000Z0ED" H 9600 4950 60  0001 L CNN "MPN"
+F 6 "0R" H 9400 4650 50  0000 C CNN "Val"
+	1    9400 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 4550 9000 4550
+Wire Wire Line
+	9250 4650 9000 4650
 $EndSCHEMATC
