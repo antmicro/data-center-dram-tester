@@ -4,12 +4,12 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 10
-Title "DDR4 Datacenter Tester"
+Title "Datacenter DRAM Tester"
 Date "2021-08"
 Rev "1.0.0"
-Comp "Antmicro Ltd."
-Comment1 ""
-Comment2 ""
+Comp ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -52,23 +52,23 @@ F0 "HyperRAM" 50
 F1 "hyperram.sch" 50
 $EndSheet
 $Comp
-L ddr4-datacenter-tester:oshw_logo N1
+L datacenter-dram-tester:oshw_logo N1
 U 1 1 603B54EA
 P 15200 9475
 F 0 "N1" H 15394 9478 50  0000 L CNN
 F 1 "oshw_logo" H 15394 9387 50  0000 L CNN
-F 2 "ddr4-datacenter-tester-footprints:oshw-logo" H 15220 9235 50  0001 C CNN
+F 2 "datacenter-dram-tester-footprints:oshw-logo" H 15220 9235 50  0001 C CNN
 F 3 "" H 15200 9475 50  0001 C CNN
 	1    15200 9475
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:antmicro_logo N2
+L datacenter-dram-tester:antmicro_logo N2
 U 1 1 6003C9B5
 P 15175 9775
 F 0 "N2" H 15389 9868 50  0000 L CNN
 F 1 "antmicro_logo" H 15389 9777 50  0000 L CNN
-F 2 "ddr4-datacenter-tester-footprints:antmicro-logo_scaled_20mm" H 15075 10025 50  0001 C CNN
+F 2 "datacenter-dram-tester-footprints:antmicro-logo_scaled_20mm" H 15075 10025 50  0001 C CNN
 F 3 "" H 15175 10125 50  0001 C CNN
 	1    15175 9775
 	1    0    0    -1  

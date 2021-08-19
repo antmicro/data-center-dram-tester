@@ -4,33 +4,33 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 10
-Title "DDR4 Datacenter Tester"
+Title "Datacenter DRAM Tester"
 Date "2021-08"
 Rev "1.0.0"
 Comp "Antmicro Ltd."
-Comment1 ""
-Comment2 ""
+Comment1 "www.antmicro.com"
+Comment2 "Antmicro Ltd"
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ddr4-datacenter-tester:XC7K160T-FFG676 U15
+L datacenter-dram-tester:XC7K160T-FFG676 U15
 U 3 1 61B486C2
 P 3800 5100
 F 0 "U15" H 3800 2125 50  0000 C CNN
 F 1 "XC7K160T-FFG676" H 3800 2034 50  0000 C CNN
-F 2 "ddr4-datacenter-tester-footprints:BGA676C100P26X26_2700X2700X254" H 3800 1943 50  0000 C CNN
+F 2 "datacenter-dram-tester-footprints:BGA676C100P26X26_2700X2700X254" H 3800 1943 50  0000 C CNN
 F 3 "" H 3800 5100 50  0000 C CNN
 	3    3800 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:XC7K160T-FFG676 U15
+L datacenter-dram-tester:XC7K160T-FFG676 U15
 U 4 1 61B4F8CF
 P 11925 5225
 F 0 "U15" H 11925 2250 50  0000 C CNN
 F 1 "XC7K160T-FFG676" H 11925 2159 50  0000 C CNN
-F 2 "ddr4-datacenter-tester-footprints:BGA676C100P26X26_2700X2700X254" H 11925 2068 50  0000 C CNN
+F 2 "datacenter-dram-tester-footprints:BGA676C100P26X26_2700X2700X254" H 11925 2068 50  0000 C CNN
 F 3 "" H 11925 5225 50  0000 C CNN
 	4    11925 5225
 	1    0    0    -1  
@@ -231,7 +231,7 @@ Wire Notes Line
 Wire Wire Line
 	925  10550 925  10600
 $Comp
-L ddr4-datacenter-tester:GND #PWR0141
+L datacenter-dram-tester:GND #PWR0141
 U 1 1 652BE04A
 P 925 10600
 F 0 "#PWR0141" H 925 10350 50  0001 C CNN
@@ -251,12 +251,12 @@ Wire Wire Line
 	3025 9975 3025 9875
 Connection ~ 3025 9975
 $Comp
-L ddr4-datacenter-tester:C_100n_0402_6V3 C145
+L datacenter-dram-tester:C_100n_0402_6V3 C145
 U 1 1 652BE058
 P 3025 10125
 F 0 "C145" H 2750 10225 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3025 9975 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 3225 10325 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0402-cap" H 3225 10325 60  0001 L CNN
 F 3 "" H 3025 10125 50  0001 C CNN
 F 4 "Walsin" H 3225 10525 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 3225 10425 60  0001 L CNN "MPN"
@@ -279,7 +279,7 @@ Wire Wire Line
 Wire Wire Line
 	850  10450 1025 10450
 $Comp
-L ddr4-datacenter-tester:GND #PWR0142
+L datacenter-dram-tester:GND #PWR0142
 U 1 1 652BE065
 P 3025 10575
 F 0 "#PWR0142" H 3025 10325 50  0001 C CNN
@@ -299,12 +299,12 @@ VRP
 Text GLabel 4225 9900 0    50   Input ~ 0
 VRN
 $Comp
-L ddr4-datacenter-tester:R_120R_0603 R63
+L datacenter-dram-tester:R_120R_0603 R63
 U 1 1 652BE073
 P 4550 9900
 F 0 "R63" H 4550 10113 60  0000 C CNN
 F 1 "R_120R_0603" H 4550 9750 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0603-res" H 4750 10100 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0603-res" H 4750 10100 60  0001 L CNN
 F 3 "" H 4550 9900 50  0001 C CNN
 F 4 "VISHAY" H 4750 10300 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0603120RFKEA" H 4750 10200 60  0001 L CNN "MPN"
@@ -313,12 +313,12 @@ F 6 "120R" H 4550 10015 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_120R_0603 R64
+L datacenter-dram-tester:R_120R_0603 R64
 U 1 1 652BE07C
 P 4550 10250
 F 0 "R64" H 4550 10463 60  0000 C CNN
 F 1 "R_120R_0603" H 4550 10100 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0603-res" H 4750 10450 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0603-res" H 4750 10450 60  0001 L CNN
 F 3 "" H 4550 10250 50  0001 C CNN
 F 4 "VISHAY" H 4750 10650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0603120RFKEA" H 4750 10550 60  0001 L CNN "MPN"
@@ -335,7 +335,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 10250 4400 10250
 $Comp
-L ddr4-datacenter-tester:GND #PWR0143
+L datacenter-dram-tester:GND #PWR0143
 U 1 1 652BE086
 P 4950 10350
 F 0 "#PWR0143" H 4950 10100 50  0001 C CNN
@@ -352,12 +352,12 @@ Wire Wire Line
 Text GLabel 6550 10225 2    50   Input ~ 0
 VREF_34
 $Comp
-L ddr4-datacenter-tester:R_1k_0603 R65
+L datacenter-dram-tester:R_1k_0603 R65
 U 1 1 652BE092
 P 5525 10075
 F 0 "R65" V 5475 9825 60  0000 L CNN
 F 1 "R_1k_0603" H 5525 9925 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0603-res" H 5725 10275 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0603-res" H 5725 10275 60  0001 L CNN
 F 3 "" H 5525 10075 50  0001 C CNN
 F 4 "BOURNS" H 5725 10475 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-102ELF" H 5725 10375 60  0001 L CNN "MPN"
@@ -366,12 +366,12 @@ F 6 "1k" V 5575 9900 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_1k_0603 R66
+L datacenter-dram-tester:R_1k_0603 R66
 U 1 1 652BE09B
 P 5525 10375
 F 0 "R66" V 5475 10125 60  0000 L CNN
 F 1 "R_1k_0603" H 5525 10225 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0603-res" H 5725 10575 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0603-res" H 5725 10575 60  0001 L CNN
 F 3 "" H 5525 10375 50  0001 C CNN
 F 4 "BOURNS" H 5725 10775 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-102ELF" H 5725 10675 60  0001 L CNN "MPN"
@@ -383,7 +383,7 @@ Wire Wire Line
 	6550 10225 6400 10225
 Connection ~ 5525 10225
 $Comp
-L ddr4-datacenter-tester:GND #PWR0144
+L datacenter-dram-tester:GND #PWR0144
 U 1 1 652BE0A3
 P 5525 10525
 F 0 "#PWR0144" H 5525 10275 50  0001 C CNN
@@ -402,12 +402,12 @@ Clock source
 Text Notes 4750 9125 0    98   ~ 20
 LPDDR VREF
 $Comp
-L ddr4-datacenter-tester:C_100n_0402_6V3 C146
+L datacenter-dram-tester:C_100n_0402_6V3 C146
 U 1 1 652BE0B0
 P 6000 10375
 F 0 "C146" H 6025 10475 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6000 10225 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 6200 10575 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0402-cap" H 6200 10575 60  0001 L CNN
 F 3 "" H 6000 10375 50  0001 C CNN
 F 4 "Walsin" H 6200 10775 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6200 10675 60  0001 L CNN "MPN"
@@ -418,12 +418,12 @@ $EndComp
 Wire Wire Line
 	6000 10225 5525 10225
 $Comp
-L ddr4-datacenter-tester:C_100n_0402_6V3 C153
+L datacenter-dram-tester:C_100n_0402_6V3 C153
 U 1 1 652BE0BA
 P 6400 10375
 F 0 "C153" H 6425 10475 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6400 10225 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0402-cap" H 6600 10575 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0402-cap" H 6600 10575 60  0001 L CNN
 F 3 "" H 6400 10375 50  0001 C CNN
 F 4 "Walsin" H 6600 10775 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6600 10675 60  0001 L CNN "MPN"
@@ -435,7 +435,7 @@ Connection ~ 6400 10225
 Wire Wire Line
 	6400 10225 6000 10225
 $Comp
-L ddr4-datacenter-tester:GND #PWR0145
+L datacenter-dram-tester:GND #PWR0145
 U 1 1 652BE0C2
 P 6000 10525
 F 0 "#PWR0145" H 6000 10275 50  0001 C CNN
@@ -446,7 +446,7 @@ F 3 "" H 6000 10525 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:GND #PWR0146
+L datacenter-dram-tester:GND #PWR0146
 U 1 1 652BE0C8
 P 6400 10525
 F 0 "#PWR0146" H 6400 10275 50  0001 C CNN
@@ -458,12 +458,12 @@ F 3 "" H 6400 10525 50  0001 C CNN
 $EndComp
 Connection ~ 6000 10225
 $Comp
-L ddr4-datacenter-tester:ASFLMB-100.000MHZ-XY-T U1
+L datacenter-dram-tester:ASFLMB-100.000MHZ-XY-T U1
 U 1 1 652BE0D1
 P 1025 10450
 F 0 "U1" H 1650 10737 60  0000 C CNN
 F 1 "ASFLMB-100.000MHZ-XY-T" H 1650 10631 60  0000 C CNN
-F 2 "ddr4-datacenter-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 1825 10690 60  0001 C CNN
+F 2 "datacenter-dram-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 1825 10690 60  0001 C CNN
 F 3 "" H 1025 10450 60  0000 C CNN
 F 4 "ASFLMB-100.000MHZ-XY-T" H 1025 10450 50  0001 C CNN "MPN"
 F 5 "Abracon" H 1025 10450 50  0001 C CNN "Manufacturer"
@@ -999,12 +999,12 @@ DQ34
 Wire Wire Line
 	5800 5300 6525 5300
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R97
+L datacenter-dram-tester:R_0R_0201 R97
 U 1 1 67A31A73
 P 9625 9000
 F 0 "R97" H 9400 9050 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 8850 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9200 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9200 60  0001 L CNN
 F 3 "" H 9625 9000 50  0001 C CNN
 F 4 "VISHAY" H 9825 9400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 9300 60  0001 L CNN "MPN"
@@ -1013,12 +1013,12 @@ F 6 "0R" H 9625 9000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R98
+L datacenter-dram-tester:R_0R_0201 R98
 U 1 1 67A3746B
 P 9625 9100
 F 0 "R98" H 9400 9150 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 8950 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9300 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9300 60  0001 L CNN
 F 3 "" H 9625 9100 50  0001 C CNN
 F 4 "VISHAY" H 9825 9500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 9400 60  0001 L CNN "MPN"
@@ -1027,12 +1027,12 @@ F 6 "0R" H 9625 9100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R99
+L datacenter-dram-tester:R_0R_0201 R99
 U 1 1 67A38118
 P 9625 9250
 F 0 "R99" H 9400 9300 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9100 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9450 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9450 60  0001 L CNN
 F 3 "" H 9625 9250 50  0001 C CNN
 F 4 "VISHAY" H 9825 9650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 9550 60  0001 L CNN "MPN"
@@ -1041,12 +1041,12 @@ F 6 "0R" H 9625 9250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R100
+L datacenter-dram-tester:R_0R_0201 R100
 U 1 1 67A38ED5
 P 9625 9350
 F 0 "R100" H 9400 9400 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9200 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9550 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9550 60  0001 L CNN
 F 3 "" H 9625 9350 50  0001 C CNN
 F 4 "VISHAY" H 9825 9750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 9650 60  0001 L CNN "MPN"
@@ -1055,12 +1055,12 @@ F 6 "0R" H 9625 9350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R101
+L datacenter-dram-tester:R_0R_0201 R101
 U 1 1 67A39AE6
 P 9625 9500
 F 0 "R101" H 9400 9550 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9350 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9700 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9700 60  0001 L CNN
 F 3 "" H 9625 9500 50  0001 C CNN
 F 4 "VISHAY" H 9825 9900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 9800 60  0001 L CNN "MPN"
@@ -1069,12 +1069,12 @@ F 6 "0R" H 9625 9500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R102
+L datacenter-dram-tester:R_0R_0201 R102
 U 1 1 67A3A783
 P 9625 9600
 F 0 "R102" H 9400 9650 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9450 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9800 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9800 60  0001 L CNN
 F 3 "" H 9625 9600 50  0001 C CNN
 F 4 "VISHAY" H 9825 10000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 9900 60  0001 L CNN "MPN"
@@ -1083,12 +1083,12 @@ F 6 "0R" H 9625 9600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R103
+L datacenter-dram-tester:R_0R_0201 R103
 U 1 1 67A47308
 P 9625 9750
 F 0 "R103" H 9400 9800 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9600 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 9950 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 9950 60  0001 L CNN
 F 3 "" H 9625 9750 50  0001 C CNN
 F 4 "VISHAY" H 9825 10150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10050 60  0001 L CNN "MPN"
@@ -1097,12 +1097,12 @@ F 6 "0R" H 9625 9750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R104
+L datacenter-dram-tester:R_0R_0201 R104
 U 1 1 67A47311
 P 9625 9850
 F 0 "R104" H 9400 9900 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9700 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10050 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10050 60  0001 L CNN
 F 3 "" H 9625 9850 50  0001 C CNN
 F 4 "VISHAY" H 9825 10250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10150 60  0001 L CNN "MPN"
@@ -1111,12 +1111,12 @@ F 6 "0R" H 9625 9850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R105
+L datacenter-dram-tester:R_0R_0201 R105
 U 1 1 67A4731A
 P 9625 10000
 F 0 "R105" H 9400 10050 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9850 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10200 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10200 60  0001 L CNN
 F 3 "" H 9625 10000 50  0001 C CNN
 F 4 "VISHAY" H 9825 10400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10300 60  0001 L CNN "MPN"
@@ -1125,12 +1125,12 @@ F 6 "0R" H 9625 10000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R106
+L datacenter-dram-tester:R_0R_0201 R106
 U 1 1 67A47323
 P 9625 10100
 F 0 "R106" H 9400 10150 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 9950 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10300 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10300 60  0001 L CNN
 F 3 "" H 9625 10100 50  0001 C CNN
 F 4 "VISHAY" H 9825 10500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10400 60  0001 L CNN "MPN"
@@ -1139,12 +1139,12 @@ F 6 "0R" H 9625 10100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R107
+L datacenter-dram-tester:R_0R_0201 R107
 U 1 1 67A4732C
 P 9625 10250
 F 0 "R107" H 9400 10300 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10100 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10450 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10450 60  0001 L CNN
 F 3 "" H 9625 10250 50  0001 C CNN
 F 4 "VISHAY" H 9825 10650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10550 60  0001 L CNN "MPN"
@@ -1153,12 +1153,12 @@ F 6 "0R" H 9625 10250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R108
+L datacenter-dram-tester:R_0R_0201 R108
 U 1 1 67A47335
 P 9625 10350
 F 0 "R108" H 9400 10400 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10200 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10550 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10550 60  0001 L CNN
 F 3 "" H 9625 10350 50  0001 C CNN
 F 4 "VISHAY" H 9825 10750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10650 60  0001 L CNN "MPN"
@@ -1167,12 +1167,12 @@ F 6 "0R" H 9625 10350 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R109
+L datacenter-dram-tester:R_0R_0201 R109
 U 1 1 67A8DD1F
 P 9625 10500
 F 0 "R109" H 9400 10550 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10350 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10700 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10700 60  0001 L CNN
 F 3 "" H 9625 10500 50  0001 C CNN
 F 4 "VISHAY" H 9825 10900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10800 60  0001 L CNN "MPN"
@@ -1181,12 +1181,12 @@ F 6 "0R" H 9625 10500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R110
+L datacenter-dram-tester:R_0R_0201 R110
 U 1 1 67A8DD28
 P 9625 10600
 F 0 "R110" H 9400 10650 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10450 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10800 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10800 60  0001 L CNN
 F 3 "" H 9625 10600 50  0001 C CNN
 F 4 "VISHAY" H 9825 11000 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 10900 60  0001 L CNN "MPN"
@@ -1195,12 +1195,12 @@ F 6 "0R" H 9625 10600 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R111
+L datacenter-dram-tester:R_0R_0201 R111
 U 1 1 67A8DD31
 P 9625 10750
 F 0 "R111" H 9400 10800 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10600 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 10950 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 10950 60  0001 L CNN
 F 3 "" H 9625 10750 50  0001 C CNN
 F 4 "VISHAY" H 9825 11150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 11050 60  0001 L CNN "MPN"
@@ -1209,12 +1209,12 @@ F 6 "0R" H 9625 10750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R112
+L datacenter-dram-tester:R_0R_0201 R112
 U 1 1 67A8DD3A
 P 9625 10850
 F 0 "R112" H 9400 10900 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10700 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 11050 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 11050 60  0001 L CNN
 F 3 "" H 9625 10850 50  0001 C CNN
 F 4 "VISHAY" H 9825 11250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 11150 60  0001 L CNN "MPN"
@@ -1223,12 +1223,12 @@ F 6 "0R" H 9625 10850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R113
+L datacenter-dram-tester:R_0R_0201 R113
 U 1 1 67A8DD43
 P 9625 11000
 F 0 "R113" H 9400 11050 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10850 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 11200 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 11200 60  0001 L CNN
 F 3 "" H 9625 11000 50  0001 C CNN
 F 4 "VISHAY" H 9825 11400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 11300 60  0001 L CNN "MPN"
@@ -1237,12 +1237,12 @@ F 6 "0R" H 9625 11000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R114
+L datacenter-dram-tester:R_0R_0201 R114
 U 1 1 67A8DD4C
 P 9625 11100
 F 0 "R114" H 9400 11150 60  0000 C CNN
 F 1 "R_0R_0201" H 9625 10950 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9825 11300 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9825 11300 60  0001 L CNN
 F 3 "" H 9625 11100 50  0001 C CNN
 F 4 "VISHAY" H 9825 11500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9825 11400 60  0001 L CNN "MPN"
@@ -1435,14 +1435,14 @@ DQS17_T
 Text GLabel 9200 4925 0    50   Input ~ 0
 DQS17_C
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R?
+L datacenter-dram-tester:R_0R_0201 R?
 U 1 1 6145FD9B
 P 9600 4825
 AR Path="/61B4860C/6145FD9B" Ref="R?"  Part="1" 
 AR Path="/61AF7FF2/6145FD9B" Ref="R?"  Part="1" 
 F 0 "R?" H 9375 4875 60  0000 C CNN
 F 1 "R_0R_0201" H 9600 4675 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9800 5025 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9800 5025 60  0001 L CNN
 F 3 "" H 9600 4825 50  0001 C CNN
 F 4 "VISHAY" H 9800 5225 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9800 5125 60  0001 L CNN "MPN"
@@ -1451,14 +1451,14 @@ F 6 "0R" H 9600 4825 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ddr4-datacenter-tester:R_0R_0201 R?
+L datacenter-dram-tester:R_0R_0201 R?
 U 1 1 6145FDA4
 P 9600 4925
 AR Path="/61B4860C/6145FDA4" Ref="R?"  Part="1" 
 AR Path="/61AF7FF2/6145FDA4" Ref="R?"  Part="1" 
 F 0 "R?" H 9375 4975 60  0000 C CNN
 F 1 "R_0R_0201" H 9600 4775 60  0001 C CNN
-F 2 "ddr4-datacenter-tester-footprints:0201-res" H 9800 5125 60  0001 L CNN
+F 2 "datacenter-dram-tester-footprints:0201-res" H 9800 5125 60  0001 L CNN
 F 3 "" H 9600 4925 50  0001 C CNN
 F 4 "VISHAY" H 9800 5325 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 9800 5225 60  0001 L CNN "MPN"

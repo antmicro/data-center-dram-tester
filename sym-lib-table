@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name ddr4-datacenter-tester)(type Legacy)(uri ${KIPRJMOD}/lib/ddr4-datacenter-tester.lib)(options "")(descr ""))
+  (lib (name datacenter-dram-tester)(type Legacy)(uri ${KIPRJMOD}/lib/datacenter-dram-tester.lib)(options "")(descr ""))
 )

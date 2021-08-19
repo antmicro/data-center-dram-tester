@@ -1512,7 +1512,7 @@
     (add_net TMDS_D2_P)
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 611F5199)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 611F5199)
     (at 203.286328 57.310008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1545,7 +1545,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 611F5189)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 611F5189)
     (at 204.136328 57.310008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1578,7 +1578,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D4001)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D4001)
     (at 221.986328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1611,7 +1611,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FF1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FF1)
     (at 222.836328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1644,7 +1644,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FE1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FE1)
     (at 231.336328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1677,7 +1677,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FD1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FD1)
     (at 232.186328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1710,7 +1710,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FC1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FC1)
     (at 212.636328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1743,7 +1743,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FB1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FB1)
     (at 213.486328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1776,7 +1776,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FA1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3FA1)
     (at 240.686328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1809,7 +1809,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3F91)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3F91)
     (at 241.536328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1842,7 +1842,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3F81)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3F81)
     (at 138.686328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1875,7 +1875,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3D25)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3D25)
     (at 139.536328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1908,7 +1908,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3D15)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3D15)
     (at 157.386328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1941,7 +1941,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3D05)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3D05)
     (at 158.236328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -1974,7 +1974,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D64C1)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D64C1)
     (at 148.036328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -2007,7 +2007,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3CC9)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3CC9)
     (at 148.886328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -2040,7 +2040,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3C9D)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D3C9D)
     (at 129.336328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -2073,7 +2073,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D693B)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612D693B)
     (at 130.186328 57.310008 90)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -2106,7 +2106,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D51FB5)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D51FB5)
     (at 148.886328 90.810008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -2140,7 +2140,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:BGA676C100P26X26_2700X2700X254 (layer F.Cu) (tedit 60D5E514) (tstamp 612D31CF)
+  (module datacenter-dram-tester-footprints:BGA676C100P26X26_2700X2700X254 (layer F.Cu) (tedit 60D5E514) (tstamp 612D31CF)
     (at 183.636328 90.060008 180)
     (path /5FD53C7D/617A1FB1)
     (fp_text reference U15 (at -11.325 -15.135) (layer F.SilkS)
@@ -3526,7 +3526,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F57)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F57)
     (at 203.286328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3559,7 +3559,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F47)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F47)
     (at 202.436328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3592,7 +3592,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F37)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F37)
     (at 129.336328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3625,7 +3625,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F27)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F27)
     (at 128.486328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3658,7 +3658,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F17)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F17)
     (at 138.686328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3691,7 +3691,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F07)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363F07)
     (at 137.836328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3724,7 +3724,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EF7)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EF7)
     (at 148.036328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3757,7 +3757,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EE7)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EE7)
     (at 147.186328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3790,7 +3790,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363ED7)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363ED7)
     (at 157.386328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3823,7 +3823,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EC7)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EC7)
     (at 156.536328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3856,7 +3856,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 6122464F)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 6122464F)
     (at 212.636328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3889,7 +3889,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EA7)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363EA7)
     (at 211.786328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3922,7 +3922,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612245C5)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 612245C5)
     (at 221.986328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3955,7 +3955,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363E87)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363E87)
     (at 221.136328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -3988,7 +3988,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 6122453B)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 6122453B)
     (at 231.336328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -4021,7 +4021,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363E67)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61363E67)
     (at 230.486328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -4054,7 +4054,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61221F3C)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61221F3C)
     (at 240.686328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -4087,7 +4087,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61221F0F)
+  (module datacenter-dram-tester-footprints:0201-res (layer B.Cu) (tedit 5FBD1D44) (tstamp 61221F0F)
     (at 239.836328 59.660008 270)
     (descr "Resistor SMD 0201")
     (tags resistor)
@@ -4120,7 +4120,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:2199155-1 (layer F.Cu) (tedit 60D31B3E) (tstamp 612DAC6D)
+  (module datacenter-dram-tester-footprints:2199155-1 (layer F.Cu) (tedit 60D31B3E) (tstamp 612DAC6D)
     (at 246.636328 55.060008 180)
     (path /61827943/61972CE0)
     (fp_text reference U14 (at -5.1 -6.8) (layer F.SilkS)
@@ -4724,7 +4724,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 61298C67)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 61298C67)
     (at 153.7202 75.502 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4758,7 +4758,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52BD3)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52BD3)
     (at 166.306328 95.070008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4792,7 +4792,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52BA9)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52BA9)
     (at 166.306328 99.480008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4826,7 +4826,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B7F)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B7F)
     (at 156.376328 94.660008)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4860,7 +4860,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B55)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B55)
     (at 154.216328 91.210008)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4894,7 +4894,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B2B)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B2B)
     (at 151.486328 90.210008 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4928,7 +4928,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B01)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52B01)
     (at 157.836328 88.440008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4962,7 +4962,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52AD7)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52AD7)
     (at 155.686328 89.280008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -4996,7 +4996,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52AAD)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52AAD)
     (at 154.686328 89.760008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5030,7 +5030,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52A83)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52A83)
     (at 153.886328 92.520008)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5064,7 +5064,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52A59)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52A59)
     (at 156.771328 90.445008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5098,7 +5098,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 604924A5)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 604924A5)
     (at 142.536328 92.370008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5132,7 +5132,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60492496)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60492496)
     (at 141.536328 92.370008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5166,7 +5166,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60492487)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60492487)
     (at 140.536328 92.370008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5200,7 +5200,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm (layer F.Cu) (tedit 5A4528F9) (tstamp 60D60D62)
+  (module datacenter-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm (layer F.Cu) (tedit 5A4528F9) (tstamp 60D60D62)
     (at 253.686328 102.120008 90)
     (path /5FD53C7D/6001B7F4)
     (fp_text reference MODE2 (at 7.4 0 180) (layer F.SilkS)
@@ -5233,7 +5233,7 @@
       (net 10 GND))
   )
 
-  (module ddr4-datacenter-tester-footprints:QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 600030D3) (tstamp 60D529B7)
+  (module datacenter-dram-tester-footprints:QFN-48-Microchip-QFN77-48LD-PL-2 (layer F.Cu) (tedit 600030D3) (tstamp 60D529B7)
     (at 158.436328 96.047157 90)
     (path /5F982999/600D5C76)
     (fp_text reference U6 (at -5.272851 -4.15 180) (layer F.SilkS)
@@ -5369,7 +5369,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:KX-7 (layer F.Cu) (tedit 5D7218CB) (tstamp 60D5294D)
+  (module datacenter-dram-tester-footprints:KX-7 (layer F.Cu) (tedit 5D7218CB) (tstamp 60D5294D)
     (at 148.686328 98.274306 180)
     (path /5F982999/600D5BFC)
     (attr smd)
@@ -5403,7 +5403,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:QFN-8_2x1mm (layer F.Cu) (tedit 5DC1A3A6) (tstamp 60D5290F)
+  (module datacenter-dram-tester-footprints:QFN-8_2x1mm (layer F.Cu) (tedit 5DC1A3A6) (tstamp 60D5290F)
     (at 152.935789 113.978065 270)
     (descr "DFN8 2x2, 0.5P; No exposed pad - Ref http://pdfserv.maximintegrated.com/land_patterns/90-0349.PDF")
     (tags "DFN 0.5")
@@ -5451,7 +5451,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 60D528D2)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 60D528D2)
     (at 153.335789 121.178065 180)
     (path /60225B0C/600835D6)
     (attr smd)
@@ -5486,7 +5486,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D528A3)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D528A3)
     (at 149.335789 116.678065 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5520,7 +5520,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D52879)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D52879)
     (at 149.335789 118.678065 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5554,7 +5554,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D5284F)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D5284F)
     (at 153.235789 111.478065 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5588,7 +5588,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D52825)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D52825)
     (at 151.586328 97.474306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5622,7 +5622,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D527FB)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5FD9C158) (tstamp 60D527FB)
     (at 151.586328 99.474306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5656,7 +5656,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D527D1)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D527D1)
     (at 165.686328 128.974306 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5690,7 +5690,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D527A7)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D527A7)
     (at 154.686328 128.974306 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5724,7 +5724,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:IHLP-1212AE (layer F.Cu) (tedit 5FF7B2C4) (tstamp 60D52787)
+  (module datacenter-dram-tester-footprints:IHLP-1212AE (layer F.Cu) (tedit 5FF7B2C4) (tstamp 60D52787)
     (at 152.635789 118.078065 270)
     (path /60225B0C/600835CD)
     (attr smd)
@@ -5749,7 +5749,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60D52758)
+  (module datacenter-dram-tester-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60D52758)
     (at 176.086328 121.174306 90)
     (path /5F982999/605850B5)
     (attr smd)
@@ -5784,7 +5784,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60D5271F)
+  (module datacenter-dram-tester-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60D5271F)
     (at 158.486328 99.574306 90)
     (path /5F982999/603611E9)
     (attr smd)
@@ -5819,7 +5819,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 60D526E6)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 60D526E6)
     (at 147.286328 94.174306 90)
     (path /5F982999/6036120E)
     (attr smd)
@@ -5854,7 +5854,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60D526AD)
+  (module datacenter-dram-tester-footprints:0603-res (layer B.Cu) (tedit 5D5D3E92) (tstamp 60D526AD)
     (at 153.786328 101.274306)
     (path /5F982999/603611F2)
     (attr smd)
@@ -5889,7 +5889,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5267E)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5267E)
     (at 149.335789 120.678065 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5923,7 +5923,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52654)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52654)
     (at 150.435789 120.678065 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5957,7 +5957,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5262A)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5262A)
     (at 150.435789 118.678065 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -5991,7 +5991,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52600)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52600)
     (at 154.990087 116.078065 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6025,7 +6025,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D525D6)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D525D6)
     (at 147.986328 100.674306)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6059,7 +6059,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D525AC)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D525AC)
     (at 149.186328 95.874306 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6093,7 +6093,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52582)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52582)
     (at 164.586328 99.174306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6127,7 +6127,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52558)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52558)
     (at 160.686328 93.020008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6161,7 +6161,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D5252E)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D5252E)
     (at 162.186328 101.774306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6195,7 +6195,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52504)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52504)
     (at 164.586328 96.774306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6229,7 +6229,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D524DA)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D524DA)
     (at 158.486328 93.020008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6263,7 +6263,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D524B0)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D524B0)
     (at 161.186328 101.774306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6297,7 +6297,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52486)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52486)
     (at 152.786328 95.520008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6331,7 +6331,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5245C)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5245C)
     (at 164.586328 93.374306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6365,7 +6365,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52432)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52432)
     (at 159.086328 101.774306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6399,7 +6399,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52408)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52408)
     (at 149.386328 94.374306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6433,7 +6433,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D523DE)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D523DE)
     (at 155.686328 101.774306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6467,7 +6467,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D523B4)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D523B4)
     (at 156.486328 93.020008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6501,7 +6501,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5238A)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5238A)
     (at 163.486328 99.174306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6535,7 +6535,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52360)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52360)
     (at 158.086328 101.774306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6569,7 +6569,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52336)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D52336)
     (at 150.486328 94.374306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6603,7 +6603,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5230C)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5230C)
     (at 163.486328 96.774306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6637,7 +6637,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D522E2)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D522E2)
     (at 159.586328 93.020008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6671,7 +6671,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D522B8)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D522B8)
     (at 160.086328 101.774306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6705,7 +6705,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5228E)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D5228E)
     (at 151.586328 94.374306 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6739,7 +6739,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52264)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52264)
     (at 155.486328 93.020008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6773,7 +6773,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D5223A)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D5223A)
     (at 157.486328 93.020008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6807,7 +6807,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52210)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 60D52210)
     (at 157.086328 101.789306 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6841,7 +6841,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D521E6)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D521E6)
     (at 151.086328 92.874306 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6875,7 +6875,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D521BC)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 60D521BC)
     (at 151.086328 91.874306 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6909,7 +6909,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52192)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52192)
     (at 166.786328 96.520008)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6943,7 +6943,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52168)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52168)
     (at 166.786328 98.020008)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -6977,7 +6977,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D5213E)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D5213E)
     (at 154.886328 96.320008)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7011,7 +7011,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52114)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52114)
     (at 156.376328 96.390008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7045,7 +7045,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D520EA)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D520EA)
     (at 153.686328 89.220008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7079,7 +7079,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D520C0)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D520C0)
     (at 152.686328 88.720008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7113,7 +7113,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52096)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52096)
     (at 157.786328 86.220008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7147,7 +7147,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D5206C)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D5206C)
     (at 155.686328 87.020008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7181,7 +7181,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52042)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52042)
     (at 154.686328 87.520008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7215,7 +7215,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52018)
+  (module datacenter-dram-tester-footprints:0402-res (layer B.Cu) (tedit 5FD9C158) (tstamp 60D52018)
     (at 156.786328 88.120008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -7249,7 +7249,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:7499111121A (layer F.Cu) (tedit 5FC2D09C) (tstamp 6001298E)
+  (module datacenter-dram-tester-footprints:7499111121A (layer F.Cu) (tedit 5FC2D09C) (tstamp 6001298E)
     (at 164.436328 124.947157 180)
     (descr WE-RJ45_Transformer-10/100/1000)
     (path /5F982999/605821B4)
@@ -7317,7 +7317,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:antmicro-logo_scaled_20mm (layer F.Cu) (tedit 5E4A93FA) (tstamp 60009237)
+  (module datacenter-dram-tester-footprints:antmicro-logo_scaled_20mm (layer F.Cu) (tedit 5E4A93FA) (tstamp 60009237)
     (at 243.567236 120.897157)
     (path /6003C9B5)
     (attr virtual)
@@ -7903,7 +7903,7 @@
       (xy -7.23652 -3.367203) (xy -7.152142 -3.365846)) (layer F.Cu) (width 0.00186))
   )
 
-  (module ddr4-datacenter-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm (layer F.Cu) (tedit 5A4528F9) (tstamp 600090FB)
+  (module datacenter-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm (layer F.Cu) (tedit 5A4528F9) (tstamp 600090FB)
     (at 196.936328 120.547157 90)
     (path /60225B0C/60001A7D)
     (fp_text reference J8 (at 7.3 0 180) (layer F.SilkS)
@@ -7936,7 +7936,7 @@
       (net 192 VCC5V0_INT))
   )
 
-  (module ddr4-datacenter-tester-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 6005FA61)
+  (module datacenter-dram-tester-footprints:oshw-logo (layer F.Cu) (tedit 5E4A93CD) (tstamp 6005FA61)
     (at 236.567236 128.897157)
     (path /603B54EA)
     (attr virtual)
@@ -9074,7 +9074,7 @@
       (xy -1.520547 2.559315)) (layer F.Cu) (width 0.01))
   )
 
-  (module ddr4-datacenter-tester-footprints:PDS760-13 (layer F.Cu) (tedit 5F994A85) (tstamp 6004A665)
+  (module datacenter-dram-tester-footprints:PDS760-13 (layer F.Cu) (tedit 5F994A85) (tstamp 6004A665)
     (at 110.936328 121.747157 270)
     (path /60225B0C/6034544D)
     (attr smd)
@@ -9097,7 +9097,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:1206-cap (layer F.Cu) (tedit 5D5E9427) (tstamp 60035459)
+  (module datacenter-dram-tester-footprints:1206-cap (layer F.Cu) (tedit 5D5E9427) (tstamp 60035459)
     (at 111.736328 105.147157)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60225B0C/602EFC89)
@@ -9136,7 +9136,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:1206-cap (layer F.Cu) (tedit 5D5E9427) (tstamp 600353C7)
+  (module datacenter-dram-tester-footprints:1206-cap (layer F.Cu) (tedit 5D5E9427) (tstamp 600353C7)
     (at 111.736328 100.147157)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60225B0C/602EFA5A)
@@ -9175,7 +9175,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:1206-cap (layer F.Cu) (tedit 5D5E9427) (tstamp 600332DE)
+  (module datacenter-dram-tester-footprints:1206-cap (layer F.Cu) (tedit 5D5E9427) (tstamp 600332DE)
     (at 111.736328 102.647157)
     (descr http://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTST-C230KFKT_5-24-06.pdf)
     (path /60225B0C/602EDD65)
@@ -9214,7 +9214,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Switch_Slide_11.6x4mm_EG1218 (layer F.Cu) (tedit 5A1EC915) (tstamp 600276F8)
+  (module datacenter-dram-tester-footprints:Switch_Slide_11.6x4mm_EG1218 (layer F.Cu) (tedit 5A1EC915) (tstamp 600276F8)
     (at 216.236328 125.647157 270)
     (descr http://spec_sheets.e-switch.com/specs/P040040.pdf)
     (path /60225B0C/602873C2)
@@ -9251,7 +9251,7 @@
       (net 224 "Net-(S1-Pad1)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5FFF221D)
+  (module datacenter-dram-tester-footprints:0603-cap (layer B.Cu) (tedit 5D5E94D2) (tstamp 5FFF221D)
     (at 136.398144 83.397157)
     (path /60225B0C/60029BE0)
     (attr smd)
@@ -9286,7 +9286,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 61298C3A)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 61298C3A)
     (at 155.7014 80.0232 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -9320,7 +9320,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:FBGA-24 (layer F.Cu) (tedit 5FE9F0E9) (tstamp 61298BDC)
+  (module datacenter-dram-tester-footprints:FBGA-24 (layer F.Cu) (tedit 5FE9F0E9) (tstamp 61298BDC)
     (at 155.496328 80.577157 90)
     (path /5FEA2994/60063BBD)
     (fp_text reference U11 (at 3.525757 -3.096928 180) (layer F.SilkS)
@@ -9405,7 +9405,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 5FEC6CCC)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 5FEC6CCC)
     (at 148.0566 107.6452)
     (path /600E76D8/601E16F4)
     (attr virtual)
@@ -9419,7 +9419,7 @@
       (net 166 "Net-(U7-Pad22)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 61298B98)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 61298B98)
     (at 152.6026 75.502 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -9453,7 +9453,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 5FECCB91)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer B.Cu) (tedit 5E4A935B) (tstamp 5FECCB91)
     (at 204.085 110.6424)
     (path /5FD53C7D/61236E26)
     (attr virtual)
@@ -9467,7 +9467,7 @@
       (net 89 PUDC_B))
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap locked (layer B.Cu) (tedit 5D5E9295) (tstamp 61298B6E)
+  (module datacenter-dram-tester-footprints:0402-cap locked (layer B.Cu) (tedit 5D5E9295) (tstamp 61298B6E)
     (at 155.0156 82.5632 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -9501,7 +9501,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 61298B44)
+  (module datacenter-dram-tester-footprints:0402-cap (layer B.Cu) (tedit 5D5E9295) (tstamp 61298B44)
     (at 158.236328 79.860008 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -9535,7 +9535,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 61298B10)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 61298B10)
     (at 155.803 75.756)
     (path /5FEA2994/600EF985)
     (attr smd)
@@ -9570,7 +9570,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:KEMET_D (layer F.Cu) (tedit 5FD76BCC) (tstamp 5FEC457D)
+  (module datacenter-dram-tester-footprints:KEMET_D (layer F.Cu) (tedit 5FD76BCC) (tstamp 5FEC457D)
     (at 142.578072 81.443714)
     (path /600295C1/653DADFB)
     (fp_text reference C26 (at -0.0496 2.921) (layer F.SilkS)
@@ -9606,7 +9606,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDE79D4)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDE79D4)
     (at 134.125 87.625 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -9640,7 +9640,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:FT4232HQ (layer F.Cu) (tedit 5FC2F0B3) (tstamp 5FCA5C9E)
+  (module datacenter-dram-tester-footprints:FT4232HQ (layer F.Cu) (tedit 5FC2F0B3) (tstamp 5FCA5C9E)
     (at 141.25 107.625 90)
     (descr "QFN, 64 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/60001477A.pdf (page 1083)), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py")
     (tags "QFN DFN_QFN")
@@ -9851,7 +9851,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:VSSOP8-Texas_Instruments-DGK0008A (layer F.Cu) (tedit 5FCA1CC5) (tstamp 5FD185F7)
+  (module datacenter-dram-tester-footprints:VSSOP8-Texas_Instruments-DGK0008A (layer F.Cu) (tedit 5FCA1CC5) (tstamp 5FD185F7)
     (at 138.125 95.5)
     (path /60225B0C/5FE68F88)
     (fp_text reference U10 (at 0.661328 -2.252843) (layer F.SilkS)
@@ -9897,7 +9897,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:QFN-8_2x1mm (layer F.Cu) (tedit 5DC1A3A6) (tstamp 5FD26C92)
+  (module datacenter-dram-tester-footprints:QFN-8_2x1mm (layer F.Cu) (tedit 5DC1A3A6) (tstamp 5FD26C92)
     (at 132.875 89.875)
     (descr "DFN8 2x2, 0.5P; No exposed pad - Ref http://pdfserv.maximintegrated.com/land_patterns/90-0349.PDF")
     (tags "DFN 0.5")
@@ -9945,7 +9945,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FEF5C3A)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FEF5C3A)
     (at 142.5 96.875)
     (path /60225B0C/5FF04F72)
     (attr virtual)
@@ -9959,7 +9959,7 @@
       (net 202 /Supply/VCC_IO_EN))
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FD17F5C)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FD17F5C)
     (at 142.625 95.25)
     (path /60225B0C/5FF061AA)
     (attr virtual)
@@ -9973,7 +9973,7 @@
       (net 201 /Supply/VCC_AUX_EN))
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FD17F57)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FD17F57)
     (at 142.625 93.8008)
     (path /60225B0C/5FF0650C)
     (attr virtual)
@@ -9987,7 +9987,7 @@
       (net 200 /Supply/VCC_INT_EN))
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD17A5A)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD17A5A)
     (at 136.5 98.25)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10021,7 +10021,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179BF)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179BF)
     (at 131.875 84.375 90)
     (path /60225B0C/5FE2EB23)
     (attr smd)
@@ -10056,7 +10056,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179AB)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD179AB)
     (at 134.125 85 180)
     (path /60225B0C/5FE2DA05)
     (attr smd)
@@ -10091,7 +10091,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD17997)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FD17997)
     (at 137.375 86.125 180)
     (path /60225B0C/5FDF82D8)
     (attr smd)
@@ -10126,7 +10126,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402 (layer F.Cu) (tedit 5E68CD62) (tstamp 5FD17983)
+  (module datacenter-dram-tester-footprints:0402 (layer F.Cu) (tedit 5E68CD62) (tstamp 5FD17983)
     (at 115 110.5 180)
     (path /60225B0C/5FE39D9C)
     (attr smd)
@@ -10147,7 +10147,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD5130C)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD5130C)
     (at 115.875 108.89 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10181,7 +10181,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:IHLP-1212AE (layer F.Cu) (tedit 5FB297A9) (tstamp 5FD29680)
+  (module datacenter-dram-tester-footprints:IHLP-1212AE (layer F.Cu) (tedit 5FB297A9) (tstamp 5FD29680)
     (at 136.625 89 90)
     (path /60225B0C/5FDF828A)
     (attr smd)
@@ -10202,7 +10202,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD1683C)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD1683C)
     (at 136.5 93)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10236,7 +10236,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD1682D)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD1682D)
     (at 139.5 98.25)
     (path /60225B0C/5FEE4E91)
     (attr smd)
@@ -10271,7 +10271,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD16819)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FD16819)
     (at 134.125 86.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10305,7 +10305,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD1680A)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD1680A)
     (at 134.125 83.5 180)
     (path /60225B0C/5FDF82C8)
     (attr smd)
@@ -10340,7 +10340,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD29723)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD29723)
     (at 132.75 92.375 180)
     (path /60225B0C/5FE45523)
     (attr smd)
@@ -10375,7 +10375,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDAB6B0)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDAB6B0)
     (at 118.875 96.125 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10409,7 +10409,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:WSON-10_4x4 (layer F.Cu) (tedit 5FC4FB19) (tstamp 5FC7FDB2)
+  (module datacenter-dram-tester-footprints:WSON-10_4x4 (layer F.Cu) (tedit 5FC4FB19) (tstamp 5FC7FDB2)
     (at 114.286328 114.422157)
     (path /60225B0C/602D964D)
     (attr smd)
@@ -10448,7 +10448,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:KEMET_A (layer F.Cu) (tedit 5EDA24BB) (tstamp 5FD02CA0)
+  (module datacenter-dram-tester-footprints:KEMET_A (layer F.Cu) (tedit 5EDA24BB) (tstamp 5FD02CA0)
     (at 139.625 86.125)
     (path /600295C1/6517E142)
     (fp_text reference C20 (at 2.661328 1.372157) (layer F.SilkS)
@@ -10471,7 +10471,7 @@
       (net 194 1V0_SYS))
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FCA2613)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FCA2613)
     (at 113.125 108.75)
     (path /60225B0C/5FD15A52)
     (attr smd)
@@ -10506,7 +10506,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FCB5C9C)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FCB5C9C)
     (at 128.536328 102.947157 270)
     (path /60225B0C/5FDBEC32)
     (attr smd)
@@ -10541,7 +10541,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 6002A61F)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 6002A61F)
     (at 112.661328 88.247157 90)
     (path /60225B0C/5FDAEBDB)
     (attr smd)
@@ -10576,7 +10576,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FCABC1D)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FCABC1D)
     (at 123.786328 88.247157 90)
     (path /60225B0C/5FDA5C63)
     (attr smd)
@@ -10611,7 +10611,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCA3F2E)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCA3F2E)
     (at 128.411328 88.122157 90)
     (path /60225B0C/5FD8D44D)
     (attr smd)
@@ -10646,7 +10646,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FC9F66C)
+  (module datacenter-dram-tester-footprints:0603-res (layer F.Cu) (tedit 5D5D3E92) (tstamp 5FC9F66C)
     (at 120.911328 88.247157 90)
     (path /60225B0C/5FD73258)
     (attr smd)
@@ -10681,7 +10681,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC8DF75)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC8DF75)
     (at 126.286328 99.497157 270)
     (path /60225B0C/5FCD598A)
     (attr smd)
@@ -10716,7 +10716,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC8DF3B)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC8DF3B)
     (at 124.661328 99.497157 270)
     (path /60225B0C/5FCD7977)
     (attr smd)
@@ -10751,7 +10751,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC90626)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC90626)
     (at 123.036328 99.497157 270)
     (path /60225B0C/5FCD6C58)
     (attr smd)
@@ -10786,7 +10786,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:KX-7 (layer F.Cu) (tedit 5D7218CB) (tstamp 5FC726A7)
+  (module datacenter-dram-tester-footprints:KX-7 (layer F.Cu) (tedit 5D7218CB) (tstamp 5FC726A7)
     (at 135.161328 116.622157 270)
     (path /600E76D8/61D2EA50)
     (attr smd)
@@ -10820,7 +10820,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC785D5)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC785D5)
     (at 133.911328 105.872157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10854,7 +10854,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC782B6)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC782B6)
     (at 133.911328 102.622157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10888,7 +10888,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC782A7)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC782A7)
     (at 141.411328 100.247157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10922,7 +10922,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC78298)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC78298)
     (at 142.536328 100.247157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10956,7 +10956,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC78289)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC78289)
     (at 148.036328 102.122157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -10990,7 +10990,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC87986)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC87986)
     (at 148.036328 104.372157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11024,7 +11024,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7826B)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7826B)
     (at 148.036328 105.497157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11058,7 +11058,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7825C)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7825C)
     (at 148.036328 106.622157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11092,7 +11092,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7824D)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7824D)
     (at 148.051328 107.747157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11126,7 +11126,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D61858)
+  (module datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D61858)
     (at 245.836328 80.497157 90)
     (path /600E76D8/5FCB7E4F)
     (attr smd)
@@ -11167,7 +11167,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61825)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61825)
     (at 245.236328 84.197157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11201,7 +11201,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5D8A)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5D8A)
     (at 148.056328 109.832157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11235,7 +11235,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5DB4)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5DB4)
     (at 148.056328 110.907157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11269,7 +11269,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5DDE)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5DDE)
     (at 148.056328 111.982157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11303,7 +11303,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5E08)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA5E08)
     (at 148.036328 113.122157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11337,7 +11337,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm (layer F.Cu) (tedit 5A4528F9) (tstamp 5FC51A75)
+  (module datacenter-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm (layer F.Cu) (tedit 5A4528F9) (tstamp 5FC51A75)
     (at 120.911328 83.747157 180)
     (path /60225B0C/603FC14E)
     (fp_text reference J10 (at -2.525 -1.1) (layer F.SilkS)
@@ -11370,7 +11370,7 @@
       (net 190 1V1_SYS))
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC9515D)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC9515D)
     (at 117.166328 108.932157 270)
     (path /60225B0C/60B43827)
     (attr smd)
@@ -11405,7 +11405,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D617FB)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D617FB)
     (at 241.236328 84.197157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11439,7 +11439,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D617D1)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D617D1)
     (at 237.236328 84.197157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11473,7 +11473,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D617A7)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D617A7)
     (at 233.236328 84.197157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11507,7 +11507,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D6176B)
+  (module datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D6176B)
     (at 241.436328 80.447157 90)
     (path /600E76D8/5FE766D1)
     (attr smd)
@@ -11548,7 +11548,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D61726)
+  (module datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D61726)
     (at 237.036328 80.447157 90)
     (path /600E76D8/5FCEBF82)
     (attr smd)
@@ -11589,7 +11589,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D616E1)
+  (module datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D616E1)
     (at 232.636328 80.447157 90)
     (path /600E76D8/5FDD28F9)
     (attr smd)
@@ -11630,7 +11630,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:PinHeader_2x7_P2mm_Drill1mm (layer F.Cu) (tedit 5FBFCDAC) (tstamp 5FD667D0)
+  (module datacenter-dram-tester-footprints:PinHeader_2x7_P2mm_Drill1mm (layer F.Cu) (tedit 5FBFCDAC) (tstamp 5FD667D0)
     (at 254.661328 88.297157 270)
     (path /5FD53C7D/617E9509)
     (fp_text reference J1 (at -15.226 3.625 180) (layer F.SilkS)
@@ -11693,7 +11693,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD3B2A0)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD3B2A0)
     (at 202.454 115.731 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11727,7 +11727,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1273D)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1273D)
     (at 204.4225 117.001 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11761,7 +11761,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1272E)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1272E)
     (at 215.789 119.541)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11795,7 +11795,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D618A0)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D618A0)
     (at 237.986328 97.220008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11829,7 +11829,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD124E5)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD124E5)
     (at 204.359 111.667 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11863,7 +11863,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61684)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61684)
     (at 254.186328 105.720008 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11897,7 +11897,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D6165A)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D6165A)
     (at 242.886328 99.120008 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11931,7 +11931,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61630)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61630)
     (at 242.886328 97.320008 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11965,7 +11965,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD12455)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD12455)
     (at 204.4225 118.271 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -11999,7 +11999,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 600C9AB8)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 600C9AB8)
     (at 215.789 117.001)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12033,7 +12033,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD13C8A)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD13C8A)
     (at 215.789 118.271)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12067,7 +12067,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD12428)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD12428)
     (at 204.4225 115.731 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12101,7 +12101,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD12419)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD12419)
     (at 202.454 118.271)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12135,7 +12135,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1240A)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1240A)
     (at 218.456 117.001 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12169,7 +12169,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61606)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61606)
     (at 243.586328 91.820008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12203,7 +12203,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D615DC)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D615DC)
     (at 244.686328 91.820008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12237,7 +12237,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D615B2)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D615B2)
     (at 246.886328 91.820008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12271,7 +12271,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1232E)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FD1232E)
     (at 205.375 111.667 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12305,7 +12305,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61588)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61588)
     (at 245.786328 91.820008 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12339,7 +12339,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D6156E)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D6156E)
     (at 240.186328 97.220008)
     (path /5FD53C7D/610AEC42)
     (attr smd)
@@ -12362,7 +12362,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D61534)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D61534)
     (at 245.786328 99.120008 180)
     (path /5FD53C7D/610AEC34)
     (attr smd)
@@ -12404,7 +12404,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D614E6)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D614E6)
     (at 245.786328 97.320008 180)
     (path /5FD53C7D/610AEC17)
     (attr smd)
@@ -12446,7 +12446,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC92FC1)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC92FC1)
     (at 126.786328 88.122157 90)
     (path /60225B0C/5FE70DF3)
     (attr smd)
@@ -12481,7 +12481,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D51F73)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D51F73)
     (at 153.639171 124.074485)
     (path /60225B0C/607F0796)
     (attr smd)
@@ -12523,7 +12523,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC800E4)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC800E4)
     (at 121.536328 102.747157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12557,7 +12557,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC800B3)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC800B3)
     (at 119.411328 115.497157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12591,7 +12591,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC800A0)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC800A0)
     (at 126.915171 102.893829 90)
     (path /60225B0C/60349A43)
     (attr smd)
@@ -12626,7 +12626,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC8007C)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC8007C)
     (at 115.911328 97.372157 180)
     (path /60225B0C/5FED6DC8)
     (attr smd)
@@ -12661,7 +12661,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC8005E)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC8005E)
     (at 121.5 110 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12695,7 +12695,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCE86B2)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCE86B2)
     (at 118.411328 116.622157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12729,7 +12729,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC80021)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC80021)
     (at 119.411328 114.497157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12763,7 +12763,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FFFF)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FFFF)
     (at 110.286328 114.872157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12797,7 +12797,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FFC4)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FFC4)
     (at 116.661328 102.497157 180)
     (path /60225B0C/6003214B)
     (attr smd)
@@ -12832,7 +12832,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FFBC)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FFBC)
     (at 135 101.125)
     (path /60225B0C/6026C4D0)
     (attr virtual)
@@ -12846,7 +12846,7 @@
       (net 188 3V3_SYS))
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D51F3D)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D51F3D)
     (at 153.889171 125.574485 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12880,7 +12880,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FF8B)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FF8B)
     (at 128.536328 98.997157 180)
     (path /60225B0C/60212554)
     (attr virtual)
@@ -12894,7 +12894,7 @@
       (net 115 VCC5V0))
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCEDFB2)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCEDFB2)
     (at 116.036328 90.622157 180)
     (path /60225B0C/5FEE2019)
     (attr smd)
@@ -12929,7 +12929,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FF4D)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FF4D)
     (at 118.411328 117.747157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -12963,7 +12963,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FF24)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FF24)
     (at 109.786328 113.622157 90)
     (path /60225B0C/6C3554ED)
     (attr virtual)
@@ -12977,7 +12977,7 @@
       (net 223 /Supply/SYS_EN))
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FF16)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FF16)
     (at 115.661328 100.747157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13011,7 +13011,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FEDB)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FEDB)
     (at 110.875 110.5 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13045,7 +13045,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FEAB)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FEAB)
     (at 119.911328 96.122157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13079,7 +13079,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FE8F)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FE8F)
     (at 117.911328 114.997157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13113,7 +13113,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FE67)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FE67)
     (at 119.536328 102.497157)
     (path /60225B0C/5FFE9E64)
     (attr smd)
@@ -13148,7 +13148,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:DC_SOCKET (layer F.Cu) (tedit 5EB2D0B5) (tstamp 5FC7FE41)
+  (module datacenter-dram-tester-footprints:DC_SOCKET (layer F.Cu) (tedit 5EB2D0B5) (tstamp 5FC7FE41)
     (at 118.375 136.125)
     (path /60225B0C/607A5F4D)
     (fp_text reference J3 (at 4.261328 -15.277843) (layer F.SilkS)
@@ -13181,7 +13181,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FDED)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FDED)
     (at 116.4 99.1 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13215,7 +13215,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCB1B8B)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCB1B8B)
     (at 116.661328 103.997157 180)
     (path /60225B0C/60031E10)
     (attr smd)
@@ -13250,7 +13250,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FD26)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FD26)
     (at 125.415171 102.893829 90)
     (path /60225B0C/603492A6)
     (attr smd)
@@ -13285,7 +13285,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCEDF79)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FCEDF79)
     (at 116.036328 89.122157 180)
     (path /60225B0C/5FEEDD12)
     (attr smd)
@@ -13320,7 +13320,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FCB9)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FCB9)
     (at 123.786328 102.893829 90)
     (path /60225B0C/60349D0A)
     (attr smd)
@@ -13355,7 +13355,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FC9A)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FC9A)
     (at 120 90.375)
     (path /60225B0C/602C252D)
     (attr virtual)
@@ -13369,7 +13369,7 @@
       (net 79 VDD1V1))
   )
 
-  (module ddr4-datacenter-tester-footprints:QFN-8_2x1mm (layer F.Cu) (tedit 5DC1A3A6) (tstamp 5FC7FC7F)
+  (module datacenter-dram-tester-footprints:QFN-8_2x1mm (layer F.Cu) (tedit 5DC1A3A6) (tstamp 5FC7FC7F)
     (at 119.536328 109.497157 90)
     (descr "DFN8 2x2, 0.5P; No exposed pad - Ref http://pdfserv.maximintegrated.com/land_patterns/90-0349.PDF")
     (tags "DFN 0.5")
@@ -13417,7 +13417,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:VQFN-HR (layer F.Cu) (tedit 5FAEBCB1) (tstamp 5FC7FC62)
+  (module datacenter-dram-tester-footprints:VQFN-HR (layer F.Cu) (tedit 5FAEBCB1) (tstamp 5FC7FC62)
     (at 119.604 100.64)
     (path /60225B0C/5FBE8E3F)
     (fp_text reference U4 (at 2.596 -2.84) (layer F.SilkS)
@@ -13478,7 +13478,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:INDC3225X120N (layer F.Cu) (tedit 5FB2A1C8) (tstamp 5FC7FC4F)
+  (module datacenter-dram-tester-footprints:INDC3225X120N (layer F.Cu) (tedit 5FB2A1C8) (tstamp 5FC7FC4F)
     (at 119.036328 93.247157 180)
     (path /60225B0C/60328362)
     (fp_text reference L2 (at 1.136328 2.047157 180) (layer F.SilkS)
@@ -13508,7 +13508,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FC4B)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FC4B)
     (at 125.5 89.9492 180)
     (path /60225B0C/602C0646)
     (attr virtual)
@@ -13522,7 +13522,7 @@
       (net 119 VDD1V8))
   )
 
-  (module ddr4-datacenter-tester-footprints:IHLP-1212AE (layer F.Cu) (tedit 5FB297A9) (tstamp 5FC7FC43)
+  (module datacenter-dram-tester-footprints:IHLP-1212AE (layer F.Cu) (tedit 5FB297A9) (tstamp 5FC7FC43)
     (at 120.411328 105.747157 90)
     (path /60225B0C/602421C5)
     (attr smd)
@@ -13543,7 +13543,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FC3D)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm (layer F.Cu) (tedit 5E4A935B) (tstamp 5FC7FC3D)
     (at 115.286328 86.946357 180)
     (path /60225B0C/602C27EC)
     (attr virtual)
@@ -13557,7 +13557,7 @@
       (net 80 VDD0V6))
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FC2D)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FC2D)
     (at 112.875 110.5)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13591,7 +13591,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:WE_7447798720 (layer F.Cu) (tedit 5EB2B67E) (tstamp 5FC7FC28)
+  (module datacenter-dram-tester-footprints:WE_7447798720 (layer F.Cu) (tedit 5EB2B67E) (tstamp 5FC7FC28)
     (at 126.911328 113.872157 90)
     (path /60225B0C/602EF283)
     (attr smd)
@@ -13612,7 +13612,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:PDS760-13 (layer F.Cu) (tedit 5F994A85) (tstamp 5FC7FC22)
+  (module datacenter-dram-tester-footprints:PDS760-13 (layer F.Cu) (tedit 5F994A85) (tstamp 5FC7FC22)
     (at 127.5 123.247157 270)
     (path /60225B0C/6030A796)
     (attr smd)
@@ -13635,7 +13635,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:IHLP2020BZER4R7M01 (layer F.Cu) (tedit 5FB29F35) (tstamp 5FC7FC01)
+  (module datacenter-dram-tester-footprints:IHLP2020BZER4R7M01 (layer F.Cu) (tedit 5FB29F35) (tstamp 5FC7FC01)
     (at 125.661328 94.497157)
     (path /60225B0C/6030F1D7)
     (fp_text reference L1 (at 3.938672 -2.497157) (layer F.SilkS)
@@ -13688,7 +13688,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FBC8)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FBC8)
     (at 115.911328 95.872157 180)
     (path /60225B0C/5FECB0DA)
     (attr smd)
@@ -13723,7 +13723,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FBB6)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FBB6)
     (at 120.411328 116.622157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13757,7 +13757,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FBA2)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FC7FBA2)
     (at 118.75 88.125 90)
     (path /60225B0C/60014B32)
     (attr smd)
@@ -13792,7 +13792,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FB91)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC7FB91)
     (at 110.286328 115.997157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13826,7 +13826,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FB42)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FB42)
     (at 115.286328 99.122157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13860,7 +13860,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FB34)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC7FB34)
     (at 114.411328 111.872157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -13894,7 +13894,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD59AEB)
+  (module datacenter-dram-tester-footprints:0603-cap (layer F.Cu) (tedit 5D5E94D2) (tstamp 5FD59AEB)
     (at 207.026 132.368 90)
     (path /600E76D8/617CD12F)
     (attr smd)
@@ -13929,7 +13929,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D614C0)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D614C0)
     (at 240.186328 99.320008)
     (path /5FD53C7D/610AEC4A)
     (attr smd)
@@ -13952,7 +13952,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:MicroSD_1140084168 (layer B.Cu) (tedit 5EF0CD07) (tstamp 5FDABFCC)
+  (module datacenter-dram-tester-footprints:MicroSD_1140084168 (layer B.Cu) (tedit 5EF0CD07) (tstamp 5FDABFCC)
     (at 206.772 127.669 180)
     (path /600E76D8/602D3498)
     (attr smd)
@@ -14005,7 +14005,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D614AE)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D614AE)
     (at 247.236328 87.197157 90)
     (path /600E76D8/60922535)
     (attr smd)
@@ -14028,7 +14028,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D6149C)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D6149C)
     (at 243.236328 87.197157 90)
     (path /600E76D8/6092108D)
     (attr smd)
@@ -14051,7 +14051,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D6148A)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D6148A)
     (at 235.236328 87.197157 90)
     (path /600E76D8/6091F8AC)
     (attr smd)
@@ -14074,7 +14074,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D61478)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D61478)
     (at 239.236328 87.197157 90)
     (path /600E76D8/60923B88)
     (attr smd)
@@ -14097,7 +14097,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D61466)
+  (module datacenter-dram-tester-footprints:SC70-3 (layer F.Cu) (tedit 5F560209) (tstamp 60D61466)
     (at 231.236328 87.197157 90)
     (path /600E76D8/6090FD8D)
     (attr smd)
@@ -14120,7 +14120,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:TPD6E05U06 (layer B.Cu) (tedit 5F353EF4) (tstamp 60D6142C)
+  (module datacenter-dram-tester-footprints:TPD6E05U06 (layer B.Cu) (tedit 5F353EF4) (tstamp 60D6142C)
     (at 248.986328 82.920008 90)
     (path /5FD53C7D/5FCF46CA)
     (attr smd)
@@ -14174,7 +14174,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D613F6)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D613F6)
     (at 247.236328 84.197157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14208,7 +14208,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D613CC)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D613CC)
     (at 243.236328 84.197157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14242,7 +14242,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D613A2)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D613A2)
     (at 235.236328 84.197157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14276,7 +14276,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61378)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61378)
     (at 239.236328 84.197157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14310,7 +14310,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D6134E)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D6134E)
     (at 231.236328 84.197157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14344,7 +14344,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D6130C)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D6130C)
     (at 248.986328 76.520008 180)
     (path /600E76D8/6003D8E6)
     (attr smd)
@@ -14386,7 +14386,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D612BE)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D612BE)
     (at 245.386328 76.520008 180)
     (path /600E76D8/600304CA)
     (attr smd)
@@ -14428,7 +14428,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D61270)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D61270)
     (at 236.886328 76.520008 180)
     (path /600E76D8/60022424)
     (attr smd)
@@ -14470,7 +14470,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D61222)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D61222)
     (at 241.086328 76.520008 180)
     (path /600E76D8/60050B21)
     (attr smd)
@@ -14512,7 +14512,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D611D4)
+  (module datacenter-dram-tester-footprints:LED_0603 (layer F.Cu) (tedit 5D5D41B0) (tstamp 60D611D4)
     (at 232.686328 76.520008 180)
     (path /600E76D8/5FF856A4)
     (attr smd)
@@ -14554,7 +14554,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FB79474)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FB79474)
     (at 215.789 115.731)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14588,7 +14588,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:HDMI_A_Female_685119134923 locked (layer F.Cu) (tedit 5DB062DB) (tstamp 60D53B3C)
+  (module datacenter-dram-tester-footprints:HDMI_A_Female_685119134923 locked (layer F.Cu) (tedit 5DB062DB) (tstamp 60D53B3C)
     (at 186.14 126.18 180)
     (descr http://media.digikey.com/pdf/Data%20Sheets/CNC%20Tech%20PDFs/HDMI_A_Female_2000-1-2-41-00-BK_Dwg.pdf)
     (path /600E76D8/60121133)
@@ -14672,7 +14672,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:R-PDSO-N15 locked (layer F.Cu) (tedit 5D9EF6A7) (tstamp 60D53AE0)
+  (module datacenter-dram-tester-footprints:R-PDSO-N15 locked (layer F.Cu) (tedit 5D9EF6A7) (tstamp 60D53AE0)
     (at 187.86 120.43 180)
     (path /600E76D8/601C2CA9)
     (attr smd)
@@ -14725,7 +14725,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53AC0)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53AC0)
     (at 180.5848 121.16 90)
     (path /600E76D8/601A2D01)
     (attr virtual)
@@ -14739,7 +14739,7 @@
       (net 51 "Net-(J6-Pad18)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53AB4)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53AB4)
     (at 181.534 119.16 90)
     (path /600E76D8/601A27EB)
     (attr virtual)
@@ -14753,7 +14753,7 @@
       (net 52 "Net-(J6-Pad16)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53AA8)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53AA8)
     (at 179.5848 119.16 90)
     (path /600E76D8/601A17D2)
     (attr virtual)
@@ -14767,7 +14767,7 @@
       (net 50 "Net-(J6-Pad19)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53A9C)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53A9C)
     (at 182.534 121.16 90)
     (path /600E76D8/601A166D)
     (attr virtual)
@@ -14781,7 +14781,7 @@
       (net 53 "Net-(J6-Pad15)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53A90)
+  (module datacenter-dram-tester-footprints:Testpoint_smd_1mm locked (layer F.Cu) (tedit 5E4A935B) (tstamp 60D53A90)
     (at 183.0608 119.16 90)
     (path /600E76D8/601A0591)
     (attr virtual)
@@ -14795,7 +14795,7 @@
       (net 54 "Net-(J6-Pad13)"))
   )
 
-  (module ddr4-datacenter-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D6118C)
+  (module datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P (layer F.Cu) (tedit 5E8B1C8F) (tstamp 60D6118C)
     (at 253.693336 108.92168 270)
     (path /5FD53C7D/60F9F4E1)
     (attr smd)
@@ -14836,7 +14836,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53A70)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53A70)
     (at 190.659 115.477 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14870,7 +14870,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53A46)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53A46)
     (at 189.643 115.477 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14904,7 +14904,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53A1C)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53A1C)
     (at 189.104 113.05 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14938,7 +14938,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D539F2)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D539F2)
     (at 188.094 113.05 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -14972,7 +14972,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D539C8)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D539C8)
     (at 187.584 115.35 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15006,7 +15006,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D5399E)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D5399E)
     (at 186.559 115.35 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15040,7 +15040,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53974)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D53974)
     (at 186.084 113.135 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15074,7 +15074,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D5394A)
+  (module datacenter-dram-tester-footprints:0402-res locked (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D5394A)
     (at 185.059 113.135 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15108,7 +15108,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA87B7)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA87B7)
     (at 203.597 130.082 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15142,7 +15142,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA878D)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA878D)
     (at 204.74 130.082 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15176,7 +15176,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA8763)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA8763)
     (at 210.836 124.113 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15210,7 +15210,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCB0380)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCB0380)
     (at 205.756 130.082 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15244,7 +15244,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCB032E)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCB032E)
     (at 208.169 130.082 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15278,7 +15278,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA86E5)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA86E5)
     (at 210.201 130.082 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15312,7 +15312,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCB03E0)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCB03E0)
     (at 211.344 130.082 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15346,7 +15346,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA8691)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FDA8691)
     (at 209.693 124.113 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15380,7 +15380,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC6D95D)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FC6D95D)
     (at 145.046328 114.597157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15414,7 +15414,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA6030)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FCA6030)
     (at 139.776328 114.627157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15448,7 +15448,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FB77E84)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FB77E84)
     (at 218.5 119.375)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15482,7 +15482,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FB77E5A)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 5FB77E5A)
     (at 218.456 118.271 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15516,7 +15516,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61159)
+  (module datacenter-dram-tester-footprints:0402-res (layer F.Cu) (tedit 5D5E98EC) (tstamp 60D61159)
     (at 237.986328 99.220008 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15550,7 +15550,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603 (layer F.Cu) (tedit 5E68CDA5) (tstamp 5FC73FBC)
+  (module datacenter-dram-tester-footprints:0603 (layer F.Cu) (tedit 5E68CDA5) (tstamp 5FC73FBC)
     (at 138.271328 125.977157 180)
     (path /600E76D8/6002DC37)
     (attr smd)
@@ -15571,7 +15571,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603 (layer F.Cu) (tedit 5E68CDA5) (tstamp 5FCA6018)
+  (module datacenter-dram-tester-footprints:0603 (layer F.Cu) (tedit 5E68CDA5) (tstamp 5FCA6018)
     (at 138.786328 117.497157 90)
     (path /600E76D8/5FFB9ED1)
     (attr smd)
@@ -15592,7 +15592,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0603 (layer F.Cu) (tedit 5E68CDA5) (tstamp 5FCE3327)
+  (module datacenter-dram-tester-footprints:0603 (layer F.Cu) (tedit 5E68CDA5) (tstamp 5FCE3327)
     (at 142.306328 116.527157 180)
     (path /600E76D8/5FFBA238)
     (attr smd)
@@ -15613,7 +15613,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:SOT-3 (layer F.Cu) (tedit 5DF0CA86) (tstamp 5FC73F85)
+  (module datacenter-dram-tester-footprints:SOT-3 (layer F.Cu) (tedit 5DF0CA86) (tstamp 5FC73F85)
     (at 140.881328 125.867157)
     (descr http://www.ti.com/lit/ds/symlink/tpd2eusb30.pdf)
     (path /600E76D8/6003C213)
@@ -15658,7 +15658,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5FF7)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5FF7)
     (at 143.991328 114.602157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15692,7 +15692,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDAAC3F)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDAAC3F)
     (at 133.936328 103.752157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15726,7 +15726,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC6E81D)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC6E81D)
     (at 134.236328 111.897157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15760,7 +15760,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5FCD)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5FCD)
     (at 143.661328 100.212157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15794,7 +15794,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5FA3)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5FA3)
     (at 148.661328 108.782157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15828,7 +15828,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCE34C5)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCE34C5)
     (at 137.536328 117.372157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15862,7 +15862,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FEF5C64)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FEF5C64)
     (at 140.161328 100.212157 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15896,7 +15896,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5F25)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5F25)
     (at 148.661328 103.247157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15930,7 +15930,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5EFB)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5EFB)
     (at 132.661328 115.997157 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15964,7 +15964,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC59EE2)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FC59EE2)
     (at 138.286328 115.108157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -15998,7 +15998,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDAAB6D)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDAAB6D)
     (at 133.936328 104.832157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -16032,7 +16032,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA7DC3)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA7DC3)
     (at 142.066328 114.157157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -16066,7 +16066,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5ED1)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA5ED1)
     (at 133.946328 107.407157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -16100,7 +16100,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDAAAEF)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FDAAAEF)
     (at 138.286328 113.969157 180)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -16134,7 +16134,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA62A2)
+  (module datacenter-dram-tester-footprints:0402-cap (layer F.Cu) (tedit 5D5E9295) (tstamp 5FCA62A2)
     (at 142.066328 115.237157)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
@@ -16168,7 +16168,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:S25FL128SAGNFI000 (layer F.Cu) (tedit 5F97DF96) (tstamp 5FB76B4C)
+  (module datacenter-dram-tester-footprints:S25FL128SAGNFI000 (layer F.Cu) (tedit 5F97DF96) (tstamp 5FB76B4C)
     (at 210.074 117.636)
     (path /5FD53C7D/5FEAD4EA)
     (fp_text reference U3 (at -1.974 -3.536) (layer F.SilkS)
@@ -16243,7 +16243,7 @@
     )
   )
 
-  (module ddr4-datacenter-tester-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 5FC73F10)
+  (module datacenter-dram-tester-footprints:USB_Micro_B_Female_629105150521 (layer F.Cu) (tedit 5E73804D) (tstamp 5FC73F10)
     (at 141.236328 131.747157)
     (descr "USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf")
     (tags "usb micro receptacle")
