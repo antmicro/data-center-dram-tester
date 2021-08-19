@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 10
-Title "Datacenter DRAM Tester"
+Title "Data Center DRAM Tester"
 Date "2021-08"
 Rev "1.0.0"
 Comp "Antmicro Ltd."
@@ -57,12 +57,12 @@ Connection ~ 2925 2400
 Wire Wire Line
 	2925 2400 2925 2200
 $Comp
-L datacenter-dram-tester:BLM18AG601SN1D FB5
+L data-center-dram-tester:BLM18AG601SN1D FB5
 U 1 1 5FFB9ED1
 P 1375 3300
 F 0 "FB5" H 1300 3475 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 1950 3375 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:0603" H 1575 3500 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603" H 1575 3500 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 1575 3600 60  0001 L CNN
 F 4 "BLM18AG601SN1D" H 1575 3800 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 1575 4400 60  0001 L CNN "Manufacturer"
@@ -70,12 +70,12 @@ F 5 "Murata Electronics North America" H 1575 4400 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:BLM18AG601SN1D FB4
+L data-center-dram-tester:BLM18AG601SN1D FB4
 U 1 1 5FFBA238
 P 1125 3400
 F 0 "FB4" H 1075 3550 60  0000 C CNN
 F 1 "BLM18AG601SN1D" H 950 3250 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:0603" H 1325 3600 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603" H 1325 3600 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 1325 3700 60  0001 L CNN
 F 4 "BLM18AG601SN1D" H 1325 3900 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 1325 4500 60  0001 L CNN "Manufacturer"
@@ -85,12 +85,12 @@ $EndComp
 Wire Wire Line
 	1575 3300 1650 3300
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C185
+L data-center-dram-tester:C_100n_0402_6V3 C185
 U 1 1 5FFBFABB
 P 1650 3650
 F 0 "C185" H 1675 3750 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1650 3500 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 1850 3850 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 1850 3850 60  0001 L CNN
 F 3 "" H 1650 3650 50  0001 C CNN
 F 4 "Walsin" H 1850 4050 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1850 3950 60  0001 L CNN "MPN"
@@ -99,12 +99,12 @@ F 6 "100n" H 1650 3550 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_4u7_0402 C189
+L data-center-dram-tester:C_4u7_0402 C189
 U 1 1 5FFC21B8
 P 2200 3675
 F 0 "C189" H 2225 3775 60  0000 L CNN
 F 1 "C_4u7_0402" H 2200 3525 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 2400 3875 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 2400 3875 60  0001 L CNN
 F 3 "" H 2200 3675 50  0001 C CNN
 F 4 "MURATA" H 2400 4075 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 2400 3975 60  0001 L CNN "MPN"
@@ -113,12 +113,12 @@ F 6 "4u7" H 2225 3575 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C184
+L data-center-dram-tester:C_100n_0402_6V3 C184
 U 1 1 5FFC3EC6
 P 1375 3900
 F 0 "C184" H 1400 4000 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 1375 3750 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 1575 4100 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 1575 4100 60  0001 L CNN
 F 3 "" H 1375 3900 50  0001 C CNN
 F 4 "Walsin" H 1575 4300 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 1575 4200 60  0001 L CNN "MPN"
@@ -127,12 +127,12 @@ F 6 "100n" H 1375 3800 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_4u7_0402 C187
+L data-center-dram-tester:C_4u7_0402 C187
 U 1 1 5FFC3ECF
 P 1925 3900
 F 0 "C187" H 1950 4000 60  0000 L CNN
 F 1 "C_4u7_0402" H 1925 3750 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 2125 4100 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 2125 4100 60  0001 L CNN
 F 3 "" H 1925 3900 50  0001 C CNN
 F 4 "MURATA" H 2125 4300 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 2125 4200 60  0001 L CNN "MPN"
@@ -167,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3825 2200 4100
 $Comp
-L datacenter-dram-tester:GND #PWR0211
+L data-center-dram-tester:GND #PWR0211
 U 1 1 5FFCA2EE
 P 1375 4250
 F 0 "#PWR0211" H 1375 4000 50  0001 C CNN
@@ -197,12 +197,12 @@ Wire Wire Line
 Wire Wire Line
 	3175 3900 2900 3900
 $Comp
-L datacenter-dram-tester:R_12k_0402 R129
+L data-center-dram-tester:R_12k_0402 R129
 U 1 1 5FFD3938
 P 2925 4100
 F 0 "R129" H 2875 4200 60  0000 C CNN
 F 1 "R_12k_0402" H 2925 3950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 3125 4300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 3125 4300 60  0001 L CNN
 F 3 "" H 2925 4100 50  0001 C CNN
 F 4 "VISHAY" H 3125 4500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040212K0FKEDHP" H 3125 4400 60  0001 L CNN "MPN"
@@ -215,7 +215,7 @@ Wire Wire Line
 Wire Wire Line
 	2775 4100 2575 4100
 $Comp
-L datacenter-dram-tester:GND #PWR0212
+L data-center-dram-tester:GND #PWR0212
 U 1 1 5FFD519E
 P 2575 4100
 F 0 "#PWR0212" H 2575 3850 50  0001 C CNN
@@ -226,12 +226,12 @@ F 3 "" H 2575 4100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_10k_0402 R130
+L data-center-dram-tester:R_10k_0402 R130
 U 1 1 5FFD6C0C
 P 2925 4400
 F 0 "R130" H 2875 4500 60  0000 C CNN
 F 1 "R_10k_0402" H 2925 4250 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 3125 4600 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 3125 4600 60  0001 L CNN
 F 3 "" H 2925 4400 50  0001 C CNN
 F 4 "VISHAY" H 3125 4800 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3125 4700 60  0001 L CNN "MPN"
@@ -248,12 +248,12 @@ Wire Wire Line
 Wire Wire Line
 	2875 5400 2875 5550
 $Comp
-L datacenter-dram-tester:C_18p_0402 C190
+L data-center-dram-tester:C_18p_0402 C190
 U 1 1 5FFDD1FF
 P 2075 5950
 F 0 "C190" H 2100 6050 60  0000 L CNN
 F 1 "C_18p_0402" H 2075 5800 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 2275 6150 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 2275 6150 60  0001 L CNN
 F 3 "" H 2075 5950 50  0001 C CNN
 F 4 "MULTICOMP" H 2275 6350 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N180J500CT" H 2275 6250 60  0001 L CNN "MPN"
@@ -262,12 +262,12 @@ F 6 "18p" H 2100 5850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_18p_0402 C193
+L data-center-dram-tester:C_18p_0402 C193
 U 1 1 5FFDD6CC
 P 2875 5950
 F 0 "C193" H 2900 6050 60  0000 L CNN
 F 1 "C_18p_0402" H 2875 5800 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 3075 6150 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 3075 6150 60  0001 L CNN
 F 3 "" H 2875 5950 50  0001 C CNN
 F 4 "MULTICOMP" H 3075 6350 60  0001 L CNN "Manufacturer"
 F 5 "MC0402N180J500CT" H 3075 6250 60  0001 L CNN "MPN"
@@ -276,7 +276,7 @@ F 6 "18p" H 2900 5850 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0213
+L data-center-dram-tester:GND #PWR0213
 U 1 1 5FFE5862
 P 3775 6350
 F 0 "#PWR0213" H 3775 6100 50  0001 C CNN
@@ -331,7 +331,7 @@ Wire Wire Line
 	3775 6350 3775 6200
 Connection ~ 3775 6200
 $Comp
-L datacenter-dram-tester:GND #PWR0214
+L data-center-dram-tester:GND #PWR0214
 U 1 1 5FFF7EF0
 P 3175 6350
 F 0 "#PWR0214" H 3175 6100 50  0001 C CNN
@@ -342,7 +342,7 @@ F 3 "" H 3175 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0215
+L data-center-dram-tester:GND #PWR0215
 U 1 1 5FFF8120
 P 2875 6350
 F 0 "#PWR0215" H 2875 6100 50  0001 C CNN
@@ -353,7 +353,7 @@ F 3 "" H 2875 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0216
+L data-center-dram-tester:GND #PWR0216
 U 1 1 5FFF8375
 P 2075 6350
 F 0 "#PWR0216" H 2075 6100 50  0001 C CNN
@@ -372,12 +372,12 @@ Wire Wire Line
 Wire Wire Line
 	2075 5200 3175 5200
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C186
+L data-center-dram-tester:C_100n_0402_6V3 C186
 U 1 1 60005E0E
 P 5125 5850
 F 0 "C186" H 5150 5950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5125 5700 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 5325 6050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 5325 6050 60  0001 L CNN
 F 3 "" H 5125 5850 50  0001 C CNN
 F 4 "Walsin" H 5325 6250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5325 6150 60  0001 L CNN "MPN"
@@ -386,12 +386,12 @@ F 6 "100n" H 5150 5750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C188
+L data-center-dram-tester:C_100n_0402_6V3 C188
 U 1 1 600065DF
 P 5425 5850
 F 0 "C188" H 5450 5950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5425 5700 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 5625 6050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 5625 6050 60  0001 L CNN
 F 3 "" H 5425 5850 50  0001 C CNN
 F 4 "Walsin" H 5625 6250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5625 6150 60  0001 L CNN "MPN"
@@ -400,12 +400,12 @@ F 6 "100n" H 5450 5750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C191
+L data-center-dram-tester:C_100n_0402_6V3 C191
 U 1 1 6000686A
 P 5725 5850
 F 0 "C191" H 5750 5950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5725 5700 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 5925 6050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 5925 6050 60  0001 L CNN
 F 3 "" H 5725 5850 50  0001 C CNN
 F 4 "Walsin" H 5925 6250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5925 6150 60  0001 L CNN "MPN"
@@ -414,12 +414,12 @@ F 6 "100n" H 5750 5750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C192
+L data-center-dram-tester:C_100n_0402_6V3 C192
 U 1 1 60006AD7
 P 6025 5850
 F 0 "C192" H 6050 5950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6025 5700 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 6225 6050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 6225 6050 60  0001 L CNN
 F 3 "" H 6025 5850 50  0001 C CNN
 F 4 "Walsin" H 6225 6250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6225 6150 60  0001 L CNN "MPN"
@@ -428,12 +428,12 @@ F 6 "100n" H 6050 5750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C194
+L data-center-dram-tester:C_100n_0402_6V3 C194
 U 1 1 60006DA8
 P 6325 5850
 F 0 "C194" H 6350 5950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6325 5700 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 6525 6050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 6525 6050 60  0001 L CNN
 F 3 "" H 6325 5850 50  0001 C CNN
 F 4 "Walsin" H 6525 6250 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6525 6150 60  0001 L CNN "MPN"
@@ -442,7 +442,7 @@ F 6 "100n" H 6350 5750 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0217
+L data-center-dram-tester:GND #PWR0217
 U 1 1 6000BB1E
 P 5125 6000
 F 0 "#PWR0217" H 5125 5750 50  0001 C CNN
@@ -453,7 +453,7 @@ F 3 "" H 5125 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0218
+L data-center-dram-tester:GND #PWR0218
 U 1 1 6000C3DF
 P 5425 6000
 F 0 "#PWR0218" H 5425 5750 50  0001 C CNN
@@ -464,7 +464,7 @@ F 3 "" H 5425 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0219
+L data-center-dram-tester:GND #PWR0219
 U 1 1 6000C5C2
 P 5725 6000
 F 0 "#PWR0219" H 5725 5750 50  0001 C CNN
@@ -475,7 +475,7 @@ F 3 "" H 5725 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0220
+L data-center-dram-tester:GND #PWR0220
 U 1 1 6000C7E8
 P 6025 6000
 F 0 "#PWR0220" H 6025 5750 50  0001 C CNN
@@ -486,7 +486,7 @@ F 3 "" H 6025 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0221
+L data-center-dram-tester:GND #PWR0221
 U 1 1 6000C9FD
 P 6325 6000
 F 0 "#PWR0221" H 6325 5750 50  0001 C CNN
@@ -497,12 +497,12 @@ F 3 "" H 6325 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C196
+L data-center-dram-tester:C_100n_0402_6V3 C196
 U 1 1 60010F10
 P 5575 6975
 F 0 "C196" H 5600 7075 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5575 6825 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 5775 7175 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 5775 7175 60  0001 L CNN
 F 3 "" H 5575 6975 50  0001 C CNN
 F 4 "Walsin" H 5775 7375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 5775 7275 60  0001 L CNN "MPN"
@@ -511,12 +511,12 @@ F 6 "100n" H 5600 6875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C197
+L data-center-dram-tester:C_100n_0402_6V3 C197
 U 1 1 60010F19
 P 5875 6975
 F 0 "C197" H 5900 7075 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 5875 6825 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 6075 7175 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 6075 7175 60  0001 L CNN
 F 3 "" H 5875 6975 50  0001 C CNN
 F 4 "Walsin" H 6075 7375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6075 7275 60  0001 L CNN "MPN"
@@ -525,12 +525,12 @@ F 6 "100n" H 5900 6875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_100n_0402_6V3 C198
+L data-center-dram-tester:C_100n_0402_6V3 C198
 U 1 1 60010F22
 P 6175 6975
 F 0 "C198" H 6200 7075 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 6175 6825 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 6375 7175 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 6375 7175 60  0001 L CNN
 F 3 "" H 6175 6975 50  0001 C CNN
 F 4 "Walsin" H 6375 7375 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 6375 7275 60  0001 L CNN "MPN"
@@ -539,7 +539,7 @@ F 6 "100n" H 6200 6875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0222
+L data-center-dram-tester:GND #PWR0222
 U 1 1 60010F28
 P 5575 7125
 F 0 "#PWR0222" H 5575 6875 50  0001 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 5575 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0223
+L data-center-dram-tester:GND #PWR0223
 U 1 1 60010F2E
 P 5875 7125
 F 0 "#PWR0223" H 5875 6875 50  0001 C CNN
@@ -561,7 +561,7 @@ F 3 "" H 5875 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0224
+L data-center-dram-tester:GND #PWR0224
 U 1 1 60010F34
 P 6175 7125
 F 0 "#PWR0224" H 6175 6875 50  0001 C CNN
@@ -572,12 +572,12 @@ F 3 "" H 6175 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:C_4u7_0402 C195
+L data-center-dram-tester:C_4u7_0402 C195
 U 1 1 60019562
 P 5275 6975
 F 0 "C195" H 5300 7075 60  0000 L CNN
 F 1 "C_4u7_0402" H 5275 6825 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-cap" H 5475 7175 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 5475 7175 60  0001 L CNN
 F 3 "" H 5275 6975 50  0001 C CNN
 F 4 "MURATA" H 5475 7375 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R61A475MEAAD" H 5475 7275 60  0001 L CNN "MPN"
@@ -586,7 +586,7 @@ F 6 "4u7" H 5300 6875 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0225
+L data-center-dram-tester:GND #PWR0225
 U 1 1 60019A5E
 P 5275 7125
 F 0 "#PWR0225" H 5275 6875 50  0001 C CNN
@@ -597,12 +597,12 @@ F 3 "" H 5275 7125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:WE_629105150521 J4
+L data-center-dram-tester:WE_629105150521 J4
 U 1 1 60021F87
 P 10475 6075
 F 0 "J4" H 10650 6700 60  0000 R CNN
 F 1 "WE_629105150521" H 10261 5993 60  0000 R CNN
-F 2 "datacenter-dram-tester-footprints:USB_Micro_B_Female_629105150521" H 10675 6275 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:USB_Micro_B_Female_629105150521" H 10675 6275 60  0001 L CNN
 F 3 "" H 10675 6375 60  0001 L CNN
 F 4 "629105150521" H 10675 6575 60  0001 L CNN "MPN"
 F 5 "Wurth_Elektronik" H 10675 7175 60  0001 L CNN "Manufacturer"
@@ -614,7 +614,7 @@ Wire Wire Line
 Wire Wire Line
 	10075 6275 10075 6775
 $Comp
-L datacenter-dram-tester:GND #PWR0226
+L data-center-dram-tester:GND #PWR0226
 U 1 1 6002BAB6
 P 10075 6775
 F 0 "#PWR0226" H 10075 6525 50  0001 C CNN
@@ -625,12 +625,12 @@ F 3 "" H 10075 6775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:BLM18AG601SN1D FB6
+L data-center-dram-tester:BLM18AG601SN1D FB6
 U 1 1 6002DC37
 P 10575 6975
 F 0 "FB6" V 10725 6875 60  0000 C CNN
 F 1 "BLM18AG601SN1D" V 10450 6525 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:0603" H 10775 7175 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603" H 10775 7175 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 10775 7275 60  0001 L CNN
 F 4 "BLM18AG601SN1D" H 10775 7475 60  0001 L CNN "MPN"
 F 5 "Murata Electronics North America" H 10775 8075 60  0001 L CNN "Manufacturer"
@@ -648,12 +648,12 @@ Wire Wire Line
 Text GLabel 5725 5500 1    50   Input ~ 0
 3V3_SYS
 $Comp
-L datacenter-dram-tester:TPD2E009 D3
+L data-center-dram-tester:TPD2E009 D3
 U 1 1 6003C213
 P 9625 6425
 F 0 "D3" V 9575 6500 60  0000 L CNN
 F 1 "TPD2E009" V 10075 6125 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:SOT-3" H 9675 6625 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:SOT-3" H 9675 6625 60  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/tpd2e009.pdf?ts=1597910439511&ref_url=https%253A%252F%252Fwww.google.com%252F" H 9625 6425 60  0001 C CNN
 F 4 "TPD2E009DRTR" H 9325 6725 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 9325 6825 50  0001 C CNN "Manufacturer"
@@ -679,7 +679,7 @@ Wire Wire Line
 Wire Wire Line
 	9175 6225 9175 6775
 $Comp
-L datacenter-dram-tester:GND #PWR0228
+L data-center-dram-tester:GND #PWR0228
 U 1 1 60049482
 P 9175 6775
 F 0 "#PWR0228" H 9175 6525 50  0001 C CNN
@@ -751,12 +751,12 @@ Text GLabel 2675 4400 0    50   Input ~ 0
 Text GLabel 10075 5650 1    50   Input ~ 0
 VBUS
 $Comp
-L datacenter-dram-tester:685119134923 J6
+L data-center-dram-tester:685119134923 J6
 U 1 1 60121133
 P 10050 2700
 F 0 "J6" H 9850 3525 60  0000 C CNN
 F 1 "685119134923" H 10175 1875 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:HDMI_A_Female_685119134923" H 10250 2900 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:HDMI_A_Female_685119134923" H 10250 2900 60  0001 L CNN
 F 3 "https://en.wikipedia.org/wiki/HDMI" H 10250 3000 60  0001 L CNN
 F 4 "685119134923" H 10250 3200 60  0001 L CNN "MPN"
 F 5 "Amphenol" H 10250 3800 60  0001 L CNN "Manufacturer"
@@ -816,7 +816,7 @@ Wire Wire Line
 	10550 2600 10550 3600
 NoConn ~ 10450 2900
 $Comp
-L datacenter-dram-tester:GND #PWR0177
+L data-center-dram-tester:GND #PWR0177
 U 1 1 60167195
 P 9525 3600
 F 0 "#PWR0177" H 9525 3350 50  0001 C CNN
@@ -827,7 +827,7 @@ F 3 "" H 9525 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0178
+L data-center-dram-tester:GND #PWR0178
 U 1 1 60167834
 P 9750 3600
 F 0 "#PWR0178" H 9750 3350 50  0001 C CNN
@@ -838,7 +838,7 @@ F 3 "" H 9750 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0233
+L data-center-dram-tester:GND #PWR0233
 U 1 1 60167A92
 P 10550 3600
 F 0 "#PWR0233" H 10550 3350 50  0001 C CNN
@@ -865,67 +865,67 @@ C_TMDS_CLK_P
 Text GLabel 10775 2800 2    50   Input ~ 0
 C_TMDS_CLK_N
 $Comp
-L datacenter-dram-tester:TP_SMD1MM TP1
+L data-center-dram-tester:TP_SMD1MM TP1
 U 1 1 601A0591
 P 9225 2850
 F 0 "TP1" V 9130 2897 50  0000 C CNN
 F 1 "TP_SMD1MM" H 9225 2750 50  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:Testpoint_smd_1mm" H 9425 3050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 9425 3050 60  0001 L CNN
 F 3 "" H 9425 3150 60  0001 L CNN
 	1    9225 2850
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:TP_SMD1MM TP2
+L data-center-dram-tester:TP_SMD1MM TP2
 U 1 1 601A166D
 P 9225 2950
 F 0 "TP2" V 9130 2997 50  0000 C CNN
 F 1 "TP_SMD1MM" H 9225 2850 50  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:Testpoint_smd_1mm" H 9425 3150 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 9425 3150 60  0001 L CNN
 F 3 "" H 9425 3250 60  0001 L CNN
 	1    9225 2950
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:TP_SMD1MM TP3
+L data-center-dram-tester:TP_SMD1MM TP3
 U 1 1 601A17D2
 P 9225 3150
 F 0 "TP3" V 9130 3197 50  0000 C CNN
 F 1 "TP_SMD1MM" H 9225 3050 50  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:Testpoint_smd_1mm" H 9425 3350 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 9425 3350 60  0001 L CNN
 F 3 "" H 9425 3450 60  0001 L CNN
 	1    9225 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:TP_SMD1MM TP4
+L data-center-dram-tester:TP_SMD1MM TP4
 U 1 1 601A27EB
 P 10900 3000
 F 0 "TP4" V 10900 2950 50  0000 R CNN
 F 1 "TP_SMD1MM" H 10900 2900 50  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:Testpoint_smd_1mm" H 11100 3200 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 11100 3200 60  0001 L CNN
 F 3 "" H 11100 3300 60  0001 L CNN
 	1    10900 3000
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:TP_SMD1MM TP5
+L data-center-dram-tester:TP_SMD1MM TP5
 U 1 1 601A2D01
 P 10900 3100
 F 0 "TP5" V 10900 3050 50  0000 R CNN
 F 1 "TP_SMD1MM" H 10900 3000 50  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:Testpoint_smd_1mm" H 11100 3300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 11100 3300 60  0001 L CNN
 F 3 "" H 11100 3400 60  0001 L CNN
 	1    10900 3100
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:TPD8S009DSMR IC3
+L data-center-dram-tester:TPD8S009DSMR IC3
 U 1 1 601C2CA9
 P 12500 3200
 F 0 "IC3" H 12725 2200 50  0000 C CNN
 F 1 "TPD8S009DSMR" H 12450 3600 50  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:R-PDSO-N15" H 13900 2850 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:R-PDSO-N15" H 13900 2850 50  0001 C CNN
 F 3 "" H 14200 2750 50  0001 C CNN
 F 4 "TPD8S009DSMR" H 12525 2085 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 12525 2176 50  0001 C CNN "Manufacturer"
@@ -933,12 +933,12 @@ F 5 "Texas Instruments" H 12525 2176 50  0001 C CNN "Manufacturer"
 	-1   0    0    1   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R139
+L data-center-dram-tester:R_0R_0402 R139
 U 1 1 601D476D
 P 13100 2100
 F 0 "R139" V 12950 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 13100 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13300 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13300 2300 60  0001 L CNN
 F 3 "" H 13100 2100 50  0001 C CNN
 F 4 "PANASONIC" H 13300 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13300 2400 60  0001 L CNN "MPN"
@@ -947,12 +947,12 @@ F 6 "0R" V 13250 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R140
+L data-center-dram-tester:R_0R_0402 R140
 U 1 1 601D82FC
 P 13375 2100
 F 0 "R140" V 13225 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 13375 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13575 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13575 2300 60  0001 L CNN
 F 3 "" H 13375 2100 50  0001 C CNN
 F 4 "PANASONIC" H 13575 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13575 2400 60  0001 L CNN "MPN"
@@ -961,12 +961,12 @@ F 6 "0R" V 13525 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R141
+L data-center-dram-tester:R_0R_0402 R141
 U 1 1 601D862D
 P 13650 2100
 F 0 "R141" V 13500 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 13650 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13850 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13850 2300 60  0001 L CNN
 F 3 "" H 13650 2100 50  0001 C CNN
 F 4 "PANASONIC" H 13850 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13850 2400 60  0001 L CNN "MPN"
@@ -975,12 +975,12 @@ F 6 "0R" V 13800 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R142
+L data-center-dram-tester:R_0R_0402 R142
 U 1 1 601D8F7A
 P 13925 2100
 F 0 "R142" V 13775 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 13925 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14125 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14125 2300 60  0001 L CNN
 F 3 "" H 13925 2100 50  0001 C CNN
 F 4 "PANASONIC" H 14125 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14125 2400 60  0001 L CNN "MPN"
@@ -989,12 +989,12 @@ F 6 "0R" V 14075 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R143
+L data-center-dram-tester:R_0R_0402 R143
 U 1 1 601D91BF
 P 14200 2100
 F 0 "R143" V 14050 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 14200 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14400 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14400 2300 60  0001 L CNN
 F 3 "" H 14200 2100 50  0001 C CNN
 F 4 "PANASONIC" H 14400 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14400 2400 60  0001 L CNN "MPN"
@@ -1003,12 +1003,12 @@ F 6 "0R" V 14350 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R144
+L data-center-dram-tester:R_0R_0402 R144
 U 1 1 601D9D48
 P 14475 2100
 F 0 "R144" V 14325 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 14475 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14675 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14675 2300 60  0001 L CNN
 F 3 "" H 14475 2100 50  0001 C CNN
 F 4 "PANASONIC" H 14675 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14675 2400 60  0001 L CNN "MPN"
@@ -1017,12 +1017,12 @@ F 6 "0R" V 14625 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R145
+L data-center-dram-tester:R_0R_0402 R145
 U 1 1 601D9FCD
 P 14750 2100
 F 0 "R145" V 14600 2100 60  0000 L CNN
 F 1 "R_0R_0402" H 14750 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14950 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14950 2300 60  0001 L CNN
 F 3 "" H 14750 2100 50  0001 C CNN
 F 4 "PANASONIC" H 14950 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 14950 2400 60  0001 L CNN "MPN"
@@ -1031,12 +1031,12 @@ F 6 "0R" V 14900 2125 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_0R_0402 R146
+L data-center-dram-tester:R_0R_0402 R146
 U 1 1 601DB312
 P 15025 2100
 F 0 "R146" V 14875 2125 60  0000 L CNN
 F 1 "R_0R_0402" H 15025 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 15225 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 15225 2300 60  0001 L CNN
 F 3 "" H 15025 2100 50  0001 C CNN
 F 4 "PANASONIC" H 15225 2500 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 15225 2400 60  0001 L CNN "MPN"
@@ -1134,7 +1134,7 @@ Connection ~ 12875 3350
 Wire Wire Line
 	12875 3350 12875 3800
 $Comp
-L datacenter-dram-tester:GND #PWR0234
+L data-center-dram-tester:GND #PWR0234
 U 1 1 6029573A
 P 12875 3800
 F 0 "#PWR0234" H 12875 3550 50  0001 C CNN
@@ -1156,12 +1156,12 @@ Wire Wire Line
 Text GLabel 12050 2100 1    50   Input ~ 0
 3V3_SYS
 $Comp
-L datacenter-dram-tester:1140084168 J7
+L data-center-dram-tester:1140084168 J7
 U 1 1 602D3498
 P 15350 7400
 F 0 "J7" H 15000 8000 50  0000 C CNN
 F 1 "1140084168" H 15200 6850 50  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:MicroSD_1140084168" H 15250 6750 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:MicroSD_1140084168" H 15250 6750 50  0001 C CNN
 F 3 "" H 15000 7400 50  0001 C CNN
 F 4 "1140084168" H 15317 8115 50  0001 C CNN "MPN"
 F 5 "Amphenol" H 15317 8024 50  0001 C CNN "Manufacturer"
@@ -1169,12 +1169,12 @@ F 5 "Amphenol" H 15317 8024 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R138
+L data-center-dram-tester:R_20k_0402 R138
 U 1 1 602D9786
 P 14275 6500
 F 0 "R138" V 14125 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 14275 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14475 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14475 6700 60  0001 L CNN
 F 3 "" H 14275 6500 50  0001 C CNN
 F 4 "VISHAY" H 14475 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 14475 6800 60  0001 L CNN "MPN"
@@ -1183,12 +1183,12 @@ F 6 "20k" V 14450 6525 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R137
+L data-center-dram-tester:R_20k_0402 R137
 U 1 1 602DA5FE
 P 14000 6500
 F 0 "R137" V 13850 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 14000 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14200 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14200 6700 60  0001 L CNN
 F 3 "" H 14000 6500 50  0001 C CNN
 F 4 "VISHAY" H 14200 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 14200 6800 60  0001 L CNN "MPN"
@@ -1197,12 +1197,12 @@ F 6 "20k" V 14175 6525 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R135
+L data-center-dram-tester:R_20k_0402 R135
 U 1 1 602DAB09
 P 13725 6500
 F 0 "R135" V 13575 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 13725 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13925 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13925 6700 60  0001 L CNN
 F 3 "" H 13725 6500 50  0001 C CNN
 F 4 "VISHAY" H 13925 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 13925 6800 60  0001 L CNN "MPN"
@@ -1211,12 +1211,12 @@ F 6 "20k" V 13900 6525 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R134
+L data-center-dram-tester:R_20k_0402 R134
 U 1 1 602DAEE8
 P 13450 6500
 F 0 "R134" V 13300 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 13450 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13650 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13650 6700 60  0001 L CNN
 F 3 "" H 13450 6500 50  0001 C CNN
 F 4 "VISHAY" H 13650 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 13650 6800 60  0001 L CNN "MPN"
@@ -1225,12 +1225,12 @@ F 6 "20k" V 13625 6525 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R133
+L data-center-dram-tester:R_20k_0402 R133
 U 1 1 602DB8C4
 P 13175 6500
 F 0 "R133" V 13025 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 13175 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13375 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13375 6700 60  0001 L CNN
 F 3 "" H 13175 6500 50  0001 C CNN
 F 4 "VISHAY" H 13375 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 13375 6800 60  0001 L CNN "MPN"
@@ -1239,12 +1239,12 @@ F 6 "20k" V 13350 6500 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R132
+L data-center-dram-tester:R_20k_0402 R132
 U 1 1 602DBDF3
 P 12875 6500
 F 0 "R132" V 12725 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 12875 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 13075 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 13075 6700 60  0001 L CNN
 F 3 "" H 12875 6500 50  0001 C CNN
 F 4 "VISHAY" H 13075 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 13075 6800 60  0001 L CNN "MPN"
@@ -1253,12 +1253,12 @@ F 6 "20k" V 13050 6525 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:R_20k_0402 R131
+L data-center-dram-tester:R_20k_0402 R131
 U 1 1 602DCB1A
 P 12600 6500
 F 0 "R131" V 12450 6500 60  0000 L CNN
 F 1 "R_20k_0402" H 12600 6350 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 12800 6700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 12800 6700 60  0001 L CNN
 F 3 "" H 12600 6500 50  0001 C CNN
 F 4 "VISHAY" H 12800 6900 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040220K0FKED" H 12800 6800 60  0001 L CNN "MPN"
@@ -1297,12 +1297,12 @@ Wire Wire Line
 Wire Wire Line
 	12875 7650 12875 6650
 $Comp
-L datacenter-dram-tester:R_220R_0402 R136
+L data-center-dram-tester:R_220R_0402 R136
 U 1 1 60348CA0
 P 13875 7750
 F 0 "R136" H 13650 7800 60  0000 C CNN
 F 1 "R_220R_0402" H 13875 7600 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 14075 7950 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 14075 7950 60  0001 L CNN
 F 3 "" H 13875 7750 50  0001 C CNN
 F 4 "Panasonic" H 14075 8150 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ221X" H 14075 8050 60  0001 L CNN "MPN"
@@ -1324,7 +1324,7 @@ Wire Wire Line
 Wire Wire Line
 	15700 7750 15700 8525
 $Comp
-L datacenter-dram-tester:GND #PWR0227
+L data-center-dram-tester:GND #PWR0227
 U 1 1 6002DF17
 P 10575 7275
 F 0 "#PWR0227" H 10575 7025 50  0001 C CNN
@@ -1335,7 +1335,7 @@ F 3 "" H 10575 7275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0236
+L data-center-dram-tester:GND #PWR0236
 U 1 1 603B196D
 P 15700 8525
 F 0 "#PWR0236" H 15700 8275 50  0001 C CNN
@@ -1411,7 +1411,7 @@ DBG_USB_N
 Text GLabel 2900 3900 0    50   Input ~ 0
 DBG_USB_P
 $Comp
-L datacenter-dram-tester:GND #PWR0235
+L data-center-dram-tester:GND #PWR0235
 U 1 1 603B0A91
 P 14600 8500
 F 0 "#PWR0235" H 14600 8250 50  0001 C CNN
@@ -1476,7 +1476,7 @@ Wire Wire Line
 Wire Wire Line
 	10575 7175 10575 7275
 $Comp
-L datacenter-dram-tester:GND #PWR0169
+L data-center-dram-tester:GND #PWR0169
 U 1 1 600304B7
 P 9475 8825
 F 0 "#PWR0169" H 9475 8575 50  0001 C CNN
@@ -1487,7 +1487,7 @@ F 3 "" H 9475 8825 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0170
+L data-center-dram-tester:GND #PWR0170
 U 1 1 6003D8D3
 P 9475 9600
 F 0 "#PWR0170" H 9475 9350 50  0001 C CNN
@@ -1512,12 +1512,12 @@ SD_CMD
 Text GLabel 12425 7050 0    50   Input ~ 0
 SD_DAT3
 $Comp
-L datacenter-dram-tester:C_1u_0603 C10
+L data-center-dram-tester:C_1u_0603 C10
 U 1 1 617CD12F
 P 14600 8050
 F 0 "C10" H 14715 8095 60  0000 L CNN
 F 1 "C_1u_0603" H 14600 7900 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0603-cap" H 14800 8250 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603-cap" H 14800 8250 60  0001 L CNN
 F 3 "" H 14600 8050 50  0001 C CNN
 F 4 "WALSIN" H 14800 8450 60  0001 L CNN "Manufacturer"
 F 5 "0603YD105KAT2A" H 14800 8350 60  0001 L CNN "MPN"
@@ -1526,14 +1526,14 @@ F 6 "1u" H 14715 7997 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:B3U-1000P PROG_B?
+L data-center-dram-tester:B3U-1000P PROG_B?
 U 1 1 5FCEBF82
 P 1550 10125
 AR Path="/5FD53C7D/5FCEBF82" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FCEBF82" Ref="USR_BTN2"  Part="1" 
 F 0 "USR_BTN2" H 1400 10300 60  0000 L CNN
 F 1 "B3U-1000P" H 1400 10025 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 1750 10325 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 1750 10325 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 1750 10425 60  0001 L CNN
 F 4 "B3U-1000P" H 1750 10625 60  0001 L CNN "MPN"
 F 5 "Omron Electronics Inc-EMC Div" H 1750 11225 60  0001 L CNN "Manufacturer"
@@ -1543,7 +1543,7 @@ $EndComp
 Wire Wire Line
 	1550 10325 1550 10450
 $Comp
-L datacenter-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR?
 U 1 1 5FCEBF89
 P 1550 10450
 AR Path="/5FD53C7D/5FCEBF89" Ref="#PWR?"  Part="1" 
@@ -1556,14 +1556,14 @@ F 3 "" H 1550 10450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_4k7_0402 R?
+L data-center-dram-tester:R_4k7_0402 R?
 U 1 1 5FCEBF9F
 P 1550 9325
 AR Path="/5FD53C7D/5FCEBF9F" Ref="R?"  Part="1" 
 AR Path="/600E76D8/5FCEBF9F" Ref="R16"  Part="1" 
 F 0 "R16" V 1425 9375 60  0000 L CNN
 F 1 "R_4k7_0402" H 1550 9175 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 1750 9525 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 1750 9525 60  0001 L CNN
 F 3 "" H 1550 9325 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 1750 9725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 1750 9625 60  0001 L CNN "MPN"
@@ -1576,14 +1576,14 @@ Wire Wire Line
 Wire Wire Line
 	1025 9125 1025 9175
 $Comp
-L datacenter-dram-tester:R_4k7_0402 R?
+L data-center-dram-tester:R_4k7_0402 R?
 U 1 1 5FDD290E
 P 1025 9325
 AR Path="/5FD53C7D/5FDD290E" Ref="R?"  Part="1" 
 AR Path="/600E76D8/5FDD290E" Ref="R15"  Part="1" 
 F 0 "R15" V 900 9375 60  0000 L CNN
 F 1 "R_4k7_0402" H 1025 9175 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 1225 9525 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 1225 9525 60  0001 L CNN
 F 3 "" H 1025 9325 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 1225 9725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 1225 9625 60  0001 L CNN "MPN"
@@ -1592,7 +1592,7 @@ F 6 "4k7" V 1078 9395 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR?
 U 1 1 5FDD2900
 P 1025 10450
 AR Path="/5FD53C7D/5FDD2900" Ref="#PWR?"  Part="1" 
@@ -1607,14 +1607,14 @@ $EndComp
 Wire Wire Line
 	1025 10325 1025 10450
 $Comp
-L datacenter-dram-tester:B3U-1000P PROG_B?
+L data-center-dram-tester:B3U-1000P PROG_B?
 U 1 1 5FDD28F9
 P 1025 10125
 AR Path="/5FD53C7D/5FDD28F9" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FDD28F9" Ref="USR_BTN1"  Part="1" 
 F 0 "USR_BTN1" H 875 10300 60  0000 L CNN
 F 1 "B3U-1000P" H 875 10025 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 1225 10325 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 1225 10325 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 1225 10425 60  0001 L CNN
 F 4 "B3U-1000P" H 1225 10625 60  0001 L CNN "MPN"
 F 5 "Omron Electronics Inc-EMC Div" H 1225 11225 60  0001 L CNN "Manufacturer"
@@ -1624,14 +1624,14 @@ $EndComp
 Wire Wire Line
 	1025 9475 1025 9525
 $Comp
-L datacenter-dram-tester:B3U-1000P PROG_B?
+L data-center-dram-tester:B3U-1000P PROG_B?
 U 1 1 5FE766D1
 P 2050 10100
 AR Path="/5FD53C7D/5FE766D1" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FE766D1" Ref="USR_BTN3"  Part="1" 
 F 0 "USR_BTN3" H 1925 10300 60  0000 L CNN
 F 1 "B3U-1000P" H 1900 10000 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 2250 10300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 2250 10300 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 2250 10400 60  0001 L CNN
 F 4 "B3U-1000P" H 2250 10600 60  0001 L CNN "MPN"
 F 5 "Omron Electronics Inc-EMC Div" H 2250 11200 60  0001 L CNN "Manufacturer"
@@ -1641,7 +1641,7 @@ $EndComp
 Wire Wire Line
 	2050 10300 2050 10425
 $Comp
-L datacenter-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR?
 U 1 1 5FE766D8
 P 2050 10425
 AR Path="/5FD53C7D/5FE766D8" Ref="#PWR?"  Part="1" 
@@ -1673,14 +1673,14 @@ Wire Wire Line
 Wire Wire Line
 	2050 9100 2050 9175
 $Comp
-L datacenter-dram-tester:R_4k7_0402 R?
+L data-center-dram-tester:R_4k7_0402 R?
 U 1 1 5FE766E6
 P 2050 9325
 AR Path="/5FD53C7D/5FE766E6" Ref="R?"  Part="1" 
 AR Path="/600E76D8/5FE766E6" Ref="R17"  Part="1" 
 F 0 "R17" V 1925 9375 60  0000 L CNN
 F 1 "R_4k7_0402" H 2050 9175 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 2250 9525 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 2250 9525 60  0001 L CNN
 F 3 "" H 2050 9325 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2250 9725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2250 9625 60  0001 L CNN "MPN"
@@ -1691,12 +1691,12 @@ $EndComp
 Text Notes 1475 8225 0    118  ~ 24
 User buttons
 $Comp
-L datacenter-dram-tester:R_22R_0402 R18
+L data-center-dram-tester:R_22R_0402 R18
 U 1 1 6013A2FD
 P 5225 2000
 F 0 "R18" H 5425 2050 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 1850 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 2200 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 2200 60  0001 L CNN
 F 3 "" H 5225 2000 50  0001 C CNN
 F 4 "VISHAY" H 5425 2400 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 2300 60  0001 L CNN "MPN"
@@ -1705,12 +1705,12 @@ F 6 "22R" H 5225 2000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R19
+L data-center-dram-tester:R_22R_0402 R19
 U 1 1 6013A700
 P 5225 2100
 F 0 "R19" H 5425 2150 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 1950 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 2300 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 2300 60  0001 L CNN
 F 3 "" H 5225 2100 50  0001 C CNN
 F 4 "VISHAY" H 5425 2500 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 2400 60  0001 L CNN "MPN"
@@ -1719,12 +1719,12 @@ F 6 "22R" H 5225 2100 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R20
+L data-center-dram-tester:R_22R_0402 R20
 U 1 1 6013A969
 P 5225 2200
 F 0 "R20" H 5425 2250 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 2050 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 2400 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 2400 60  0001 L CNN
 F 3 "" H 5225 2200 50  0001 C CNN
 F 4 "VISHAY" H 5425 2600 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 2500 60  0001 L CNN "MPN"
@@ -1733,12 +1733,12 @@ F 6 "22R" H 5225 2200 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R25
+L data-center-dram-tester:R_22R_0402 R25
 U 1 1 6013AB72
 P 5225 2300
 F 0 "R25" H 5425 2350 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 2150 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 2500 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 2500 60  0001 L CNN
 F 3 "" H 5225 2300 50  0001 C CNN
 F 4 "VISHAY" H 5425 2700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 2600 60  0001 L CNN "MPN"
@@ -1773,7 +1773,7 @@ TMS_JTAG
 Wire Wire Line
 	4775 2500 5125 2500
 $Comp
-L datacenter-dram-tester:test U8
+L data-center-dram-tester:test U8
 U 1 1 601E16F4
 P 5325 2450
 F 0 "U8" V 5256 2500 50  0000 R CNN
@@ -1786,14 +1786,14 @@ $EndComp
 Wire Wire Line
 	2550 9125 2550 9175
 $Comp
-L datacenter-dram-tester:R_4k7_0402 R?
+L data-center-dram-tester:R_4k7_0402 R?
 U 1 1 5FCB7E3F
 P 2550 9325
 AR Path="/5FD53C7D/5FCB7E3F" Ref="R?"  Part="1" 
 AR Path="/600E76D8/5FCB7E3F" Ref="R29"  Part="1" 
 F 0 "R29" V 2425 9375 60  0000 L CNN
 F 1 "R_4k7_0402" H 2550 9175 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 2750 9525 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 2750 9525 60  0001 L CNN
 F 3 "" H 2550 9325 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 2750 9725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GEJ472X" H 2750 9625 60  0001 L CNN "MPN"
@@ -1802,7 +1802,7 @@ F 6 "4k7" V 2603 9395 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR?
 U 1 1 5FCB7E46
 P 2550 10450
 AR Path="/5FD53C7D/5FCB7E46" Ref="#PWR?"  Part="1" 
@@ -1817,14 +1817,14 @@ $EndComp
 Wire Wire Line
 	2550 10325 2550 10450
 $Comp
-L datacenter-dram-tester:B3U-1000P PROG_B?
+L data-center-dram-tester:B3U-1000P PROG_B?
 U 1 1 5FCB7E4F
 P 2550 10125
 AR Path="/5FD53C7D/5FCB7E4F" Ref="PROG_B?"  Part="1" 
 AR Path="/600E76D8/5FCB7E4F" Ref="USR_BTN4"  Part="1" 
 F 0 "USR_BTN4" H 2400 10325 60  0000 L CNN
 F 1 "B3U-1000P" H 2400 10025 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 2750 10325 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" H 2750 10325 60  0001 L CNN
 F 3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" H 2750 10425 60  0001 L CNN
 F 4 "B3U-1000P" H 2750 10625 60  0001 L CNN "MPN"
 F 5 "Omron Electronics Inc-EMC Div" H 2750 11225 60  0001 L CNN "Manufacturer"
@@ -1849,12 +1849,12 @@ USR_BTN2
 Text GLabel 2725 9525 2    50   Input ~ 0
 USR_BTN1
 $Comp
-L datacenter-dram-tester:R_22R_0402 R1
+L data-center-dram-tester:R_22R_0402 R1
 U 1 1 5FE0DD48
 P 5225 2850
 F 0 "R1" H 5425 2900 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 2700 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 3050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 3050 60  0001 L CNN
 F 3 "" H 5225 2850 50  0001 C CNN
 F 4 "VISHAY" H 5425 3250 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 3150 60  0001 L CNN "MPN"
@@ -1863,12 +1863,12 @@ F 6 "22R" H 5225 2850 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R2
+L data-center-dram-tester:R_22R_0402 R2
 U 1 1 5FE0E0D9
 P 5225 2950
 F 0 "R2" H 5425 3000 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 2800 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 3150 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 3150 60  0001 L CNN
 F 3 "" H 5225 2950 50  0001 C CNN
 F 4 "VISHAY" H 5425 3350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 3250 60  0001 L CNN "MPN"
@@ -1877,12 +1877,12 @@ F 6 "22R" H 5225 2950 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R4
+L data-center-dram-tester:R_22R_0402 R4
 U 1 1 5FE0E52B
 P 5225 3150
 F 0 "R4" H 5425 3200 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 3000 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 3350 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 3350 60  0001 L CNN
 F 3 "" H 5225 3150 50  0001 C CNN
 F 4 "VISHAY" H 5425 3550 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 3450 60  0001 L CNN "MPN"
@@ -1891,12 +1891,12 @@ F 6 "22R" H 5225 3150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R3
+L data-center-dram-tester:R_22R_0402 R3
 U 1 1 5FE0E30A
 P 5225 3050
 F 0 "R3" H 5425 3100 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 2900 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 3250 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 3250 60  0001 L CNN
 F 3 "" H 5225 3050 50  0001 C CNN
 F 4 "VISHAY" H 5425 3450 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 3350 60  0001 L CNN "MPN"
@@ -1931,12 +1931,12 @@ UART0_RX
 Text GLabel 5850 4550 2    50   Input ~ 0
 UART1_RX
 $Comp
-L datacenter-dram-tester:R_22R_0402 R6
+L data-center-dram-tester:R_22R_0402 R6
 U 1 1 5FEB07CF
 P 5225 3700
 F 0 "R6" H 5425 3750 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 3550 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 3900 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 3900 60  0001 L CNN
 F 3 "" H 5225 3700 50  0001 C CNN
 F 4 "VISHAY" H 5425 4100 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 4000 60  0001 L CNN "MPN"
@@ -1945,12 +1945,12 @@ F 6 "22R" H 5225 3700 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R37
+L data-center-dram-tester:R_22R_0402 R37
 U 1 1 5FEB0AF8
 P 5225 4650
 F 0 "R37" H 5425 4700 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 4500 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 4850 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 4850 60  0001 L CNN
 F 3 "" H 5225 4650 50  0001 C CNN
 F 4 "VISHAY" H 5425 5050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 4950 60  0001 L CNN "MPN"
@@ -1963,12 +1963,12 @@ UART0_TX
 Text GLabel 5850 4650 2    50   Input ~ 0
 UART1_TX
 $Comp
-L datacenter-dram-tester:R_22R_0402 R7
+L data-center-dram-tester:R_22R_0402 R7
 U 1 1 5FEB126C
 P 5225 3800
 F 0 "R7" H 5425 3850 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 3650 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 4000 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 4000 60  0001 L CNN
 F 3 "" H 5225 3800 50  0001 C CNN
 F 4 "VISHAY" H 5425 4200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 4100 60  0001 L CNN "MPN"
@@ -1977,12 +1977,12 @@ F 6 "22R" H 5225 3800 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_22R_0402 R8
+L data-center-dram-tester:R_22R_0402 R8
 U 1 1 5FEB1585
 P 5225 4550
 F 0 "R8" H 5425 4600 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 4400 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 4750 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 4750 60  0001 L CNN
 F 3 "" H 5225 4550 50  0001 C CNN
 F 4 "VISHAY" H 5425 4950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 4850 60  0001 L CNN "MPN"
@@ -2009,12 +2009,12 @@ Wire Wire Line
 Text GLabel 5850 2850 2    50   Input ~ 0
 AUX_JTAG_TCK
 $Comp
-L datacenter-dram-tester:R_22R_0402 R5
+L data-center-dram-tester:R_22R_0402 R5
 U 1 1 601136B0
 P 5225 3350
 F 0 "R5" H 5425 3400 60  0000 C CNN
 F 1 "R_22R_0402" H 5225 3200 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 5425 3550 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 5425 3550 60  0001 L CNN
 F 3 "" H 5225 3350 50  0001 C CNN
 F 4 "VISHAY" H 5425 3750 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040222R0FKED" H 5425 3650 60  0001 L CNN "MPN"
@@ -2031,12 +2031,12 @@ AUX_JTAG_RST
 Wire Wire Line
 	3175 5800 3175 6350
 $Comp
-L datacenter-dram-tester:FT4232HQ U7
+L data-center-dram-tester:FT4232HQ U7
 U 1 1 601044E5
 P 3975 4150
 F 0 "U7" H 3975 6637 60  0000 C CNN
 F 1 "FT4232HQ" H 3975 6531 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:FT4232HQ" V 4175 4350 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:FT4232HQ" V 4175 4350 60  0001 L CNN
 F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT4232H.pdf" H 4175 4550 60  0001 L CNN
 F 4 "FTDI" H 4175 5300 60  0001 L CNN "Manufacturer"
 F 5 "FT4232HQ-TRAY" H 4175 4700 60  0001 L CNN "MPN"
@@ -2060,12 +2060,12 @@ Text GLabel 2050 9100 1    50   Input ~ 0
 Text GLabel 2550 9125 1    50   Input ~ 0
 3V3_SYS
 $Comp
-L datacenter-dram-tester:ABM8G-12.000MHZ-18-D2Y-T Y2
+L data-center-dram-tester:ABM8G-12.000MHZ-18-D2Y-T Y2
 U 1 1 61D2EA50
 P 2500 5550
 F 0 "Y2" H 2694 5643 31  0000 L CNN
 F 1 "ABM8G-12.000MHZ-18-D2Y-T" H 2694 5581 31  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:KX-7" H 4600 5550 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:KX-7" H 4600 5550 50  0001 C CNN
 F 3 "" H 4700 5650 50  0001 C CNN
 F 4 "ABM8G-12.000MHZ-18-D2Y-T " H 2694 5519 31  0000 L CNN "MPN"
 F 5 "Abracon" H 2694 5457 31  0000 L CNN "Manufacturer"
@@ -2085,7 +2085,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 5750 2500 6350
 $Comp
-L datacenter-dram-tester:GND #PWR0137
+L data-center-dram-tester:GND #PWR0137
 U 1 1 61E026BC
 P 2500 6350
 F 0 "#PWR0137" H 2500 6100 50  0001 C CNN
@@ -2096,7 +2096,7 @@ F 3 "" H 2500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:GND #PWR0138
+L data-center-dram-tester:GND #PWR0138
 U 1 1 61E1A1A0
 P 2500 5350
 F 0 "#PWR0138" H 2500 5100 50  0001 C CNN
@@ -2107,12 +2107,12 @@ F 3 "" H 2500 5350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L datacenter-dram-tester:BSS138APW Q3
+L data-center-dram-tester:BSS138APW Q3
 U 1 1 60923B88
 P 6850 10375
 F 0 "Q3" V 7117 10375 60  0000 C CNN
 F 1 "BSS138APW" V 7011 10375 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:SC70-3" H 7050 10575 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:SC70-3" H 7050 10575 60  0001 L CNN
 F 3 "" H 7050 10675 60  0001 L CNN
 F 4 "BSS138PW" H 7050 10875 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7050 11475 60  0001 L CNN "Manufacturer"
@@ -2120,12 +2120,12 @@ F 5 "ON Semiconductor" H 7050 11475 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:BSS138APW Q6
+L data-center-dram-tester:BSS138APW Q6
 U 1 1 60922535
 P 9025 9600
 F 0 "Q6" V 9292 9600 60  0000 C CNN
 F 1 "BSS138APW" V 9186 9600 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:SC70-3" H 9225 9800 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:SC70-3" H 9225 9800 60  0001 L CNN
 F 3 "" H 9225 9900 60  0001 L CNN
 F 4 "BSS138PW" H 9225 10100 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9225 10700 60  0001 L CNN "Manufacturer"
@@ -2133,12 +2133,12 @@ F 5 "ON Semiconductor" H 9225 10700 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:BSS138APW Q5
+L data-center-dram-tester:BSS138APW Q5
 U 1 1 6092108D
 P 9025 8825
 F 0 "Q5" V 9292 8825 60  0000 C CNN
 F 1 "BSS138APW" V 9186 8825 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:SC70-3" H 9225 9025 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:SC70-3" H 9225 9025 60  0001 L CNN
 F 3 "" H 9225 9125 60  0001 L CNN
 F 4 "BSS138PW" H 9225 9325 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 9225 9925 60  0001 L CNN "Manufacturer"
@@ -2146,12 +2146,12 @@ F 5 "ON Semiconductor" H 9225 9925 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:BSS138APW Q4
+L data-center-dram-tester:BSS138APW Q4
 U 1 1 6091F8AC
 P 6875 9600
 F 0 "Q4" V 7142 9600 60  0000 C CNN
 F 1 "BSS138APW" V 7036 9600 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:SC70-3" H 7075 9800 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:SC70-3" H 7075 9800 60  0001 L CNN
 F 3 "" H 7075 9900 60  0001 L CNN
 F 4 "BSS138PW" H 7075 10100 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7075 10700 60  0001 L CNN "Manufacturer"
@@ -2159,12 +2159,12 @@ F 5 "ON Semiconductor" H 7075 10700 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L datacenter-dram-tester:BSS138APW Q2
+L data-center-dram-tester:BSS138APW Q2
 U 1 1 6090FD8D
 P 6850 8825
 F 0 "Q2" V 7117 8825 60  0000 C CNN
 F 1 "BSS138APW" V 7011 8825 60  0000 C CNN
-F 2 "datacenter-dram-tester-footprints:SC70-3" H 7050 9025 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:SC70-3" H 7050 9025 60  0001 L CNN
 F 3 "" H 7050 9125 60  0001 L CNN
 F 4 "BSS138PW" H 7050 9325 60  0001 L CNN "MPN"
 F 5 "ON Semiconductor" H 7050 9925 60  0001 L CNN "Manufacturer"
@@ -2192,12 +2192,12 @@ Text GLabel 5850 10375 0    50   Input ~ 0
 Wire Wire Line
 	6250 10375 6275 10375
 $Comp
-L datacenter-dram-tester:KP-1608CGCK D6
+L data-center-dram-tester:KP-1608CGCK D6
 U 1 1 60050B21
 P 6150 10375
 F 0 "D6" H 6075 10700 60  0000 L CNN
 F 1 "KP-1608CGCK" H 5550 10600 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:LED_0603" H 6350 10575 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:LED_0603" H 6350 10575 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 6350 10675 60  0001 L CNN
 F 4 "KP-1608CGCK" H 6350 10875 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 6360 10995 60  0001 L CNN "Manufacturer"
@@ -2205,12 +2205,12 @@ F 5 "KINGBRIGHT" H 6360 10995 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_330R_0402 R51
+L data-center-dram-tester:R_330R_0402 R51
 U 1 1 60050B19
 P 6425 10375
 F 0 "R51" V 6380 10445 60  0000 L CNN
 F 1 "R_330R_0402" H 6425 10225 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 6625 10575 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 6625 10575 60  0001 L CNN
 F 3 "" H 6425 10375 50  0001 C CNN
 F 4 "MULTICOMP" H 6625 10775 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 6625 10675 60  0001 L CNN "MPN"
@@ -2223,7 +2223,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 10375 7300 10375
 $Comp
-L datacenter-dram-tester:GND #PWR0171
+L data-center-dram-tester:GND #PWR0171
 U 1 1 60050B0E
 P 7300 10375
 F 0 "#PWR0171" H 7300 10125 50  0001 C CNN
@@ -2242,12 +2242,12 @@ Text GLabel 8025 9600 0    50   Input ~ 0
 Wire Wire Line
 	8425 9600 8450 9600
 $Comp
-L datacenter-dram-tester:KP-1608CGCK D9
+L data-center-dram-tester:KP-1608CGCK D9
 U 1 1 6003D8E6
 P 8325 9600
 F 0 "D9" H 8250 9925 60  0000 L CNN
 F 1 "KP-1608CGCK" H 7725 9825 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:LED_0603" H 8525 9800 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:LED_0603" H 8525 9800 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 8525 9900 60  0001 L CNN
 F 4 "KP-1608CGCK" H 8525 10100 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 8535 10220 60  0001 L CNN "Manufacturer"
@@ -2255,12 +2255,12 @@ F 5 "KINGBRIGHT" H 8535 10220 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_330R_0402 R54
+L data-center-dram-tester:R_330R_0402 R54
 U 1 1 6003D8DE
 P 8600 9600
 F 0 "R54" V 8555 9670 60  0000 L CNN
 F 1 "R_330R_0402" H 8600 9450 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 8800 9800 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8800 9800 60  0001 L CNN
 F 3 "" H 8600 9600 50  0001 C CNN
 F 4 "MULTICOMP" H 8800 10000 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8800 9900 60  0001 L CNN "MPN"
@@ -2281,12 +2281,12 @@ Text GLabel 8025 8825 0    50   Input ~ 0
 Wire Wire Line
 	8425 8825 8450 8825
 $Comp
-L datacenter-dram-tester:KP-1608CGCK D8
+L data-center-dram-tester:KP-1608CGCK D8
 U 1 1 600304CA
 P 8325 8825
 F 0 "D8" H 8250 9150 60  0000 L CNN
 F 1 "KP-1608CGCK" H 7725 9050 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:LED_0603" H 8525 9025 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:LED_0603" H 8525 9025 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 8525 9125 60  0001 L CNN
 F 4 "KP-1608CGCK" H 8525 9325 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 8535 9445 60  0001 L CNN "Manufacturer"
@@ -2294,12 +2294,12 @@ F 5 "KINGBRIGHT" H 8535 9445 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_330R_0402 R53
+L data-center-dram-tester:R_330R_0402 R53
 U 1 1 600304C2
 P 8600 8825
 F 0 "R53" V 8555 8895 60  0000 L CNN
 F 1 "R_330R_0402" H 8600 8675 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 8800 9025 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8800 9025 60  0001 L CNN
 F 3 "" H 8600 8825 50  0001 C CNN
 F 4 "MULTICOMP" H 8800 9225 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 8800 9125 60  0001 L CNN "MPN"
@@ -2320,12 +2320,12 @@ Text GLabel 5875 9600 0    50   Input ~ 0
 Wire Wire Line
 	6275 9600 6300 9600
 $Comp
-L datacenter-dram-tester:KP-1608CGCK D7
+L data-center-dram-tester:KP-1608CGCK D7
 U 1 1 60022424
 P 6175 9600
 F 0 "D7" H 6100 9925 60  0000 L CNN
 F 1 "KP-1608CGCK" H 5575 9825 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:LED_0603" H 6375 9800 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:LED_0603" H 6375 9800 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 6375 9900 60  0001 L CNN
 F 4 "KP-1608CGCK" H 6375 10100 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 6385 10220 60  0001 L CNN "Manufacturer"
@@ -2333,12 +2333,12 @@ F 5 "KINGBRIGHT" H 6385 10220 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_330R_0402 R52
+L data-center-dram-tester:R_330R_0402 R52
 U 1 1 6002241C
 P 6450 9600
 F 0 "R52" V 6405 9670 60  0000 L CNN
 F 1 "R_330R_0402" H 6450 9450 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 6650 9800 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 6650 9800 60  0001 L CNN
 F 3 "" H 6450 9600 50  0001 C CNN
 F 4 "MULTICOMP" H 6650 10000 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 6650 9900 60  0001 L CNN "MPN"
@@ -2351,7 +2351,7 @@ Wire Wire Line
 Wire Wire Line
 	7075 9600 7325 9600
 $Comp
-L datacenter-dram-tester:GND #PWR0168
+L data-center-dram-tester:GND #PWR0168
 U 1 1 60022411
 P 7325 9600
 F 0 "#PWR0168" H 7325 9350 50  0001 C CNN
@@ -2370,12 +2370,12 @@ Text GLabel 5850 8825 0    50   Input ~ 0
 Wire Wire Line
 	6250 8825 6275 8825
 $Comp
-L datacenter-dram-tester:KP-1608CGCK D5
+L data-center-dram-tester:KP-1608CGCK D5
 U 1 1 5FF856A4
 P 6150 8825
 F 0 "D5" H 6075 9150 60  0000 L CNN
 F 1 "KP-1608CGCK" H 5550 9050 60  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:LED_0603" H 6350 9025 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:LED_0603" H 6350 9025 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 6350 9125 60  0001 L CNN
 F 4 "KP-1608CGCK" H 6350 9325 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 6360 9445 60  0001 L CNN "Manufacturer"
@@ -2383,12 +2383,12 @@ F 5 "KINGBRIGHT" H 6360 9445 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:R_330R_0402 R50
+L data-center-dram-tester:R_330R_0402 R50
 U 1 1 5FF78200
 P 6425 8825
 F 0 "R50" V 6380 8895 60  0000 L CNN
 F 1 "R_330R_0402" H 6425 8675 60  0001 C CNN
-F 2 "datacenter-dram-tester-footprints:0402-res" H 6625 9025 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 6625 9025 60  0001 L CNN
 F 3 "" H 6425 8825 50  0001 C CNN
 F 4 "MULTICOMP" H 6625 9225 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 6625 9125 60  0001 L CNN "MPN"
@@ -2401,7 +2401,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 8825 7300 8825
 $Comp
-L datacenter-dram-tester:GND #PWR0167
+L data-center-dram-tester:GND #PWR0167
 U 1 1 5FF5DE33
 P 7300 8825
 F 0 "#PWR0167" H 7300 8575 50  0001 C CNN

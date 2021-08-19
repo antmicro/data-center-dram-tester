@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 10
-Title "Datacenter DRAM Tester"
+Title "Data Center DRAM Tester"
 Date "2021-08"
 Rev "1.0.0"
 Comp ""
@@ -44,7 +44,7 @@ F0 "Interfaces" 50
 F1 "interfaces.sch" 50
 $EndSheet
 Text Notes 6775 1400 0    157  ~ 31
-Datacenter DRAM Tester
+Data Center DRAM Tester
 $Sheet
 S 5800 6875 750  500 
 U 5FEA2994
@@ -52,23 +52,23 @@ F0 "HyperRAM" 50
 F1 "hyperram.sch" 50
 $EndSheet
 $Comp
-L datacenter-dram-tester:oshw_logo N1
+L data-center-dram-tester:oshw_logo N1
 U 1 1 603B54EA
 P 15200 9475
 F 0 "N1" H 15394 9478 50  0000 L CNN
 F 1 "oshw_logo" H 15394 9387 50  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:oshw-logo" H 15220 9235 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:oshw-logo" H 15220 9235 50  0001 C CNN
 F 3 "" H 15200 9475 50  0001 C CNN
 	1    15200 9475
 	1    0    0    -1  
 $EndComp
 $Comp
-L datacenter-dram-tester:antmicro_logo N2
+L data-center-dram-tester:antmicro_logo N2
 U 1 1 6003C9B5
 P 15175 9775
 F 0 "N2" H 15389 9868 50  0000 L CNN
 F 1 "antmicro_logo" H 15389 9777 50  0000 L CNN
-F 2 "datacenter-dram-tester-footprints:antmicro-logo_scaled_20mm" H 15075 10025 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:antmicro-logo_scaled_20mm" H 15075 10025 50  0001 C CNN
 F 3 "" H 15175 10125 50  0001 C CNN
 	1    15175 9775
 	1    0    0    -1  

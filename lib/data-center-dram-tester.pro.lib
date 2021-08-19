@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF TPS54561 IC 0 40 Y Y 1 F N
 F0 "IC" -400 500 60 H V L BNN
 F1 "TPS54561" -400 -700 60 H V L BNN
-F2 "datacenter-dram-tester-footprints:WSON-10_4x4" 0 0 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:WSON-10_4x4" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Texas Instrumets" 0 0 50 H I C CNN "Manufacturer"
 F5 "TPS54561-Q1" 0 0 50 H I C CNN "MPN"
@@ -44,7 +44,7 @@ ENDDEF
 DEF WE_7447798720 L 0 40 Y Y 1 F N
 F0 "L" -400 175 60 H V L BNN
 F1 "WE_7447798720" -400 75 60 H V L BNN
-F2 "datacenter-dram-tester-footprints:WE_7447798720" 50 -150 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:WE_7447798720" 50 -150 60 H I C CNN
 F3 "" 55 30 60 H I C CNN
 F4 "Wurth Elektronik" 0 -100 50 H I C CNN "Manufacturer"
 F5 "7447798720" -50 -50 50 H I C CNN "MPN"
@@ -71,7 +71,7 @@ ENDDEF
 DEF PDS760-13 D 0 40 Y Y 1 F N
 F0 "D" 100 0 60 H V L BNN
 F1 "PDS760-13" 100 -100 60 H I L BNN
-F2 "datacenter-dram-tester-footprints:PDS760-13" 0 0 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:PDS760-13" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Diodes Inc." 0 0 50 H I C CNN "Manufacturer"
 F5 "PDS760-13" 0 0 50 H I C CNN "MPN"
@@ -88,7 +88,7 @@ ENDDEF
 DEF R_49R9_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_49R9_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040249R9FKED" 200 300 60 H I L CNN "MPN"
@@ -105,7 +105,7 @@ ENDDEF
 DEF R_53k6_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_53k6_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TE_CONNECTIVITY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CPF0402B53K6E1_" 200 300 60 H I L CNN "MPN"
@@ -122,7 +122,7 @@ ENDDEF
 DEF C_47u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_47u_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM188R60J476ME15D" 200 300 60 H I L CNN "MPN"
@@ -140,7 +140,7 @@ ENDDEF
 DEF R_100k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_100k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402100KFKEDHP" 200 300 60 H I L CNN "MPN"
@@ -157,7 +157,7 @@ ENDDEF
 DEF C_47p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_47p_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
 F5 "C0402C470J5GACTU" 200 300 60 H I L CNN "MPN"
@@ -175,7 +175,7 @@ ENDDEF
 DEF C_4n7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_4n7_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "CGA2B3X7S2A472K050BB" 200 300 60 H I L CNN "MPN"
@@ -193,7 +193,7 @@ ENDDEF
 DEF R_16k9_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_16k9_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERA2AEB1692X" 200 300 60 H I L CNN "MPN"
@@ -210,7 +210,7 @@ ENDDEF
 DEF C_10n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10n_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "04025G103ZAT2A" 200 300 60 H I L CNN "MPN"
@@ -228,7 +228,7 @@ ENDDEF
 DEF R_243k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_243k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCMR04X2433FTL" 200 300 60 H I L CNN "MPN"
@@ -245,7 +245,7 @@ ENDDEF
 DEF DC_SOCKET J 0 40 Y Y 1 F N
 F0 "J" -350 -230 60 H V L BNN
 F1 "DC_SOCKET" 50 -275 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:DC_SOCKET" 50 -350 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:DC_SOCKET" 50 -350 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Multicomp" 25 -475 50 H I C CNN "Manufacturer"
 F5 "MJ-179PH" 0 -200 50 H V C CNN "MPN"
@@ -269,7 +269,7 @@ ENDDEF
 DEF KP-1608CGCK D 0 0 Y Y 1 F N
 F0 "D" -200 150 60 H V C CNN
 F1 "KP-1608CGCK" 0 -150 60 H V C CNN
-F2 "datacenter-dram-tester-footprints:LED_0603" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:LED_0603" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "KP-1608CGCK" 200 500 60 H I L CNN "MPN"
 F5 "KINGBRIGHT" 210 620 60 H I L CNN "Manufacturer"
@@ -290,7 +290,7 @@ ENDDEF
 DEF R_330R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_330R_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCMR04X3300FTL" 200 300 60 H I L CNN "MPN"
@@ -307,7 +307,7 @@ ENDDEF
 DEF R_10k2_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_10k2_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP PRO" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCWR04X1022FTL" 200 300 60 H I L CNN "MPN"
@@ -324,7 +324,7 @@ ENDDEF
 DEF C_100n_0402_6V3 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100n_0402_6V3" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
@@ -342,7 +342,7 @@ ENDDEF
 DEF TP_SMD1MM TP 0 0 N Y 1 F N
 F0 "TP" -100 50 50 H V R CNN
 F1 "TP_SMD1MM" 0 -100 50 H I C CNN
-F2 "datacenter-dram-tester-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:Testpoint_smd_1mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 DRAW
 C 0 0 22 0 1 0 N
@@ -355,7 +355,7 @@ ENDDEF
 DEF TPS65296 U 0 40 Y Y 1 F N
 F0 "U" 50 50 50 H V C CNN
 F1 "TPS65296" 200 -50 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:VQFN-HR" 0 0 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:VQFN-HR" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TPS65296RJER" 0 0 50 H V C CNN "MPN"
 F5 "Texas Instruments" 0 0 50 H V C CNN "Manufacturer"
@@ -387,7 +387,7 @@ ENDDEF
 DEF C_22u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_22u_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM188R60J226MEA0D" 200 300 60 H I L CNN "MPN"
@@ -405,7 +405,7 @@ ENDDEF
 DEF R_0R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_0R_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GE0R00X" 200 300 60 H I L CNN "MPN"
@@ -422,7 +422,7 @@ ENDDEF
 DEF C_10u_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10u_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM155R60J106ME44D" 200 300 60 H I L CNN "MPN"
@@ -440,7 +440,7 @@ ENDDEF
 DEF C_470n_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_470n_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1005X5R1E474M050BB" 200 300 60 H I L CNN "MPN"
@@ -458,7 +458,7 @@ ENDDEF
 DEF C_10u_25V_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10u_25V_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1608X5R1E106M080AC" 200 300 60 H I L CNN "MPN"
@@ -476,7 +476,7 @@ ENDDEF
 DEF C_10u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10u_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Murata" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM188R61A106KE69D" 200 300 60 H I L CNN "MPN"
@@ -494,7 +494,7 @@ ENDDEF
 DEF C_100n_0402_16V C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100n_0402_16V" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0402B104K160CT" 200 300 60 H I L CNN "MPN"
@@ -512,7 +512,7 @@ ENDDEF
 DEF TPS62823DLCT U 0 40 Y Y 1 F N
 F0 "U" 0 -100 50 H V C CNN
 F1 "TPS62823DLCT" 0 -200 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:QFN-8_2x1mm" -100 -200 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:QFN-8_2x1mm" -100 -200 50 H I C CNN
 F3 "" 0 -100 50 H I C CNN
 F4 "TPS62823DLCT" 0 0 50 H V C CNN "MPN"
 F5 "Texas Instruments" 0 0 50 H V C CNN "Manufacturer"
@@ -533,7 +533,7 @@ ENDDEF
 DEF IHLP1212AEERR47M11 L 0 40 Y Y 1 F N
 F0 "L" -200 150 60 H V L BNN
 F1 "IHLP1212AEERR47M11" -200 50 60 H V L BNN
-F2 "datacenter-dram-tester-footprints:IHLP-1212AE" 0 0 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:IHLP-1212AE" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Vishay" 0 0 50 H I C CNN "Manufacturer"
 F5 "IHLP1212AEERR47M11" 0 0 50 H I C CNN "MPN"
@@ -563,7 +563,7 @@ ENDDEF
 DEF IHLP2020BZER4R7M01 L 0 40 Y Y 1 F N
 F0 "L" -200 150 60 H V L BNN
 F1 "IHLP2020BZER4R7M01" -200 50 60 H V L BNN
-F2 "datacenter-dram-tester-footprints:IHLP2020BZER4R7M01" 0 0 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:IHLP2020BZER4R7M01" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Vishay" 0 0 50 H I C CNN "Manufacturer"
 F5 "IHLP1212AEERR47M11" 0 0 50 H I C CNN "MPN"
@@ -593,7 +593,7 @@ ENDDEF
 DEF DFE322512F-R68M=P2 L 0 40 Y Y 1 F N
 F0 "L" -200 150 60 H V L BNN
 F1 "DFE322512F-R68M=P2" -200 50 60 H V L BNN
-F2 "datacenter-dram-tester-footprints:INDC3225X120N" 0 0 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:INDC3225X120N" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "Vishay" 0 0 50 H I C CNN "Manufacturer"
 F5 "IHLP1212AEERR47M11" 0 0 50 H I C CNN "MPN"
@@ -623,7 +623,7 @@ ENDDEF
 DEF 61300311121 J 0 40 Y Y 1 F N
 F0 "J" -200 100 50 H V L CNN
 F1 "61300311121" 100 -100 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:PinHeader_1x3_P2.54_Drill1.1mm" 200 200 60 H I L CNN
 F3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" 200 300 60 H I L CNN
 F4 "61300311121" 200 500 60 H I L CNN "MPN"
 F5 "Wurth Electronics Inc." 200 1100 60 H I L CNN "Manufacturer"
@@ -643,7 +643,7 @@ ENDDEF
 DEF C_120p_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_120p_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
 F5 "0603N121J500CT" 200 300 60 H I L CNN "MPN"
@@ -661,7 +661,7 @@ ENDDEF
 DEF C_1u_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_1u_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "WALSIN" 200 400 60 H I L CNN "Manufacturer"
 F5 "0603YD105KAT2A" 200 300 60 H I L CNN "MPN"
@@ -679,7 +679,7 @@ ENDDEF
 DEF C_100n_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100n_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "0603YC104KAZ2A" 200 300 60 H I L CNN "MPN"
@@ -697,7 +697,7 @@ ENDDEF
 DEF R_0R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_0R_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-J/-000ELF" 200 300 60 H I L CNN "MPN"
@@ -714,7 +714,7 @@ ENDDEF
 DEF R_5R1_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_5R1_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GEJ5R1X" 200 300 60 H I L CNN "MPN"
@@ -731,7 +731,7 @@ ENDDEF
 DEF R_66k5_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_66k5_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ3EKF6652V" 200 300 60 H I L CNN "MPN"
@@ -748,7 +748,7 @@ ENDDEF
 DEF R_100k_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_100k_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-FX-1003HLF" 200 300 60 H I L CNN "MPN"
@@ -765,7 +765,7 @@ ENDDEF
 DEF R_453k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_453k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0402453KFKED" 200 300 60 H I L CNN "MPN"
@@ -782,7 +782,7 @@ ENDDEF
 DEF R_100k_1%_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_100k_1%_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERA-6AEB104V" 200 300 60 H I L CNN "MPN"
@@ -799,7 +799,7 @@ ENDDEF
 DEF C_4u7_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_4u7_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C1608X5R1V475M080AC" 200 300 60 H I L CNN "MPN"
@@ -817,7 +817,7 @@ ENDDEF
 DEF C_100n_0402_6V3-antmicroCapacitors0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100n_0402_6V3-antmicroCapacitors0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Walsin" 200 400 60 H I L CNN "Manufacturer"
 F5 "0402X104K6R3CT" 200 300 60 H I L CNN "MPN"
@@ -835,7 +835,7 @@ ENDDEF
 DEF LM3881MME_NOPB U 0 40 Y Y 1 F N
 F0 "U" -250 450 60 H V R CNN
 F1 "LM3881MME_NOPB" -250 -350 60 H I L CNN
-F2 "datacenter-dram-tester-footprints:VSSOP8-Texas_Instruments-DGK0008A" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:VSSOP8-Texas_Instruments-DGK0008A" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "Texas Instruments" -300 350 60 H V L CNN "Manufacturer"
 F5 "LM3881MME/NOPB" -300 250 60 H V L CNN "MPN"
@@ -857,7 +857,7 @@ ENDDEF
 DEF C_10n_0603 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_10n_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "AVX" 200 400 60 H I L CNN "Manufacturer"
 F5 "06031C103JAT2A" 200 300 60 H I L CNN "MPN"
@@ -875,7 +875,7 @@ ENDDEF
 DEF EG1218 S 0 0 Y Y 1 F N
 F0 "S" -150 90 50 H V C CNN
 F1 "EG1218" 0 -210 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:Switch_Slide_11.6x4mm_EG1218" 200 200 50 H I L CNN
 F3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" 200 300 60 H I L CNN
 F4 "EG1218" 200 500 60 H I L CNN "MPN"
 F5 "E-Switch" 200 1100 60 H I L CNN "Manufacturer"
@@ -895,7 +895,7 @@ ENDDEF
 DEF C_47u_16V_1206 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_47u_16V_1206" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:1206-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:1206-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "TDK" 200 400 60 H I L CNN "Manufacturer"
 F5 "C3216X5R1C476M160AB" 200 300 60 H I L CNN "MPN"
@@ -913,7 +913,7 @@ ENDDEF
 DEF C_120p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_120p_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
 F5 "C0402C121J5GACTU" 200 300 60 H I L CNN "MPN"
@@ -931,7 +931,7 @@ ENDDEF
 DEF R_10k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_10k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040210K0FKEDHP" 200 300 60 H I L CNN "MPN"
@@ -948,7 +948,7 @@ ENDDEF
 DEF 2199155-1 U 0 40 N Y 2 F N
 F0 "U" 300 7900 50 H V C CNN
 F1 "2199155-1" 475 7825 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:2199155-1" -675 6700 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:2199155-1" -675 6700 50 H I C CNN
 F3 "" -675 6700 50 H I C CNN
 DRAW
 S 250 7725 950 -25 0 1 0 f
@@ -1248,7 +1248,7 @@ ENDDEF
 DEF XC7K160T-FFG676 U 0 40 Y Y 8 L N
 F0 "U" 0 50 50 H V C CNN
 F1 "XC7K160T-FFG676" 0 -50 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:BGA676C100P26X26_2700X2700X254" 0 0 50 H V C CNN
+F2 "data-center-dram-tester.pro-footprints:BGA676C100P26X26_2700X2700X254" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW
 S -1750 2650 1750 -2900 1 1 10 f
@@ -1943,7 +1943,7 @@ ENDDEF
 DEF R_0R_0201 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_0R_0201" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0201-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0201-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW02010000Z0ED" 200 300 60 H I L CNN "MPN"
@@ -1960,7 +1960,7 @@ ENDDEF
 DEF B3U-1000P S 0 40 Y Y 1 F N
 F0 "S" 0 160 60 H V C CNN
 F1 "B3U-1000P" 0 -100 60 H V C CNN
-F2 "datacenter-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:Switch_Tactile_SMD_B3U-1000P" 200 200 60 H I L CNN
 F3 "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3u.pdf" 200 300 60 H I L CNN
 F4 "Omron Electronics Inc-EMC Div" 200 1100 60 H I L CNN "Manufacturer"
 F5 "B3U-1000P" 200 500 60 H I L CNN "MPN"
@@ -1982,7 +1982,7 @@ ENDDEF
 DEF R_4k7_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_4k7_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "PANASONIC_ELECTRONIC_COMPONENTS" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GEJ472X" 200 300 60 H I L CNN "MPN"
@@ -1999,7 +1999,7 @@ ENDDEF
 DEF R_100R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_100R_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1000GLF" 200 300 60 H I L CNN "MPN"
@@ -2016,7 +2016,7 @@ ENDDEF
 DEF S25FL128SAGNFI000 U 0 10 Y Y 1 F N
 F0 "U" 350 250 60 H V C CNN
 F1 "S25FL128SAGNFI000" 750 150 60 H V C CNN
-F2 "datacenter-dram-tester-footprints:S25FL128SAGNFI000" 1000 240 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:S25FL128SAGNFI000" 1000 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "Cypress Semiconductor" 0 0 50 H V C CNN "Manufacturer"
 F5 "S25FL128SAGNFI000" 0 0 50 H V C CNN "MPN"
@@ -2039,7 +2039,7 @@ ENDDEF
 DEF TPD6E05U06 D 0 40 Y Y 1 F N
 F0 "D" -50 300 50 H V C CNN
 F1 "TPD6E05U06" 150 -700 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:TPD6E05U06" 1200 250 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:TPD6E05U06" 1200 250 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tpd6e05u06.pdf" 1500 350 50 H I C CNN
 F4 "TPD6E05U06RVZR" 150 400 50 H V C CNN "MPN"
 F5 "Texas Instruments" 250 500 50 H V C CNN "Manufacturer"
@@ -2061,7 +2061,7 @@ ENDDEF
 DEF BSS138APW Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
 F1 "BSS138APW" 136 0 60 V V C CNN
-F2 "datacenter-dram-tester-footprints:SC70-3" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:SC70-3" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "BSS138PW" 200 500 60 H I L CNN "MPN"
 F5 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
@@ -2107,7 +2107,7 @@ ENDDEF
 DEF R_2k2_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_2k2_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
 F5 "RC0402FR-072K2L" 200 300 60 H I L CNN "MPN"
@@ -2124,7 +2124,7 @@ ENDDEF
 DEF 0878311420 J 0 40 Y Y 1 F N
 F0 "J" -100 400 50 H V L CNN
 F1 "0878311420" 0 -400 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:PinHeader_2x7_P2mm_Drill1mm" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:PinHeader_2x7_P2mm_Drill1mm" 200 200 60 H I L CNN
 F3 "https://www.molex.com/pdm_docs/sd/878311420_sd.pdf" 200 300 60 H I L CNN
 F4 "0878311420" 200 500 60 H I L CNN "MPN"
 F5 "Molex" 200 1100 60 H I L CNN "Manufacturer"
@@ -2166,7 +2166,7 @@ ENDDEF
 DEF BLM18AG601SN1D FB 0 40 Y Y 1 F N
 F0 "FB" -100 150 60 H V C CNN
 F1 "BLM18AG601SN1D" 0 -150 60 H V L CNN
-F2 "datacenter-dram-tester-footprints:0603" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603" 200 200 60 H I L CNN
 F3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" 200 300 60 H I L CNN
 F4 "BLM18AG601SN1D" 200 500 60 H I L CNN "MPN"
 F5 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
@@ -2184,7 +2184,7 @@ ENDDEF
 DEF C_4u7_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_4u7_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MURATA" 200 400 60 H I L CNN "Manufacturer"
 F5 "GRM155R61A475MEAAD" 200 300 60 H I L CNN "MPN"
@@ -2202,7 +2202,7 @@ ENDDEF
 DEF R_12k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_12k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040212K0FKEDHP" 200 300 60 H I L CNN "MPN"
@@ -2219,7 +2219,7 @@ ENDDEF
 DEF C_18p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_18p_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MC0402N180J500CT" 200 300 60 H I L CNN "MPN"
@@ -2237,7 +2237,7 @@ ENDDEF
 DEF WE_629105150521 J 0 40 Y Y 1 F N
 F0 "J" -148 598 60 H V C CNN
 F1 "WE_629105150521" -248 -252 60 V V C CNN
-F2 "datacenter-dram-tester-footprints:USB_Micro_B_Female_629105150521" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:USB_Micro_B_Female_629105150521" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "629105150521" 200 500 60 H I L CNN "MPN"
 F5 "Wurth_Elektronik" 200 1100 60 H I L CNN "Manufacturer"
@@ -2271,7 +2271,7 @@ ENDDEF
 DEF TPD2E009 D 0 40 Y Y 1 F N
 F0 "D" -300 -500 60 H V L BNN
 F1 "TPD2E009" -300 -600 60 V V L BNN
-F2 "datacenter-dram-tester-footprints:SOT-3" 50 200 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:SOT-3" 50 200 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 F4 "TPD2E009DRTR" -300 300 50 H I C CNN "MPN"
 F5 "Texas Instruments" -300 400 50 H I C CNN "Manufacturer"
@@ -2291,7 +2291,7 @@ ENDDEF
 DEF 685119134923 J 0 40 Y Y 1 F N
 F0 "J" -250 800 60 H V C CNN
 F1 "685119134923" 100 -800 60 H V C CNN
-F2 "datacenter-dram-tester-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:HDMI_A_Female_685119134923" 200 200 60 H I L CNN
 F3 "https://www.farnell.com/cad/1641702.pdf?_ga=2.75511573.1630328358.1571653391-156563690.1566371002&_gac=1.138144260.1570692453.EAIaIQobChMIsbyuq5WR5QIVhKiaCh1YMAxzEAYYBiABEgKWa_D_BwE" 200 300 60 H I L CNN
 F4 "685119134923" 200 500 60 H I L CNN "MPN"
 F5 "Amphenol" 200 1100 60 H I L CNN "Manufacturer"
@@ -2373,7 +2373,7 @@ ENDDEF
 DEF TPD8S009DSMR IC 0 40 Y Y 1 F N
 F0 "IC" -150 400 50 H V C CNN
 F1 "TPD8S009DSMR" 100 -1000 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:R-PDSO-N15" 1400 -350 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:R-PDSO-N15" 1400 -350 50 H I C CNN
 F3 "" 1700 -450 50 H I C CNN
 F4 "TPD8S009DSMR" -50 500 50 H I C CNN "MPN"
 F5 "Texas Instruments" 50 600 50 H I C CNN "Manufacturer"
@@ -2402,7 +2402,7 @@ ENDDEF
 DEF 1140084168 J 0 40 Y Y 1 F N
 F0 "J" -350 600 50 H V C CNN
 F1 "1140084168" -150 -550 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:MicroSD_1140084168" -100 -650 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:MicroSD_1140084168" -100 -650 50 H I C CNN
 F3 "" -350 0 50 H I C CNN
 F4 "1140084168" 0 650 50 H I C CNN "MPN"
 F5 "Amphenol" -50 750 50 H I C CNN "Manufacturer"
@@ -2428,7 +2428,7 @@ ENDDEF
 DEF R_20k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_20k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040220K0FKED" 200 300 60 H I L CNN "MPN"
@@ -2445,7 +2445,7 @@ ENDDEF
 DEF R_220R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_220R_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "Panasonic" 200 400 60 H I L CNN "Manufacturer"
 F5 "ERJ2GEJ221X" 200 300 60 H I L CNN "MPN"
@@ -2462,7 +2462,7 @@ ENDDEF
 DEF R_22R_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_22R_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW040222R0FKED" 200 300 60 H I L CNN "MPN"
@@ -2479,7 +2479,7 @@ ENDDEF
 DEF FT4232HQ U 0 40 Y Y 1 F N
 F0 "U" -600 2350 60 H V C CNN
 F1 "FT4232HQ" 0 -400 60 V V L CNN
-F2 "datacenter-dram-tester-footprints:FT4232HQ" 200 200 60 V I L CNN
+F2 "data-center-dram-tester.pro-footprints:FT4232HQ" 200 200 60 V I L CNN
 F3 "" 200 400 60 H I L CNN
 F4 "FTDI" 200 1150 60 H I L CNN "Manufacturer"
 F5 "FT4232HQ-TRAY" 200 550 60 H I L CNN "MPN"
@@ -2558,7 +2558,7 @@ ENDDEF
 DEF ABM8G-12.000MHZ-18-D2Y-T Y 0 40 Y Y 1 F N
 F0 "Y" -75 125 31 H V C CNN
 F1 "ABM8G-12.000MHZ-18-D2Y-T" 200 -150 31 H V C CNN
-F2 "datacenter-dram-tester-footprints:KX-7" 2100 0 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:KX-7" 2100 0 50 H I C CNN
 F3 "" 2200 100 50 H I C CNN
 F4 "ABM8G-12.000MHZ-18-D2Y-T " 475 -275 31 H V C CNN "MPN"
 F5 "Abracon" 300 -225 31 H V C CNN "Manufacturer"
@@ -2580,7 +2580,7 @@ ENDDEF
 DEF oshw_logo N 0 40 Y Y 1 F N
 F0 "N" 20 40 50 H V C CNN
 F1 "oshw_logo" 30 -150 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:oshw-logo" 20 -240 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:oshw-logo" 20 -240 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 T 0 30 -40 79 0 1 1 Logo Normal 0 C C
@@ -2592,7 +2592,7 @@ ENDDEF
 DEF antmicro_logo N 0 40 Y Y 1 F N
 F0 "N" 0 350 50 H V C CNN
 F1 "antmicro_logo" 0 -200 50 H V C CNN
-F2 "datacenter-dram-tester-footprints:antmicro-logo" -100 250 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:antmicro-logo" -100 250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
 T 0 50 50 79 0 0 0 Logo Normal 0 C C
@@ -2604,7 +2604,7 @@ ENDDEF
 DEF C_100n_0201 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100n_0201" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0201-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0201-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
 F5 "CC0201KRX6S5BB104" 200 300 60 H I L CNN "MPN"
@@ -2622,7 +2622,7 @@ ENDDEF
 DEF C_330u_KEMET_D C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_330u_KEMET_D" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:KEMET_D" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:KEMET_D" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "KEMET" 200 400 60 H I L CNN "Manufacturer"
 F5 "T520D337M006ATE045" 200 300 60 H I L CNN "MPN"
@@ -2645,7 +2645,7 @@ ENDDEF
 DEF C_100u_KEMET_A C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_100u_KEMET_A" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:KEMET_A" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:KEMET_A" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "298D107X06R3A2T" 200 300 60 H I L CNN "MPN"
@@ -2668,7 +2668,7 @@ ENDDEF
 DEF R_120R_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_120R_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "VISHAY" 200 400 60 H I L CNN "Manufacturer"
 F5 "CRCW0603120RFKEA" 200 300 60 H I L CNN "MPN"
@@ -2685,7 +2685,7 @@ ENDDEF
 DEF R_1k_0603 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_1k_0603" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0603-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0603-JW-102ELF" 200 300 60 H I L CNN "MPN"
@@ -2702,7 +2702,7 @@ ENDDEF
 DEF ASFLMB-100.000MHZ-XY-T U 0 10 Y Y 1 F N
 F0 "U" 800 400 60 H V C CNN
 F1 "ASFLMB-100.000MHZ-XY-T" 800 300 60 H V C CNN
-F2 "datacenter-dram-tester-footprints:ASFLMB-100.000MHZ-XY-T" 800 240 60 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:ASFLMB-100.000MHZ-XY-T" 800 240 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "Abracon" 0 0 50 H V C CNN "Manufacturer"
 F5 "ASFLMB-100.000MHZ-XY-T" 0 0 50 H V C CNN "MPN"
@@ -2725,7 +2725,7 @@ ENDDEF
 DEF S27KL0641DABHI023 U 0 40 Y Y 1 F N
 F0 "U" -450 -900 50 H V L BNN
 F1 "S27KL0641DABHI023" -450 -1000 50 H V L BNN
-F2 "datacenter-dram-tester-footprints:FBGA-24" -450 -1100 50 H I L BNN
+F2 "data-center-dram-tester.pro-footprints:FBGA-24" -450 -1100 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "CYPRESS SEMICONDUCTOR" 50 -1250 50 H I C CNN "Manufacturer"
 F5 "S27KL0641DABHI023" -50 -1150 50 H I C CNN "MPN"
@@ -2765,7 +2765,7 @@ ENDDEF
 DEF C_22p_0402 C 0 0 Y Y 1 F N
 F0 "C" -55 135 60 H V L CNN
 F1 "C_22p_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-cap" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-cap" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "YAGEO" 200 400 60 H I L CNN "Manufacturer"
 F5 "CC0402JRNPO9BN220" 200 300 60 H I L CNN "MPN"
@@ -2783,7 +2783,7 @@ ENDDEF
 DEF ABM8G-25.000MHZ-18-D2Y-T Y 0 40 Y Y 1 F N
 F0 "Y" -75 125 31 H V C CNN
 F1 "ABM8G-25.000MHZ-18-D2Y-T" 350 -150 31 H V C CNN
-F2 "datacenter-dram-tester-footprints:KX-7" 2100 0 50 H I C CNN
+F2 "data-center-dram-tester.pro-footprints:KX-7" 2100 0 50 H I C CNN
 F3 "" 2200 100 50 H I C CNN
 F4 "ABM8G-25.000MHZ-18-D2Y-T" 475 -275 31 H V C CNN "MPN"
 F5 "Abracon" 300 -225 31 H V C CNN "Manufacturer"
@@ -2805,7 +2805,7 @@ ENDDEF
 DEF R_1M8_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_1M8_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCMR04X185_JTL" 200 300 60 H I L CNN "MPN"
@@ -2822,7 +2822,7 @@ ENDDEF
 DEF KSZ9031RNXCA U 0 40 Y Y 1 F N
 F0 "U" 0 50 50 H V L CNN
 F1 "KSZ9031RNXCA" 0 -2900 50 H V L CNN
-F2 "datacenter-dram-tester-footprints:QFN-48-Microchip-QFN77-48LD-PL-2" 0 500 50 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:QFN-48-Microchip-QFN77-48LD-PL-2" 0 500 50 H I L CNN
 F3 "" 0 500 50 H I L CNN
 F4 "Microchip" 0 300 50 H I L CNN "Manufacturer"
 F5 "KSZ9031RNXCA" 300 400 50 H I C CNN "MPN"
@@ -2887,7 +2887,7 @@ ENDDEF
 DEF R_12k1_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_12k1_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "MULTICOMP" 200 400 60 H I L CNN "Manufacturer"
 F5 "MCWR04X1212FTL" 200 300 60 H I L CNN "MPN"
@@ -2904,7 +2904,7 @@ ENDDEF
 DEF BLM18PG121SN1D FB 0 40 Y Y 1 F N
 F0 "FB" -150 150 60 H V C CNN
 F1 "BLM18PG121SN1D" 0 -150 60 H V L CNN
-F2 "datacenter-dram-tester-footprints:0603-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0603-res" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
 F4 "BLM18PG121SN1D" 200 500 60 H I L CNN "MPN"
 F5 "Murata Electronics North America" 200 1100 60 H I L CNN "Manufacturer"
@@ -2922,7 +2922,7 @@ ENDDEF
 DEF WE-RJ45_7499111121A J? 0 40 Y Y 1 F N
 F0 "J?" 0 700 50 H V L BNN
 F1 "WE-RJ45_7499111121A" -300 -700 50 H V L BNN
-F2 "datacenter-dram-tester-footprints:7499111121A" 0 0 50 H I L BNN
+F2 "data-center-dram-tester.pro-footprints:7499111121A" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 F4 "7499111121A" 0 0 50 H I L BNN "MPN"
 F5 "WURTH ELEKTRONIK" 0 0 50 H I C CNN "Manufacturer"
@@ -2968,7 +2968,7 @@ ENDDEF
 DEF R_1k_0402 R 0 0 Y Y 1 F N
 F0 "R" -55 135 60 H V L CNN
 F1 "R_1k_0402" 0 -150 60 H I C CNN
-F2 "datacenter-dram-tester-footprints:0402-res" 200 200 60 H I L CNN
+F2 "data-center-dram-tester.pro-footprints:0402-res" 200 200 60 H I L CNN
 F3 "" 0 0 50 H I C CNN
 F4 "BOURNS" 200 400 60 H I L CNN "Manufacturer"
 F5 "CR0402-FX-1001GLF" 200 300 60 H I L CNN "MPN"
