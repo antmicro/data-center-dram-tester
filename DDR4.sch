@@ -26,7 +26,7 @@ F 3 "" H 9500 16575 50  0001 C CNN
 	2    10175 9875
 	1    0    0    -1  
 $EndComp
-Text Notes 6975 1250 0    118  ~ 24
+Text Notes 6850 1025 0    118  ~ 24
 DDR4 RDIMM connector
 Wire Wire Line
 	4850 3050 5575 3050

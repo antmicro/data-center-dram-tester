@@ -172,25 +172,25 @@ Wire Wire Line
 Connection ~ 10475 2625
 Wire Wire Line
 	10875 2625 11125 2625
-Text GLabel 8700 9300 0    50   Input ~ 0
+Text GLabel 1650 9725 0    50   Input ~ 0
 GCLK100
-Text GLabel 8275 9825 2    50   Input ~ 0
+Text GLabel 1225 10250 2    50   Input ~ 0
 USR_LED1
-Text GLabel 8275 9925 2    50   Input ~ 0
+Text GLabel 1225 10350 2    50   Input ~ 0
 USR_LED2
-Text GLabel 8275 10325 2    50   Input ~ 0
+Text GLabel 1225 10750 2    50   Input ~ 0
 USR_LED3
-Text GLabel 8275 9725 2    50   Input ~ 0
+Text GLabel 1225 10150 2    50   Input ~ 0
 USR_LED5
-Text GLabel 8275 9525 2    50   Input ~ 0
+Text GLabel 1225 9950 2    50   Input ~ 0
 USR_BTN1
-Text GLabel 8275 10125 2    50   Input ~ 0
+Text GLabel 1225 10550 2    50   Input ~ 0
 USR_BTN2
-Text GLabel 8275 9625 2    50   Input ~ 0
+Text GLabel 1225 10050 2    50   Input ~ 0
 USR_BTN3
-Text GLabel 8275 10225 2    50   Input ~ 0
+Text GLabel 1225 10650 2    50   Input ~ 0
 USR_LED4
-Text GLabel 8275 10025 2    50   Input ~ 0
+Text GLabel 1225 10450 2    50   Input ~ 0
 USR_BTN4
 Text GLabel 2350 4625 0    50   Input ~ 0
 ETH_RXD0
@@ -266,7 +266,7 @@ Text GLabel 9975 6650 0    50   Input ~ 0
 AUX_JTAG_TMS
 Text GLabel 9975 4850 0    50   Input ~ 0
 AUX_JTAG_TCK
-Text GLabel 8700 9200 0    50   Input ~ 0
+Text GLabel 1650 9625 0    50   Input ~ 0
 AUX_JTAG_RST
 Text GLabel 9975 5850 0    50   Input ~ 0
 AUX_JTAG_TDI
@@ -284,16 +284,16 @@ Text GLabel 9975 3850 0    50   Input ~ 0
 QSPI_DQ1
 Text GLabel 9975 4150 0    50   Input ~ 0
 PUDC_B
-Text Notes 7925 8850 0    50   ~ 0
+Text Notes 875  9275 0    50   ~ 0
 TODO: Connect these signals
 Wire Notes Line
-	7950 8875 8900 8875
+	900  9300 1850 9300
 Wire Notes Line
-	8900 8875 8900 10550
+	1850 9300 1850 10975
 Wire Notes Line
-	8900 10550 7950 10550
+	1850 10975 900  10975
 Wire Notes Line
-	7950 10550 7950 8875
+	900  10975 900  9300
 Text Notes 2700 1400 0    118  ~ 24
 BANK 12
 Text Notes 5300 1425 0    118  ~ 24
@@ -662,4 +662,6 @@ Wire Wire Line
 	14475 7750 14700 7750
 Wire Wire Line
 	14475 7850 14700 7850
+Wire Notes Line
+	8275 475  8275 11225
 $EndSCHEMATC
