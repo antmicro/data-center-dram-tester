@@ -4,10 +4,10 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 10
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "DDR4 Datacenter Tester"
+Date "2021-08"
+Rev "1.0.0"
+Comp "Antmicro Ltd."
 Comment1 ""
 Comment2 ""
 Comment3 ""

@@ -5,10 +5,10 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 10
 Title "DDR4 Datacenter Tester"
-Date ""
+Date "2021-08"
 Rev "1.0.0"
-Comp ""
-Comment1 "DDR4 Datacenter Tester"
+Comp "Antmicro Ltd."
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
