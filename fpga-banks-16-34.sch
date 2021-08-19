@@ -14,23 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+L ddr4-datacenter-tester:XC7K160T-FFG676 U15
 U 3 1 61B486C2
 P 3800 5100
 F 0 "U15" H 3800 2125 50  0000 C CNN
 F 1 "XC7K160T-FFG676" H 3800 2034 50  0000 C CNN
-F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 3800 1943 50  0000 C CNN
+F 2 "ddr4-datacenter-tester-footprints:BGA676C100P26X26_2700X2700X254" H 3800 1943 50  0000 C CNN
 F 3 "" H 3800 5100 50  0000 C CNN
 	3    3800 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+L ddr4-datacenter-tester:XC7K160T-FFG676 U15
 U 4 1 61B4F8CF
 P 11725 4950
 F 0 "U15" H 11725 1975 50  0000 C CNN
 F 1 "XC7K160T-FFG676" H 11725 1884 50  0000 C CNN
-F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 11725 1793 50  0000 C CNN
+F 2 "ddr4-datacenter-tester-footprints:BGA676C100P26X26_2700X2700X254" H 11725 1793 50  0000 C CNN
 F 3 "" H 11725 4950 50  0000 C CNN
 	4    11725 4950
 	1    0    0    -1  
@@ -999,12 +999,12 @@ DQ34
 Wire Wire Line
 	5800 5300 6525 5300
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R97
+L ddr4-datacenter-tester:R_0R_0201 R97
 U 1 1 67A31A73
 P 9825 8775
 F 0 "R97" H 9600 8825 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 8625 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 8975 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 8975 60  0001 L CNN
 F 3 "" H 9825 8775 50  0001 C CNN
 F 4 "VISHAY" H 10025 9175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9075 60  0001 L CNN "MPN"
@@ -1013,12 +1013,12 @@ F 6 "0R" H 9825 8775 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R98
+L ddr4-datacenter-tester:R_0R_0201 R98
 U 1 1 67A3746B
 P 9825 8875
 F 0 "R98" H 9600 8925 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 8725 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9075 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9075 60  0001 L CNN
 F 3 "" H 9825 8875 50  0001 C CNN
 F 4 "VISHAY" H 10025 9275 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9175 60  0001 L CNN "MPN"
@@ -1027,12 +1027,12 @@ F 6 "0R" H 9825 8875 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R99
+L ddr4-datacenter-tester:R_0R_0201 R99
 U 1 1 67A38118
 P 9825 9025
 F 0 "R99" H 9600 9075 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 8875 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9225 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9225 60  0001 L CNN
 F 3 "" H 9825 9025 50  0001 C CNN
 F 4 "VISHAY" H 10025 9425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9325 60  0001 L CNN "MPN"
@@ -1041,12 +1041,12 @@ F 6 "0R" H 9825 9025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R100
+L ddr4-datacenter-tester:R_0R_0201 R100
 U 1 1 67A38ED5
 P 9825 9125
 F 0 "R100" H 9600 9175 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 8975 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9325 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9325 60  0001 L CNN
 F 3 "" H 9825 9125 50  0001 C CNN
 F 4 "VISHAY" H 10025 9525 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9425 60  0001 L CNN "MPN"
@@ -1055,12 +1055,12 @@ F 6 "0R" H 9825 9125 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R101
+L ddr4-datacenter-tester:R_0R_0201 R101
 U 1 1 67A39AE6
 P 9825 9275
 F 0 "R101" H 9600 9325 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9125 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9475 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9475 60  0001 L CNN
 F 3 "" H 9825 9275 50  0001 C CNN
 F 4 "VISHAY" H 10025 9675 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9575 60  0001 L CNN "MPN"
@@ -1069,12 +1069,12 @@ F 6 "0R" H 9825 9275 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R102
+L ddr4-datacenter-tester:R_0R_0201 R102
 U 1 1 67A3A783
 P 9825 9375
 F 0 "R102" H 9600 9425 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9225 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9575 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9575 60  0001 L CNN
 F 3 "" H 9825 9375 50  0001 C CNN
 F 4 "VISHAY" H 10025 9775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9675 60  0001 L CNN "MPN"
@@ -1083,12 +1083,12 @@ F 6 "0R" H 9825 9375 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R103
+L ddr4-datacenter-tester:R_0R_0201 R103
 U 1 1 67A47308
 P 9825 9525
 F 0 "R103" H 9600 9575 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9725 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9725 60  0001 L CNN
 F 3 "" H 9825 9525 50  0001 C CNN
 F 4 "VISHAY" H 10025 9925 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9825 60  0001 L CNN "MPN"
@@ -1097,12 +1097,12 @@ F 6 "0R" H 9825 9525 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R104
+L ddr4-datacenter-tester:R_0R_0201 R104
 U 1 1 67A47311
 P 9825 9625
 F 0 "R104" H 9600 9675 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9475 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9825 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9825 60  0001 L CNN
 F 3 "" H 9825 9625 50  0001 C CNN
 F 4 "VISHAY" H 10025 10025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 9925 60  0001 L CNN "MPN"
@@ -1111,12 +1111,12 @@ F 6 "0R" H 9825 9625 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R105
+L ddr4-datacenter-tester:R_0R_0201 R105
 U 1 1 67A4731A
 P 9825 9775
 F 0 "R105" H 9600 9825 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9625 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 9975 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 9975 60  0001 L CNN
 F 3 "" H 9825 9775 50  0001 C CNN
 F 4 "VISHAY" H 10025 10175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10075 60  0001 L CNN "MPN"
@@ -1125,12 +1125,12 @@ F 6 "0R" H 9825 9775 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R106
+L ddr4-datacenter-tester:R_0R_0201 R106
 U 1 1 67A47323
 P 9825 9875
 F 0 "R106" H 9600 9925 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9725 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10075 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10075 60  0001 L CNN
 F 3 "" H 9825 9875 50  0001 C CNN
 F 4 "VISHAY" H 10025 10275 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10175 60  0001 L CNN "MPN"
@@ -1139,12 +1139,12 @@ F 6 "0R" H 9825 9875 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R107
+L ddr4-datacenter-tester:R_0R_0201 R107
 U 1 1 67A4732C
 P 9825 10025
 F 0 "R107" H 9600 10075 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9875 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10225 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10225 60  0001 L CNN
 F 3 "" H 9825 10025 50  0001 C CNN
 F 4 "VISHAY" H 10025 10425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10325 60  0001 L CNN "MPN"
@@ -1153,12 +1153,12 @@ F 6 "0R" H 9825 10025 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R108
+L ddr4-datacenter-tester:R_0R_0201 R108
 U 1 1 67A47335
 P 9825 10125
 F 0 "R108" H 9600 10175 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 9975 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10325 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10325 60  0001 L CNN
 F 3 "" H 9825 10125 50  0001 C CNN
 F 4 "VISHAY" H 10025 10525 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10425 60  0001 L CNN "MPN"
@@ -1167,12 +1167,12 @@ F 6 "0R" H 9825 10125 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R109
+L ddr4-datacenter-tester:R_0R_0201 R109
 U 1 1 67A8DD1F
 P 9825 10275
 F 0 "R109" H 9600 10325 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 10125 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10475 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10475 60  0001 L CNN
 F 3 "" H 9825 10275 50  0001 C CNN
 F 4 "VISHAY" H 10025 10675 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10575 60  0001 L CNN "MPN"
@@ -1181,12 +1181,12 @@ F 6 "0R" H 9825 10275 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R110
+L ddr4-datacenter-tester:R_0R_0201 R110
 U 1 1 67A8DD28
 P 9825 10375
 F 0 "R110" H 9600 10425 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 10225 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10575 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10575 60  0001 L CNN
 F 3 "" H 9825 10375 50  0001 C CNN
 F 4 "VISHAY" H 10025 10775 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10675 60  0001 L CNN "MPN"
@@ -1195,12 +1195,12 @@ F 6 "0R" H 9825 10375 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R111
+L ddr4-datacenter-tester:R_0R_0201 R111
 U 1 1 67A8DD31
 P 9825 10525
 F 0 "R111" H 9600 10575 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 10375 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10725 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10725 60  0001 L CNN
 F 3 "" H 9825 10525 50  0001 C CNN
 F 4 "VISHAY" H 10025 10925 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10825 60  0001 L CNN "MPN"
@@ -1209,12 +1209,12 @@ F 6 "0R" H 9825 10525 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R112
+L ddr4-datacenter-tester:R_0R_0201 R112
 U 1 1 67A8DD3A
 P 9825 10625
 F 0 "R112" H 9600 10675 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 10475 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10825 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10825 60  0001 L CNN
 F 3 "" H 9825 10625 50  0001 C CNN
 F 4 "VISHAY" H 10025 11025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 10925 60  0001 L CNN "MPN"
@@ -1223,12 +1223,12 @@ F 6 "0R" H 9825 10625 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R113
+L ddr4-datacenter-tester:R_0R_0201 R113
 U 1 1 67A8DD43
 P 9825 10775
 F 0 "R113" H 9600 10825 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 10625 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 10975 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 10975 60  0001 L CNN
 F 3 "" H 9825 10775 50  0001 C CNN
 F 4 "VISHAY" H 10025 11175 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 11075 60  0001 L CNN "MPN"
@@ -1237,12 +1237,12 @@ F 6 "0R" H 9825 10775 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R114
+L ddr4-datacenter-tester:R_0R_0201 R114
 U 1 1 67A8DD4C
 P 9825 10875
 F 0 "R114" H 9600 10925 60  0000 C CNN
 F 1 "R_0R_0201" H 9825 10725 60  0001 C CNN
-F 2 "antmicro-footprints:0201-res" H 10025 11075 60  0001 L CNN
+F 2 "ddr4-datacenter-tester-footprints:0201-res" H 10025 11075 60  0001 L CNN
 F 3 "" H 9825 10875 50  0001 C CNN
 F 4 "VISHAY" H 10025 11275 60  0001 L CNN "Manufacturer"
 F 5 "CRCW02010000Z0ED" H 10025 11175 60  0001 L CNN "MPN"
@@ -1435,7 +1435,7 @@ DQS17_T
 Text GLabel 9000 4650 0    50   Input ~ 0
 DQS17_C
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R?
+L ddr4-datacenter-tester:R_0R_0201 R?
 U 1 1 6145FD9B
 P 9400 4550
 AR Path="/61B4860C/6145FD9B" Ref="R?"  Part="1" 
@@ -1451,7 +1451,7 @@ F 6 "0R" H 9400 4550 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistorsmisc:R_0R_0201 R?
+L ddr4-datacenter-tester:R_0R_0201 R?
 U 1 1 6145FDA4
 P 9400 4650
 AR Path="/61B4860C/6145FDA4" Ref="R?"  Part="1" 

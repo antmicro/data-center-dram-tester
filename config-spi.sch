@@ -1145,12 +1145,12 @@ F 5 "Wurth Electronics Inc." H 8900 11250 60  0001 L CNN "Manufacturer"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L antmicroMicrocontrollers:XC7K160T-FFG676 U15
+L ddr4-datacenter-tester:XC7K160T-FFG676 U15
 U 7 1 617A1FB1
 P 13175 5300
 F 0 "U15" H 11895 5398 50  0000 R CNN
 F 1 "XC7K160T-FFG676" H 11895 5307 50  0000 R CNN
-F 2 "antmicro-footprints:BGA676C100P26X26_2700X2700X254" H 11895 5216 50  0000 R CNN
+F 2 "ddr4-datacenter-tester-footprints:BGA676C100P26X26_2700X2700X254" H 11895 5216 50  0000 R CNN
 F 3 "" H 13175 5300 50  0000 C CNN
 	7    13175 5300
 	-1   0    0    -1  

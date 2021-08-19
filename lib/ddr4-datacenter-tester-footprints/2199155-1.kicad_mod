@@ -305,7 +305,7 @@
   (pad 253 smd rect (at 96.9 -4.6 90) (size 1.8 0.57) (layers F.Cu F.Paste F.Mask))
   (pad 260 smd rect (at 102.85 -4.6 90) (size 1.8 0.57) (layers F.Cu F.Paste F.Mask))
   (pad 78 smd rect (at 70.55 0 90) (size 1.8 0.57) (layers F.Cu F.Paste F.Mask))
-  (model ${ANT3DMDL}/c-2199155-1-b-3d.stp
+  (model ${KIPRJMOD}/lib/3d-models/c-2199155-1-b-3d.stp
     (offset (xyz 63.325 2.25 6.15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
