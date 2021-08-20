@@ -14,42 +14,42 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 6225 7750 750  500 
+S 4525 8325 1575 800 
 U 5FD53C7D
-F0 "Config SPI flash" 50
-F1 "config-spi.sch" 50
+F0 "Config SPI flash" 79
+F1 "config-spi.sch" 79
 $EndSheet
 $Sheet
-S 7300 7750 750  500 
+S 6475 8325 1575 800 
 U 600295C1
-F0 "FPGA power" 50
-F1 "fpga-power.sch" 50
+F0 "FPGA power" 79
+F1 "fpga-power.sch" 79
 $EndSheet
 $Sheet
-S 8800 6900 750  500 
+S 9425 6850 1575 800 
 U 5F982999
-F0 "Ethernet" 50
-F1 "ethernet.sch" 50
+F0 "Ethernet" 79
+F1 "ethernet.sch" 79
 $EndSheet
 $Sheet
-S 9800 6900 750  500 
+S 11300 6850 1575 800 
 U 60225B0C
-F0 "Supply" 50
-F1 "supply.sch" 50
+F0 "Supply" 79
+F1 "supply.sch" 79
 $EndSheet
 $Sheet
-S 7800 6875 750  500 
+S 7550 6850 1575 800 
 U 600E76D8
-F0 "Interfaces" 50
-F1 "interfaces.sch" 50
+F0 "Interfaces" 79
+F1 "interfaces.sch" 79
 $EndSheet
 Text Notes 6775 1400 0    157  ~ 31
 Data Center DRAM Tester
 $Sheet
-S 5800 6875 750  500 
+S 3825 6850 1575 800 
 U 5FEA2994
-F0 "HyperRAM" 50
-F1 "hyperram.sch" 50
+F0 "HyperRAM" 79
+F1 "hyperram.sch" 79
 $EndSheet
 $Comp
 L data-center-dram-tester:oshw_logo N1
@@ -74,26 +74,26 @@ F 3 "" H 15175 10125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 6850 6875 725  500 
+S 5700 6850 1575 800 
 U 61827943
-F0 "DDR4" 50
-F1 "DDR4.sch" 50
+F0 "DDR4" 79
+F1 "DDR4.sch" 79
 $EndSheet
 $Sheet
-S 8250 7750 750  500 
+S 8400 8325 1575 800 
 U 61AF7FF2
-F0 "FPGA banks 12-15" 50
-F1 "fpga-banks-12-15.sch" 50
+F0 "FPGA banks 12-15" 79
+F1 "fpga-banks-12-15.sch" 79
 $EndSheet
 $Sheet
-S 9250 7750 750  500 
+S 10375 8325 1575 800 
 U 61B4860C
-F0 "FPGA banks 16-34" 50
-F1 "fpga-banks-16-34.sch" 50
+F0 "FPGA banks 16-34" 79
+F1 "fpga-banks-16-34.sch" 79
 $EndSheet
 $Bitmap
-Pos 8200 4175
-Scale 1.000000
+Pos 8225 4250
+Scale 1.800000
 Data
 89 50 4E 47 0D 0A 1A 0A 00 00 00 0D 49 48 44 52 00 00 05 F0 00 00 02 B4 08 02 00 00 00 C3 36 8B 
 D4 00 00 00 03 73 42 49 54 08 08 08 DB E1 4F E0 00 00 00 09 70 48 59 73 00 00 2E 18 00 00 2E 18 
