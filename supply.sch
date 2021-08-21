@@ -2070,224 +2070,8 @@ VCC5V0_INT
 Wire Wire Line
 	15000 9175 15350 9175
 NoConn ~ 15000 9275
-Connection ~ 8125 6075
-Wire Wire Line
-	9625 6525 9525 6525
-Text Label 8400 6375 0    50   ~ 0
-1V2_PG
-Wire Wire Line
-	9625 6875 10375 6875
-Wire Wire Line
-	9625 6875 9625 6525
-Wire Wire Line
-	10375 6525 10075 6525
-Wire Wire Line
-	9925 6525 9925 6375
-Wire Wire Line
-	9925 6375 9525 6375
-Connection ~ 10375 6525
-Wire Wire Line
-	9975 6075 10075 6075
-Wire Wire Line
-	10725 6875 10375 6875
-Connection ~ 10375 6875
-Wire Wire Line
-	10375 6075 10725 6075
-Connection ~ 10375 6075
-Wire Wire Line
-	10725 6075 11025 6075
-Connection ~ 10725 6075
-Wire Wire Line
-	11025 6875 10725 6875
-Connection ~ 10725 6875
-Connection ~ 10075 6525
-Wire Wire Line
-	10075 6525 9925 6525
-Connection ~ 10075 6075
-Wire Wire Line
-	10075 6075 10375 6075
-$Comp
-L data-center-dram-tester:C_10u_0402 C?
-U 1 1 6008356D
-P 8125 6350
-AR Path="/6004278D/6008356D" Ref="C?"  Part="1" 
-AR Path="/60225B0C/6008356D" Ref="C149"  Part="1" 
-F 0 "C149" H 8200 6400 60  0000 L CNN
-F 1 "C_10u_0402" H 8125 6200 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-cap" H 8325 6550 60  0001 L CNN
-F 3 "" H 8125 6350 50  0001 C CNN
-F 4 "MURATA" H 8325 6750 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 8325 6650 60  0001 L CNN "MPN"
-F 6 "10u" H 8225 6325 50  0000 L CNN "Val"
-	1    8125 6350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8125 6075 8125 6200
-Text GLabel 7950 5675 0    50   Input ~ 0
-VCC5V0_INT
-Wire Wire Line
-	8125 5675 7950 5675
-Wire Wire Line
-	8125 5675 8125 6075
-$Comp
-L data-center-dram-tester:TPS62823DLCT U?
-U 1 1 60083579
-P 9075 6575
-AR Path="/6004278D/60083579" Ref="U?"  Part="1" 
-AR Path="/60225B0C/60083579" Ref="U12"  Part="1" 
-F 0 "U12" H 9125 7340 50  0000 C CNN
-F 1 "TPS62823DLCT" H 9125 7249 50  0000 C CNN
-F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 8975 6375 50  0001 C CNN
-F 3 "" H 9075 6475 50  0001 C CNN
-F 4 "TPS62823DLCT" H 9125 7340 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 9125 7249 50  0001 C CNN "Manufacturer"
-	1    9075 6575
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8125 6500 8125 6525
-Wire Wire Line
-	8725 6525 8125 6525
-Connection ~ 8125 6525
-Wire Wire Line
-	8125 6525 8125 7000
-$Comp
-L data-center-dram-tester:C_120p_0402 C?
-U 1 1 60083586
-P 10075 6275
-AR Path="/6004278D/60083586" Ref="C?"  Part="1" 
-AR Path="/60225B0C/60083586" Ref="C150"  Part="1" 
-F 0 "C150" H 10100 6375 60  0000 L CNN
-F 1 "C_120p_0402" H 10075 6125 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-cap" H 10275 6475 60  0001 L CNN
-F 3 "" H 10075 6275 50  0001 C CNN
-F 4 "KEMET" H 10275 6675 60  0001 L CNN "Manufacturer"
-F 5 "C0402C121J5GACTU" H 10275 6575 60  0001 L CNN "MPN"
-F 6 "120p" H 10100 6175 50  0000 L CNN "Val"
-	1    10075 6275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10075 6075 10075 6125
-Wire Wire Line
-	10075 6425 10075 6525
-Wire Wire Line
-	10375 6075 10375 6150
-Wire Wire Line
-	10375 6450 10375 6525
-$Comp
-L data-center-dram-tester:R_100k_0402 R?
-U 1 1 60083593
-P 10375 6700
-AR Path="/6004278D/60083593" Ref="R?"  Part="1" 
-AR Path="/60225B0C/60083593" Ref="R84"  Part="1" 
-F 0 "R84" V 10250 6750 60  0000 L CNN
-F 1 "R_100k_0402" H 10375 6550 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-res" H 10575 6900 60  0001 L CNN
-F 3 "" H 10375 6700 50  0001 C CNN
-F 4 "VISHAY" H 10575 7100 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 10575 7000 60  0001 L CNN "MPN"
-F 6 "100k" V 10475 6750 50  0000 L CNN "Val"
-	1    10375 6700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10375 6525 10375 6550
-Wire Wire Line
-	10375 6850 10375 6875
-$Comp
-L data-center-dram-tester:C_10u_0402 C?
-U 1 1 6008359E
-P 10725 6475
-AR Path="/6004278D/6008359E" Ref="C?"  Part="1" 
-AR Path="/60225B0C/6008359E" Ref="C151"  Part="1" 
-F 0 "C151" H 10750 6575 60  0000 L CNN
-F 1 "C_10u_0402" H 10725 6325 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-cap" H 10925 6675 60  0001 L CNN
-F 3 "" H 10725 6475 50  0001 C CNN
-F 4 "MURATA" H 10925 6875 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 10925 6775 60  0001 L CNN "MPN"
-F 6 "10u" H 10750 6375 50  0000 L CNN "Val"
-	1    10725 6475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10725 6075 10725 6325
-Wire Wire Line
-	11025 6075 11025 6325
-Wire Wire Line
-	10725 6625 10725 6875
-$Comp
-L data-center-dram-tester:C_10u_0402 C?
-U 1 1 600835AA
-P 11025 6475
-AR Path="/6004278D/600835AA" Ref="C?"  Part="1" 
-AR Path="/60225B0C/600835AA" Ref="C152"  Part="1" 
-F 0 "C152" H 11050 6575 60  0000 L CNN
-F 1 "C_10u_0402" H 11025 6325 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-cap" H 11225 6675 60  0001 L CNN
-F 3 "" H 11025 6475 50  0001 C CNN
-F 4 "MURATA" H 11225 6875 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 11225 6775 60  0001 L CNN "MPN"
-F 6 "10u" H 11050 6375 50  0000 L CNN "Val"
-	1    11025 6475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11025 6625 11025 6875
 Text GLabel 14775 7775 0    50   Input ~ 0
 VCC1V2
-Wire Wire Line
-	10725 5975 10725 6075
-Wire Wire Line
-	8400 6375 8725 6375
-Text Notes 10350 5800 0    50   ~ 0
-1.2V/3A
-Connection ~ 9625 6875
-Wire Wire Line
-	9625 7025 9625 6875
-Text Notes 8775 5525 0    79   ~ 16
-1V2 supply
-Wire Wire Line
-	9575 6075 9525 6075
-Wire Wire Line
-	8125 6075 8725 6075
-$Comp
-L data-center-dram-tester:R_0R_0402 R?
-U 1 1 600835C3
-P 7875 6225
-AR Path="/6004278D/600835C3" Ref="R?"  Part="1" 
-AR Path="/60225B0C/600835C3" Ref="R82"  Part="1" 
-F 0 "R82" V 7784 6295 60  0000 L CNN
-F 1 "R_0R_0402" H 7875 6075 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-res" H 8075 6425 60  0001 L CNN
-F 3 "" H 7875 6225 50  0001 C CNN
-F 4 "PANASONIC" H 8075 6625 60  0001 L CNN "Manufacturer"
-F 5 "ERJ2GE0R00X" H 8075 6525 60  0001 L CNN "MPN"
-F 6 "0R" V 7882 6295 50  0000 L CNN "Val"
-	1    7875 6225
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8025 6225 8725 6225
-Wire Wire Line
-	7725 6225 7300 6225
-$Comp
-L data-center-dram-tester:IHLP1212AEERR47M11 L?
-U 1 1 600835CD
-P 9775 6075
-AR Path="/6004278D/600835CD" Ref="L?"  Part="1" 
-AR Path="/60225B0C/600835CD" Ref="L5"  Part="1" 
-F 0 "L5" H 9650 6275 60  0000 C CNN
-F 1 "IHLP1212AEERR47M11" H 10100 6175 60  0000 C CNN
-F 2 "data-center-dram-tester-footprints:IHLP-1212AE" H 9775 6075 60  0001 C CNN
-F 3 "" H 9775 6075 60  0001 C CNN
-F 4 "Vishay" H 9775 6075 50  0001 C CNN "Manufacturer"
-F 5 "IHLP1212AEERR47M11" H 9775 6075 50  0001 C CNN "MPN"
-	1    9775 6075
-	1    0    0    -1  
-$EndComp
 $Comp
 L data-center-dram-tester:R_0R_0603 R?
 U 1 1 600835D6
@@ -2302,46 +2086,6 @@ F 4 "BOURNS" H 15325 8175 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 15325 8075 60  0001 L CNN "MPN"
 F 6 "0R" H 15225 7725 50  0000 L CNN "Val"
 	1    15125 7775
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-dram-tester:R_100k_0402 R?
-U 1 1 600835DF
-P 10375 6300
-AR Path="/6004278D/600835DF" Ref="R?"  Part="1" 
-AR Path="/60225B0C/600835DF" Ref="R83"  Part="1" 
-F 0 "R83" V 10250 6350 60  0000 L CNN
-F 1 "R_100k_0402" H 10375 6150 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0402-res" H 10575 6500 60  0001 L CNN
-F 3 "" H 10375 6300 50  0001 C CNN
-F 4 "VISHAY" H 10575 6700 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0402100KFKEDHP" H 10575 6600 60  0001 L CNN "MPN"
-F 6 "100k" V 10475 6350 50  0000 L CNN "Val"
-	1    10375 6300
-	0    1    1    0   
-$EndComp
-Text Label 7675 6225 2    50   ~ 0
-VCC_IO_EN
-$Comp
-L data-center-dram-tester:GND #PWR045
-U 1 1 6008D29B
-P 8125 7000
-F 0 "#PWR045" H 8125 6750 50  0001 C CNN
-F 1 "GND" H 8130 6827 50  0000 C CNN
-F 2 "" H 8125 7000 50  0001 C CNN
-F 3 "" H 8125 7000 50  0001 C CNN
-	1    8125 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-dram-tester:GND #PWR046
-U 1 1 6008D6C6
-P 9625 7025
-F 0 "#PWR046" H 9625 6775 50  0001 C CNN
-F 1 "GND" H 9630 6852 50  0000 C CNN
-F 2 "" H 9625 7025 50  0001 C CNN
-F 3 "" H 9625 7025 50  0001 C CNN
-	1    9625 7025
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2802,8 +2546,6 @@ Text GLabel 14775 8025 0    50   Input ~ 0
 VCC1V0
 Text GLabel 15475 7775 2    50   Input ~ 0
 1V2_SYS
-Text GLabel 10725 5975 1    50   Input ~ 0
-VCC1V2
 Wire Wire Line
 	15275 7775 15475 7775
 Wire Wire Line
@@ -2900,4 +2642,516 @@ F 3 "" H 13750 6450 60  0001 L CNN
 $EndComp
 Text Notes 12925 6525 0    39   ~ 0
 DDR4
+Text GLabel 10725 5075 1    50   Input ~ 0
+VCC1V2
+$Comp
+L data-center-dram-tester:GND #PWR046
+U 1 1 6008D6C6
+P 9625 6125
+F 0 "#PWR046" H 9625 5875 50  0001 C CNN
+F 1 "GND" H 9630 5952 50  0000 C CNN
+F 2 "" H 9625 6125 50  0001 C CNN
+F 3 "" H 9625 6125 50  0001 C CNN
+	1    9625 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:GND #PWR045
+U 1 1 6008D29B
+P 8125 6100
+F 0 "#PWR045" H 8125 5850 50  0001 C CNN
+F 1 "GND" H 8130 5927 50  0000 C CNN
+F 2 "" H 8125 6100 50  0001 C CNN
+F 3 "" H 8125 6100 50  0001 C CNN
+	1    8125 6100
+	1    0    0    -1  
+$EndComp
+Text Label 7675 5325 2    50   ~ 0
+VCC_IO_EN
+$Comp
+L data-center-dram-tester:R_100k_0402 R?
+U 1 1 600835DF
+P 10375 5400
+AR Path="/6004278D/600835DF" Ref="R?"  Part="1" 
+AR Path="/60225B0C/600835DF" Ref="R83"  Part="1" 
+F 0 "R83" V 10250 5450 60  0000 L CNN
+F 1 "R_100k_0402" H 10375 5250 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10575 5600 60  0001 L CNN
+F 3 "" H 10375 5400 50  0001 C CNN
+F 4 "VISHAY" H 10575 5800 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 10575 5700 60  0001 L CNN "MPN"
+F 6 "100k" V 10475 5450 50  0000 L CNN "Val"
+	1    10375 5400
+	0    1    1    0   
+$EndComp
+$Comp
+L data-center-dram-tester:IHLP1212AEERR47M11 L?
+U 1 1 600835CD
+P 9775 5175
+AR Path="/6004278D/600835CD" Ref="L?"  Part="1" 
+AR Path="/60225B0C/600835CD" Ref="L5"  Part="1" 
+F 0 "L5" H 9650 5375 60  0000 C CNN
+F 1 "IHLP1212AEERR47M11" H 10100 5275 60  0000 C CNN
+F 2 "data-center-dram-tester-footprints:IHLP-1212AE" H 9775 5175 60  0001 C CNN
+F 3 "" H 9775 5175 60  0001 C CNN
+F 4 "Vishay" H 9775 5175 50  0001 C CNN "Manufacturer"
+F 5 "IHLP1212AEERR47M11" H 9775 5175 50  0001 C CNN "MPN"
+	1    9775 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7725 5325 7300 5325
+Wire Wire Line
+	8025 5325 8725 5325
+$Comp
+L data-center-dram-tester:R_0R_0402 R?
+U 1 1 600835C3
+P 7875 5325
+AR Path="/6004278D/600835C3" Ref="R?"  Part="1" 
+AR Path="/60225B0C/600835C3" Ref="R82"  Part="1" 
+F 0 "R82" V 7784 5395 60  0000 L CNN
+F 1 "R_0R_0402" H 7875 5175 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8075 5525 60  0001 L CNN
+F 3 "" H 7875 5325 50  0001 C CNN
+F 4 "PANASONIC" H 8075 5725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 8075 5625 60  0001 L CNN "MPN"
+F 6 "0R" V 7882 5395 50  0000 L CNN "Val"
+	1    7875 5325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8125 5175 8725 5175
+Wire Wire Line
+	9575 5175 9525 5175
+Text Notes 8775 4625 0    79   ~ 16
+1V2 supply
+Wire Wire Line
+	9625 6125 9625 5975
+Connection ~ 9625 5975
+Text Notes 10350 4900 0    50   ~ 0
+1.2V/3A
+Wire Wire Line
+	8400 5475 8725 5475
+Wire Wire Line
+	10725 5075 10725 5175
+Wire Wire Line
+	11025 5725 11025 5975
+$Comp
+L data-center-dram-tester:C_10u_0402 C?
+U 1 1 600835AA
+P 11025 5575
+AR Path="/6004278D/600835AA" Ref="C?"  Part="1" 
+AR Path="/60225B0C/600835AA" Ref="C152"  Part="1" 
+F 0 "C152" H 11050 5675 60  0000 L CNN
+F 1 "C_10u_0402" H 11025 5425 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 11225 5775 60  0001 L CNN
+F 3 "" H 11025 5575 50  0001 C CNN
+F 4 "MURATA" H 11225 5975 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 11225 5875 60  0001 L CNN "MPN"
+F 6 "10u" H 11050 5475 50  0000 L CNN "Val"
+	1    11025 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10725 5725 10725 5975
+Wire Wire Line
+	11025 5175 11025 5425
+Wire Wire Line
+	10725 5175 10725 5425
+$Comp
+L data-center-dram-tester:C_10u_0402 C?
+U 1 1 6008359E
+P 10725 5575
+AR Path="/6004278D/6008359E" Ref="C?"  Part="1" 
+AR Path="/60225B0C/6008359E" Ref="C151"  Part="1" 
+F 0 "C151" H 10750 5675 60  0000 L CNN
+F 1 "C_10u_0402" H 10725 5425 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 10925 5775 60  0001 L CNN
+F 3 "" H 10725 5575 50  0001 C CNN
+F 4 "MURATA" H 10925 5975 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 10925 5875 60  0001 L CNN "MPN"
+F 6 "10u" H 10750 5475 50  0000 L CNN "Val"
+	1    10725 5575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10375 5950 10375 5975
+Wire Wire Line
+	10375 5625 10375 5650
+$Comp
+L data-center-dram-tester:R_100k_0402 R?
+U 1 1 60083593
+P 10375 5800
+AR Path="/6004278D/60083593" Ref="R?"  Part="1" 
+AR Path="/60225B0C/60083593" Ref="R84"  Part="1" 
+F 0 "R84" V 10250 5850 60  0000 L CNN
+F 1 "R_100k_0402" H 10375 5650 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10575 6000 60  0001 L CNN
+F 3 "" H 10375 5800 50  0001 C CNN
+F 4 "VISHAY" H 10575 6200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0402100KFKEDHP" H 10575 6100 60  0001 L CNN "MPN"
+F 6 "100k" V 10475 5850 50  0000 L CNN "Val"
+	1    10375 5800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10375 5550 10375 5625
+Wire Wire Line
+	10375 5175 10375 5250
+Wire Wire Line
+	10075 5525 10075 5625
+Wire Wire Line
+	10075 5175 10075 5225
+$Comp
+L data-center-dram-tester:C_120p_0402 C?
+U 1 1 60083586
+P 10075 5375
+AR Path="/6004278D/60083586" Ref="C?"  Part="1" 
+AR Path="/60225B0C/60083586" Ref="C150"  Part="1" 
+F 0 "C150" H 10100 5475 60  0000 L CNN
+F 1 "C_120p_0402" H 10075 5225 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 10275 5575 60  0001 L CNN
+F 3 "" H 10075 5375 50  0001 C CNN
+F 4 "KEMET" H 10275 5775 60  0001 L CNN "Manufacturer"
+F 5 "C0402C121J5GACTU" H 10275 5675 60  0001 L CNN "MPN"
+F 6 "120p" H 10100 5275 50  0000 L CNN "Val"
+	1    10075 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 5625 8125 6100
+Connection ~ 8125 5625
+Wire Wire Line
+	8725 5625 8125 5625
+Wire Wire Line
+	8125 5600 8125 5625
+$Comp
+L data-center-dram-tester:TPS62823DLCT U?
+U 1 1 60083579
+P 9075 5675
+AR Path="/6004278D/60083579" Ref="U?"  Part="1" 
+AR Path="/60225B0C/60083579" Ref="U12"  Part="1" 
+F 0 "U12" H 9125 6440 50  0000 C CNN
+F 1 "TPS62823DLCT" H 9125 6349 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 8975 5475 50  0001 C CNN
+F 3 "" H 9075 5575 50  0001 C CNN
+F 4 "TPS62823DLCT" H 9125 6440 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 9125 6349 50  0001 C CNN "Manufacturer"
+	1    9075 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8125 4775 8125 5175
+Wire Wire Line
+	8125 4775 7950 4775
+Text GLabel 7950 4775 0    50   Input ~ 0
+VCC5V0_INT
+Wire Wire Line
+	8125 5175 8125 5300
+$Comp
+L data-center-dram-tester:C_10u_0402 C?
+U 1 1 6008356D
+P 8125 5450
+AR Path="/6004278D/6008356D" Ref="C?"  Part="1" 
+AR Path="/60225B0C/6008356D" Ref="C149"  Part="1" 
+F 0 "C149" H 8200 5500 60  0000 L CNN
+F 1 "C_10u_0402" H 8125 5300 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 8325 5650 60  0001 L CNN
+F 3 "" H 8125 5450 50  0001 C CNN
+F 4 "MURATA" H 8325 5850 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 8325 5750 60  0001 L CNN "MPN"
+F 6 "10u" H 8225 5425 50  0000 L CNN "Val"
+	1    8125 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10075 5175 10375 5175
+Connection ~ 10075 5175
+Wire Wire Line
+	10075 5625 9925 5625
+Connection ~ 10075 5625
+Connection ~ 10725 5975
+Wire Wire Line
+	11025 5975 10725 5975
+Connection ~ 10725 5175
+Wire Wire Line
+	10725 5175 11025 5175
+Connection ~ 10375 5175
+Wire Wire Line
+	10375 5175 10725 5175
+Connection ~ 10375 5975
+Wire Wire Line
+	10725 5975 10375 5975
+Wire Wire Line
+	9975 5175 10075 5175
+Connection ~ 10375 5625
+Wire Wire Line
+	9925 5475 9525 5475
+Wire Wire Line
+	9925 5625 9925 5475
+Wire Wire Line
+	10375 5625 10075 5625
+Wire Wire Line
+	9625 5975 9625 5625
+Wire Wire Line
+	9625 5975 10375 5975
+Text Label 8400 5475 0    50   ~ 0
+1V2_PG
+Wire Wire Line
+	9625 5625 9525 5625
+Connection ~ 8125 5175
+$Comp
+L antmicroResistors0603:R_100k_0603 R?
+U 1 1 62215927
+P 10425 7700
+F 0 "R?" V 10380 7770 60  0000 L CNN
+F 1 "R_100k_0603" H 10425 7550 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 10625 7900 60  0001 L CNN
+F 3 "" H 10425 7700 50  0001 C CNN
+F 4 "BOURNS" H 10625 8100 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-FX-1003HLF" H 10625 8000 60  0001 L CNN "MPN"
+F 6 "100k" V 10478 7770 50  0000 L CNN "Val"
+	1    10425 7700
+	0    1    1    0   
+$EndComp
+$Comp
+L antmicroResistors0603:R_49R9_0603 R?
+U 1 1 62211F8B
+P 10425 7300
+F 0 "R?" V 10380 7370 60  0000 L CNN
+F 1 "R_49R9_0603" H 10425 7150 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 10625 7500 60  0001 L CNN
+F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 10425 7300 50  0001 C CNN
+F 4 "Vishay" H 10625 7700 60  0001 L CNN "Manufacturer"
+F 5 "CRCW060349R9FKEA" H 10625 7600 60  0001 L CNN "MPN"
+F 6 "49R9" V 10478 7370 50  0000 L CNN "Val"
+	1    10425 7300
+	0    1    1    0   
+$EndComp
+Text Notes 8825 6575 0    79   ~ 16
+1V8 supply
+Text GLabel 10775 6975 1    50   Input ~ 0
+VCC1V8
+$Comp
+L data-center-dram-tester:GND #PWR?
+U 1 1 621F738D
+P 9675 8025
+F 0 "#PWR?" H 9675 7775 50  0001 C CNN
+F 1 "GND" H 9680 7852 50  0000 C CNN
+F 2 "" H 9675 8025 50  0001 C CNN
+F 3 "" H 9675 8025 50  0001 C CNN
+	1    9675 8025
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:GND #PWR?
+U 1 1 621F7387
+P 8175 8000
+F 0 "#PWR?" H 8175 7750 50  0001 C CNN
+F 1 "GND" H 8180 7827 50  0000 C CNN
+F 2 "" H 8175 8000 50  0001 C CNN
+F 3 "" H 8175 8000 50  0001 C CNN
+	1    8175 8000
+	1    0    0    -1  
+$EndComp
+Text Label 7725 7225 2    50   ~ 0
+VCC_IO_EN
+$Comp
+L data-center-dram-tester:IHLP1212AEERR47M11 L?
+U 1 1 621F7377
+P 9825 7075
+AR Path="/6004278D/621F7377" Ref="L?"  Part="1" 
+AR Path="/60225B0C/621F7377" Ref="L?"  Part="1" 
+F 0 "L?" H 9700 7275 60  0000 C CNN
+F 1 "IHLP1212AEERR47M11" H 10150 7175 60  0000 C CNN
+F 2 "data-center-dram-tester-footprints:IHLP-1212AE" H 9825 7075 60  0001 C CNN
+F 3 "" H 9825 7075 60  0001 C CNN
+F 4 "Vishay" H 9825 7075 50  0001 C CNN "Manufacturer"
+F 5 "IHLP1212AEERR47M11" H 9825 7075 50  0001 C CNN "MPN"
+	1    9825 7075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 7225 7350 7225
+Wire Wire Line
+	8075 7225 8775 7225
+$Comp
+L data-center-dram-tester:R_0R_0402 R?
+U 1 1 621F736D
+P 7925 7225
+AR Path="/6004278D/621F736D" Ref="R?"  Part="1" 
+AR Path="/60225B0C/621F736D" Ref="R?"  Part="1" 
+F 0 "R?" V 7834 7295 60  0000 L CNN
+F 1 "R_0R_0402" H 7925 7075 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8125 7425 60  0001 L CNN
+F 3 "" H 7925 7225 50  0001 C CNN
+F 4 "PANASONIC" H 8125 7625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 8125 7525 60  0001 L CNN "MPN"
+F 6 "0R" V 7932 7295 50  0000 L CNN "Val"
+	1    7925 7225
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8175 7075 8775 7075
+Wire Wire Line
+	9625 7075 9575 7075
+Text Notes 10400 6800 0    50   ~ 0
+1.8V/3A
+Wire Wire Line
+	8450 7375 8775 7375
+Wire Wire Line
+	11075 7625 11075 7875
+$Comp
+L data-center-dram-tester:C_10u_0402 C?
+U 1 1 621F735C
+P 11075 7475
+AR Path="/6004278D/621F735C" Ref="C?"  Part="1" 
+AR Path="/60225B0C/621F735C" Ref="C?"  Part="1" 
+F 0 "C?" H 11100 7575 60  0000 L CNN
+F 1 "C_10u_0402" H 11075 7325 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 11275 7675 60  0001 L CNN
+F 3 "" H 11075 7475 50  0001 C CNN
+F 4 "MURATA" H 11275 7875 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 11275 7775 60  0001 L CNN "MPN"
+F 6 "10u" H 11100 7375 50  0000 L CNN "Val"
+	1    11075 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10775 7625 10775 7875
+Wire Wire Line
+	11075 7075 11075 7325
+$Comp
+L data-center-dram-tester:C_10u_0402 C?
+U 1 1 621F7350
+P 10775 7475
+AR Path="/6004278D/621F7350" Ref="C?"  Part="1" 
+AR Path="/60225B0C/621F7350" Ref="C?"  Part="1" 
+F 0 "C?" H 10800 7575 60  0000 L CNN
+F 1 "C_10u_0402" H 10775 7325 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 10975 7675 60  0001 L CNN
+F 3 "" H 10775 7475 50  0001 C CNN
+F 4 "MURATA" H 10975 7875 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 10975 7775 60  0001 L CNN "MPN"
+F 6 "10u" H 10800 7375 50  0000 L CNN "Val"
+	1    10775 7475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10425 7850 10425 7875
+Wire Wire Line
+	10425 7075 10425 7150
+Wire Wire Line
+	10125 7425 10125 7525
+Wire Wire Line
+	10125 7075 10125 7125
+$Comp
+L data-center-dram-tester:C_120p_0402 C?
+U 1 1 621F7338
+P 10125 7275
+AR Path="/6004278D/621F7338" Ref="C?"  Part="1" 
+AR Path="/60225B0C/621F7338" Ref="C?"  Part="1" 
+F 0 "C?" H 10150 7375 60  0000 L CNN
+F 1 "C_120p_0402" H 10125 7125 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 10325 7475 60  0001 L CNN
+F 3 "" H 10125 7275 50  0001 C CNN
+F 4 "KEMET" H 10325 7675 60  0001 L CNN "Manufacturer"
+F 5 "C0402C121J5GACTU" H 10325 7575 60  0001 L CNN "MPN"
+F 6 "120p" H 10150 7175 50  0000 L CNN "Val"
+	1    10125 7275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 7525 8175 8000
+Wire Wire Line
+	8775 7525 8175 7525
+Connection ~ 8175 7525
+Wire Wire Line
+	8175 7500 8175 7525
+$Comp
+L data-center-dram-tester:TPS62823DLCT U?
+U 1 1 621F732B
+P 9125 7575
+AR Path="/6004278D/621F732B" Ref="U?"  Part="1" 
+AR Path="/60225B0C/621F732B" Ref="U?"  Part="1" 
+F 0 "U?" H 9175 8340 50  0000 C CNN
+F 1 "TPS62823DLCT" H 9175 8249 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 9025 7375 50  0001 C CNN
+F 3 "" H 9125 7475 50  0001 C CNN
+F 4 "TPS62823DLCT" H 9175 8340 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 9175 8249 50  0001 C CNN "Manufacturer"
+	1    9125 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 6675 8000 6675
+Text GLabel 8000 6675 0    50   Input ~ 0
+VCC5V0_INT
+$Comp
+L data-center-dram-tester:C_10u_0402 C?
+U 1 1 621F731F
+P 8175 7350
+AR Path="/6004278D/621F731F" Ref="C?"  Part="1" 
+AR Path="/60225B0C/621F731F" Ref="C?"  Part="1" 
+F 0 "C?" H 8250 7400 60  0000 L CNN
+F 1 "C_10u_0402" H 8175 7200 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 8375 7550 60  0001 L CNN
+F 3 "" H 8175 7350 50  0001 C CNN
+F 4 "MURATA" H 8375 7750 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 8375 7650 60  0001 L CNN "MPN"
+F 6 "10u" H 8275 7325 50  0000 L CNN "Val"
+	1    8175 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10125 7075 10425 7075
+Wire Wire Line
+	10125 7525 9975 7525
+Wire Wire Line
+	11075 7875 10775 7875
+Wire Wire Line
+	10775 6975 10775 7075
+Wire Wire Line
+	10775 7075 10775 7325
+Connection ~ 10775 7075
+Wire Wire Line
+	10775 7075 11075 7075
+Connection ~ 10425 7075
+Wire Wire Line
+	10425 7075 10775 7075
+Connection ~ 10775 7875
+Wire Wire Line
+	10775 7875 10425 7875
+Connection ~ 10125 7075
+Wire Wire Line
+	10025 7075 10125 7075
+Wire Wire Line
+	9975 7375 9575 7375
+Wire Wire Line
+	9975 7525 9975 7375
+Connection ~ 10125 7525
+Wire Wire Line
+	10425 7525 10425 7550
+Wire Wire Line
+	10425 7450 10425 7525
+Connection ~ 10425 7525
+Wire Wire Line
+	10425 7525 10125 7525
+Connection ~ 10425 7875
+Wire Wire Line
+	9675 8025 9675 7875
+Wire Wire Line
+	9675 7875 9675 7525
+Connection ~ 9675 7875
+Wire Wire Line
+	9675 7875 10425 7875
+Text Label 8450 7375 0    50   ~ 0
+1V8_PG
+Wire Wire Line
+	9675 7525 9575 7525
+Wire Wire Line
+	8175 6675 8175 7075
+Wire Wire Line
+	8175 7075 8175 7200
+Connection ~ 8175 7075
 $EndSCHEMATC
