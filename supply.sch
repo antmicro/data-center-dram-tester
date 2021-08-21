@@ -1112,34 +1112,34 @@ $EndComp
 $Comp
 L data-center-dram-tester:TP_SMD1MM 2V5
 U 1 1 602C0646
-P 12800 7025
-F 0 "2V5" V 12705 7072 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12800 6925 50  0001 C CNN
-F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 13000 7225 60  0001 L CNN
-F 3 "" H 13000 7325 60  0001 L CNN
-	1    12800 7025
+P 12800 7325
+F 0 "2V5" V 12705 7372 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12800 7225 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 13000 7525 60  0001 L CNN
+F 3 "" H 13000 7625 60  0001 L CNN
+	1    12800 7325
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-dram-tester:TP_SMD1MM 1V2
 U 1 1 602C252D
-P 13000 7025
-F 0 "1V2" V 12905 7072 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13000 6925 50  0001 C CNN
-F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 13200 7225 60  0001 L CNN
-F 3 "" H 13200 7325 60  0001 L CNN
-	1    13000 7025
+P 13000 7325
+F 0 "1V2" V 12905 7372 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13000 7225 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 13200 7525 60  0001 L CNN
+F 3 "" H 13200 7625 60  0001 L CNN
+	1    13000 7325
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-dram-tester:TP_SMD1MM 0V6
 U 1 1 602C27EC
-P 13225 7025
-F 0 "0V6" V 13130 7072 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13225 6925 50  0001 C CNN
-F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 13425 7225 60  0001 L CNN
-F 3 "" H 13425 7325 60  0001 L CNN
-	1    13225 7025
+P 13225 7325
+F 0 "0V6" V 13130 7372 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13225 7225 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 13425 7525 60  0001 L CNN
+F 3 "" H 13425 7625 60  0001 L CNN
+	1    13225 7325
 	1    0    0    -1  
 $EndComp
 Connection ~ 4775 2625
@@ -1175,7 +1175,7 @@ Wire Wire Line
 Connection ~ 3275 10200
 Wire Wire Line
 	3275 10200 3625 10200
-Text Notes 8875 875  0    79   ~ 16
+Text Notes 9000 775  0    79   ~ 16
 Filtering
 Text Notes 13350 1775 0    79   ~ 16
 Power sequencer
@@ -2163,8 +2163,6 @@ Wire Wire Line
 	13800 2750 13900 2750
 Text GLabel 13800 2750 0    50   Input ~ 0
 VCC5V0_INT
-Text Notes 3050 1150 0    50   ~ 0
-TODO: Replace with TPS65295
 Wire Notes Line
 	475  8300 16075 8300
 Wire Notes Line
@@ -2504,11 +2502,11 @@ Wire Wire Line
 	3100 2025 2900 2025
 Text GLabel 1100 2650 0    50   Input ~ 0
 VDDQ
-Text GLabel 13225 6925 1    50   Input ~ 0
+Text GLabel 13225 7225 1    50   Input ~ 0
 VCC0V6
-Text GLabel 12800 6925 1    50   Input ~ 0
+Text GLabel 12800 7225 1    50   Input ~ 0
 VCC2V5
-Text GLabel 13000 6925 1    50   Input ~ 0
+Text GLabel 13000 7225 1    50   Input ~ 0
 VDD1V2
 $Comp
 L data-center-dram-tester:TP_SMD1MM PHY
@@ -2640,7 +2638,7 @@ F 3 "" H 13750 6450 60  0001 L CNN
 	1    13550 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 12925 6525 0    39   ~ 0
+Text Notes 12925 6825 0    39   ~ 0
 DDR4
 Text GLabel 10725 5075 1    50   Input ~ 0
 VCC1V2
@@ -2954,8 +2952,6 @@ F 3 "" H 8175 8000 50  0001 C CNN
 	1    8175 8000
 	1    0    0    -1  
 $EndComp
-Text Label 7725 7225 2    50   ~ 0
-VCC_IO_EN
 $Comp
 L data-center-dram-tester:IHLP1212AEERR47M11 L?
 U 1 1 621F7377
@@ -3154,4 +3150,10 @@ Wire Wire Line
 Wire Wire Line
 	8175 7075 8175 7200
 Connection ~ 8175 7075
+Wire Notes Line
+	7000 6375 11800 6375
+Text Label 7350 7225 0    50   ~ 0
+VCC_IO_EN
+Text Notes 13275 1975 0    50   ~ 0
+TODO:Discuss power sequencing
 $EndSCHEMATC

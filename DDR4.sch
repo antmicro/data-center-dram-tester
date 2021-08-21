@@ -257,7 +257,7 @@ Wire Wire Line
 Wire Wire Line
 	10325 8525 9600 8525
 Text GLabel 3225 2050 0    50   Input ~ 0
-12V
+VIN
 Text GLabel 3225 2250 0    50   Input ~ 0
 DQ4
 Text GLabel 3225 2650 0    50   Input ~ 0
@@ -408,15 +408,8 @@ Wire Wire Line
 	3850 7450 3850 7250
 Wire Wire Line
 	3850 7650 3850 7450
-Text GLabel 3700 7650 0    50   Input ~ 0
-VSS
-Wire Wire Line
-	3700 7650 3850 7650
-Connection ~ 3850 7650
 Wire Wire Line
 	3950 7850 3850 7850
-Text GLabel 3700 7850 0    50   Input ~ 0
-VDD
 Wire Wire Line
 	3950 8050 3850 8050
 Wire Wire Line
@@ -450,8 +443,8 @@ Connection ~ 3850 9250
 Wire Wire Line
 	3850 9250 3850 8950
 Wire Wire Line
-	3950 9650 3850 9650
-Text GLabel 3850 9650 0    50   Input ~ 0
+	3950 9650 3450 9650
+Text GLabel 3450 9650 0    50   Input ~ 0
 VTT
 Wire Wire Line
 	10325 2425 10225 2425
@@ -481,12 +474,10 @@ Wire Wire Line
 	10225 3425 10225 3225
 Wire Wire Line
 	10225 2425 10125 2425
-Text GLabel 10125 2425 0    50   Input ~ 0
-VDD
 Connection ~ 10225 2425
 Wire Wire Line
-	10325 8625 10225 8625
-Text GLabel 10225 8625 0    50   Input ~ 0
+	10325 8625 9600 8625
+Text GLabel 9600 8625 0    50   Input ~ 0
 VPP
 Wire Wire Line
 	10325 8725 10325 8625
@@ -592,10 +583,6 @@ Wire Wire Line
 Connection ~ 10225 8025
 Wire Wire Line
 	10225 8025 10225 8225
-Wire Wire Line
-	10225 8225 10125 8225
-Text GLabel 10125 8225 0    50   Input ~ 0
-VSS
 Connection ~ 10225 8225
 Wire Wire Line
 	4950 7550 4850 7550
@@ -820,17 +807,13 @@ F 3 "" H 3125 16400 50  0001 C CNN
 	1    3800 9700
 	1    0    0    -1  
 $EndComp
-Text GLabel 5050 7750 2    50   Input ~ 0
-VSS
 Wire Wire Line
 	4850 7750 4950 7750
 Connection ~ 4950 7750
-Wire Wire Line
-	4950 7750 5050 7750
 NoConn ~ 4850 8050
 Wire Wire Line
-	4850 9650 4950 9650
-Text GLabel 4950 9650 2    50   Input ~ 0
+	4850 9650 5325 9650
+Text GLabel 5325 9650 2    50   Input ~ 0
 VTT
 Wire Wire Line
 	4850 8150 4950 8150
@@ -863,11 +846,6 @@ Wire Wire Line
 	4950 9250 4950 9550
 Wire Wire Line
 	4850 7950 4950 7950
-Text GLabel 5050 7950 2    50   Input ~ 0
-VSS
-Wire Wire Line
-	4950 7950 5050 7950
-Connection ~ 4950 7950
 NoConn ~ 11225 2725
 Wire Wire Line
 	11325 2325 11225 2325
@@ -897,8 +875,6 @@ Wire Wire Line
 	11325 3325 11325 3125
 Wire Wire Line
 	11325 2325 11425 2325
-Text GLabel 11425 2325 2    50   Input ~ 0
-VDD
 Connection ~ 11325 2325
 Wire Wire Line
 	11225 8625 11225 8725
@@ -906,8 +882,8 @@ Connection ~ 11225 8725
 Wire Wire Line
 	11225 8725 11225 8825
 Wire Wire Line
-	11225 8625 11325 8625
-Text GLabel 11325 8625 2    50   Input ~ 0
+	11225 8625 11950 8625
+Text GLabel 11950 8625 2    50   Input ~ 0
 VPP
 Connection ~ 11225 8625
 Wire Wire Line
@@ -1011,10 +987,6 @@ Wire Wire Line
 Connection ~ 11325 8125
 Wire Wire Line
 	11325 8125 11325 8325
-Wire Wire Line
-	11325 8325 11425 8325
-Text GLabel 11425 8325 2    50   Input ~ 0
-VSS
 Connection ~ 11325 8325
 Text GLabel 3225 4850 0    50   Input ~ 0
 DQS11_T
@@ -1145,8 +1117,6 @@ SA1
 Text GLabel 9600 8525 0    50   Input ~ 0
 SCL
 NoConn ~ 10325 8825
-Text GLabel 5575 2050 2    50   Input ~ 0
-12V
 Text GLabel 5250 2150 2    50   Input ~ 0
 VREFCA
 Text GLabel 5575 2350 2    50   Input ~ 0
@@ -1285,10 +1255,10 @@ Text GLabel 11950 8025 2    50   Input ~ 0
 DQ63
 Text GLabel 11950 8225 2    50   Input ~ 0
 DQ59
-Text GLabel 11425 8425 2    50   Input ~ 0
+Text GLabel 11950 8425 2    50   Input ~ 0
 VDDSPD
 Wire Wire Line
-	11225 8425 11425 8425
+	11225 8425 11950 8425
 Text GLabel 11950 8525 2    50   Input ~ 0
 SDA
 Text GLabel 3225 2450 0    50   Input ~ 0
@@ -1334,9 +1304,102 @@ Wire Notes Line
 Wire Notes Line
 	9150 3875 9150 8175
 Wire Notes Line
-	2800 7700 5975 7700
+	2800 7725 5975 7725
 Wire Notes Line
-	2800 2200 2800 7700
+	2800 2200 2800 7725
 Wire Notes Line
-	5975 2200 5975 7700
+	5975 2200 5975 7725
+Text Notes 2900 2075 0    50   ~ 0
+12V
+Text GLabel 5575 2050 2    50   Input ~ 0
+VIN
+Text GLabel 10125 2425 0    50   Input ~ 0
+VDDQ
+Text GLabel 11425 2325 2    50   Input ~ 0
+VDDQ
+Text GLabel 3700 7850 0    50   Input ~ 0
+VDDQ
+$Comp
+L data-center-dram-tester:GND #PWR?
+U 1 1 628D8B81
+P 4950 9750
+F 0 "#PWR?" H 4950 9500 50  0001 C CNN
+F 1 "GND" H 4955 9577 50  0000 C CNN
+F 2 "" H 4950 9750 50  0001 C CNN
+F 3 "" H 4950 9750 50  0001 C CNN
+	1    4950 9750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 9550 4950 9750
+Connection ~ 4950 9550
+Wire Wire Line
+	4950 7950 4950 7750
+Connection ~ 4950 7950
+$Comp
+L data-center-dram-tester:GND #PWR?
+U 1 1 62DBB5DD
+P 3650 7650
+F 0 "#PWR?" H 3650 7400 50  0001 C CNN
+F 1 "GND" H 3655 7477 50  0000 C CNN
+F 2 "" H 3650 7650 50  0001 C CNN
+F 3 "" H 3650 7650 50  0001 C CNN
+	1    3650 7650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 7650 3650 7650
+Connection ~ 3850 7650
+$Comp
+L data-center-dram-tester:GND #PWR?
+U 1 1 62FAA504
+P 11325 9000
+F 0 "#PWR?" H 11325 8750 50  0001 C CNN
+F 1 "GND" H 11330 8827 50  0000 C CNN
+F 2 "" H 11325 9000 50  0001 C CNN
+F 3 "" H 11325 9000 50  0001 C CNN
+	1    11325 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 8325 11325 9000
+$Comp
+L data-center-dram-tester:GND #PWR?
+U 1 1 6309AE85
+P 10225 9000
+F 0 "#PWR?" H 10225 8750 50  0001 C CNN
+F 1 "GND" H 10230 8827 50  0000 C CNN
+F 2 "" H 10225 9000 50  0001 C CNN
+F 3 "" H 10225 9000 50  0001 C CNN
+	1    10225 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10225 8225 10225 9000
+Text GLabel 13975 9375 2    50   Input ~ 0
+VDDSPD
+Wire Wire Line
+	13400 9375 13100 9375
+Text GLabel 13100 9375 0    50   Input ~ 0
+VPP
+$Comp
+L data-center-dram-tester:R_0R_0603 R?
+U 1 1 632B1D0D
+P 13550 9375
+AR Path="/60225B0C/632B1D0D" Ref="R?"  Part="1" 
+AR Path="/61827943/632B1D0D" Ref="R?"  Part="1" 
+F 0 "R?" H 13500 9475 60  0000 C CNN
+F 1 "R_0R_0603" H 13550 9225 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 13750 9575 60  0001 L CNN
+F 3 "" H 13550 9375 50  0001 C CNN
+F 4 "BOURNS" H 13750 9775 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 13750 9675 60  0001 L CNN "MPN"
+F 6 "0R" H 13700 9325 50  0000 C CNN "Val"
+	1    13550 9375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13700 9375 13975 9375
+Text Notes 12325 8450 0    50   ~ 0
+2V5 
 $EndSCHEMATC
