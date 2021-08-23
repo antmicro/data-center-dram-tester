@@ -41,8 +41,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 2150 5250 2150
 Wire Wire Line
-	4850 2050 5575 2050
-Wire Wire Line
 	4850 4350 5575 4350
 Wire Wire Line
 	4850 4150 5575 4150
@@ -256,8 +254,6 @@ Wire Wire Line
 	10325 8425 9600 8425
 Wire Wire Line
 	10325 8525 9600 8525
-Text GLabel 3225 2050 0    50   Input ~ 0
-VIN
 Text GLabel 3225 2250 0    50   Input ~ 0
 DQ4
 Text GLabel 3225 2650 0    50   Input ~ 0
@@ -792,8 +788,6 @@ Wire Wire Line
 	3950 3150 3225 3150
 Wire Wire Line
 	3950 2950 3225 2950
-Wire Wire Line
-	3950 2050 3225 2050
 $Comp
 L data-center-dram-tester:2199155-1 U?
 U 1 1 61972CDA
@@ -1309,10 +1303,6 @@ Wire Notes Line
 	2800 2200 2800 7725
 Wire Notes Line
 	5975 2200 5975 7725
-Text Notes 2900 2075 0    50   ~ 0
-12V
-Text GLabel 5575 2050 2    50   Input ~ 0
-VIN
 Text GLabel 10125 2425 0    50   Input ~ 0
 VDDQ
 Text GLabel 11425 2325 2    50   Input ~ 0
@@ -1402,4 +1392,60 @@ Wire Wire Line
 	13700 9375 13975 9375
 Text Notes 12325 8450 0    50   ~ 0
 2V5 
+Text Label 3550 2050 0    50   ~ 0
+12V
+Wire Wire Line
+	3500 2050 3950 2050
+Text Label 5225 2050 2    50   ~ 0
+12V
+Wire Wire Line
+	5250 2050 4850 2050
+$Comp
+L antmicroTestPoints:TP_SMD1MM TP?
+U 1 1 618505E7
+P 2250 1850
+F 0 "TP?" V 2155 1897 50  0000 C CNN
+F 1 "TP_SMD1MM" H 2250 1750 50  0001 C CNN
+F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2450 2050 60  0001 L CNN
+F 3 "" H 2450 2150 60  0001 L CNN
+	1    2250 1850
+	0    -1   -1   0   
+$EndComp
+Text Label 2000 1850 0    50   ~ 0
+12V
+Wire Notes Line
+	1275 1550 1275 2050
+Wire Notes Line
+	1275 2050 2350 2050
+Wire Notes Line
+	2350 2050 2350 1550
+Wire Notes Line
+	2350 1550 1275 1550
+Text Notes 1350 1650 0    50   ~ 0
+NVRDIMM Backup voltage
+$Comp
+L antmicroResistors0603:R_0R_0603 R?
+U 1 1 61903C55
+P 1800 1850
+F 0 "R?" H 1800 1950 60  0000 C CNN
+F 1 "R_0R_0603" H 1800 1700 60  0001 C CNN
+F 2 "antmicro-footprints:0603-res" H 2000 2050 60  0001 L CNN
+F 3 "" H 1800 1850 50  0001 C CNN
+F 4 "BOURNS" H 2000 2250 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 2000 2150 60  0001 L CNN "MPN"
+F 6 "0R" H 1950 1775 50  0000 C CNN "Val"
+F 7 "DNP" H 1800 1850 50  0000 C CNN "DNP"
+	1    1800 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2150 1850 1950 1850
+Text GLabel 1550 1850 0    50   Input ~ 0
+VIN
+Wire Wire Line
+	1650 1850 1550 1850
+Text GLabel 3500 2050 0    50   Input ~ 0
+NC
+Text GLabel 5250 2050 2    50   Input ~ 0
+NC
 $EndSCHEMATC
