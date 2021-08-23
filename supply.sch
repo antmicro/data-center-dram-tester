@@ -401,8 +401,6 @@ Wire Wire Line
 	2650 5950 2500 5950
 Wire Wire Line
 	2500 5950 2500 5700
-Text GLabel 2500 5700 1    50   Input ~ 0
-VIN
 Text GLabel 1000 5150 1    50   Input ~ 0
 VIN
 Text GLabel 1575 5150 1    50   Input ~ 0
@@ -540,10 +538,6 @@ F 3 "" H 2325 6450 60  0001 L CNN
 	1    2125 6150
 	0    1    1    0   
 $EndComp
-Text GLabel 2525 2175 0    50   Input ~ 0
-VIN
-Text GLabel 1050 1875 0    50   Input ~ 0
-VCC5V0
 $Comp
 L data-center-dram-tester:GND #PWR0133
 U 1 1 5FC23070
@@ -623,7 +617,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 2100 2200 1875
 Wire Wire Line
-	2200 1875 3100 1875
+	2200 1875 2875 1875
 Wire Wire Line
 	2525 2775 3100 2775
 Wire Wire Line
@@ -2352,66 +2346,66 @@ Text GLabel 8325 3250 1    50   Input ~ 0
 VDDQ
 Text GLabel 8800 3250 1    50   Input ~ 0
 VDDQ
-Text GLabel 15550 6650 2    50   Input ~ 0
+Text GLabel 15525 6100 2    50   Input ~ 0
 VTT
-Text GLabel 15525 6450 2    50   Input ~ 0
+Text GLabel 15500 5900 2    50   Input ~ 0
 VDDQ
-Text GLabel 15550 6250 2    50   Input ~ 0
+Text GLabel 15525 5700 2    50   Input ~ 0
 VPP
 $Comp
 L data-center-dram-tester:R_0R_0603 R161
 U 1 1 6177CC40
-P 15150 6650
-F 0 "R161" H 15075 6725 60  0000 C CNN
-F 1 "R_0R_0603" H 15150 6500 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15350 6850 60  0001 L CNN
-F 3 "" H 15150 6650 50  0001 C CNN
-F 4 "BOURNS" H 15350 7050 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15350 6950 60  0001 L CNN "MPN"
-F 6 "0R" H 15225 6550 50  0000 C CNN "Val"
-	1    15150 6650
+P 15125 6100
+F 0 "R161" H 15050 6175 60  0000 C CNN
+F 1 "R_0R_0603" H 15125 5950 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 15325 6300 60  0001 L CNN
+F 3 "" H 15125 6100 50  0001 C CNN
+F 4 "BOURNS" H 15325 6500 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15325 6400 60  0001 L CNN "MPN"
+F 6 "0R" H 15200 6000 50  0000 C CNN "Val"
+	1    15125 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-dram-tester:R_0R_0603 R159
 U 1 1 6177CC49
-P 15150 6250
-F 0 "R159" H 15075 6350 60  0000 C CNN
-F 1 "R_0R_0603" H 15150 6100 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15350 6450 60  0001 L CNN
-F 3 "" H 15150 6250 50  0001 C CNN
-F 4 "BOURNS" H 15350 6650 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15350 6550 60  0001 L CNN "MPN"
-F 6 "0R" H 15250 6150 50  0000 C CNN "Val"
-	1    15150 6250
+P 15125 5700
+F 0 "R159" H 15050 5800 60  0000 C CNN
+F 1 "R_0R_0603" H 15125 5550 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 15325 5900 60  0001 L CNN
+F 3 "" H 15125 5700 50  0001 C CNN
+F 4 "BOURNS" H 15325 6100 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15325 6000 60  0001 L CNN "MPN"
+F 6 "0R" H 15225 5600 50  0000 C CNN "Val"
+	1    15125 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-dram-tester:R_0R_0603 R160
 U 1 1 6177CC52
-P 15150 6450
-F 0 "R160" H 15075 6525 60  0000 C CNN
-F 1 "R_0R_0603" H 15150 6300 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15350 6650 60  0001 L CNN
-F 3 "" H 15150 6450 50  0001 C CNN
-F 4 "BOURNS" H 15350 6850 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15350 6750 60  0001 L CNN "MPN"
-F 6 "0R" H 15225 6375 50  0000 C CNN "Val"
-	1    15150 6450
+P 15125 5900
+F 0 "R160" H 15050 5975 60  0000 C CNN
+F 1 "R_0R_0603" H 15125 5750 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 15325 6100 60  0001 L CNN
+F 3 "" H 15125 5900 50  0001 C CNN
+F 4 "BOURNS" H 15325 6300 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-J/-000ELF" H 15325 6200 60  0001 L CNN "MPN"
+F 6 "0R" H 15200 5825 50  0000 C CNN "Val"
+	1    15125 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15300 6450 15525 6450
+	15275 5900 15500 5900
 Wire Wire Line
-	15300 6250 15550 6250
+	15275 5700 15525 5700
 Wire Wire Line
-	15300 6650 15550 6650
+	15275 6100 15525 6100
 Wire Wire Line
-	14850 6250 15000 6250
+	14825 5700 14975 5700
 Wire Wire Line
-	15000 6450 14850 6450
+	14975 5900 14825 5900
 Wire Wire Line
-	15000 6650 14850 6650
+	14975 6100 14825 6100
 Wire Wire Line
 	4925 1875 6100 1875
 Text GLabel 9525 1525 1    50   Input ~ 0
@@ -2432,74 +2426,18 @@ Text GLabel 11250 1525 1    50   Input ~ 0
 VDD1V2
 Text GLabel 11550 1525 1    50   Input ~ 0
 VDD1V2
-Text GLabel 14850 6650 0    50   Input ~ 0
+Text GLabel 14825 6100 0    50   Input ~ 0
 VCC0V6
-Text GLabel 14850 6450 0    50   Input ~ 0
+Text GLabel 14825 5900 0    50   Input ~ 0
 VDD1V2
-Text GLabel 14850 6250 0    50   Input ~ 0
+Text GLabel 14825 5700 0    50   Input ~ 0
 VCC2V5
 Wire Wire Line
 	1100 2650 2300 2650
 Wire Wire Line
-	2525 2175 3100 2175
-Text GLabel 14675 5875 0    50   Input ~ 0
-VIN
-$Comp
-L data-center-dram-tester:R_0R_0603 R158
-U 1 1 61953E56
-P 15125 5875
-F 0 "R158" H 14900 5925 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5725 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 6075 60  0001 L CNN
-F 3 "" H 15125 5875 50  0001 C CNN
-F 4 "BOURNS" H 15325 6275 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6175 60  0001 L CNN "MPN"
-F 6 "0R" H 15275 5825 50  0000 C CNN "Val"
-	1    15125 5875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14675 5875 14975 5875
-Wire Wire Line
-	15275 5875 15550 5875
-Text GLabel 15550 5875 2    50   Input ~ 0
-PVIN
-Text GLabel 7850 1500 1    50   Input ~ 0
-PVIN
-Text GLabel 8225 1500 1    50   Input ~ 0
-PVIN
-Text GLabel 8600 1500 1    50   Input ~ 0
-PVIN
-Text GLabel 8975 1500 1    50   Input ~ 0
-PVIN
-$Comp
-L data-center-dram-tester:R_0R_0603 R157
-U 1 1 6198AB7F
-P 15125 5650
-F 0 "R157" H 14900 5700 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5500 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 5850 60  0001 L CNN
-F 3 "" H 15125 5650 50  0001 C CNN
-F 4 "BOURNS" H 15325 6050 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 5950 60  0001 L CNN "MPN"
-F 6 "0R" H 15275 5600 50  0000 C CNN "Val"
-	1    15125 5650
-	1    0    0    -1  
-$EndComp
-Text GLabel 14675 5650 0    50   Input ~ 0
-VCC5V0
-Wire Wire Line
-	14675 5650 14975 5650
-Text GLabel 15550 5650 2    50   Input ~ 0
-VIN_VPP
-Wire Wire Line
-	15275 5650 15550 5650
+	2900 2175 3100 2175
 Wire Wire Line
 	1475 1875 1475 2075
-Text GLabel 2900 2025 0    50   Input ~ 0
-VIN_VPP
-Wire Wire Line
-	3100 2025 2900 2025
 Text GLabel 1100 2650 0    50   Input ~ 0
 VDDQ
 Text GLabel 13225 7225 1    50   Input ~ 0
@@ -2519,13 +2457,7 @@ F 3 "" H 12900 6450 60  0001 L CNN
 	1    12700 6150
 	1    0    0    -1  
 $EndComp
-Text GLabel 7150 1500 1    50   Input ~ 0
-VIN_VPP
-Text GLabel 7500 1500 1    50   Input ~ 0
-VIN_VPP
-Text Notes 15050 5500 0    39   ~ 0
-Input
-Text Notes 15050 6075 0    39   ~ 0
+Text Notes 15025 5525 0    39   ~ 0
 Output
 Text Label 2800 2325 0    50   ~ 0
 VLDOIN
@@ -3135,10 +3067,10 @@ F 6 "10u" H 8225 7250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_120p_0603 C?
+L antmicroCapacitors0603:C_120p_0603 C156
 U 1 1 634D7437
 P 10125 7275
-F 0 "C?" H 10150 7375 60  0000 L CNN
+F 0 "C156" H 10150 7375 60  0000 L CNN
 F 1 "C_120p_0603" H 10125 7125 60  0001 C CNN
 F 2 "antmicro-footprints:0603-cap" H 10325 7475 60  0001 L CNN
 F 3 "" H 10125 7275 50  0001 C CNN
@@ -3150,4 +3082,29 @@ F 6 "120p" H 10125 7150 50  0000 L CNN "Val"
 $EndComp
 Text Label 7350 7225 0    50   ~ 0
 VCC_AUX_EN
+Text GLabel 2500 5700 1    50   Input ~ 0
+VIN
+Text GLabel 2900 2175 0    50   Input ~ 0
+VIN
+Text GLabel 7850 1500 1    50   Input ~ 0
+VIN
+Text GLabel 8225 1500 1    50   Input ~ 0
+VIN
+Text GLabel 8600 1500 1    50   Input ~ 0
+VIN
+Text GLabel 8975 1500 1    50   Input ~ 0
+VIN
+Text GLabel 1050 1875 0    50   Input ~ 0
+5V0_SYS
+Wire Wire Line
+	2875 2025 2875 1875
+Wire Wire Line
+	2875 2025 3100 2025
+Connection ~ 2875 1875
+Wire Wire Line
+	2875 1875 3100 1875
+Text GLabel 7150 1500 1    50   Input ~ 0
+5V0_SYS
+Text GLabel 7500 1500 1    50   Input ~ 0
+5V0_SYS
 $EndSCHEMATC
