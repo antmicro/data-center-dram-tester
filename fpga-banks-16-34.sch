@@ -1484,4 +1484,6 @@ Text Notes 9950 975  0    98   ~ 20
 BANK 33
 Text Notes 12850 950  0    98   ~ 20
 BANK 34
+Text Notes 4225 9425 0    50   ~ 0
+TODO:Check if there is an equivalent for these pins in DDR4
 $EndSCHEMATC

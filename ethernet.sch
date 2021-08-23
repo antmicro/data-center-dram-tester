@@ -22,7 +22,7 @@ Wire Wire Line
 Connection ~ 9725 2150
 Wire Wire Line
 	9725 2150 9725 1700
-Text Label 9725 1975 1    50   ~ 0
+Text Label 9725 1700 3    50   ~ 0
 AVDDL
 Wire Wire Line
 	11100 4775 10425 4775
@@ -304,17 +304,17 @@ $EndComp
 Wire Wire Line
 	8325 2025 8325 2150
 Connection ~ 8325 2150
-Text Label 8725 1975 1    50   ~ 0
+Text Label 8725 1700 3    50   ~ 0
 AVDDH
 Wire Wire Line
 	8725 2150 8725 1700
 Connection ~ 8725 2150
 Text GLabel 9025 2025 1    50   Input ~ 0
-VCC1V2
+1V2_SYS
 Wire Wire Line
 	9025 2025 9025 2150
 Connection ~ 9025 2150
-Text Label 10025 2100 1    50   ~ 0
+Text Label 10025 1700 3    50   ~ 0
 AVDDL_PLL
 Wire Wire Line
 	10025 1700 10025 2375
@@ -481,8 +481,6 @@ Wire Wire Line
 	3000 10025 3325 10025
 Wire Wire Line
 	2750 10025 2750 10100
-Text GLabel 3900 10025 2    50   Input ~ 0
-VCC1V2
 Wire Wire Line
 	3000 10475 3000 10400
 Wire Wire Line
@@ -937,8 +935,6 @@ Wire Wire Line
 Connection ~ 3500 1975
 Wire Wire Line
 	3500 1975 3250 1975
-Text GLabel 1750 1300 1    50   Input ~ 0
-VCC1V2
 Connection ~ 2700 3625
 Wire Wire Line
 	2700 3625 2525 3625
@@ -1066,8 +1062,6 @@ F 5 "Murata Electronics North America" H 3550 9100 60  0001 L CNN "Manufacturer"
 	1    3350 8000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3625 8000 2    50   Input ~ 0
-VCC1V2
 Wire Wire Line
 	2725 8000 2975 8000
 Wire Wire Line
@@ -1878,4 +1872,10 @@ Wire Notes Line
 	5500 4675 5500 4700
 Wire Notes Line
 	475  2600 5500 2600
+Text GLabel 1750 1300 1    50   Input ~ 0
+1V2_SYS
+Text GLabel 3625 8000 2    50   Input ~ 0
+1V2_SYS
+Text GLabel 3900 10025 2    50   Input ~ 0
+1V2_SYS
 $EndSCHEMATC

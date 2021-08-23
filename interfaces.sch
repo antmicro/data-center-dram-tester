@@ -2425,4 +2425,30 @@ Wire Notes Line
 	11825 4750 11825 9975
 Wire Notes Line
 	475  7600 11825 7600
+Text GLabel 3525 7150 0    50   Input ~ 0
+1V8_FT
+$Comp
+L data-center-dram-tester:BLM18PG121SN1D FB?
+U 1 1 61CB4E54
+P 3950 7150
+AR Path="/5FF245C4/61CB4E54" Ref="FB?"  Part="1" 
+AR Path="/60570C04/61CB4E54" Ref="FB?"  Part="1" 
+AR Path="/600427B4/61CB4E54" Ref="FB?"  Part="1" 
+AR Path="/5F982999/61CB4E54" Ref="FB?"  Part="1" 
+AR Path="/600E76D8/61CB4E54" Ref="FB?"  Part="1" 
+F 0 "FB?" H 3950 7437 60  0000 C CNN
+F 1 "BLM18PG121SN1D" H 3950 7331 60  0000 C CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 4150 7350 60  0001 L CNN
+F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4150 7450 60  0001 L CNN
+F 4 "BLM18PG121SN1D" H 4150 7650 60  0001 L CNN "MPN"
+F 5 "Murata Electronics North America" H 4150 8250 60  0001 L CNN "Manufacturer"
+	1    3950 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3525 7150 3750 7150
+Text GLabel 4375 7150 2    50   Input ~ 0
+1V8_SYS
+Wire Wire Line
+	4150 7150 4375 7150
 $EndSCHEMATC
