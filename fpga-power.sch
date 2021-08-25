@@ -3023,4 +3023,13 @@ Wire Notes Line
 	11800 9975 11800 4850
 Wire Notes Line
 	11800 4850 16075 4850
+Wire Wire Line
+	9300 3275 9300 3175
+Connection ~ 9300 2875
+Connection ~ 9300 3075
+Wire Wire Line
+	9300 3075 9300 2875
+Connection ~ 9300 3175
+Wire Wire Line
+	9300 3175 9300 3075
 $EndSCHEMATC
