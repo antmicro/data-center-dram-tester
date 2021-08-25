@@ -1401,12 +1401,12 @@ Text Label 5225 2050 2    50   ~ 0
 Wire Wire Line
 	5250 2050 4850 2050
 $Comp
-L antmicroTestPoints:TP_SMD1MM TP?
+L data-center-dram-tester:TP_SMD1MM TP?
 U 1 1 618505E7
 P 2250 1850
 F 0 "TP?" V 2155 1897 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2250 1750 50  0001 C CNN
-F 2 "antmicro-footprints:Testpoint_smd_1mm" H 2450 2050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 2450 2050 60  0001 L CNN
 F 3 "" H 2450 2150 60  0001 L CNN
 	1    2250 1850
 	0    -1   -1   0   
@@ -1424,12 +1424,12 @@ Wire Notes Line
 Text Notes 1350 1650 0    50   ~ 0
 NVRDIMM Backup voltage
 $Comp
-L antmicroResistors0603:R_0R_0603 R?
+L data-center-dram-tester:R_0R_0603 R?
 U 1 1 61903C55
 P 1800 1850
 F 0 "R?" H 1800 1950 60  0000 C CNN
 F 1 "R_0R_0603" H 1800 1700 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 2000 2050 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 2000 2050 60  0001 L CNN
 F 3 "" H 1800 1850 50  0001 C CNN
 F 4 "BOURNS" H 2000 2250 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 2000 2150 60  0001 L CNN "MPN"

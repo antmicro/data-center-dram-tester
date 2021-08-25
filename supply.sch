@@ -2169,12 +2169,12 @@ Wire Notes Line
 Wire Notes Line
 	11800 5000 16050 5000
 $Comp
-L antmicroPMICVoltageRegulatorsDCDCSwitchingControllers:TPS65295RJET U2
+L data-center-dram-tester:TPS65295RJET U2
 U 1 1 61282A74
 P 3650 2625
 F 0 "U2" H 3878 2678 60  0000 L CNN
 F 1 "TPS65295RJET" H 3350 1525 60  0000 L CNN
-F 2 "antmicro-footprints:TPS65295RJET" H 4850 2125 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:TPS65295RJET" H 4850 2125 60  0001 C CNN
 F 3 "" H 4800 2275 60  0000 C CNN
 F 4 "TPS65295RJET" H 4800 2275 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 4800 2275 50  0001 C CNN "Manufacturer"
@@ -2289,7 +2289,7 @@ $Comp
 L data-center-dram-tester:R_0R_0603 R161
 U 1 1 6177CC40
 P 15125 6100
-F 0 "R161" H 15050 6175 60  0000 C CNN
+F 0 "R161" H 14925 6150 60  0000 C CNN
 F 1 "R_0R_0603" H 15125 5950 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0603-res" H 15325 6300 60  0001 L CNN
 F 3 "" H 15125 6100 50  0001 C CNN
@@ -2303,28 +2303,14 @@ $Comp
 L data-center-dram-tester:R_0R_0603 R159
 U 1 1 6177CC49
 P 15125 5700
-F 0 "R159" H 15050 5800 60  0000 C CNN
+F 0 "R159" H 14925 5750 60  0000 C CNN
 F 1 "R_0R_0603" H 15125 5550 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0603-res" H 15325 5900 60  0001 L CNN
 F 3 "" H 15125 5700 50  0001 C CNN
 F 4 "BOURNS" H 15325 6100 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-J/-000ELF" H 15325 6000 60  0001 L CNN "MPN"
-F 6 "0R" H 15225 5600 50  0000 C CNN "Val"
+F 6 "0R" H 15300 5450 50  0000 C CNN "Val"
 	1    15125 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-dram-tester:R_0R_0603 R160
-U 1 1 6177CC52
-P 15125 5900
-F 0 "R160" H 15050 5975 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5750 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 6100 60  0001 L CNN
-F 3 "" H 15125 5900 50  0001 C CNN
-F 4 "BOURNS" H 15325 6300 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6200 60  0001 L CNN "MPN"
-F 6 "0R" H 15200 5825 50  0000 C CNN "Val"
-	1    15125 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2760,12 +2746,12 @@ Wire Wire Line
 	9625 5625 9525 5625
 Connection ~ 8125 5175
 $Comp
-L antmicroResistors0603:R_100k_0603 R156
+L data-center-dram-tester:R_100k_0603 R156
 U 1 1 62215927
 P 10425 7700
 F 0 "R156" V 10380 7770 60  0000 L CNN
 F 1 "R_100k_0603" H 10425 7550 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10625 7900 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 10625 7900 60  0001 L CNN
 F 3 "" H 10425 7700 50  0001 C CNN
 F 4 "BOURNS" H 10625 8100 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-FX-1003HLF" H 10625 8000 60  0001 L CNN "MPN"
@@ -2774,12 +2760,12 @@ F 6 "100k" V 10478 7770 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0603:R_49R9_0603 R41
+L data-center-dram-tester:R_49R9_0603 R41
 U 1 1 62211F8B
 P 10425 7300
 F 0 "R41" V 10380 7370 60  0000 L CNN
 F 1 "R_49R9_0603" H 10425 7150 60  0001 C CNN
-F 2 "antmicro-footprints:0603-res" H 10625 7500 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 10625 7500 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 10425 7300 50  0001 C CNN
 F 4 "Vishay" H 10625 7700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW060349R9FKEA" H 10625 7600 60  0001 L CNN "MPN"
@@ -2982,12 +2968,12 @@ Connection ~ 8175 7075
 Wire Notes Line
 	7000 6375 11800 6375
 $Comp
-L antmicroCapacitors0603:C_10u_0603 C155
+L data-center-dram-tester:C_10u_0603 C155
 U 1 1 634C5C9B
 P 8175 7350
 F 0 "C155" H 8225 7425 60  0000 L CNN
 F 1 "C_10u_0603" H 8175 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 8375 7550 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603-cap" H 8375 7550 60  0001 L CNN
 F 3 "" H 8175 7350 50  0001 C CNN
 F 4 "Murata" H 8375 7750 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R61A106KE69D" H 8375 7650 60  0001 L CNN "MPN"
@@ -2996,12 +2982,12 @@ F 6 "10u" H 8225 7250 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0603:C_120p_0603 C156
+L data-center-dram-tester:C_120p_0603 C156
 U 1 1 634D7437
 P 10125 7275
 F 0 "C156" H 10150 7375 60  0000 L CNN
 F 1 "C_120p_0603" H 10125 7125 60  0001 C CNN
-F 2 "antmicro-footprints:0603-cap" H 10325 7475 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0603-cap" H 10325 7475 60  0001 L CNN
 F 3 "" H 10125 7275 50  0001 C CNN
 F 4 "WALSIN" H 10325 7675 60  0001 L CNN "Manufacturer"
 F 5 "0603N121J500CT" H 10325 7575 60  0001 L CNN "MPN"
@@ -3042,6 +3028,19 @@ Text Notes 14650 5275 0    79   ~ 16
 Shunt resistors
 Wire Wire Line
 	1050 1875 2200 1875
-Text GLabel 7050 1500 1    50   Input ~ 0
+Text GLabel 7075 1500 1    50   Input ~ 0
 5V0_SYS
+$Comp
+L data-center-dram-tester:1206L450SLWR F1
+U 1 1 61277451
+P 15125 5900
+F 0 "F1" H 14975 5950 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 5975 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 5675 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5750 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 5600 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 5525 50  0001 C CNN "Manufacturer"
+	1    15125 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

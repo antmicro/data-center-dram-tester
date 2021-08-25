@@ -1168,4 +1168,28 @@ Wire Notes Line
 	7700 500  7700 11225
 Text Notes 13550 8300 0    118  ~ 24
 Probes
+$Comp
+L data-center-dram-tester:C_470n_0402 C?
+U 1 1 61542B63
+P 15350 3850
+F 0 "C?" H 15375 3950 60  0000 L CNN
+F 1 "C_470n_0402" H 15350 3700 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 15550 4050 60  0001 L CNN
+F 3 "" H 15350 3850 50  0001 C CNN
+F 4 "TDK" H 15550 4250 60  0001 L CNN "Manufacturer"
+F 5 "C1005X5R1E474M050BB" H 15550 4150 60  0001 L CNN "MPN"
+F 6 "470n" H 15375 3750 50  0000 L CNN "Val"
+	1    15350 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15050 3650 15350 3650
+Wire Wire Line
+	15350 3650 15350 3700
+Connection ~ 15050 3650
+Wire Wire Line
+	15350 4000 15350 4050
+Wire Wire Line
+	15350 4050 15050 4050
+Connection ~ 15050 4050
 $EndSCHEMATC
