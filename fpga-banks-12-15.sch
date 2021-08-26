@@ -172,8 +172,6 @@ Wire Wire Line
 Connection ~ 10475 2625
 Wire Wire Line
 	10875 2625 11125 2625
-Text GLabel 1650 9725 0    50   Input ~ 0
-GCLK100
 Text GLabel 9975 4950 0    50   Input ~ 0
 USR_LED1
 Text GLabel 9975 5150 0    50   Input ~ 0
@@ -266,8 +264,6 @@ Text GLabel 9975 6650 0    50   Input ~ 0
 AUX_JTAG_TMS
 Text GLabel 9975 4850 0    50   Input ~ 0
 AUX_JTAG_TCK
-Text GLabel 1650 9625 0    50   Input ~ 0
-AUX_JTAG_RST
 Text GLabel 9975 5850 0    50   Input ~ 0
 AUX_JTAG_TDI
 Text GLabel 9975 4250 0    50   Input ~ 0
@@ -284,16 +280,6 @@ Text GLabel 9975 3850 0    50   Input ~ 0
 QSPI_DQ1
 Text GLabel 9975 4150 0    50   Input ~ 0
 PUDC_B
-Text Notes 875  9275 0    50   ~ 0
-TODO: Connect these signals
-Wire Notes Line
-	900  9300 1850 9300
-Wire Notes Line
-	1850 9300 1850 10975
-Wire Notes Line
-	1850 10975 900  10975
-Wire Notes Line
-	900  10975 900  9300
 Text Notes 2700 1400 0    118  ~ 24
 BANK 12
 Text Notes 5300 1425 0    118  ~ 24

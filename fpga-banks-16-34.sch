@@ -583,7 +583,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 7700 6525 7700
 Wire Wire Line
-	14475 9625 13750 9625
+	14550 9575 13825 9575
 Wire Wire Line
 	5800 7300 6525 7300
 Wire Wire Line
@@ -625,11 +625,11 @@ Wire Wire Line
 Wire Wire Line
 	5800 6900 6525 6900
 Wire Wire Line
-	14475 9325 13750 9325
+	14550 9275 13825 9275
 Wire Wire Line
-	14475 9425 13750 9425
+	14550 9375 13825 9375
 Wire Wire Line
-	14475 9525 13750 9525
+	14550 9475 13825 9475
 Text GLabel 9200 3225 0    50   Input ~ 0
 DQ4
 Text GLabel 8750 9000 0    50   Input ~ 0
@@ -848,11 +848,11 @@ Text GLabel 6525 7600 2    50   Input ~ 0
 DQ62
 Text GLabel 6525 6900 2    50   Input ~ 0
 DQ58
-Text GLabel 13750 9325 0    50   Input ~ 0
+Text GLabel 13825 9275 0    50   Input ~ 0
 SA0
-Text GLabel 13750 9425 0    50   Input ~ 0
+Text GLabel 13825 9375 0    50   Input ~ 0
 SA1
-Text GLabel 13750 9525 0    50   Input ~ 0
+Text GLabel 13825 9475 0    50   Input ~ 0
 SCL
 Text GLabel 9200 4225 0    50   Input ~ 0
 DQ5
@@ -960,7 +960,7 @@ Text GLabel 6525 7000 2    50   Input ~ 0
 DQ63
 Text GLabel 6525 7300 2    50   Input ~ 0
 DQ59
-Text GLabel 13750 9625 0    50   Input ~ 0
+Text GLabel 13825 9575 0    50   Input ~ 0
 SDA
 Text GLabel 9200 3325 0    50   Input ~ 0
 DQ0
@@ -1417,15 +1417,15 @@ Wire Wire Line
 Text GLabel 6525 4900 2    50   Input ~ 0
 ODT1\NC
 Wire Notes Line
-	14650 9775 13400 9775
+	14725 9725 13475 9725
 Wire Notes Line
-	13400 9775 13400 9075
+	13475 9725 13475 9025
 Wire Notes Line
-	13400 9075 14650 9075
+	13475 9025 14725 9025
 Wire Notes Line
-	14650 9075 14650 9775
-Text Notes 13525 9200 0    50   ~ 0
-TODO: Connect to RDIMM
+	14725 9025 14725 9725
+Text Notes 13450 8950 0    50   ~ 0
+TODO: Check the voltage level of these signals
 Wire Wire Line
 	9925 4925 9750 4925
 Wire Wire Line
@@ -1435,12 +1435,12 @@ DQS17_T
 Text GLabel 9200 4925 0    50   Input ~ 0
 DQS17_C
 $Comp
-L data-center-dram-tester:R_0R_0201 R?
+L data-center-dram-tester:R_0R_0201 R160
 U 1 1 6145FD9B
 P 9600 4825
-AR Path="/61B4860C/6145FD9B" Ref="R?"  Part="1" 
+AR Path="/61B4860C/6145FD9B" Ref="R160"  Part="1" 
 AR Path="/61AF7FF2/6145FD9B" Ref="R?"  Part="1" 
-F 0 "R?" H 9375 4875 60  0000 C CNN
+F 0 "R160" H 9375 4875 60  0000 C CNN
 F 1 "R_0R_0201" H 9600 4675 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0201-res" H 9800 5025 60  0001 L CNN
 F 3 "" H 9600 4825 50  0001 C CNN
@@ -1452,12 +1452,12 @@ F 7 "DNP" H 9600 4825 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-dram-tester:R_0R_0201 R?
+L data-center-dram-tester:R_0R_0201 R162
 U 1 1 6145FDA4
 P 9600 4925
-AR Path="/61B4860C/6145FDA4" Ref="R?"  Part="1" 
+AR Path="/61B4860C/6145FDA4" Ref="R162"  Part="1" 
 AR Path="/61AF7FF2/6145FDA4" Ref="R?"  Part="1" 
-F 0 "R?" H 9375 4975 60  0000 C CNN
+F 0 "R162" H 9375 4975 60  0000 C CNN
 F 1 "R_0R_0201" H 9600 4775 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0201-res" H 9800 5125 60  0001 L CNN
 F 3 "" H 9600 4925 50  0001 C CNN
@@ -1486,4 +1486,18 @@ Text Notes 12850 950  0    98   ~ 20
 BANK 34
 Text Notes 4225 9425 0    50   ~ 0
 TODO:Check if there is an equivalent for these pins in DDR4
+Text GLabel 12425 9450 0    50   Input ~ 0
+GCLK100
+Text GLabel 12425 9350 0    50   Input ~ 0
+AUX_JTAG_RST
+Text Notes 11625 8950 0    50   ~ 0
+TODO: Decide where to onnect these signals
+Wire Notes Line
+	11675 9025 12625 9025
+Wire Notes Line
+	12625 9025 12625 9625
+Wire Notes Line
+	12625 9625 11675 9625
+Wire Notes Line
+	11675 9625 11675 9025
 $EndSCHEMATC
