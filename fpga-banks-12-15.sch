@@ -174,23 +174,23 @@ Wire Wire Line
 	10875 2625 11125 2625
 Text GLabel 1650 9725 0    50   Input ~ 0
 GCLK100
-Text GLabel 1225 10250 2    50   Input ~ 0
+Text GLabel 9975 4950 0    50   Input ~ 0
 USR_LED1
-Text GLabel 1225 10350 2    50   Input ~ 0
+Text GLabel 9975 5150 0    50   Input ~ 0
 USR_LED2
-Text GLabel 1225 10750 2    50   Input ~ 0
+Text GLabel 9975 5650 0    50   Input ~ 0
 USR_LED3
-Text GLabel 1225 10150 2    50   Input ~ 0
+Text GLabel 9975 5450 0    50   Input ~ 0
 USR_LED5
-Text GLabel 1225 9950 2    50   Input ~ 0
+Text GLabel 9975 5550 0    50   Input ~ 0
 USR_BTN1
-Text GLabel 1225 10550 2    50   Input ~ 0
+Text GLabel 9975 5250 0    50   Input ~ 0
 USR_BTN2
-Text GLabel 1225 10050 2    50   Input ~ 0
+Text GLabel 9975 5350 0    50   Input ~ 0
 USR_BTN3
-Text GLabel 1225 10650 2    50   Input ~ 0
+Text GLabel 9975 5050 0    50   Input ~ 0
 USR_LED4
-Text GLabel 1225 10450 2    50   Input ~ 0
+Text GLabel 9975 5750 0    50   Input ~ 0
 USR_BTN4
 Text GLabel 2350 4625 0    50   Input ~ 0
 ETH_RXD0
