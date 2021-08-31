@@ -1772,17 +1772,6 @@ Text GLabel 5850 2300 2    50   Input ~ 0
 TMS_JTAG
 Wire Wire Line
 	4775 2500 5125 2500
-$Comp
-L data-center-dram-tester:test U8
-U 1 1 601E16F4
-P 5325 2450
-F 0 "U8" V 5256 2500 50  0000 R CNN
-F 1 "SRST" V 5211 2500 50  0001 R CNN
-F 2 "" H 5325 2450 50  0001 C CNN
-F 3 "" H 5325 2450 50  0001 C CNN
-	1    5325 2450
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	2550 9125 2550 9175
 $Comp
@@ -2451,4 +2440,15 @@ Text GLabel 4375 7150 2    50   Input ~ 0
 1V8_SYS
 Wire Wire Line
 	4150 7150 4375 7150
+$Comp
+L data-center-dram-tester:TP_SMD1MM TP11
+U 1 1 625955FC
+P 5225 2500
+F 0 "TP11" V 5225 2450 50  0000 R CNN
+F 1 "TP_SMD1MM" H 5225 2400 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 5425 2700 60  0001 L CNN
+F 3 "" H 5425 2800 60  0001 L CNN
+	1    5225 2500
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

@@ -666,4 +666,6 @@ F 7 "DNP" H 6700 4225 50  0000 C CNN "DNP"
 	1    6700 4225
 	1    0    0    -1  
 $EndComp
+Text GLabel 9975 6750 0    50   Input ~ 0
+AUX_JTAG_RST
 $EndSCHEMATC

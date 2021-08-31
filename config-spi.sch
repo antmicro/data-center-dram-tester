@@ -745,28 +745,6 @@ Wire Wire Line
 Wire Wire Line
 	14625 9025 15125 9025
 $Comp
-L data-center-dram-tester:test PUDC_B1
-U 1 1 61236E26
-P 12350 9125
-F 0 "PUDC_B1" V 12300 9025 50  0000 C CNN
-F 1 "test" V 12166 9272 50  0001 C CNN
-F 2 "" H 12350 9125 50  0001 C CNN
-F 3 "" H 12350 9125 50  0001 C CNN
-	1    12350 9125
-	0    1    1    0   
-$EndComp
-$Comp
-L data-center-dram-tester:test EMCCLK1
-U 1 1 61237446
-P 14425 9075
-F 0 "EMCCLK1" V 14375 8975 50  0000 C CNN
-F 1 "test" V 14241 9222 50  0001 C CNN
-F 2 "" H 14425 9075 50  0001 C CNN
-F 3 "" H 14425 9075 50  0001 C CNN
-	1    14425 9075
-	0    1    1    0   
-$EndComp
-$Comp
 L data-center-dram-tester:R_100R_0402 R10
 U 1 1 61242D65
 P 12750 8800
@@ -1192,4 +1170,26 @@ Wire Wire Line
 Wire Wire Line
 	15350 4050 15050 4050
 Connection ~ 15050 4050
+$Comp
+L data-center-dram-tester:TP_SMD1MM PUDC_B1
+U 1 1 625A7449
+P 12450 9075
+F 0 "PUDC_B1" V 12355 9122 50  0000 C CNN
+F 1 "TP_SMD1MM" H 12450 8975 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 12650 9275 60  0001 L CNN
+F 3 "" H 12650 9375 60  0001 L CNN
+	1    12450 9075
+	0    1    1    0   
+$EndComp
+$Comp
+L data-center-dram-tester:TP_SMD1MM EMCCLK1
+U 1 1 625AD245
+P 14525 9025
+F 0 "EMCCLK1" V 14430 9072 50  0000 C CNN
+F 1 "TP_SMD1MM" H 14525 8925 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 14725 9225 60  0001 L CNN
+F 3 "" H 14725 9325 60  0001 L CNN
+	1    14525 9025
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
