@@ -1310,10 +1310,10 @@ VDDQ
 Text GLabel 3700 7850 0    50   Input ~ 0
 VDDQ
 $Comp
-L data-center-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR0148
 U 1 1 628D8B81
 P 4950 9750
-F 0 "#PWR?" H 4950 9500 50  0001 C CNN
+F 0 "#PWR0148" H 4950 9500 50  0001 C CNN
 F 1 "GND" H 4955 9577 50  0000 C CNN
 F 2 "" H 4950 9750 50  0001 C CNN
 F 3 "" H 4950 9750 50  0001 C CNN
@@ -1327,10 +1327,10 @@ Wire Wire Line
 	4950 7950 4950 7750
 Connection ~ 4950 7950
 $Comp
-L data-center-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR0150
 U 1 1 62DBB5DD
 P 3650 7650
-F 0 "#PWR?" H 3650 7400 50  0001 C CNN
+F 0 "#PWR0150" H 3650 7400 50  0001 C CNN
 F 1 "GND" H 3655 7477 50  0000 C CNN
 F 2 "" H 3650 7650 50  0001 C CNN
 F 3 "" H 3650 7650 50  0001 C CNN
@@ -1341,10 +1341,10 @@ Wire Wire Line
 	3850 7650 3650 7650
 Connection ~ 3850 7650
 $Comp
-L data-center-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR0204
 U 1 1 62FAA504
 P 11325 9000
-F 0 "#PWR?" H 11325 8750 50  0001 C CNN
+F 0 "#PWR0204" H 11325 8750 50  0001 C CNN
 F 1 "GND" H 11330 8827 50  0000 C CNN
 F 2 "" H 11325 9000 50  0001 C CNN
 F 3 "" H 11325 9000 50  0001 C CNN
@@ -1354,10 +1354,10 @@ $EndComp
 Wire Wire Line
 	11325 8325 11325 9000
 $Comp
-L data-center-dram-tester:GND #PWR?
+L data-center-dram-tester:GND #PWR0230
 U 1 1 6309AE85
 P 10225 9000
-F 0 "#PWR?" H 10225 8750 50  0001 C CNN
+F 0 "#PWR0230" H 10225 8750 50  0001 C CNN
 F 1 "GND" H 10230 8827 50  0000 C CNN
 F 2 "" H 10225 9000 50  0001 C CNN
 F 3 "" H 10225 9000 50  0001 C CNN
@@ -1377,8 +1377,8 @@ L data-center-dram-tester:R_0R_0603 R?
 U 1 1 632B1D0D
 P 13550 9375
 AR Path="/60225B0C/632B1D0D" Ref="R?"  Part="1" 
-AR Path="/61827943/632B1D0D" Ref="R?"  Part="1" 
-F 0 "R?" H 13500 9475 60  0000 C CNN
+AR Path="/61827943/632B1D0D" Ref="R158"  Part="1" 
+F 0 "R158" H 13500 9475 60  0000 C CNN
 F 1 "R_0R_0603" H 13550 9225 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0603-res" H 13750 9575 60  0001 L CNN
 F 3 "" H 13550 9375 50  0001 C CNN
@@ -1401,10 +1401,10 @@ Text Label 5225 2050 2    50   ~ 0
 Wire Wire Line
 	5250 2050 4850 2050
 $Comp
-L data-center-dram-tester:TP_SMD1MM TP?
+L data-center-dram-tester:TP_SMD1MM TP10
 U 1 1 618505E7
 P 2250 1850
-F 0 "TP?" V 2155 1897 50  0000 C CNN
+F 0 "TP10" V 2155 1897 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2250 1750 50  0001 C CNN
 F 2 "data-center-dram-tester-footprints:Testpoint_smd_1mm" H 2450 2050 60  0001 L CNN
 F 3 "" H 2450 2150 60  0001 L CNN
@@ -1424,10 +1424,10 @@ Wire Notes Line
 Text Notes 1350 1650 0    50   ~ 0
 NVRDIMM Backup voltage
 $Comp
-L data-center-dram-tester:R_0R_0603 R?
+L data-center-dram-tester:R_0R_0603 R157
 U 1 1 61903C55
 P 1800 1850
-F 0 "R?" H 1800 1950 60  0000 C CNN
+F 0 "R157" H 1800 1950 60  0000 C CNN
 F 1 "R_0R_0603" H 1800 1700 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0603-res" H 2000 2050 60  0001 L CNN
 F 3 "" H 1800 1850 50  0001 C CNN

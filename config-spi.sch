@@ -1169,10 +1169,10 @@ Wire Notes Line
 Text Notes 13550 8300 0    118  ~ 24
 Probes
 $Comp
-L data-center-dram-tester:C_470n_0402 C?
+L data-center-dram-tester:C_470n_0402 C37
 U 1 1 61542B63
 P 15350 3850
-F 0 "C?" H 15375 3950 60  0000 L CNN
+F 0 "C37" H 15375 3950 60  0000 L CNN
 F 1 "C_470n_0402" H 15350 3700 60  0001 C CNN
 F 2 "data-center-dram-tester-footprints:0402-cap" H 15550 4050 60  0001 L CNN
 F 3 "" H 15350 3850 50  0001 C CNN

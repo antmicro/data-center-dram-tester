@@ -2435,8 +2435,8 @@ AR Path="/5FF245C4/61CB4E54" Ref="FB?"  Part="1"
 AR Path="/60570C04/61CB4E54" Ref="FB?"  Part="1" 
 AR Path="/600427B4/61CB4E54" Ref="FB?"  Part="1" 
 AR Path="/5F982999/61CB4E54" Ref="FB?"  Part="1" 
-AR Path="/600E76D8/61CB4E54" Ref="FB?"  Part="1" 
-F 0 "FB?" H 3950 7437 60  0000 C CNN
+AR Path="/600E76D8/61CB4E54" Ref="FB8"  Part="1" 
+F 0 "FB8" H 3950 7437 60  0000 C CNN
 F 1 "BLM18PG121SN1D" H 3950 7331 60  0000 C CNN
 F 2 "data-center-dram-tester-footprints:0603-res" H 4150 7350 60  0001 L CNN
 F 3 "https://www.murata.com/en-us/products/productdata/8796738650142/ENFA0003.pdf" H 4150 7450 60  0001 L CNN

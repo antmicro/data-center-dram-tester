@@ -63,8 +63,6 @@ Wire Wire Line
 	2400 1975 2500 1975
 Connection ~ 2400 1975
 Wire Wire Line
-	2400 2200 2400 2125
-Wire Wire Line
 	2300 1975 2400 1975
 Wire Wire Line
 	2300 2200 2300 1975
@@ -224,8 +222,6 @@ Text GLabel 1800 4600 0    50   Input ~ 0
 SD_CMD
 Text GLabel 1800 4500 0    50   Input ~ 0
 SD_DAT3
-Wire Wire Line
-	2400 2025 2400 1975
 Wire Notes Line
 	2200 10275 2225 10275
 Wire Wire Line
@@ -1484,8 +1480,6 @@ Text Notes 9950 975  0    98   ~ 20
 BANK 33
 Text Notes 12850 950  0    98   ~ 20
 BANK 34
-Text Notes 4225 9425 0    50   ~ 0
-TODO:Check if there is an equivalent for these pins in DDR4
 Text GLabel 12425 9450 0    50   Input ~ 0
 GCLK100
 Text GLabel 12425 9350 0    50   Input ~ 0
@@ -1500,4 +1494,6 @@ Wire Notes Line
 	12625 9625 11675 9625
 Wire Notes Line
 	11675 9625 11675 9025
+Wire Wire Line
+	2400 1975 2400 2200
 $EndSCHEMATC
