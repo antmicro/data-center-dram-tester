@@ -1,4 +1,4 @@
-update=Tue 31 Aug 2021 13:52:37 CEST
+update=Tue 31 Aug 2021 18:57:28 CEST
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=./doc
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -37,7 +47,7 @@ ViaDrill1=0.2
 ViaDiameter2=0.5
 ViaDrill2=0.2
 dPairWidth1=0.1
-dPairGap1=0.2
+dPairGap1=0.15
 dPairViaGap1=0.25
 SilkLineWidth=0.15
 SilkTextSizeV=0.7
@@ -239,7 +249,7 @@ ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.1
-dPairGap=0.2
+dPairGap=0.15
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=USB
@@ -263,13 +273,3 @@ uViaDrill=0.1
 dPairWidth=0.14
 dPairGap=0.17
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=./doc
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

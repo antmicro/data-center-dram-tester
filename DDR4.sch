@@ -257,9 +257,9 @@ Wire Wire Line
 Text GLabel 3225 2250 0    50   Input ~ 0
 DQ4
 Text GLabel 3225 2650 0    50   Input ~ 0
-DQS9_T
+DQS9_P
 Text GLabel 3225 2750 0    50   Input ~ 0
-DQS9_C
+DQS9_N
 Text GLabel 3225 2950 0    50   Input ~ 0
 DQ6
 Text GLabel 3225 3350 0    50   Input ~ 0
@@ -267,9 +267,9 @@ DQ12
 Text GLabel 3225 3550 0    50   Input ~ 0
 DQ8
 Text GLabel 3225 3750 0    50   Input ~ 0
-DQS10_T
+DQS10_P
 Text GLabel 3225 3850 0    50   Input ~ 0
-DQS10_C
+DQS10_N
 Text GLabel 3225 4050 0    50   Input ~ 0
 DQ14
 Text GLabel 3225 4250 0    50   Input ~ 0
@@ -983,9 +983,9 @@ Wire Wire Line
 	11325 8125 11325 8325
 Connection ~ 11325 8325
 Text GLabel 3225 4850 0    50   Input ~ 0
-DQS11_T
+DQS11_P
 Text GLabel 3225 4950 0    50   Input ~ 0
-DQS11_C
+DQS11_N
 Text GLabel 3225 5150 0    50   Input ~ 0
 DQ22
 Text GLabel 3225 5350 0    50   Input ~ 0
@@ -995,9 +995,9 @@ DQ28
 Text GLabel 3225 5750 0    50   Input ~ 0
 DQ24
 Text GLabel 3225 5950 0    50   Input ~ 0
-DQS12_T
+DQS12_P
 Text GLabel 3225 6050 0    50   Input ~ 0
-DQS12_C
+DQS12_N
 Text GLabel 3225 6250 0    50   Input ~ 0
 DQ30
 Text GLabel 3225 6450 0    50   Input ~ 0
@@ -1007,9 +1007,9 @@ CB4
 Text GLabel 3225 6850 0    50   Input ~ 0
 CB0
 Text GLabel 3225 7050 0    50   Input ~ 0
-DQS17_T
+DQS17_P
 Text GLabel 3225 7150 0    50   Input ~ 0
-DQS17_C
+DQS17_N
 Text GLabel 3225 7350 0    50   Input ~ 0
 CB6
 Text GLabel 3225 7550 0    50   Input ~ 0
@@ -1061,9 +1061,9 @@ DQ36
 Text GLabel 9600 4125 0    50   Input ~ 0
 DQ32
 Text GLabel 9600 4325 0    50   Input ~ 0
-DQS13_T
+DQS13_P
 Text GLabel 9600 4425 0    50   Input ~ 0
-DQS13_C
+DQS13_N
 Text GLabel 9600 4625 0    50   Input ~ 0
 DQ38
 Text GLabel 9600 4825 0    50   Input ~ 0
@@ -1073,9 +1073,9 @@ DQ44
 Text GLabel 9600 5225 0    50   Input ~ 0
 DQ40
 Text GLabel 9600 5425 0    50   Input ~ 0
-DQS14_T
+DQS14_P
 Text GLabel 9600 5525 0    50   Input ~ 0
-DQS14_C
+DQS14_N
 Text GLabel 9600 5725 0    50   Input ~ 0
 DQ46
 Text GLabel 9600 5925 0    50   Input ~ 0
@@ -1085,9 +1085,9 @@ DQ52
 Text GLabel 9600 6325 0    50   Input ~ 0
 DQ48
 Text GLabel 9600 6525 0    50   Input ~ 0
-DQS15_T
+DQS15_P
 Text GLabel 9600 6625 0    50   Input ~ 0
-DQS15_C
+DQS15_N
 Text GLabel 9600 6825 0    50   Input ~ 0
 DQ54
 Text GLabel 9600 7025 0    50   Input ~ 0
@@ -1097,9 +1097,9 @@ DQ60
 Text GLabel 9600 7425 0    50   Input ~ 0
 DQ56
 Text GLabel 9600 7625 0    50   Input ~ 0
-DQS16_T
+DQS16_P
 Text GLabel 9600 7725 0    50   Input ~ 0
-DQS16_C
+DQS16_N
 Text GLabel 9600 7925 0    50   Input ~ 0
 DQ62
 Text GLabel 9600 8125 0    50   Input ~ 0
@@ -1122,9 +1122,9 @@ DQ13
 Text GLabel 5575 3650 2    50   Input ~ 0
 DQ9
 Text GLabel 5575 3850 2    50   Input ~ 0
-DQS1_C
+DQS1_N
 Text GLabel 5575 3950 2    50   Input ~ 0
-DQS1_T
+DQS1_P
 Text GLabel 5575 4150 2    50   Input ~ 0
 DQ15
 Text GLabel 5575 4350 2    50   Input ~ 0
@@ -1134,9 +1134,9 @@ DQ21
 Text GLabel 5575 4750 2    50   Input ~ 0
 DQ17
 Text GLabel 5575 4950 2    50   Input ~ 0
-DQS2_C
+DQS2_N
 Text GLabel 5575 5050 2    50   Input ~ 0
-DQS2_T
+DQS2_P
 Text GLabel 5575 5250 2    50   Input ~ 0
 DQ23
 Text GLabel 5575 5450 2    50   Input ~ 0
@@ -1146,7 +1146,7 @@ DQ29
 Text GLabel 5575 5850 2    50   Input ~ 0
 DQ25
 Text GLabel 5575 6050 2    50   Input ~ 0
-DQS3_C
+DQS3_N
 Text GLabel 5575 6350 2    50   Input ~ 0
 DQ31
 Text GLabel 5575 6550 2    50   Input ~ 0
@@ -1156,9 +1156,9 @@ CB5
 Text GLabel 5575 6950 2    50   Input ~ 0
 CB1
 Text GLabel 5575 7150 2    50   Input ~ 0
-DQS8_C
+DQS8_N
 Text GLabel 5575 7250 2    50   Input ~ 0
-DQS8_T
+DQS8_P
 Text GLabel 5575 7450 2    50   Input ~ 0
 CB7
 Text GLabel 5575 7650 2    50   Input ~ 0
@@ -1206,9 +1206,9 @@ DQ37
 Text GLabel 11950 4225 2    50   Input ~ 0
 DQ33
 Text GLabel 11950 4425 2    50   Input ~ 0
-DQS4_C
+DQS4_N
 Text GLabel 11950 4525 2    50   Input ~ 0
-DQS4_T
+DQS4_P
 Text GLabel 11950 4725 2    50   Input ~ 0
 DQ39
 Text GLabel 11950 4925 2    50   Input ~ 0
@@ -1218,9 +1218,9 @@ DQ45
 Text GLabel 11950 5325 2    50   Input ~ 0
 DQ41
 Text GLabel 11950 5525 2    50   Input ~ 0
-DQS5_C
+DQS5_N
 Text GLabel 11950 5625 2    50   Input ~ 0
-DQS5_T
+DQS5_P
 Text GLabel 11950 5825 2    50   Input ~ 0
 DQ47
 Text GLabel 11950 6025 2    50   Input ~ 0
@@ -1230,9 +1230,9 @@ DQ53
 Text GLabel 11950 6425 2    50   Input ~ 0
 DQ49
 Text GLabel 11950 6625 2    50   Input ~ 0
-DQS6_C
+DQS6_N
 Text GLabel 11950 6725 2    50   Input ~ 0
-DQS6_T
+DQS6_P
 Text GLabel 11950 6925 2    50   Input ~ 0
 DQ55
 Text GLabel 11950 7125 2    50   Input ~ 0
@@ -1242,9 +1242,9 @@ DQ61
 Text GLabel 11950 7525 2    50   Input ~ 0
 DQ57
 Text GLabel 11950 7725 2    50   Input ~ 0
-DQS7_C
+DQS7_N
 Text GLabel 11950 7825 2    50   Input ~ 0
-DQS7_T
+DQS7_P
 Text GLabel 11950 8025 2    50   Input ~ 0
 DQ63
 Text GLabel 11950 8225 2    50   Input ~ 0
@@ -1268,11 +1268,9 @@ Text GLabel 9600 2825 0    50   Input ~ 0
 Text GLabel 11950 3025 2    50   Input ~ 0
 ~SAVE
 Text GLabel 5575 6150 2    50   Input ~ 0
-DQS3_T
+DQS3_P
 Text GLabel 5575 2750 2    50   Input ~ 0
-DQS0_C
-Text GLabel 5575 2850 2    50   Input ~ 0
-DQS0_T
+DQS0_N
 Wire Notes Line
 	2800 2200 5975 2200
 Wire Notes Line
@@ -1448,4 +1446,6 @@ Text GLabel 3500 2050 0    50   Input ~ 0
 NC
 Text GLabel 5250 2050 2    50   Input ~ 0
 NC
+Text GLabel 5575 2850 2    50   Input ~ 0
+DQS0_P
 $EndSCHEMATC
