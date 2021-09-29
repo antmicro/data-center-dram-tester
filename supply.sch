@@ -1223,20 +1223,6 @@ F 3 "" H 9925 1825 50  0001 C CNN
 	1    9925 1825
 	1    0    0    -1  
 $EndComp
-$Comp
-L data-center-dram-tester:R_0R_0603 R39
-U 1 1 5FDA5C63
-P 15125 7500
-F 0 "R39" H 15075 7600 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 7350 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 7700 60  0001 L CNN
-F 3 "" H 15125 7500 50  0001 C CNN
-F 4 "BOURNS" H 15325 7900 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 7800 60  0001 L CNN "MPN"
-F 6 "0R" H 15275 7450 50  0000 C CNN "Val"
-	1    15125 7500
-	1    0    0    -1  
-$EndComp
 Text GLabel 6175 6350 2    50   Input ~ 0
 VCC5V0_INT
 Wire Wire Line
@@ -1244,20 +1230,6 @@ Wire Wire Line
 Connection ~ 5950 6350
 Text GLabel 1500 9775 1    50   Input ~ 0
 VCC5V0_INT
-$Comp
-L data-center-dram-tester:R_0R_0603 R44
-U 1 1 5FD15A52
-P 15125 7225
-F 0 "R44" H 15075 7125 60  0000 L CNN
-F 1 "R_0R_0603" H 15125 7075 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 7425 60  0001 L CNN
-F 3 "" H 15125 7225 50  0001 C CNN
-F 4 "BOURNS" H 15325 7625 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 7525 60  0001 L CNN "MPN"
-F 6 "0R" H 14925 7275 50  0000 L CNN "Val"
-	1    15125 7225
-	-1   0    0    1   
-$EndComp
 $Comp
 L data-center-dram-tester:R_5R1_0402 R35
 U 1 1 609CC1B7
@@ -1405,20 +1377,6 @@ Wire Wire Line
 	7475 10150 7825 10150
 Text GLabel 5700 9650 1    50   Input ~ 0
 VCC5V0_INT
-$Comp
-L data-center-dram-tester:R_0R_0603 R47
-U 1 1 5FDF82D8
-P 15125 8025
-F 0 "R47" H 15075 7925 60  0000 L CNN
-F 1 "R_0R_0603" H 15125 7875 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 8225 60  0001 L CNN
-F 3 "" H 15125 8025 50  0001 C CNN
-F 4 "BOURNS" H 15325 8425 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 8325 60  0001 L CNN "MPN"
-F 6 "0R" H 14925 8075 50  0000 L CNN "Val"
-	1    15125 8025
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	875  10050 1825 10050
 Wire Wire Line
@@ -2062,22 +2020,6 @@ NoConn ~ 15000 9275
 Text GLabel 14775 7775 0    50   Input ~ 0
 VCC1V2
 $Comp
-L data-center-dram-tester:R_0R_0603 R?
-U 1 1 600835D6
-P 15125 7775
-AR Path="/6004278D/600835D6" Ref="R?"  Part="1" 
-AR Path="/60225B0C/600835D6" Ref="R85"  Part="1" 
-F 0 "R85" H 15000 7875 60  0000 L CNN
-F 1 "R_0R_0603" H 15125 7625 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 7975 60  0001 L CNN
-F 3 "" H 15125 7775 50  0001 C CNN
-F 4 "BOURNS" H 15325 8175 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 8075 60  0001 L CNN "MPN"
-F 6 "0R" H 15225 7725 50  0000 L CNN "Val"
-	1    15125 7775
-	1    0    0    -1  
-$EndComp
-$Comp
 L data-center-dram-tester:R_10k_0402 R86
 U 1 1 605A4625
 P 13900 3025
@@ -2420,20 +2362,6 @@ Text GLabel 12700 6050 1    50   Input ~ 0
 VCC1V2
 Text GLabel 14775 7000 0    50   Input ~ 0
 VCC5V0
-$Comp
-L data-center-dram-tester:R_0R_0603 R43
-U 1 1 5FDBEC32
-P 15125 7000
-F 0 "R43" H 15000 7100 60  0000 L CNN
-F 1 "R_0R_0603" H 15125 6850 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 7200 60  0001 L CNN
-F 3 "" H 15125 7000 50  0001 C CNN
-F 4 "BOURNS" H 15325 7400 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 7300 60  0001 L CNN "MPN"
-F 6 "0R" H 15250 6950 50  0000 L CNN "Val"
-	1    15125 7000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	14775 7000 14975 7000
 Text GLabel 15450 7000 2    50   Input ~ 0
@@ -3041,6 +2969,71 @@ F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5750 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 5600 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 5525 50  0001 C CNN "Manufacturer"
 	1    15125 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:1206L450SLWR F2
+U 1 1 61A05999
+P 15125 7000
+F 0 "F2" H 14975 7050 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7075 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 6775 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6850 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6700 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6625 50  0001 C CNN "Manufacturer"
+	1    15125 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:1206L450SLWR F3
+U 1 1 61A082F9
+P 15125 7225
+F 0 "F3" H 14975 7275 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7300 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 7000 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7075 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6925 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6850 50  0001 C CNN "Manufacturer"
+	1    15125 7225
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:1206L450SLWR F4
+U 1 1 61A08A26
+P 15125 7500
+F 0 "F4" H 14975 7550 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7575 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 7275 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7350 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 7200 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 7125 50  0001 C CNN "Manufacturer"
+	1    15125 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:1206L450SLWR F5
+U 1 1 61A090C6
+P 15125 7775
+F 0 "F5" H 14975 7825 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7850 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 7550 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7625 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 7475 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 7400 50  0001 C CNN "Manufacturer"
+	1    15125 7775
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:1206L450SLWR F6
+U 1 1 61A097E7
+P 15125 8025
+F 0 "F6" H 14975 8075 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 8100 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 7800 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7875 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 7725 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 7650 50  0001 C CNN "Manufacturer"
+	1    15125 8025
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
