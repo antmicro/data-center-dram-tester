@@ -1108,8 +1108,6 @@ Text GLabel 9600 8325 0    50   Input ~ 0
 SA0
 Text GLabel 9600 8425 0    50   Input ~ 0
 SA1
-Text GLabel 9600 8525 0    50   Input ~ 0
-SCL
 NoConn ~ 10325 8825
 Text GLabel 5250 2150 2    50   Input ~ 0
 VREFCA
@@ -1253,8 +1251,6 @@ Text GLabel 11950 8425 2    50   Input ~ 0
 VDDSPD
 Wire Wire Line
 	11225 8425 11950 8425
-Text GLabel 11950 8525 2    50   Input ~ 0
-SDA
 Text GLabel 3225 2450 0    50   Input ~ 0
 DQ0
 Text GLabel 5575 2550 2    50   Input ~ 0
@@ -1448,4 +1444,8 @@ Text GLabel 5250 2050 2    50   Input ~ 0
 NC
 Text GLabel 5575 2850 2    50   Input ~ 0
 DQS0_P
+Text GLabel 9600 8525 0    50   Input ~ 0
+SCL_2V5
+Text GLabel 11950 8525 2    50   Input ~ 0
+SDA_2V5
 $EndSCHEMATC
