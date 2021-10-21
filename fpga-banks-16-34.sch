@@ -370,9 +370,9 @@ Wire Wire Line
 Wire Wire Line
 	9925 7925 9200 7925
 Wire Wire Line
-	9925 6025 9200 6025
-Wire Wire Line
 	9925 6125 9200 6125
+Wire Wire Line
+	9925 6025 9200 6025
 Wire Wire Line
 	5800 5900 6525 5900
 Wire Wire Line
@@ -552,9 +552,9 @@ A3
 Text GLabel 9200 5725 0    50   Input ~ 0
 A1
 Text GLabel 9200 7225 0    50   Input ~ 0
-CK0_T
+CK0_P
 Text GLabel 9200 7325 0    50   Input ~ 0
-CK0_C
+CK0_N
 Text GLabel 9200 5625 0    50   Input ~ 0
 BA0
 Text GLabel 9200 6325 0    50   Input ~ 0
@@ -651,10 +651,10 @@ Text GLabel 9200 4725 0    50   Input ~ 0
 CKE1\NC
 Text GLabel 9200 7925 0    50   Input ~ 0
 BG1
-Text GLabel 9200 6125 0    50   Input ~ 0
-CK1_T
 Text GLabel 9200 6025 0    50   Input ~ 0
-CK1_C
+CK1_P
+Text GLabel 9200 6125 0    50   Input ~ 0
+CK1_N
 Text GLabel 6525 4100 2    50   Input ~ 0
 DQ37
 Text GLabel 6525 5800 2    50   Input ~ 0

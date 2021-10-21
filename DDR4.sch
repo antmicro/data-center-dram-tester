@@ -1035,9 +1035,9 @@ A3
 Text GLabel 3225 9150 0    50   Input ~ 0
 A1
 Text GLabel 3225 9350 0    50   Input ~ 0
-CK0_T
+CK0_P
 Text GLabel 3225 9450 0    50   Input ~ 0
-CK0_C
+CK0_N
 Text GLabel 9600 2225 0    50   Input ~ 0
 ~EVENT
 Text GLabel 9600 2325 0    50   Input ~ 0
@@ -1178,9 +1178,9 @@ A4
 Text GLabel 5575 9150 2    50   Input ~ 0
 A2
 Text GLabel 5575 9350 2    50   Input ~ 0
-CK1_T
+CK1_P
 Text GLabel 5575 9450 2    50   Input ~ 0
-CK1_C
+CK1_N
 Text GLabel 11950 2225 2    50   Input ~ 0
 PARITY
 Text GLabel 11950 2425 2    50   Input ~ 0
