@@ -356,7 +356,7 @@ Wire Wire Line
 Wire Wire Line
 	13925 4225 14650 4225
 Wire Wire Line
-	9925 4725 9200 4725
+	9925 4725 8975 4725
 Wire Wire Line
 	13925 6325 14650 6325
 Wire Wire Line
@@ -647,7 +647,7 @@ Text GLabel 14650 6725 2    50   Input ~ 0
 CB7
 Text GLabel 14650 6325 2    50   Input ~ 0
 CB3
-Text GLabel 9200 4725 0    50   Input ~ 0
+Text GLabel 8975 4725 0    50   Input ~ 0
 CKE1\NC
 Text GLabel 9200 7925 0    50   Input ~ 0
 BG1
@@ -827,52 +827,48 @@ Wire Wire Line
 	6525 4900 5800 4900
 Text GLabel 6525 4900 2    50   Input ~ 0
 ODT1\NC
-Wire Wire Line
-	9925 4925 9750 4925
-Wire Wire Line
-	9925 4825 9750 4825
-Text GLabel 9200 4825 0    50   Input ~ 0
+Text GLabel 8975 4825 0    50   Input ~ 0
 DQS17_P
-Text GLabel 9200 4925 0    50   Input ~ 0
+Text GLabel 8975 4925 0    50   Input ~ 0
 DQS17_N
 $Comp
 L data-center-dram-tester:R_0R_0201 R160
 U 1 1 6145FD9B
-P 9600 4825
+P 9400 4825
 AR Path="/61B4860C/6145FD9B" Ref="R160"  Part="1" 
 AR Path="/61AF7FF2/6145FD9B" Ref="R?"  Part="1" 
-F 0 "R160" H 9375 4875 60  0000 C CNN
-F 1 "R_0R_0201" H 9600 4675 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0201-res" H 9800 5025 60  0001 L CNN
-F 3 "" H 9600 4825 50  0001 C CNN
-F 4 "VISHAY" H 9800 5225 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 9800 5125 60  0001 L CNN "MPN"
-F 6 "0R" H 9775 4775 50  0000 C CNN "Val"
-F 7 "DNP" H 9600 4825 50  0000 C CNN "DNP"
-	1    9600 4825
+F 0 "R160" H 9175 4875 60  0000 C CNN
+F 1 "R_0R_0201" H 9400 4675 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0201-res" H 9600 5025 60  0001 L CNN
+F 3 "" H 9400 4825 50  0001 C CNN
+F 4 "VISHAY" H 9600 5225 60  0001 L CNN "Manufacturer"
+F 5 "CRCW02010000Z0ED" H 9600 5125 60  0001 L CNN "MPN"
+F 6 "0R" H 9575 4775 50  0000 C CNN "Val"
+F 7 "DNP" H 9400 4825 50  0000 C CNN "DNP"
+	1    9400 4825
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-dram-tester:R_0R_0201 R162
 U 1 1 6145FDA4
-P 9600 4925
+P 9400 4925
 AR Path="/61B4860C/6145FDA4" Ref="R162"  Part="1" 
 AR Path="/61AF7FF2/6145FDA4" Ref="R?"  Part="1" 
-F 0 "R162" H 9375 4975 60  0000 C CNN
-F 1 "R_0R_0201" H 9600 4775 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0201-res" H 9800 5125 60  0001 L CNN
-F 3 "" H 9600 4925 50  0001 C CNN
-F 4 "VISHAY" H 9800 5325 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 9800 5225 60  0001 L CNN "MPN"
-F 6 "0R" H 9775 4875 50  0000 C CNN "Val"
-F 7 "DNP" H 9600 4925 50  0000 C CNN "DNP"
-	1    9600 4925
+F 0 "R162" H 9175 4975 60  0000 C CNN
+F 1 "R_0R_0201" H 9400 4775 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0201-res" H 9600 5125 60  0001 L CNN
+F 3 "" H 9400 4925 50  0001 C CNN
+F 4 "VISHAY" H 9600 5325 60  0001 L CNN "Manufacturer"
+F 5 "CRCW02010000Z0ED" H 9600 5225 60  0001 L CNN "MPN"
+F 6 "0R" H 9575 4875 50  0000 C CNN "Val"
+F 7 "DNP" H 9400 4925 50  0000 C CNN "DNP"
+	1    9400 4925
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 4825 9200 4825
+	9250 4825 8975 4825
 Wire Wire Line
-	9450 4925 9200 4925
+	9250 4925 8975 4925
 Wire Notes Line
 	3625 11225 3625 8725
 Text Notes 2125 975  0    98   ~ 20
@@ -1839,4 +1835,12 @@ Wire Wire Line
 	13675 2100 13675 1950
 Text GLabel 13675 1950 1    50   Input ~ 0
 VDDQ
+Text Label 9625 4825 0    50   ~ 0
+DQS17+
+Text Label 9625 4925 0    50   ~ 0
+DQS17-
+Wire Wire Line
+	9550 4825 9925 4825
+Wire Wire Line
+	9550 4925 9925 4925
 $EndSCHEMATC
