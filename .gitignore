@@ -26,5 +26,8 @@ fp-info-cache
 # Exported BOM files
 *.xml
 
+*fab
+*img
 *.swp
+*.zip
 *-cache.lib
