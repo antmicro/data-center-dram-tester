@@ -1,4 +1,4 @@
-update=Thu 04 Nov 2021 17:11:08 CET
+update=Wed 17 Nov 2021 16:27:01 CET
 version=1
 last_client=kicad
 [general]
@@ -78,7 +78,7 @@ Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
-Name=GND1
+Name=In1.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In2.Cu]
@@ -86,19 +86,19 @@ Name=In2.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In3.Cu]
-Name=VCC1
+Name=In3.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In4.Cu]
 Name=In4.Cu
-Type=0
-Enabled=1
-[pcbnew/Layer.In5.Cu]
-Name=GND2
 Type=1
 Enabled=1
+[pcbnew/Layer.In5.Cu]
+Name=In5.Cu
+Type=0
+Enabled=1
 [pcbnew/Layer.In6.Cu]
-Name=GND3
+Name=In6.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In7.Cu]
@@ -106,7 +106,7 @@ Name=In7.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In8.Cu]
-Name=VCC2
+Name=In8.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In9.Cu]
@@ -114,7 +114,7 @@ Name=In9.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In10.Cu]
-Name=GND4
+Name=In10.Cu
 Type=1
 Enabled=1
 [pcbnew/Layer.In11.Cu]
