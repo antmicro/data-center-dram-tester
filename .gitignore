@@ -27,7 +27,6 @@ fp-info-cache
 *.xml
 
 *fab
-*img
 *.swp
 *.zip
 *-cache.lib
