@@ -809,37 +809,6 @@ Wire Wire Line
 	4850 9650 5325 9650
 Text GLabel 5325 9650 2    50   Input ~ 0
 VTT
-Wire Wire Line
-	4850 8150 4950 8150
-Wire Wire Line
-	4850 8450 4950 8450
-Wire Wire Line
-	4850 8750 4950 8750
-Wire Wire Line
-	4850 9050 4950 9050
-Wire Wire Line
-	4850 9250 4950 9250
-Wire Wire Line
-	4850 9550 4950 9550
-Wire Wire Line
-	4950 7950 4950 8150
-Connection ~ 4950 8150
-Wire Wire Line
-	4950 8150 4950 8450
-Connection ~ 4950 8450
-Wire Wire Line
-	4950 8450 4950 8750
-Connection ~ 4950 8750
-Wire Wire Line
-	4950 8750 4950 9050
-Connection ~ 4950 9050
-Wire Wire Line
-	4950 9050 4950 9250
-Connection ~ 4950 9250
-Wire Wire Line
-	4950 9250 4950 9550
-Wire Wire Line
-	4850 7950 4950 7950
 NoConn ~ 11225 2725
 Wire Wire Line
 	11325 2325 11225 2325
@@ -1314,12 +1283,6 @@ F 3 "" H 4950 9750 50  0001 C CNN
 	1    4950 9750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4950 9550 4950 9750
-Connection ~ 4950 9550
-Wire Wire Line
-	4950 7950 4950 7750
-Connection ~ 4950 7950
 $Comp
 L data-center-dram-tester:GND #PWR0150
 U 1 1 62DBB5DD
@@ -2160,4 +2123,42 @@ Text GLabel 13550 6100 1    50   Input ~ 0
 VTT
 Text GLabel 13800 6100 1    50   Input ~ 0
 VTT
+Wire Wire Line
+	4950 7950 4950 7750
+Connection ~ 4950 7950
+Wire Wire Line
+	4850 7950 4950 7950
+Wire Wire Line
+	4950 7950 4950 9750
+Wire Wire Line
+	4850 9550 5050 9550
+Wire Wire Line
+	5050 9550 5050 9250
+Wire Wire Line
+	5050 8150 4850 8150
+Wire Wire Line
+	5050 8150 5575 8150
+Connection ~ 5050 8150
+Text GLabel 5575 8150 2    50   Input ~ 0
+VDDQ
+Wire Wire Line
+	4850 8450 5050 8450
+Connection ~ 5050 8450
+Wire Wire Line
+	5050 8450 5050 8150
+Wire Wire Line
+	4850 8750 5050 8750
+Connection ~ 5050 8750
+Wire Wire Line
+	5050 8750 5050 8450
+Wire Wire Line
+	4850 9050 5050 9050
+Connection ~ 5050 9050
+Wire Wire Line
+	5050 9050 5050 8750
+Wire Wire Line
+	4850 9250 5050 9250
+Connection ~ 5050 9250
+Wire Wire Line
+	5050 9250 5050 9050
 $EndSCHEMATC
