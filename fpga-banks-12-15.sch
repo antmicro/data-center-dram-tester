@@ -250,10 +250,6 @@ Text GLabel 2350 6825 0    50   Input ~ 0
 HR_DQ7
 Text GLabel 2350 6725 0    50   Input ~ 0
 HR_RW
-Text GLabel 9975 6550 0    50   Input ~ 0
-UART1_RX
-Text GLabel 9975 4550 0    50   Input ~ 0
-UART1_TX
 Text GLabel 9975 6950 0    50   Input ~ 0
 UART0_RX
 Text GLabel 9975 7050 0    50   Input ~ 0
@@ -4575,4 +4571,12 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 9975 6550 0    50   Input ~ 0
+SCL_3V3
+Text GLabel 9975 4550 0    50   Input ~ 0
+SDA_3V3
+Text GLabel 9975 4450 0    50   Input ~ 0
+UART1_RX
+Text GLabel 9975 4350 0    50   Input ~ 0
+UART1_TX
 $EndSCHEMATC
