@@ -1108,21 +1108,6 @@ Text GLabel 12750 8500 1    50   Input ~ 0
 Text GLabel 5575 3050 1    50   Input ~ 0
 3V3_SYS
 $Comp
-L data-center-dram-tester:61300311121 J?
-U 1 1 6001B7F4
-P 9075 10250
-AR Path="/60225B0C/6001B7F4" Ref="J?"  Part="1" 
-AR Path="/5FD53C7D/6001B7F4" Ref="MODE2"  Part="1" 
-F 0 "MODE2" H 9300 10150 50  0000 R CNN
-F 1 "61300311121" V 8900 10425 50  0000 R CNN
-F 2 "data-center-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 9275 10450 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 9275 10550 60  0001 L CNN
-F 4 "61300311121" H 9275 10750 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 9275 11350 60  0001 L CNN "Manufacturer"
-	1    9075 10250
-	0    -1   -1   0   
-$EndComp
-$Comp
 L data-center-dram-tester:XC7K160T-FFG676 U15
 U 7 1 617A1FB1
 P 13100 4600
@@ -5067,4 +5052,17 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L data-center-dram-tester:61300311121 MODE2
+U 1 1 62A159E9
+P 9075 10250
+F 0 "MODE2" H 9300 10150 50  0000 R CNN
+F 1 "61300311121" V 8900 10425 50  0000 R CNN
+F 2 "data-center-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 9275 10450 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 9275 10550 60  0001 L CNN
+F 4 "61300311121" H 9275 10750 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 9275 11350 60  0001 L CNN "Manufacturer"
+	1    9075 10250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

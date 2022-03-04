@@ -1891,19 +1891,6 @@ F 3 "" H 10850 3575 50  0001 C CNN
 	1    10850 3575
 	1    0    0    -1  
 $EndComp
-$Comp
-L data-center-dram-tester:EG1218 S1
-U 1 1 602873C2
-P 13375 9275
-F 0 "S1" H 13375 9556 50  0000 C CNN
-F 1 "EG1218" H 13375 9465 50  0000 C CNN
-F 2 "data-center-dram-tester-footprints:Switch_Slide_11.6x4mm_EG1218" H 13575 9475 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 13575 9575 60  0001 L CNN
-F 4 "EG1218" H 13575 9775 60  0001 L CNN "MPN"
-F 5 "E-Switch" H 13575 10375 60  0001 L CNN "Manufacturer"
-	1    13375 9275
-	1    0    0    -1  
-$EndComp
 Text Label 2250 6150 0    50   ~ 0
 SYS_EN
 Text Label 12700 9275 0    50   ~ 0
@@ -1984,19 +1971,6 @@ Wire Wire Line
 	10625 9050 10625 9150
 Text Notes 14500 8625 0    79   ~ 16
 Optional FAN connector
-$Comp
-L data-center-dram-tester:61300311121 J8
-U 1 1 60001A7D
-P 14850 9175
-F 0 "J8" H 14762 9187 50  0000 R CNN
-F 1 "61300311121" H 15150 9050 50  0000 R CNN
-F 2 "data-center-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 15050 9375 60  0001 L CNN
-F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 15050 9475 60  0001 L CNN
-F 4 "61300311121" H 15050 9675 60  0001 L CNN "MPN"
-F 5 "Wurth Electronics Inc." H 15050 10275 60  0001 L CNN "Manufacturer"
-	1    14850 9175
-	0    1    1    0   
-$EndComp
 $Comp
 L data-center-dram-tester:GND #PWR036
 U 1 1 60003077
@@ -6911,4 +6885,30 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L data-center-dram-tester:EG1218 S1
+U 1 1 62A0958B
+P 13375 9275
+F 0 "S1" H 13375 9556 50  0000 C CNN
+F 1 "EG1218" H 13375 9465 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:Switch_Slide_11.6x4mm_EG1218" H 13575 9475 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 13575 9575 60  0001 L CNN
+F 4 "EG1218" H 13575 9775 60  0001 L CNN "MPN"
+F 5 "E-Switch" H 13575 10375 60  0001 L CNN "Manufacturer"
+	1    13375 9275
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:61300311121 J8
+U 1 1 62A210B6
+P 14850 9175
+F 0 "J8" V 14750 9175 50  0000 C CNN
+F 1 "61300311121" H 14950 9075 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 15050 9375 60  0001 L CNN
+F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 15050 9475 60  0001 L CNN
+F 4 "61300311121" H 15050 9675 60  0001 L CNN "MPN"
+F 5 "Wurth Electronics Inc." H 15050 10275 60  0001 L CNN "Manufacturer"
+	1    14850 9175
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
