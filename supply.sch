@@ -2661,20 +2661,6 @@ F 6 "100k" V 10478 7770 50  0000 L CNN "Val"
 	1    10425 7700
 	0    1    1    0   
 $EndComp
-$Comp
-L data-center-dram-tester:R_49R9_0603 R41
-U 1 1 62211F8B
-P 10425 7300
-F 0 "R41" V 10380 7370 60  0000 L CNN
-F 1 "R_49R9_0603" H 10425 7150 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 10625 7500 60  0001 L CNN
-F 3 "http://www.farnell.com/datasheets/2310790.pdf" H 10425 7300 50  0001 C CNN
-F 4 "Vishay" H 10625 7700 60  0001 L CNN "Manufacturer"
-F 5 "CRCW060349R9FKEA" H 10625 7600 60  0001 L CNN "MPN"
-F 6 "49R9" V 10478 7370 50  0000 L CNN "Val"
-	1    10425 7300
-	0    1    1    0   
-$EndComp
 Text Notes 8825 6575 0    79   ~ 16
 1V8 supply
 Text GLabel 10775 6975 1    50   Input ~ 0
@@ -6909,6 +6895,20 @@ F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 15050 9475 60 
 F 4 "61300311121" H 15050 9675 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 15050 10275 60  0001 L CNN "Manufacturer"
 	1    14850 9175
+	0    1    1    0   
+$EndComp
+$Comp
+L data-center-dram-tester:R_200k_0603 R41
+U 1 1 622FD6DC
+P 10425 7300
+F 0 "R41" V 10380 7370 60  0000 L CNN
+F 1 "R_200k_0603" H 10425 7150 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0603-res" H 10625 7500 60  0001 L CNN
+F 3 "" H 10425 7300 50  0001 C CNN
+F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10625 7700 60  0001 L CNN "Manufacturer"
+F 5 "ERJ3GEYJ204V" H 10625 7600 60  0001 L CNN "MPN"
+F 6 "200k" V 10478 7370 50  0000 L CNN "Val"
+	1    10425 7300
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
