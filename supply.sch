@@ -2201,34 +2201,6 @@ Text GLabel 15500 5900 2    50   Input ~ 0
 VDDQ
 Text GLabel 15525 5700 2    50   Input ~ 0
 VPP
-$Comp
-L data-center-dram-tester:R_0R_0603 R161
-U 1 1 6177CC40
-P 15125 6100
-F 0 "R161" H 14925 6150 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5950 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 6300 60  0001 L CNN
-F 3 "" H 15125 6100 50  0001 C CNN
-F 4 "BOURNS" H 15325 6500 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6400 60  0001 L CNN "MPN"
-F 6 "0R" H 15200 6000 50  0000 C CNN "Val"
-	1    15125 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-dram-tester:R_0R_0603 R159
-U 1 1 6177CC49
-P 15125 5700
-F 0 "R159" H 14925 5750 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5550 60  0001 C CNN
-F 2 "data-center-dram-tester-footprints:0603-res" H 15325 5900 60  0001 L CNN
-F 3 "" H 15125 5700 50  0001 C CNN
-F 4 "BOURNS" H 15325 6100 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6000 60  0001 L CNN "MPN"
-F 6 "0R" H 15300 5450 50  0000 C CNN "Val"
-	1    15125 5700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	15275 5900 15500 5900
 Wire Wire Line
@@ -2239,8 +2211,6 @@ Wire Wire Line
 	14825 5700 14975 5700
 Wire Wire Line
 	14975 5900 14825 5900
-Wire Wire Line
-	14975 6100 14825 6100
 Wire Wire Line
 	4925 1875 6100 1875
 Text GLabel 9525 1525 1    50   Input ~ 0
@@ -6910,5 +6880,33 @@ F 5 "ERJ3GEYJ204V" H 10625 7600 60  0001 L CNN "MPN"
 F 6 "200k" V 10478 7370 50  0000 L CNN "Val"
 	1    10425 7300
 	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14975 6100 14825 6100
+$Comp
+L data-center-dram-tester:1206L450SLWR F?
+U 1 1 623663DF
+P 15125 5700
+F 0 "F?" H 14975 5750 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 5775 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 5475 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5550 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 5400 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 5325 50  0001 C CNN "Manufacturer"
+	1    15125 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L data-center-dram-tester:1206L450SLWR F?
+U 1 1 6236AC76
+P 15125 6100
+F 0 "F?" H 14975 6150 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 6175 50  0000 C CNN
+F 2 "data-center-dram-tester-footprints:1206-res" H 15175 5875 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5950 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 5800 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 5725 50  0001 C CNN "Manufacturer"
+	1    15125 6100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
