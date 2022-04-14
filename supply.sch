@@ -938,19 +938,6 @@ Text Notes 700  1750 0    50   ~ 0
 VCC5V0 4.5V to 5.5V
 Text Notes 6000 2225 0    50   ~ 0
 VDDQ 1.2V 8A
-$Comp
-L data-center-dram-tester:TPS62823DLCT U5
-U 1 1 6014DA7E
-P 2125 10075
-F 0 "U5" H 1875 10925 50  0000 C CNN
-F 1 "TPS62823DLCT" H 2175 10931 50  0001 C CNN
-F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 2025 9875 50  0001 C CNN
-F 3 "" H 2125 9975 50  0001 C CNN
-F 4 "TPS62823DLCT" H 2125 10850 50  0000 C CNN "MPN"
-F 5 "Texas Instruments" H 2175 10749 50  0000 C CNN "Manufacturer"
-	1    2125 10075
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1450 9450 1450 9575
 Wire Wire Line
@@ -1157,7 +1144,7 @@ F 6 "120p" H 3340 9672 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 9575 3225 9575
+	3100 9575 3125 9575
 Wire Wire Line
 	2575 9875 3225 9875
 Connection ~ 3225 9575
@@ -1248,19 +1235,6 @@ Text Notes 9725 8600 0    79   ~ 16
 Input power connector
 Text Notes 12750 5275 0    79   ~ 16
 Probes
-$Comp
-L data-center-dram-tester:TPS62823DLCT U9
-U 1 1 5FDF826B
-P 6375 10350
-F 0 "U9" H 6125 11250 50  0000 C CNN
-F 1 "TPS62823DLCT" H 6425 11206 50  0001 C CNN
-F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 6275 10150 50  0001 C CNN
-F 3 "" H 6375 10250 50  0001 C CNN
-F 4 "TPS62823DLCT" H 6350 11125 50  0000 C CNN "MPN"
-F 5 "Texas Instruments" H 6425 11024 50  0000 C CNN "Manufacturer"
-	1    6375 10350
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 9650 5700 9850
 Wire Wire Line
@@ -1366,7 +1340,7 @@ F 6 "120p" H 7590 9947 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7350 9850 7475 9850
+	7350 9850 7375 9850
 Wire Wire Line
 	6825 10150 7475 10150
 Connection ~ 7475 9850
@@ -2542,21 +2516,6 @@ Wire Wire Line
 	8725 5625 8125 5625
 Wire Wire Line
 	8125 5600 8125 5625
-$Comp
-L data-center-dram-tester:TPS62823DLCT U?
-U 1 1 60083579
-P 9075 5675
-AR Path="/6004278D/60083579" Ref="U?"  Part="1" 
-AR Path="/60225B0C/60083579" Ref="U12"  Part="1" 
-F 0 "U12" H 9125 6440 50  0000 C CNN
-F 1 "TPS62823DLCT" H 9125 6349 50  0000 C CNN
-F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 8975 5475 50  0001 C CNN
-F 3 "" H 9075 5575 50  0001 C CNN
-F 4 "TPS62823DLCT" H 9125 6440 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 9125 6349 50  0001 C CNN "Manufacturer"
-	1    9075 5675
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8125 4775 8125 5175
 Wire Wire Line
@@ -2584,8 +2543,6 @@ $EndComp
 Wire Wire Line
 	10075 5175 10375 5175
 Connection ~ 10075 5175
-Wire Wire Line
-	10075 5625 9925 5625
 Connection ~ 10075 5625
 Connection ~ 10725 5975
 Wire Wire Line
@@ -2600,12 +2557,8 @@ Connection ~ 10375 5975
 Wire Wire Line
 	10725 5975 10375 5975
 Wire Wire Line
-	9975 5175 10075 5175
+	9975 5175 10000 5175
 Connection ~ 10375 5625
-Wire Wire Line
-	9925 5475 9525 5475
-Wire Wire Line
-	9925 5625 9925 5475
 Wire Wire Line
 	10375 5625 10075 5625
 Wire Wire Line
@@ -2753,29 +2706,12 @@ Wire Wire Line
 Connection ~ 8175 7525
 Wire Wire Line
 	8175 7500 8175 7525
-$Comp
-L data-center-dram-tester:TPS62823DLCT U?
-U 1 1 621F732B
-P 9125 7575
-AR Path="/6004278D/621F732B" Ref="U?"  Part="1" 
-AR Path="/60225B0C/621F732B" Ref="U4"  Part="1" 
-F 0 "U4" H 9175 8340 50  0000 C CNN
-F 1 "TPS62823DLCT" H 9175 8249 50  0000 C CNN
-F 2 "data-center-dram-tester-footprints:QFN-8_2x1mm" H 9025 7375 50  0001 C CNN
-F 3 "" H 9125 7475 50  0001 C CNN
-F 4 "TPS62823DLCT" H 9175 8340 50  0001 C CNN "MPN"
-F 5 "Texas Instruments" H 9175 8249 50  0001 C CNN "Manufacturer"
-	1    9125 7575
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8175 6675 8000 6675
 Text GLabel 8000 6675 0    50   Input ~ 0
 VCC5V0_INT
 Wire Wire Line
 	10125 7075 10425 7075
-Wire Wire Line
-	10125 7525 9975 7525
 Wire Wire Line
 	11075 7875 10775 7875
 Wire Wire Line
@@ -2793,11 +2729,7 @@ Wire Wire Line
 	10775 7875 10425 7875
 Connection ~ 10125 7075
 Wire Wire Line
-	10025 7075 10125 7075
-Wire Wire Line
-	9975 7375 9575 7375
-Wire Wire Line
-	9975 7525 9975 7375
+	10025 7075 10050 7075
 Connection ~ 10125 7525
 Wire Wire Line
 	10425 7525 10425 7550
@@ -6884,10 +6816,10 @@ $EndComp
 Wire Wire Line
 	14975 6100 14825 6100
 $Comp
-L data-center-dram-tester:1206L450SLWR F?
+L data-center-dram-tester:1206L450SLWR F7
 U 1 1 623663DF
 P 15125 5700
-F 0 "F?" H 14975 5750 50  0000 C CNN
+F 0 "F7" H 14975 5750 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 5775 50  0000 C CNN
 F 2 "data-center-dram-tester-footprints:1206-res" H 15175 5475 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5550 50  0001 C CNN
@@ -6897,10 +6829,10 @@ F 5 "LITTELFUSE" H 15175 5325 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-dram-tester:1206L450SLWR F?
+L data-center-dram-tester:1206L450SLWR F8
 U 1 1 6236AC76
 P 15125 6100
-F 0 "F?" H 14975 6150 50  0000 C CNN
+F 0 "F8" H 14975 6150 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 6175 50  0000 C CNN
 F 2 "data-center-dram-tester-footprints:1206-res" H 15175 5875 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5950 50  0001 C CNN
@@ -6909,4 +6841,160 @@ F 5 "LITTELFUSE" H 15175 5725 50  0001 C CNN "Manufacturer"
 	1    15125 6100
 	1    0    0    -1  
 $EndComp
+$Comp
+L antmicroDCDCConverters:MP2162BGQH-P U12
+U 1 1 627B3939
+P 9075 5675
+F 0 "U12" H 9125 6622 50  0000 C CNN
+F 1 "MP2162BGQH-P" H 9125 6531 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-8_2x1mm" H 8975 5475 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2162/document_id/453/" H 9075 5575 50  0001 C CNN
+F 4 "MP2162BGQH-P" H 9125 6440 50  0000 C CNN "MPN"
+F 5 "MPS" H 9125 6349 50  0000 C CNN "Manufacturer"
+	1    9075 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDCDCConverters:MP2162BGQH-P U4
+U 1 1 627B9250
+P 9125 7575
+F 0 "U4" H 9175 8522 50  0000 C CNN
+F 1 "MP2162BGQH-P" H 9175 8431 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-8_2x1mm" H 9025 7375 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2162/document_id/453/" H 9125 7475 50  0001 C CNN
+F 4 "MP2162BGQH-P" H 9175 8340 50  0000 C CNN "MPN"
+F 5 "MPS" H 9175 8249 50  0000 C CNN "Manufacturer"
+	1    9125 7575
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDCDCConverters:MP2162BGQH-P U5
+U 1 1 627DAB9B
+P 2125 10075
+F 0 "U5" H 2175 11022 50  0000 C CNN
+F 1 "MP2162BGQH-P" H 2175 10931 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-8_2x1mm" H 2025 9875 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2162/document_id/453/" H 2125 9975 50  0001 C CNN
+F 4 "MP2162BGQH-P" H 2175 10840 50  0000 C CNN "MPN"
+F 5 "MPS" H 2175 10749 50  0000 C CNN "Manufacturer"
+	1    2125 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L antmicroDCDCConverters:MP2162BGQH-P U9
+U 1 1 627CAC72
+P 6375 10350
+F 0 "U9" H 6425 11297 50  0000 C CNN
+F 1 "MP2162BGQH-P" H 6425 11206 50  0000 C CNN
+F 2 "antmicro-footprints:QFN-8_2x1mm" H 6275 10150 50  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP2162/document_id/453/" H 6375 10250 50  0001 C CNN
+F 4 "MP2162BGQH-P" H 6425 11115 50  0000 C CNN "MPN"
+F 5 "MPS" H 6425 11024 50  0000 C CNN "Manufacturer"
+	1    6375 10350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3125 9575 3125 9725
+Wire Wire Line
+	3125 9725 3075 9725
+Connection ~ 3125 9575
+Wire Wire Line
+	3125 9575 3225 9575
+Wire Wire Line
+	6825 10000 6950 10000
+Wire Wire Line
+	7375 10000 7375 9850
+Connection ~ 7375 9850
+Wire Wire Line
+	7375 9850 7475 9850
+Wire Wire Line
+	9575 7225 9700 7225
+Wire Wire Line
+	10050 7225 10050 7075
+Connection ~ 10050 7075
+Wire Wire Line
+	10050 7075 10125 7075
+Wire Wire Line
+	9525 5325 9650 5325
+Wire Wire Line
+	10000 5325 10000 5175
+Connection ~ 10000 5175
+Wire Wire Line
+	10000 5175 10075 5175
+$Comp
+L antmicroResistors0402:R_0R_0402 R44
+U 1 1 6286DA69
+P 9800 5325
+F 0 "R44" H 9575 5375 60  0000 C CNN
+F 1 "R_0R_0402" H 9800 5175 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10000 5525 60  0001 L CNN
+F 3 "" H 9800 5325 50  0001 C CNN
+F 4 "PANASONIC" H 10000 5725 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10000 5625 60  0001 L CNN "MPN"
+F 6 "0R" H 9950 5375 50  0000 C CNN "Val"
+	1    9800 5325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5325 10000 5325
+Wire Wire Line
+	9675 5625 9675 5475
+Wire Wire Line
+	9675 5475 9525 5475
+Wire Wire Line
+	9675 5625 10075 5625
+$Comp
+L antmicroResistors0402:R_0R_0402 R47
+U 1 1 6288738F
+P 9850 7225
+F 0 "R47" H 9600 7275 60  0000 C CNN
+F 1 "R_0R_0402" H 9850 7075 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 10050 7425 60  0001 L CNN
+F 3 "" H 9850 7225 50  0001 C CNN
+F 4 "PANASONIC" H 10050 7625 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 10050 7525 60  0001 L CNN "MPN"
+F 6 "0R" H 10000 7275 50  0000 C CNN "Val"
+	1    9850 7225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9725 7525 9725 7375
+Wire Wire Line
+	10000 7225 10050 7225
+Wire Wire Line
+	9725 7375 9575 7375
+Wire Wire Line
+	9725 7525 10125 7525
+$Comp
+L antmicroResistors0402:R_0R_0402 R43
+U 1 1 628B4E96
+P 7100 10000
+F 0 "R43" H 6875 10050 60  0000 C CNN
+F 1 "R_0R_0402" H 7100 9850 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 7300 10200 60  0001 L CNN
+F 3 "" H 7100 10000 50  0001 C CNN
+F 4 "PANASONIC" H 7300 10400 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 7300 10300 60  0001 L CNN "MPN"
+F 6 "0R" H 7250 10050 50  0000 C CNN "Val"
+	1    7100 10000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 10000 7375 10000
+$Comp
+L antmicroResistors0402:R_0R_0402 R39
+U 1 1 629052EB
+P 2925 9725
+F 0 "R39" H 2700 9775 60  0000 C CNN
+F 1 "R_0R_0402" H 2925 9575 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 3125 9925 60  0001 L CNN
+F 3 "" H 2925 9725 50  0001 C CNN
+F 4 "PANASONIC" H 3125 10125 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 3125 10025 60  0001 L CNN "MPN"
+F 6 "0R" H 3075 9775 50  0000 C CNN "Val"
+	1    2925 9725
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 9725 2575 9725
 $EndSCHEMATC
