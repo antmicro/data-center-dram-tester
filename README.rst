@@ -11,6 +11,10 @@ Overview
 
 This repository contains open hardware design files for an experimental platform built around Xilinx Kintex-7 FPGA.
 The main purpose of this platform is to develop and customize RAM controllers supporting RDIMM DDR4 RAM modules used in data centers.
+
+This hardware platform is supported by the `LiteX Rowhammer Tester <https://github.com/antmicro/litex-rowhammer-tester>`_ gateware. It can be used to investigate Rowhammer DRAM attacks. You can learn more about Rowhammer attacks from this blog `note <https://antmicro.com/blog/2021/08/open-source-ddr-test-framework-for-rowhammer/>`_.
+The usage instructions for this board are also provided in the `LiteX Row Hammer Tester documentation <https://litex-rowhammer-tester.readthedocs.io/en/latest/>`_. 
+
 The design files were prepared in KiCad.
 
 Repository structure
