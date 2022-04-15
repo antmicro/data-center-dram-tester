@@ -2,7 +2,7 @@
 Data Center DRAM Tester
 =======================
 
-Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
+Copyright (c) 2021-2022 `Antmicro <https://www.antmicro.com>`_
 
 .. figure:: img/data-center-dram-tester.png
 
