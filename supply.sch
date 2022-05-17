@@ -1441,7 +1441,7 @@ $EndComp
 Wire Wire Line
 	5700 10150 5700 9850
 Connection ~ 5700 9850
-Text Notes 6400 8675 0    79   ~ 16
+Text Notes 6300 8675 0    79   ~ 16
 VCCINT (1.0V 2A)
 Text GLabel 12550 3050 1    50   Input ~ 0
 VCC5V0_INT
