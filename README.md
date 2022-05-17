@@ -2,7 +2,7 @@
 
 Copyright (c) 2021-2022 [Antmicro](https://antmicro.com)
 
-[DDR4 RDIMM tester board](img/data-center-dram-tester.png)
+![DDR4 RDIMM tester board](img/data-center-dram-tester.png)
 
 ## Overview
 
