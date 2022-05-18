@@ -2164,12 +2164,12 @@ F 3 "" H 5650 9825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R38
+L data-center-dram-tester:R_0R_0402 R38
 U 1 1 6301D40C
 P 1375 9225
 F 0 "R38" H 1375 9438 60  0000 C CNN
 F 1 "R_0R_0402" H 1375 9075 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 1575 9425 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 1575 9425 60  0001 L CNN
 F 3 "" H 1375 9225 50  0001 C CNN
 F 4 "PANASONIC" H 1575 9625 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 1575 9525 60  0001 L CNN "MPN"
@@ -2180,12 +2180,12 @@ $EndComp
 Wire Wire Line
 	6050 9250 6150 9250
 $Comp
-L antmicroResistors0402:R_0R_0402 R44
+L data-center-dram-tester:R_0R_0402 R44
 U 1 1 62FF3AED
 P 5900 9250
 F 0 "R44" H 5900 9463 60  0000 C CNN
 F 1 "R_0R_0402" H 5900 9100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 6100 9450 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 6100 9450 60  0001 L CNN
 F 3 "" H 5900 9250 50  0001 C CNN
 F 4 "PANASONIC" H 6100 9650 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 6100 9550 60  0001 L CNN "MPN"
@@ -2194,12 +2194,12 @@ F 6 "0R" H 5900 9365 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_100n_0402_6V3 C46
+L data-center-dram-tester:C_100n_0402_6V3 C46
 U 1 1 62F8F9EE
 P 2625 9225
 F 0 "C46" V 2373 9225 50  0000 C CNN
 F 1 "C_100n_0402_6V3" H 2625 9225 50  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 2625 9225 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 2625 9225 50  0001 C CNN
 F 3 "" H 2625 9225 50  0001 C CNN
 F 4 "0402X104K6R3CT" H 2625 9225 50  0001 C CNN "MPN"
 F 5 "Walsin" H 2625 9225 50  0001 C CNN "Manufacturer"
@@ -2208,12 +2208,12 @@ F 6 "100n" V 2464 9225 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_100n_0402_6V3 C149
+L data-center-dram-tester:C_100n_0402_6V3 C149
 U 1 1 62F8E733
 P 7150 9250
 F 0 "C149" V 6898 9250 50  0000 C CNN
 F 1 "C_100n_0402_6V3" H 7150 9250 50  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7150 9250 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 7150 9250 50  0001 C CNN
 F 3 "" H 7150 9250 50  0001 C CNN
 F 4 "0402X104K6R3CT" H 7150 9250 50  0001 C CNN "MPN"
 F 5 "Walsin" H 7150 9250 50  0001 C CNN "Manufacturer"
@@ -2222,12 +2222,12 @@ F 6 "100n" V 6989 9250 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C45
+L data-center-dram-tester:C_10u_0402 C45
 U 1 1 62F88DB7
 P 1150 9575
 F 0 "C45" H 1265 9620 60  0000 L CNN
 F 1 "C_10u_0402" H 1150 9425 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 1350 9775 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 1350 9775 60  0001 L CNN
 F 3 "" H 1150 9575 50  0001 C CNN
 F 4 "YAGEO" H 1350 9975 60  0001 L CNN "Manufacturer"
 F 5 "CC0402MRX5R5BB106" H 1350 9875 60  0001 L CNN "MPN"
@@ -2236,12 +2236,12 @@ F 6 "10u" H 1175 9450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C99
+L data-center-dram-tester:C_10u_0402 C99
 U 1 1 62F86210
 P 5650 9500
 F 0 "C99" H 5765 9545 60  0000 L CNN
 F 1 "C_10u_0402" H 5650 9350 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 5850 9700 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 5850 9700 60  0001 L CNN
 F 3 "" H 5650 9500 50  0001 C CNN
 F 4 "YAGEO" H 5850 9900 60  0001 L CNN "Manufacturer"
 F 5 "CC0402MRX5R5BB106" H 5850 9800 60  0001 L CNN "MPN"
@@ -2333,12 +2333,12 @@ F 3 "" H 3400 10225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R43
+L data-center-dram-tester:R_10k_0402 R43
 U 1 1 62D394F5
 P 3400 10025
 F 0 "R43" V 3355 10095 60  0000 L CNN
 F 1 "R_10k_0402" H 3400 9875 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3600 10225 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 3600 10225 60  0001 L CNN
 F 3 "" H 3400 10025 50  0001 C CNN
 F 4 "VISHAY" H 3600 10425 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 3600 10325 60  0001 L CNN "MPN"
@@ -2360,12 +2360,12 @@ F 3 "" H 7825 9875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R46
+L data-center-dram-tester:R_10k_0402 R46
 U 1 1 62D02C75
 P 7825 9675
 F 0 "R46" V 7780 9745 60  0000 L CNN
 F 1 "R_10k_0402" H 7825 9525 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8025 9875 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8025 9875 60  0001 L CNN
 F 3 "" H 7825 9675 50  0001 C CNN
 F 4 "VISHAY" H 8025 10075 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 8025 9975 60  0001 L CNN "MPN"
@@ -2386,12 +2386,12 @@ Wire Wire Line
 	4025 9025 4250 9025
 Connection ~ 4025 9025
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C96
+L data-center-dram-tester:C_22u_0402 C96
 U 1 1 638C2D1B
 P 3775 9425
 F 0 "C96" H 3775 9525 60  0000 L CNN
 F 1 "C_22u_0402" H 3775 9275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3975 9625 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 3975 9625 60  0001 L CNN
 F 3 "" H 3775 9425 50  0001 C CNN
 F 4 "AVX" H 3975 9825 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 3975 9725 60  0001 L CNN "MPN"
@@ -2400,12 +2400,12 @@ F 6 "22u" H 3775 9350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C98
+L data-center-dram-tester:C_1u_0402 C98
 U 1 1 638AC7A8
 P 4250 9425
 F 0 "C98" H 4250 9525 60  0000 L CNN
 F 1 "C_1u_0402" H 4250 9275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 4450 9625 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 4450 9625 60  0001 L CNN
 F 3 "" H 4250 9425 50  0001 C CNN
 F 4 "TDK" H 4450 9825 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 4450 9725 60  0001 L CNN "MPN"
@@ -2414,12 +2414,12 @@ F 6 "1u" H 4275 9350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C97
+L data-center-dram-tester:C_22u_0402 C97
 U 1 1 638AC79F
 P 4025 9425
 F 0 "C97" H 4025 9525 60  0000 L CNN
 F 1 "C_22u_0402" H 4025 9275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 4225 9625 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 4225 9625 60  0001 L CNN
 F 3 "" H 4025 9425 50  0001 C CNN
 F 4 "AVX" H 4225 9825 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 4225 9725 60  0001 L CNN "MPN"
@@ -2444,12 +2444,12 @@ Wire Wire Line
 Wire Wire Line
 	3400 9100 3400 9025
 $Comp
-L antmicroResistors0402:R_1k_0402 R41
+L data-center-dram-tester:R_1k_0402 R41
 U 1 1 637DC6D4
 P 3400 9550
 F 0 "R41" V 3355 9620 60  0000 L CNN
 F 1 "R_1k_0402" H 3400 9400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3600 9750 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 3600 9750 60  0001 L CNN
 F 3 "" H 3400 9550 50  0001 C CNN
 F 4 "BOURNS" H 3600 9950 60  0001 L CNN "Manufacturer"
 F 5 "CR0402-FX-1001GLF" H 3600 9850 60  0001 L CNN "MPN"
@@ -2458,12 +2458,12 @@ F 6 "1k" V 3453 9620 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_1k5_0402 R39
+L data-center-dram-tester:R_1k5_0402 R39
 U 1 1 637DB2BC
 P 3400 9250
 F 0 "R39" V 3355 9320 60  0000 L CNN
 F 1 "R_1k5_0402" H 3400 9100 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 3600 9450 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 3600 9450 60  0001 L CNN
 F 3 "" H 3400 9250 50  0001 C CNN
 F 4 "Multicomp Pro" H 3600 9650 60  0001 L CNN "Manufacturer"
 F 5 "MP000515" H 3600 9550 60  0001 L CNN "MPN"
@@ -2479,12 +2479,12 @@ Wire Wire Line
 Wire Wire Line
 	2875 9225 2875 9025
 $Comp
-L antmicroFixedInductors:SRP0420-1R5K L3
+L data-center-dram-tester:SRP0420-1R5K L3
 U 1 1 636FCCC0
 P 3075 9025
 F 0 "L3" H 3075 9330 60  0000 C CNN
 F 1 "SRP0420-1R5K" H 3075 9224 60  0000 C CNN
-F 2 "antmicro-footprints:SRP4020" H 3750 9400 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:SRP4020" H 3750 9400 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/54/srp0420-1838509.pdf" H 3130 9055 60  0001 C CNN
 F 4 "BOURNS" H 3250 9700 50  0001 C CNN "Manufacturer"
 F 5 "SRP0420-R47K " H 3400 9625 50  0001 C CNN "MPN"
@@ -2498,12 +2498,12 @@ Connection ~ 1150 9025
 Wire Wire Line
 	1050 9025 1150 9025
 $Comp
-L antmicroDCDCConverters:AP62301WU-7 U4
+L data-center-dram-tester:AP62301WU-7 U4
 U 1 1 63646CE0
 P 2000 9225
 F 0 "U4" H 2000 9690 50  0000 C CNN
 F 1 "AP62301WU-7" H 2000 9599 50  0000 C CNN
-F 2 "antmicro-footprints:TSOT23-6" H 1950 8575 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:TSOT23-6" H 1950 8575 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 1950 8875 50  0001 C CNN
 F 4 "AP62301WU-7" H 1950 8675 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 1950 8775 50  0001 C CNN "Manufacturer"
@@ -2527,12 +2527,12 @@ Wire Wire Line
 	8150 9050 8375 9050
 Connection ~ 8150 9050
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C152
+L data-center-dram-tester:C_22u_0402 C152
 U 1 1 634E3CB3
 P 8150 9450
 F 0 "C152" H 8275 9550 60  0000 R CNN
 F 1 "C_22u_0402" H 8150 9300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8350 9650 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8350 9650 60  0001 L CNN
 F 3 "" H 8150 9450 50  0001 C CNN
 F 4 "AVX" H 8350 9850 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 8350 9750 60  0001 L CNN "MPN"
@@ -2541,12 +2541,12 @@ F 6 "22u" H 8300 9375 50  0000 R CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C156
+L data-center-dram-tester:C_1u_0402 C156
 U 1 1 634E3CAA
 P 8600 9450
 F 0 "C156" H 8600 9550 60  0000 L CNN
 F 1 "C_1u_0402" H 8600 9300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8800 9650 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 8800 9650 60  0001 L CNN
 F 3 "" H 8600 9450 50  0001 C CNN
 F 4 "TDK" H 8800 9850 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 8800 9750 60  0001 L CNN "MPN"
@@ -2555,12 +2555,12 @@ F 6 "1u" H 8625 9375 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C155
+L data-center-dram-tester:C_22u_0402 C155
 U 1 1 634E3CA1
 P 8375 9450
 F 0 "C155" H 8375 9550 60  0000 L CNN
 F 1 "C_22u_0402" H 8375 9300 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8575 9650 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8575 9650 60  0001 L CNN
 F 3 "" H 8375 9450 50  0001 C CNN
 F 4 "AVX" H 8575 9850 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 8575 9750 60  0001 L CNN "MPN"
@@ -2583,12 +2583,12 @@ Wire Wire Line
 Wire Wire Line
 	7825 9050 8150 9050
 $Comp
-L antmicroResistors0402:R_4k99_0402 R45
+L data-center-dram-tester:R_4k99_0402 R45
 U 1 1 634BF316
 P 7825 9275
 F 0 "R45" V 7780 9345 60  0000 L CNN
 F 1 "R_4k99_0402" H 7825 9125 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8025 9475 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8025 9475 60  0001 L CNN
 F 3 "" H 7825 9275 50  0001 C CNN
 F 4 "MULTICOMP" H 8025 9675 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X4991FTL" H 8025 9575 60  0001 L CNN "MPN"
@@ -2609,12 +2609,12 @@ Wire Wire Line
 Wire Wire Line
 	7425 9250 7425 9050
 $Comp
-L antmicroFixedInductors:SRP0420-1R5K L4
+L data-center-dram-tester:SRP0420-1R5K L4
 U 1 1 63405B47
 P 7600 9050
 F 0 "L4" H 7600 9355 60  0000 C CNN
 F 1 "SRP0420-1R5K" H 7600 9249 60  0000 C CNN
-F 2 "antmicro-footprints:SRP4020" H 8275 9425 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:SRP4020" H 8275 9425 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/54/srp0420-1838509.pdf" H 7655 9080 60  0001 C CNN
 F 4 "BOURNS" H 7775 9725 50  0001 C CNN "Manufacturer"
 F 5 "SRP0420-R47K " H 7925 9650 50  0001 C CNN "MPN"
@@ -2638,12 +2638,12 @@ Wire Wire Line
 Wire Wire Line
 	5650 9650 5650 9825
 $Comp
-L antmicroDCDCConverters:AP62301WU-7 U5
+L data-center-dram-tester:AP62301WU-7 U5
 U 1 1 632BC2F8
 P 6550 9250
 F 0 "U5" H 6550 9715 50  0000 C CNN
 F 1 "AP62301WU-7" H 6550 9624 50  0000 C CNN
-F 2 "antmicro-footprints:TSOT23-6" H 6500 8600 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:TSOT23-6" H 6500 8600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 6500 8900 50  0001 C CNN
 F 4 "AP62301WU-7" H 6500 8700 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 6500 8800 50  0001 C CNN "Manufacturer"
@@ -6583,12 +6583,12 @@ Wire Wire Line
 Wire Wire Line
 	10750 5575 10750 5800
 $Comp
-L antmicroDCDCConverters:AP62301WU-7 U9
+L data-center-dram-tester:AP62301WU-7 U9
 U 1 1 6252F260
 P 8625 5225
 F 0 "U9" H 8625 5690 50  0000 C CNN
 F 1 "AP62301WU-7" H 8625 5599 50  0000 C CNN
-F 2 "antmicro-footprints:TSOT23-6" H 8575 4575 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:TSOT23-6" H 8575 4575 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 8575 4875 50  0001 C CNN
 F 4 "AP62301WU-7" H 8575 4675 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 8575 4775 50  0001 C CNN "Manufacturer"
@@ -6606,12 +6606,12 @@ Wire Wire Line
 Wire Wire Line
 	9575 5225 9450 5225
 $Comp
-L antmicroFixedInductors:SRP0420-1R5K L5
+L data-center-dram-tester:SRP0420-1R5K L5
 U 1 1 627AC104
 P 9775 5025
 F 0 "L5" H 9775 5330 60  0000 C CNN
 F 1 "SRP0420-1R5K" H 9775 5224 60  0000 C CNN
-F 2 "antmicro-footprints:SRP4020" H 10450 5400 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:SRP4020" H 10450 5400 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/54/srp0420-1838509.pdf" H 9830 5055 60  0001 C CNN
 F 4 "BOURNS" H 9950 5700 50  0001 C CNN "Manufacturer"
 F 5 "SRP0420-R47K " H 10100 5625 50  0001 C CNN "MPN"
@@ -6627,12 +6627,12 @@ Connection ~ 9575 5025
 Wire Wire Line
 	9925 5025 10000 5025
 $Comp
-L antmicroResistors0402:R_31k6_0402 R49
+L data-center-dram-tester:R_31k6_0402 R49
 U 1 1 6282E01D
 P 10000 5225
 F 0 "R49" V 9955 5295 60  0000 L CNN
 F 1 "R_31k6_0402" H 10000 5075 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10200 5425 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10200 5425 60  0001 L CNN
 F 3 "" H 10000 5225 50  0001 C CNN
 F 4 "Vishay" H 10200 5625 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040231K6FKEDC" H 10200 5525 60  0001 L CNN "MPN"
@@ -6685,12 +6685,12 @@ Wire Wire Line
 	10975 5025 11250 5025
 Connection ~ 10975 5025
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C218
+L data-center-dram-tester:C_22u_0402 C218
 U 1 1 62DAD7B8
 P 10750 5425
 F 0 "C218" H 10750 5525 60  0000 L CNN
 F 1 "C_22u_0402" H 10750 5275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10950 5625 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10950 5625 60  0001 L CNN
 F 3 "" H 10750 5425 50  0001 C CNN
 F 4 "AVX" H 10950 5825 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 10950 5725 60  0001 L CNN "MPN"
@@ -6699,12 +6699,12 @@ F 6 "22u" H 10750 5350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C220
+L data-center-dram-tester:C_1u_0402 C220
 U 1 1 62DAA38B
 P 10975 5425
 F 0 "C220" H 10975 5525 60  0000 L CNN
 F 1 "C_1u_0402" H 10975 5275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11175 5625 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 11175 5625 60  0001 L CNN
 F 3 "" H 10975 5425 50  0001 C CNN
 F 4 "TDK" H 11175 5825 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 11175 5725 60  0001 L CNN "MPN"
@@ -6713,12 +6713,12 @@ F 6 "1u" H 11000 5350 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C216
+L data-center-dram-tester:C_22u_0402 C216
 U 1 1 62DC055E
 P 10525 5425
 F 0 "C216" H 10650 5525 60  0000 R CNN
 F 1 "C_22u_0402" H 10525 5275 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10725 5625 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10725 5625 60  0001 L CNN
 F 3 "" H 10525 5425 50  0001 C CNN
 F 4 "AVX" H 10725 5825 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 10725 5725 60  0001 L CNN "MPN"
@@ -6782,12 +6782,12 @@ F 3 "" H 10975 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R82
+L data-center-dram-tester:R_10k_0402 R82
 U 1 1 62C85F6D
 P 10000 5650
 F 0 "R82" V 9955 5720 60  0000 L CNN
 F 1 "R_10k_0402" H 10000 5500 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10200 5850 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10200 5850 60  0001 L CNN
 F 3 "" H 10000 5650 50  0001 C CNN
 F 4 "VISHAY" H 10200 6050 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10200 5950 60  0001 L CNN "MPN"
@@ -6809,12 +6809,12 @@ $EndComp
 Wire Wire Line
 	10000 5850 10000 5800
 $Comp
-L antmicroCapacitorsmisc:C_100n_0402_6V3 C157
+L data-center-dram-tester:C_100n_0402_6V3 C157
 U 1 1 62E09CA3
 P 9300 5225
 F 0 "C157" V 9048 5225 50  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9300 5225 50  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9300 5225 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 9300 5225 50  0001 C CNN
 F 3 "" H 9300 5225 50  0001 C CNN
 F 4 "0402X104K6R3CT" H 9300 5225 50  0001 C CNN "MPN"
 F 5 "Walsin" H 9300 5225 50  0001 C CNN "Manufacturer"
@@ -6823,12 +6823,12 @@ F 6 "100n" V 9139 5225 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R47
+L data-center-dram-tester:R_0R_0402 R47
 U 1 1 62E12320
 P 8025 5225
 F 0 "R47" H 8025 5438 60  0000 C CNN
 F 1 "R_0R_0402" H 8025 5075 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8225 5425 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8225 5425 60  0001 L CNN
 F 3 "" H 8025 5225 50  0001 C CNN
 F 4 "PANASONIC" H 8225 5625 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8225 5525 60  0001 L CNN "MPN"
@@ -6839,12 +6839,12 @@ $EndComp
 Wire Wire Line
 	9025 5225 9150 5225
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C150
+L data-center-dram-tester:C_10u_0402 C150
 U 1 1 62E6F0F0
 P 7775 5550
 F 0 "C150" H 7890 5595 60  0000 L CNN
 F 1 "C_10u_0402" H 7775 5400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 7975 5750 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 7975 5750 60  0001 L CNN
 F 3 "" H 7775 5550 50  0001 C CNN
 F 4 "YAGEO" H 7975 5950 60  0001 L CNN "Manufacturer"
 F 5 "CC0402MRX5R5BB106" H 7975 5850 60  0001 L CNN "MPN"
@@ -6853,12 +6853,12 @@ F 6 "10u" H 7800 5425 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_0R_0402 R48
+L data-center-dram-tester:R_0R_0402 R48
 U 1 1 62FF35A8
 P 8100 7325
 F 0 "R48" H 8100 7538 60  0000 C CNN
 F 1 "R_0R_0402" H 8100 7175 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 8300 7525 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 8300 7525 60  0001 L CNN
 F 3 "" H 8100 7325 50  0001 C CNN
 F 4 "PANASONIC" H 8300 7725 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8300 7625 60  0001 L CNN "MPN"
@@ -6889,12 +6889,12 @@ F 3 "" H 8225 7875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitorsmisc:C_100n_0402_6V3 C158
+L data-center-dram-tester:C_100n_0402_6V3 C158
 U 1 1 62F8DAF8
 P 9375 7325
 F 0 "C158" V 9123 7325 50  0000 C CNN
 F 1 "C_100n_0402_6V3" H 9375 7325 50  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 9375 7325 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 9375 7325 50  0001 C CNN
 F 3 "" H 9375 7325 50  0001 C CNN
 F 4 "0402X104K6R3CT" H 9375 7325 50  0001 C CNN "MPN"
 F 5 "Walsin" H 9375 7325 50  0001 C CNN "Manufacturer"
@@ -6903,12 +6903,12 @@ F 6 "100n" V 9214 7325 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_10u_0402 C151
+L data-center-dram-tester:C_10u_0402 C151
 U 1 1 62F856C3
 P 7875 7575
 F 0 "C151" H 7990 7620 60  0000 L CNN
 F 1 "C_10u_0402" H 7875 7425 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 8075 7775 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 8075 7775 60  0001 L CNN
 F 3 "" H 7875 7575 50  0001 C CNN
 F 4 "YAGEO" H 8075 7975 60  0001 L CNN "Manufacturer"
 F 5 "CC0402MRX5R5BB106" H 8075 7875 60  0001 L CNN "MPN"
@@ -6963,12 +6963,12 @@ F 3 "" H 10000 7925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_10k_0402 R84
+L data-center-dram-tester:R_10k_0402 R84
 U 1 1 62CD745C
 P 10000 7725
 F 0 "R84" V 9955 7795 60  0000 L CNN
 F 1 "R_10k_0402" H 10000 7575 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10200 7925 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10200 7925 60  0001 L CNN
 F 3 "" H 10000 7725 50  0001 C CNN
 F 4 "VISHAY" H 10200 8125 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 10200 8025 60  0001 L CNN "MPN"
@@ -6985,12 +6985,12 @@ Wire Wire Line
 	10675 7125 10900 7125
 Connection ~ 10675 7125
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C215
+L data-center-dram-tester:C_22u_0402 C215
 U 1 1 630B1509
 P 10450 7525
 F 0 "C215" H 10575 7625 60  0000 R CNN
 F 1 "C_22u_0402" H 10450 7375 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10650 7725 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10650 7725 60  0001 L CNN
 F 3 "" H 10450 7525 50  0001 C CNN
 F 4 "AVX" H 10650 7925 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 10650 7825 60  0001 L CNN "MPN"
@@ -6999,12 +6999,12 @@ F 6 "22u" H 10600 7450 50  0000 R CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_1u_0402 C219
+L data-center-dram-tester:C_1u_0402 C219
 U 1 1 630B1500
 P 10900 7525
 F 0 "C219" H 10900 7625 60  0000 L CNN
 F 1 "C_1u_0402" H 10900 7375 60  0001 C CNN
-F 2 "antmicro-footprints:0402-cap" H 11100 7725 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-cap" H 11100 7725 60  0001 L CNN
 F 3 "" H 10900 7525 50  0001 C CNN
 F 4 "TDK" H 11100 7925 60  0001 L CNN "Manufacturer"
 F 5 "C1005X6S1A105K050BC" H 11100 7825 60  0001 L CNN "MPN"
@@ -7013,12 +7013,12 @@ F 6 "1u" H 10925 7450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_22u_0402 C217
+L data-center-dram-tester:C_22u_0402 C217
 U 1 1 630B14F7
 P 10675 7525
 F 0 "C217" H 10675 7625 60  0000 L CNN
 F 1 "C_22u_0402" H 10675 7375 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10875 7725 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10875 7725 60  0001 L CNN
 F 3 "" H 10675 7525 50  0001 C CNN
 F 4 "AVX" H 10875 7925 60  0001 L CNN "Manufacturer"
 F 5 "04024W226MAT2A" H 10875 7825 60  0001 L CNN "MPN"
@@ -7047,12 +7047,12 @@ Wire Wire Line
 Wire Wire Line
 	10000 7500 10000 7525
 $Comp
-L antmicroResistors0402:R_12k4_0402 R83
+L data-center-dram-tester:R_12k4_0402 R83
 U 1 1 62FA7E55
 P 10000 7350
 F 0 "R83" V 9955 7420 60  0000 L CNN
 F 1 "R_12k4_0402" H 10000 7200 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10200 7550 60  0001 L CNN
+F 2 "data-center-dram-tester-footprints:0402-res" H 10200 7550 60  0001 L CNN
 F 3 "" H 10000 7350 50  0001 C CNN
 F 4 "PANASONIC_ELECTRONIC_COMPONENTS" H 10200 7750 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF1242X" H 10200 7650 60  0001 L CNN "MPN"
@@ -7072,12 +7072,12 @@ Wire Wire Line
 Wire Wire Line
 	9150 7125 9625 7125
 $Comp
-L antmicroFixedInductors:SRP0420-1R5K L7
+L data-center-dram-tester:SRP0420-1R5K L7
 U 1 1 62F34D26
 P 9800 7125
 F 0 "L7" H 9800 7430 60  0000 C CNN
 F 1 "SRP0420-1R5K" H 9800 7324 60  0000 C CNN
-F 2 "antmicro-footprints:SRP4020" H 10475 7500 60  0001 C CNN
+F 2 "data-center-dram-tester-footprints:SRP4020" H 10475 7500 60  0001 C CNN
 F 3 "https://www.mouser.pl/datasheet/2/54/srp0420-1838509.pdf" H 9855 7155 60  0001 C CNN
 F 4 "BOURNS" H 9975 7800 50  0001 C CNN "Manufacturer"
 F 5 "SRP0420-R47K " H 10125 7725 50  0001 C CNN "MPN"
@@ -7094,12 +7094,12 @@ Wire Wire Line
 Wire Wire Line
 	7875 7725 7875 7875
 $Comp
-L antmicroDCDCConverters:AP62301WU-7 U12
+L data-center-dram-tester:AP62301WU-7 U12
 U 1 1 62E63719
 P 8750 7325
 F 0 "U12" H 8750 7790 50  0000 C CNN
 F 1 "AP62301WU-7" H 8750 7699 50  0000 C CNN
-F 2 "antmicro-footprints:TSOT23-6" H 8700 6675 50  0001 C CNN
+F 2 "data-center-dram-tester-footprints:TSOT23-6" H 8700 6675 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf" H 8700 6975 50  0001 C CNN
 F 4 "AP62301WU-7" H 8700 6775 50  0001 C CNN "MPN"
 F 5 "Diodes Incorporated" H 8700 6875 50  0001 C CNN "Manufacturer"
