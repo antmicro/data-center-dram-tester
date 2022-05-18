@@ -1894,7 +1894,7 @@ Wire Wire Line
 Text GLabel 13150 6050 1    50   Input ~ 0
 VCC3V3
 Text GLabel 12700 6050 1    50   Input ~ 0
-VCC1V2
+1V2_SYS
 Text GLabel 14775 7000 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
