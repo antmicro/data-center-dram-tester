@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 10 10
 Title "Data Center DRAM Tester"
 Date "2021-11"
-Rev "1.1.0"
+Rev "1.1.1"
 Comp "Antmicro Ltd."
 Comment1 "www.antmicro.com"
 Comment2 "Antmicro Ltd"
