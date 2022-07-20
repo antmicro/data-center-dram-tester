@@ -23,7 +23,7 @@ The remaining files are stored in the following directories:
 
 ## Key Features
 
-* Kintex-7 FPGA - XC7K100T-FBG686
+* Kintex-7 FPGA (XC7K160T-FFG676)
 * DDR4 RDIMM connector
 * HDMI output connector
 * Ethernet RJ45 connector with 1GbE transciever
