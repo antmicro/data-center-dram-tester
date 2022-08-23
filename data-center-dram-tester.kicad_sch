@@ -7,7 +7,7 @@
   (title_block
     (title "Data Center DRAM Tester")
     (date "2021-11")
-    (rev "1.1.2")
+    (rev "1.1.3")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd")
   )
@@ -12290,7 +12290,7 @@
       (reference "U1") (unit 1) (value "ASFLMB-100.000MHZ-XY-T") (footprint "data-center-dram-tester-footprints:ASFLMB-100.000MHZ-XY-T")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000061282a74"
-      (reference "U2") (unit 1) (value "TPS65295RJET") (footprint "data-center-dram-tester-footprints:TPS65295RJET")
+      (reference "U2") (unit 1) (value "TPS65295RJET") (footprint "antmicro-footprints:TPS65295RJET")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00005fead4ea"
       (reference "U3") (unit 1) (value "S25FL128SAGNFI000") (footprint "data-center-dram-tester-footprints:S25FL128SAGNFI000")
@@ -12305,7 +12305,7 @@
       (reference "U6") (unit 1) (value "KSZ9031RNXCA") (footprint "data-center-dram-tester-footprints:QFN-48-Microchip-QFN77-48LD-PL-2")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601044e5"
-      (reference "U7") (unit 1) (value "FT4232HQ") (footprint "data-center-dram-tester-footprints:FT4232HQ")
+      (reference "U7") (unit 1) (value "FT4232HQ") (footprint "antmicro-footprints:FT4232HQ")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061682d3c"
       (reference "U8") (unit 1) (value "PCA9517ADMR2G") (footprint "data-center-dram-tester-footprints:TSSOP-8_W3mm")
