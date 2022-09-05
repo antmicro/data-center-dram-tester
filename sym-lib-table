@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name ddr5-testboard)(type Legacy)(uri /home/wjuszczak/git/antmicro-ddr5-tester-hw/ddr5-testboard.lib)(options "")(descr ""))
-  (lib (name data-center-dram-tester)(type Legacy)(uri ${KIPRJMOD}/lib/data-center-dram-tester.lib)(options "")(descr ""))
+  (lib (name "data-center-dram-tester")(type "KiCad")(uri "${KIPRJMOD}/lib/data-center-dram-tester.kicad_sym")(options "")(descr ""))
 )
