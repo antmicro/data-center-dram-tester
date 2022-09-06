@@ -386,7 +386,7 @@
         )
         (pin passive line (at 8.89 -8.89 180) (length 2.54)
           (name "Shell" (effects (font (size 1.27 1.27))))
-          (number "~" (effects (font (size 1.27 1.27))))
+          (number "SH" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -9050,7 +9050,7 @@
     (pin "7" (uuid bec394cb-4a06-4fb9-85d2-63760416e8f5))
     (pin "8" (uuid 5bce955f-10fd-4732-86ba-0df346f7f93c))
     (pin "9" (uuid fdc12640-cc29-4346-a7cd-29b539aafa90))
-    (pin "~" (uuid 21a75ca0-f380-4a2e-9215-fef3cffcb7fb))
+    (pin "SH" (uuid 82e97c60-a5e1-4e63-9256-8b370f6b8a1e))
   )
 
   (symbol (lib_id "data-center-dram-tester:R_20k_0402") (at 362.585 165.1 270) (unit 1)
