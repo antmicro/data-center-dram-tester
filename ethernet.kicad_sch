@@ -6,8 +6,8 @@
 
   (title_block
     (title "Data Center DRAM Tester")
-    (date "2021-11")
-    (rev "1.1.3")
+    (date "2022-09-07")
+    (rev "1.2.0")
     (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd")
