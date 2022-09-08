@@ -10144,6 +10144,15 @@
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00005ff57291"
       (reference "#PWR013") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005f982999/72996f52-0923-4dd2-a70a-c461817fc425"
+      (reference "#PWR014") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/96857750-4e00-47bf-bc70-bfafb8b7573b"
+      (reference "#PWR015") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/0d80bfa2-8153-432e-a4e2-46def7c1debc"
+      (reference "#PWR016") (unit 1) (value "GNDD") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929bf9"
       (reference "#PWR020") (unit 1) (value "GND") (footprint "")
     )
@@ -10882,14 +10891,20 @@
     (path "/00000000-0000-0000-0000-00005f982999/1ed11192-7b1a-4eb1-8acc-f53438a9abd0"
       (reference "#PWR0312") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/6ee72a48-d471-4705-9bed-d06c918e4d1f"
+    (path "/00000000-0000-0000-0000-00005f982999/d010f555-8617-48d5-ad20-33f82ddf4642"
       (reference "#PWR0313") (unit 1) (value "GNDD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/afee1338-c643-4a9f-abd4-59d36012a622"
+    (path "/00000000-0000-0000-0000-00005f982999/89ed7d55-821a-4eec-b710-5ccc131a7bc5"
+      (reference "#PWR0314") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/19e6e500-e4fb-416c-b853-4b9d3031be2a"
       (reference "#PWR0315") (unit 1) (value "GNDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f982999/0db962b8-ec55-43ef-8e19-2b6a581a291b"
       (reference "#PWR0316") (unit 1) (value "GNDD") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/e737fa48-ceb4-431d-88ed-08a73654c7ba"
+      (reference "#PWR0317") (unit 1) (value "GNDD") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f982999/8a171f8d-8b2b-4a87-ae74-8d62c0354ea5"
       (reference "#PWR0318") (unit 1) (value "GNDD") (footprint "")
@@ -11596,6 +11611,12 @@
     (path "/00000000-0000-0000-0000-00005f982999/d7dd54a3-2522-4dd6-99e7-206ed86e88e2"
       (reference "C224") (unit 1) (value "C_22u_2220_100V") (footprint "antmicro-footprints:2220-cap")
     )
+    (path "/00000000-0000-0000-0000-00005f982999/55b8a661-96e4-4c3e-8d0e-3d7843c81f72"
+      (reference "C225") (unit 1) (value "C_22u_2220_100V") (footprint "antmicro-footprints:2220-cap")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/49859755-a72c-451d-906d-54f7c3d353ee"
+      (reference "C226") (unit 1) (value "C_22u_2220_100V") (footprint "antmicro-footprints:2220-cap")
+    )
     (path "/00000000-0000-0000-0000-00005f982999/0d480c35-4387-4af1-aa35-796153e4e5a4"
       (reference "C227") (unit 1) (value "C_47u_16V_1206") (footprint "antmicro-footprints:1206-cap")
     )
@@ -11649,6 +11670,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/3f78de46-1772-4479-a859-ec0aa16f1ce8"
       (reference "D15") (unit 1) (value "KP-1608CGCK") (footprint "antmicro-footprints:LED_0603")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/15bdaed1-7405-43f3-80d9-beb6cb4e7933"
+      (reference "D16") (unit 1) (value "PDS760-13") (footprint "data-center-dram-tester-footprints:PDS760-13")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000625ad245"
       (reference "EMCCLK1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
@@ -11710,8 +11734,8 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c07"
       (reference "IC1") (unit 1) (value "TPS54561") (footprint "data-center-dram-tester-footprints:WSON-10_4x4")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/251a8334-1421-4919-a8d8-08a1cbdac866"
-      (reference "IC2") (unit 1) (value "TPS2378DDA") (footprint "antmicro-footprints:SOIC127P600X170-9N")
+    (path "/00000000-0000-0000-0000-00005f982999/5f505e44-4cb9-4b33-a29e-bb703b7c29ce"
+      (reference "IC2") (unit 1) (value "ACPL-217-500E") (footprint "antmicro-footprints:SOIC127P700X242-4N")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601c2ca9"
       (reference "IC3") (unit 1) (value "TPD8S009DSMR") (footprint "data-center-dram-tester-footprints:R-PDSO-N15")
@@ -12268,14 +12292,23 @@
     (path "/00000000-0000-0000-0000-000061af7ff2/00000000-0000-0000-0000-0000635a9e11"
       (reference "R155") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
     )
+    (path "/00000000-0000-0000-0000-00005f982999/f9ca75b3-97a4-4554-80cf-6527f4e8d49a"
+      (reference "R156") (unit 1) (value "R_1k3_0603") (footprint "antmicro-footprints:0603-res")
+    )
     (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-000061903c55"
       (reference "R157") (unit 1) (value "R_0R_0603") (footprint "data-center-dram-tester-footprints:0603-res")
     )
     (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-0000632b1d0d"
       (reference "R158") (unit 1) (value "R_0R_0603") (footprint "data-center-dram-tester-footprints:0603-res")
     )
+    (path "/00000000-0000-0000-0000-00005f982999/174aa46a-3bca-447e-a533-bcc3f2bff1ef"
+      (reference "R159") (unit 1) (value "R_49k9_0402") (footprint "antmicro-footprints:0402-res")
+    )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006145fd9b"
       (reference "R160") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/00e420ed-6254-4d31-b5e6-3f4c0930d8ff"
+      (reference "R161") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0603-res")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006145fda4"
       (reference "R162") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
@@ -12319,11 +12352,32 @@
     (path "/00000000-0000-0000-0000-00005f982999/7ea1ef42-5aff-4091-998b-281b86e0e238"
       (reference "R175") (unit 1) (value "R_24k9_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/9f2b0082-c30b-489e-ba2d-cb0dd2eef4b1"
-      (reference "R179") (unit 1) (value "R_15k_0603") (footprint "antmicro-footprints:0603-res")
+    (path "/00000000-0000-0000-0000-00005f982999/52eb4a04-edcf-4eee-badd-7986b57dd6ba"
+      (reference "R176") (unit 1) (value "R_63R4_0603") (footprint "antmicro-footprints:0603-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/8dc18f8e-12da-4d82-865a-0696364c509c"
+      (reference "R177") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/b3a5fd9e-f12b-4e45-b742-f85f67476932"
+      (reference "R178") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0603-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/ce7d3179-85a2-447f-9977-27b4df1d8202"
+      (reference "R179") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0603-res")
     )
     (path "/00000000-0000-0000-0000-00005f982999/528f21ac-64df-4af2-9460-164793bef4b1"
       (reference "R180") (unit 1) (value "R_32k4_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/1d6be3b3-328a-4146-a91b-b3896930dac6"
+      (reference "R181") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/fbcaaf72-9b06-4afb-9866-d0ed4f1c6fc0"
+      (reference "R182") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/db440705-2950-4463-a5ae-8a919ef12ea0"
+      (reference "R183") (unit 1) (value "R_1k_0603") (footprint "antmicro-footprints:0603-res")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/d2044360-3297-4d59-999b-e77fd5aaa73d"
+      (reference "R184") (unit 1) (value "R_1k_0603") (footprint "antmicro-footprints:0603-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c38"
       (reference "S1") (unit 1) (value "EG1218") (footprint "data-center-dram-tester-footprints:Switch_Slide_11.6x4mm_EG1218")
@@ -12364,6 +12418,12 @@
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061dde955"
       (reference "TP12") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
+    (path "/00000000-0000-0000-0000-00005f982999/426e4b30-bcd5-4180-81a1-18e96ded1f19"
+      (reference "TP13") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/d32a4cb3-6686-4642-b9a6-623dc5f78fbb"
+      (reference "TP14") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
+    )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-0000652be0d1"
       (reference "U1") (unit 1) (value "ASFLMB-100.000MHZ-XY-T") (footprint "data-center-dram-tester-footprints:ASFLMB-100.000MHZ-XY-T")
     )
@@ -12399,6 +12459,9 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062e63719"
       (reference "U12") (unit 1) (value "AP62301WU-7") (footprint "data-center-dram-tester-footprints:TSOT23-6")
+    )
+    (path "/00000000-0000-0000-0000-00005f982999/ad5c53a8-9523-434c-ab62-1b92d197b1f3"
+      (reference "U13") (unit 1) (value "TPS2373-4RGWR") (footprint "antmicro-footprints:QFN65P500X500X100-21N")
     )
     (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-000061972cda"
       (reference "U14") (unit 1) (value "2199155-1") (footprint "data-center-dram-tester-footprints:2199155-1")
