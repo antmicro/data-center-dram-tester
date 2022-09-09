@@ -10903,9 +10903,6 @@
     (path "/00000000-0000-0000-0000-00005f982999/0db962b8-ec55-43ef-8e19-2b6a581a291b"
       (reference "#PWR0316") (unit 1) (value "GNDD") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/e737fa48-ceb4-431d-88ed-08a73654c7ba"
-      (reference "#PWR0317") (unit 1) (value "GNDD") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/8a171f8d-8b2b-4a87-ae74-8d62c0354ea5"
       (reference "#PWR0318") (unit 1) (value "GNDD") (footprint "")
     )
@@ -11614,9 +11611,6 @@
     (path "/00000000-0000-0000-0000-00005f982999/55b8a661-96e4-4c3e-8d0e-3d7843c81f72"
       (reference "C225") (unit 1) (value "C_22u_2220_100V") (footprint "antmicro-footprints:2220-cap")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/49859755-a72c-451d-906d-54f7c3d353ee"
-      (reference "C226") (unit 1) (value "C_22u_2220_100V") (footprint "antmicro-footprints:2220-cap")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/0d480c35-4387-4af1-aa35-796153e4e5a4"
       (reference "C227") (unit 1) (value "C_47u_16V_1206") (footprint "antmicro-footprints:1206-cap")
     )
@@ -11659,14 +11653,14 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062929c12"
       (reference "D11") (unit 1) (value "PDS760-13") (footprint "data-center-dram-tester-footprints:PDS760-13")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/cbe5a851-913c-4da0-9b26-8d638e9ee5ae"
-      (reference "D12") (unit 1) (value "MB10S") (footprint "antmicro-footprints:MB10S")
+    (path "/00000000-0000-0000-0000-00005f982999/b64a37f4-7350-469e-b378-d185cff52848"
+      (reference "D12") (unit 1) (value "CD-MMBL110S") (footprint "antmicro-footprints:DFN3538")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/4ddd4fdf-0782-423d-9c2e-ad41bdccb19c"
-      (reference "D13") (unit 1) (value "MB10S") (footprint "antmicro-footprints:MB10S")
+    (path "/00000000-0000-0000-0000-00005f982999/75c5000f-b4ed-4f5b-9de1-3bbb3c77a19f"
+      (reference "D13") (unit 1) (value "CD-MMBL110S") (footprint "antmicro-footprints:DFN3538")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/1733e455-3672-49ed-81ad-2dc9f39250c8"
-      (reference "D14") (unit 1) (value "SMAJ58A-13-F") (footprint "antmicro-footprints:DO-214AC")
+    (path "/00000000-0000-0000-0000-00005f982999/a6b826de-7648-478b-bc46-a41d5e8c1821"
+      (reference "D14") (unit 1) (value "PTVS58VS1UR,115") (footprint "antmicro-footprints:SOD-123F")
     )
     (path "/00000000-0000-0000-0000-00005f982999/3f78de46-1772-4479-a859-ec0aa16f1ce8"
       (reference "D15") (unit 1) (value "KP-1608CGCK") (footprint "antmicro-footprints:LED_0603")
