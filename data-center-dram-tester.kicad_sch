@@ -12412,12 +12412,6 @@
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061dde955"
       (reference "TP12") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/426e4b30-bcd5-4180-81a1-18e96ded1f19"
-      (reference "TP13") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
-    )
-    (path "/00000000-0000-0000-0000-00005f982999/d32a4cb3-6686-4642-b9a6-623dc5f78fbb"
-      (reference "TP14") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
-    )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-0000652be0d1"
       (reference "U1") (unit 1) (value "ASFLMB-100.000MHZ-XY-T") (footprint "data-center-dram-tester-footprints:ASFLMB-100.000MHZ-XY-T")
     )
@@ -12454,8 +12448,8 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062e63719"
       (reference "U12") (unit 1) (value "AP62301WU-7") (footprint "data-center-dram-tester-footprints:TSOT23-6")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/ad5c53a8-9523-434c-ab62-1b92d197b1f3"
-      (reference "U13") (unit 1) (value "TPS2373-4RGWR") (footprint "data-center-dram-tester-footprints:QFN65P500X500X100-21N")
+    (path "/00000000-0000-0000-0000-00005f982999/4c521272-d5d5-4cfc-b470-ab2af15608fd"
+      (reference "U13") (unit 1) (value "TPS2372-3RGWR") (footprint "antmicro-footprints:Texas_RGW0020B")
     )
     (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-000061972cda"
       (reference "U14") (unit 1) (value "2199155-1") (footprint "data-center-dram-tester-footprints:2199155-1")
