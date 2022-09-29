@@ -13,6 +13,30 @@
   )
 
   (lib_symbols
+    (symbol "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "MP" (id 0) (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "PCB_Mount_Hole_3_NPTH" (id 1) (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "antmicro-footprints:mounting-hole-3mm-NPTH" (id 2) (at 20.32 17.78 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 24.13 20.32 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PCB_Mount_Hole_3_NPTH_0_1"
+        (circle (center 0 0) (radius 1.8034)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 0 0) (radius 4.572)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "data-center-dram-tester:antmicro_logo" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "N" (id 0) (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
@@ -9983,6 +10007,74 @@
     )
   )
 
+  (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH") (at 88.9 279.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 4d7ac6a2-6294-4556-983c-5446f8c4f7ea)
+    (property "Reference" "MP?" (id 0) (at 94.107 278.5653 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PCB_Mount_Hole_3_NPTH" (id 1) (at 94.107 281.1022 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:mounting-hole-3mm-NPTH" (id 2) (at 109.22 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 113.03 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH") (at 88.9 266.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 6ad09738-5d12-4303-b619-634d240a9a3f)
+    (property "Reference" "MP?" (id 0) (at 94.107 265.8653 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PCB_Mount_Hole_3_NPTH" (id 1) (at 94.107 268.4022 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:mounting-hole-3mm-NPTH" (id 2) (at 109.22 248.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 113.03 246.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH") (at 127 279.4 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a11342d1-c811-4475-a80f-8e2553b31c01)
+    (property "Reference" "MP?" (id 0) (at 132.207 278.5653 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PCB_Mount_Hole_3_NPTH" (id 1) (at 132.207 281.1022 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:mounting-hole-3mm-NPTH" (id 2) (at 147.32 261.62 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 151.13 259.08 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH") (at 127 266.7 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid a4a8edea-3b3f-48a5-b30a-9a448d5392f1)
+    (property "Reference" "MP?" (id 0) (at 132.207 265.8653 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PCB_Mount_Hole_3_NPTH" (id 1) (at 132.207 268.4022 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:mounting-hole-3mm-NPTH" (id 2) (at 147.32 248.92 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 151.13 246.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (sheet (at 239.395 173.99) (size 40.005 20.32) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -11031,6 +11123,9 @@
     (path "/00000000-0000-0000-0000-000060225b0c/3c9f29b3-17ee-468f-b0e5-b084dbb0eeea"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/680d5635-2fe8-4c65-b69d-3a0ebe167ce5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/704407d4-b28e-4ba5-a5ae-3afafb967f7d"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -11038,6 +11133,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/91cca5e5-be2b-432b-bfc0-aa5520e74fa6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/baa345af-9976-450b-b058-62742e508d67"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/f422fc8e-06b8-4d01-b49c-7a4d75f384b9"
@@ -11880,6 +11978,9 @@
     (path "/fea793c3-bc28-42ef-95e7-45c2f3eee090/68a40f29-2d30-4b09-ae16-733aee8438db"
       (reference "C274") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/1cb35a3d-f090-4897-872e-c417376c89e8"
+      (reference "C?") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/844f41a4-4874-4397-b068-4b2e421400a8"
       (reference "C?") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
@@ -12044,6 +12145,18 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062f34d26"
       (reference "L7") (unit 1) (value "SRP0420-1R5K") (footprint "data-center-dram-tester-footprints:SRP4020")
+    )
+    (path "/4d7ac6a2-6294-4556-983c-5446f8c4f7ea"
+      (reference "MP?") (unit 1) (value "PCB_Mount_Hole_3_NPTH") (footprint "antmicro-footprints:mounting-hole-3mm-NPTH")
+    )
+    (path "/6ad09738-5d12-4303-b619-634d240a9a3f"
+      (reference "MP?") (unit 1) (value "PCB_Mount_Hole_3_NPTH") (footprint "antmicro-footprints:mounting-hole-3mm-NPTH")
+    )
+    (path "/a11342d1-c811-4475-a80f-8e2553b31c01"
+      (reference "MP?") (unit 1) (value "PCB_Mount_Hole_3_NPTH") (footprint "antmicro-footprints:mounting-hole-3mm-NPTH")
+    )
+    (path "/a4a8edea-3b3f-48a5-b30a-9a448d5392f1"
+      (reference "MP?") (unit 1) (value "PCB_Mount_Hole_3_NPTH") (footprint "antmicro-footprints:mounting-hole-3mm-NPTH")
     )
     (path "/00000000-0000-0000-0000-0000603b54ea"
       (reference "N1") (unit 1) (value "oshw_logo") (footprint "data-center-dram-tester-footprints:oshw-logo")
@@ -12871,6 +12984,9 @@
       (reference "U20") (unit 1) (value "PAC1954T-E/4MX") (footprint "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/147b8133-90a3-4c5a-aece-e233465a6fb2"
+      (reference "U?") (unit 1) (value "SN74LVC1G125DBVR") (footprint "antmicro-footprints:SOT-753")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/19de246d-795d-4557-ab13-30034afacff0"
       (reference "U?") (unit 1) (value "SN74LVC1G125DBVR") (footprint "antmicro-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ad29172f-940a-4b98-b2a0-8e16d6347002"
