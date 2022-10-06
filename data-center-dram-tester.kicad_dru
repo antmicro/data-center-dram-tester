@@ -1,7 +1,7 @@
 (version 1)
 (rule "PCIe_in5" 
 	(constraint track_width (opt 0.11mm))
-	(constraint clearance (opt 0.5mm))
+	(constraint clearance (opt 0.3mm))
 	(constraint diff_pair_gap  (opt 0.168mm))
 	(constraint diff_pair_uncoupled (max 2mm))
 	(condition "(A.NetClass == '100Ohm-diff_PCIe')")
@@ -10,7 +10,7 @@
 
 (rule "PCIe_in2" 
 	(constraint track_width (opt 0.11mm))
-	(constraint clearance (opt 0.5mm))
+	(constraint clearance (opt 0.3mm))
 	(constraint diff_pair_gap  (opt 0.102mm))
 	(constraint diff_pair_uncoupled (max 2mm))
 	(condition "(A.NetClass == '100Ohm-diff_PCIe')")
