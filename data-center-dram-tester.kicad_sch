@@ -12948,28 +12948,28 @@
       (reference "U14") (unit 2) (value "2199155-1") (footprint "data-center-dram-tester-footprints:2199155-1")
     )
     (path "/00000000-0000-0000-0000-000061af7ff2/00000000-0000-0000-0000-000061b056ba"
-      (reference "U15") (unit 1) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 1) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/00000000-0000-0000-0000-000061af7ff2/00000000-0000-0000-0000-000061b0f8ec"
-      (reference "U15") (unit 2) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 2) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061b486c2"
-      (reference "U15") (unit 3) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 3) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061b4f8cf"
-      (reference "U15") (unit 4) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 4) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/e98c799f-d02e-47b6-ad5c-871bd722b830/a04f8c01-14b0-4b82-b9e7-6508e34802c7"
-      (reference "U15") (unit 5) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 5) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/e98c799f-d02e-47b6-ad5c-871bd722b830/812d63af-12a4-4f89-8494-d41bde648884"
-      (reference "U15") (unit 6) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 6) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000617a1fb1"
-      (reference "U15") (unit 7) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 7) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-0000610ca79c"
-      (reference "U15") (unit 8) (value "XC7K160T-FFG676") (footprint "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254")
+      (reference "U15") (unit 8) (value "XC7K160T-FFG676") (footprint "antmicro-footprints:xc7k160tfbg676")
     )
     (path "/00000000-0000-0000-0000-00005f982999/1300a710-d25a-4199-9773-5ca477a1404b"
       (reference "U16") (unit 1) (value "TS3L500") (footprint "antmicro-footprints:Texas_RHU0056A")

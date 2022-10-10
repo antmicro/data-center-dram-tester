@@ -10452,7 +10452,7 @@
     (uuid 00000000-0000-0000-0000-0000610ca79c)
     (property "Reference" "U15" (id 0) (at 261.62 53.7972 0))
     (property "Value" "XC7K160T-FFG676" (id 1) (at 261.62 56.1086 0))
-    (property "Footprint" "data-center-dram-tester-footprints:BGA676C100P26X26_2700X2700X254" (id 2) (at 261.62 58.42 0)
+    (property "Footprint" "antmicro-footprints:xc7k160tfbg676" (id 2) (at 261.62 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 261.62 161.925 0))
