@@ -12497,60 +12497,6 @@
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-00006077e011"
       (reference "R96") (unit 1) (value "R_2k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a31a73"
-      (reference "R97") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a3746b"
-      (reference "R98") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a38118"
-      (reference "R99") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a38ed5"
-      (reference "R100") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a39ae6"
-      (reference "R101") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a3a783"
-      (reference "R102") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a47308"
-      (reference "R103") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a47311"
-      (reference "R104") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a4731a"
-      (reference "R105") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a47323"
-      (reference "R106") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a4732c"
-      (reference "R107") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a47335"
-      (reference "R108") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a8dd1f"
-      (reference "R109") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a8dd28"
-      (reference "R110") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a8dd31"
-      (reference "R111") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a8dd3a"
-      (reference "R112") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a8dd43"
-      (reference "R113") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000067a8dd4c"
-      (reference "R114") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000603a1c9f"
       (reference "R115") (unit 1) (value "R_16k9_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
@@ -12638,14 +12584,8 @@
     (path "/00000000-0000-0000-0000-00005f982999/174aa46a-3bca-447e-a533-bcc3f2bff1ef"
       (reference "R159") (unit 1) (value "R_49k9_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006145fd9b"
-      (reference "R160") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/00e420ed-6254-4d31-b5e6-3f4c0930d8ff"
       (reference "R161") (unit 1) (value "R_0R_0402") (footprint "data-center-dram-tester-footprints:0603-res")
-    )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006145fda4"
-      (reference "R162") (unit 1) (value "R_0R_0201") (footprint "data-center-dram-tester-footprints:0201-res")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006157f999"
       (reference "R163") (unit 1) (value "R_10k_0402") (footprint "data-center-dram-tester-footprints:0402-res")

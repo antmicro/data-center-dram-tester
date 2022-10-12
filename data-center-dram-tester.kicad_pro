@@ -563,8 +563,6 @@
         "microvia_drill": 0.1,
         "name": "80Ohm-diff_DQS",
         "nets": [
-          "/FPGA banks 16-34/DQS17+",
-          "/FPGA banks 16-34/DQS17-",
           "DQS0_N",
           "DQS0_P",
           "DQS10_N",
