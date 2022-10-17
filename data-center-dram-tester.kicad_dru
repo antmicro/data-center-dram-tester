@@ -4,7 +4,7 @@
 	(constraint clearance (opt 0.3mm))
 	(constraint diff_pair_gap  (opt 0.168mm))
 	(constraint diff_pair_uncoupled (max 2mm))
-	(condition "(A.NetClass == '100Ohm-diff_PCIe')")
+	(condition "(A.NetClass == '85Ohm-diff_PCIe')")
 	(layer "In5.Cu")
 )
 
@@ -13,7 +13,7 @@
 	(constraint clearance (opt 0.3mm))
 	(constraint diff_pair_gap  (opt 0.102mm))
 	(constraint diff_pair_uncoupled (max 2mm))
-	(condition "(A.NetClass == '100Ohm-diff_PCIe')")
+	(condition "(A.NetClass == '85Ohm-diff_PCIe')")
 	(layer "In2.Cu")
 )
 
@@ -23,7 +23,7 @@
 	(constraint diff_pair_gap (opt 0.164mm))
 	(constraint clearance (opt 0.6mm))
 	(constraint diff_pair_uncoupled (max 2mm))
-	(condition "(A.NetClass == '100Ohm-diff_PCIe')")
+	(condition "(A.NetClass == '85Ohm-diff_PCIe')")
 	(layer outer)
 )
 
@@ -161,4 +161,13 @@
 	(constraint diff_pair_uncoupled (max 2mm))
 	(condition "(A.NetClass == '80Ohm-diff_DQS') && !A.insideCourtyard('U15')")
 	(layer "In7.Cu")
+)
+
+(rule "100OHM_diff_outer" 
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+	(condition "(A.NetClass == '100Ohm-diff_ETH')")
+	(layer outer)
 )
