@@ -128,3 +128,37 @@
 	(condition "(A.NetClass == '80Ohm-diff_DQS') && !A.insideCourtyard('U15')")
 	(layer "In9.Cu")
 )
+
+(rule "DDR_50OHM_SE_BGA_L7" 
+	(constraint track_width (opt 0.127mm))
+	(constraint clearance (opt 0.1mm))
+	(condition "(A.NetClass == '50Ohm-se_DQ') && A.insideCourtyard('U15')")
+	(layer "In7.Cu")
+)
+
+(rule "DDR_100OHM_diff_BGA_L7" 
+# calculated as 95Ohm @ 51 Ohm SE
+	(constraint track_width (opt 0.09mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+	(condition "(A.NetClass == '80Ohm-diff_DQS') && A.insideCourtyard('U15')")
+	(layer "In7.Cu")
+)
+
+(rule "DDR_40OHM_SE_L7" 
+	(constraint track_width (opt 0.196mm))
+	(constraint clearance (min 0.1mm) (opt 0.4mm))
+	(condition "(A.NetClass == '50Ohm-se_DQ') && !A.insideCourtyard('U15')")
+	(layer "In7.Cu")
+)
+
+(rule "DDR_80OHM_diff_L7" 
+# calculated as 80Ohm @42,5 Ohm SE
+	(constraint track_width (opt 0.166mm))
+	(constraint diff_pair_gap (opt 0.225mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+	(condition "(A.NetClass == '80Ohm-diff_DQS') && !A.insideCourtyard('U15')")
+	(layer "In7.Cu")
+)
