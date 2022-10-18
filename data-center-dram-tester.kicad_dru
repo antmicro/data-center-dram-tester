@@ -168,6 +168,15 @@
 	(constraint diff_pair_gap (opt 0.2mm))
 	(constraint clearance (opt 0.1mm))
 	(constraint diff_pair_uncoupled (max 2mm))
-	(condition "(A.NetClass == '100Ohm-diff_ETH')")
+	(condition "(A.NetClass == '100Ohm-diff')")
 	(layer outer)
+)
+
+(rule "100OHM_diff_L7" 
+	(constraint track_width (opt 0.1mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_uncoupled (max 2mm))
+	(condition "(A.NetClass == '100Ohm-diff')")
+	(layer "In7.Cu")
 )
