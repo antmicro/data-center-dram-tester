@@ -12212,6 +12212,48 @@
     (path "/00000000-0000-0000-0000-00006003c9b5"
       (reference "N2") (unit 1) (value "antmicro_logo") (footprint "data-center-dram-tester-footprints:antmicro-logo_scaled_20mm")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/ecedd258-95de-47bb-aec8-b2c4683dacab"
+      (reference "NT1") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/7a172008-096d-450e-be5a-ff0a303153b0"
+      (reference "NT2") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/14aa5942-609b-478e-8bcb-cea19d7cf592"
+      (reference "NT3") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/16305217-a6ed-47ac-921a-9ea50381f393"
+      (reference "NT4") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/0d3cc851-2a29-46de-b52b-b07a1d805ed4"
+      (reference "NT5") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/fd467512-0d74-4a3c-8feb-a08101e3ffb8"
+      (reference "NT6") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/6e9a3e73-1ac3-4658-8478-0cc7e847b039"
+      (reference "NT7") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/e6103fcc-f1b7-408d-8adc-6b89a01e826c"
+      (reference "NT8") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/729c60ed-5c19-4bad-bb38-d165a47d55b7"
+      (reference "NT9") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/043ae12d-eae8-4dc6-bbde-74ef2ed9f211"
+      (reference "NT10") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/bdc93416-f893-432a-a7e8-4904715061fe"
+      (reference "NT11") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/f6eb1245-df3f-417e-9602-cf7a02ab2e42"
+      (reference "NT12") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/d700b761-fa13-4ae7-95d6-d46d0cc8b0a9"
+      (reference "NT13") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/7315e6e1-6d84-4fc5-8760-bdcd2b3e2ea0"
+      (reference "NT14") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000061af8860"
       (reference "PHY1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
