@@ -7180,13 +7180,6 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "3V3_SYS" (shape input) (at 241.3 252.095 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fe922c27-2e48-49d9-8896-7caa873ded23)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-  )
 
   (symbol (lib_id "data-center-dram-tester:GND") (at 36.83 247.015 0) (unit 1)
     (in_bom yes) (on_board yes)

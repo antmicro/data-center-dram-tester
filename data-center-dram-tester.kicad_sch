@@ -12863,14 +12863,14 @@
     (path "/00000000-0000-0000-0000-000060225b0c/3bd74370-5b11-46d6-93be-98fa95d4b1b0"
       (reference "R217") (unit 1) (value "R_10k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/c04948b3-a769-4c75-9de5-36d264215b28"
-      (reference "S1") (unit 1) (value "2-1825027-0") (footprint "antmicro-footprints:TE_2-1825027-0")
+    (path "/00000000-0000-0000-0000-0000600e76d8/a760c4b4-3fe9-4df1-96f6-e1969a0913d4"
+      (reference "S1") (unit 1) (value "1-1825027-1") (footprint "antmicro-footprints:TE_1-1825027-1")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/de3c053d-43e6-43e2-b3ef-d37edeb2e862"
       (reference "S2") (unit 1) (value "DS04-254-1-01BK-SMT") (footprint "antmicro-footprints:SW_DS04-254-1-01BK-SMT")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/c7f9c780-3bba-4466-a93a-017b7a04b7f8"
-      (reference "S3") (unit 1) (value "2-1825027-0") (footprint "antmicro-footprints:TE_2-1825027-0")
+    (path "/00000000-0000-0000-0000-000060225b0c/5e5365e1-16f6-43be-88d9-079c5cfa86e3"
+      (reference "S3") (unit 1) (value "1-1825027-1") (footprint "antmicro-footprints:TE_1-1825027-1")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601a0591"
       (reference "TP1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
@@ -13000,9 +13000,6 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d41f41ea-6d62-4604-b792-3df5f23248ba"
       (reference "U23") (unit 1) (value "SN74LVC1G125DBVR") (footprint "antmicro-footprints:SOT-753")
-    )
-    (path "/00000000-0000-0000-0000-0000600e76d8/4bcee031-36b0-4277-8da7-4606b2c0613e"
-      (reference "USR_BTN5") (unit 1) (value "B3U-1000P") (footprint "data-center-dram-tester-footprints:Switch_Tactile_SMD_B3U-1000P")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600d5bfc"
       (reference "Y1") (unit 1) (value "ABM8G-25.000MHZ-18-D2Y-T") (footprint "data-center-dram-tester-footprints:KX-7")
