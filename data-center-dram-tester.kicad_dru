@@ -34,6 +34,7 @@
 	(constraint diff_pair_uncoupled (max 2mm))
 	(condition "(A.NetClass == '80Ohm-diff_DQS') ")
 	(layer outer)
+)
 
 (rule "DDR_50OHM_SE_BGA_L5" 
 	(constraint track_width (opt 0.09mm))
