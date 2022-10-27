@@ -19,6 +19,7 @@
 )
 
 (rule "PCIe_85Ohm_outer_BGA" 
+# calculated as 85Ohm @ 50 Ohm SE
 	(constraint track_width (opt 0.1mm) )
 	(constraint diff_pair_gap (opt 0.09mm))
 	(constraint clearance (opt 0.1mm))
@@ -28,8 +29,9 @@
 )
 
 (rule "PCIe_85Ohm_outer" 
-	(constraint track_width (opt 0.13mm) )
-	(constraint diff_pair_gap (opt 0.28mm))
+# calculated as 85Ohm @ 45 Ohm SE
+	(constraint track_width (opt 0.122mm) )
+	(constraint diff_pair_gap (opt 0.165mm))
 	(constraint clearance (opt 0.1mm))
 	(constraint diff_pair_uncoupled (max 2mm))
 	(condition "(A.NetClass == '85Ohm-diff_PCIe')&& !A.insideCourtyard('U15')")
