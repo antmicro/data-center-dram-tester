@@ -33,7 +33,7 @@ The remaining files are stored in the following directories:
 * 16Mbytes S25FL128S QSPI FLASH memory
 * S27KL0641 HyperRAM
 * External 7-12V DC power input
-* 60W PoE++
+* PoE++
 * Power consumption monitoring
 * 5 user LEDs
 * FMC HPC expansion connector
