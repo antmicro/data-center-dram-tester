@@ -6,7 +6,7 @@
 
   (title_block
     (title "Data Center DRAM Tester")
-    (date "2022-09-07")
+    (date "2022-10-31")
     (rev "1.2.0")
     (company "Antmicro Ltd.")
     (comment 1 "www.antmicro.com")
@@ -3783,11 +3783,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6dc23463-a9f8-4458-a92f-1f9f1efa57c6)
   )
-  (polyline (pts (xy 92.075 285.115) (xy 92.075 221.615))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 722f4b37-7b00-4202-adb7-5a4fa613169e)
-  )
-
   (wire (pts (xy 252.095 163.195) (xy 233.68 163.195))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 757d7756-ad2c-4df9-b15d-4c6b09c7f7ae)
