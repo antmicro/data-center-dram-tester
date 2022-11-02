@@ -736,8 +736,6 @@
           "/FMC HPC/GTX_TX6_C_P",
           "/FMC HPC/GTX_TX7_C_N",
           "/FMC HPC/GTX_TX7_C_P",
-          "/PCIe/GTR_REFCLK0_N",
-          "/PCIe/GTR_REFCLK0_P",
           "GTR_REFCLK0_C_N",
           "GTR_REFCLK0_C_P",
           "GTX_RX0_N",

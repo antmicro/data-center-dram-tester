@@ -21270,7 +21270,7 @@
     (property "Value" "antmicro_logo" (id 1) (at 171.1706 281.2542 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "data-center-dram-tester-footprints:antmicro-logo_scaled_20mm" (id 2) (at 163.195 274.955 0)
+    (property "Footprint" "antmicro-footprints:antmicro-logo_scaled_20mm_mask" (id 2) (at 163.195 274.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 165.735 272.415 0)
@@ -21287,7 +21287,7 @@
     (property "Value" "oshw_logo" (id 1) (at 171.2976 275.9202 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "data-center-dram-tester-footprints:oshw-logo" (id 2) (at 166.878 279.781 0)
+    (property "Footprint" "antmicro-footprints:OSHW-Logo_5.7x6mm_Mask" (id 2) (at 166.878 279.781 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 166.37 273.685 0)
@@ -22491,6 +22491,9 @@
     (path "/00000000-0000-0000-0000-000060225b0c/b994cf1e-1f12-4267-be2f-eb81b1a6c0bb"
       (reference "#PWR0370") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/e2d3e8d5-e790-456c-ac0a-688e96f2aeb5"
+      (reference "#PWR0371") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000602c27ec"
       (reference "0V6") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
@@ -23364,6 +23367,12 @@
     (path "/00000000-0000-0000-0000-000060225b0c/9b9d4187-0722-47d9-a36b-f1878b83f198"
       (reference "C283") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
+    (path "/00000000-0000-0000-0000-000060225b0c/aef9ae6c-45c5-43c1-b158-f2635093852c"
+      (reference "C284") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/45d8bcaf-b136-41fb-adc6-0cee9f8462c1"
+      (reference "C285") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
+    )
     (path "/00000000-0000-0000-0000-00005f982999/39a2be85-a37e-4c79-aaee-d58056278055"
       (reference "C287") (unit 1) (value "C_100n_0402") (footprint "antmicro-footprints:0402-cap")
     )
@@ -23560,10 +23569,10 @@
       (reference "MP4") (unit 1) (value "PCB_Mount_Hole_3_NPTH") (footprint "antmicro-footprints:mounting-hole-3mm-NPTH")
     )
     (path "/00000000-0000-0000-0000-0000603b54ea"
-      (reference "N1") (unit 1) (value "oshw_logo") (footprint "data-center-dram-tester-footprints:oshw-logo")
+      (reference "N1") (unit 1) (value "oshw_logo") (footprint "antmicro-footprints:OSHW-Logo_5.7x6mm_Mask")
     )
     (path "/00000000-0000-0000-0000-00006003c9b5"
-      (reference "N2") (unit 1) (value "antmicro_logo") (footprint "data-center-dram-tester-footprints:antmicro-logo_scaled_20mm")
+      (reference "N2") (unit 1) (value "antmicro_logo") (footprint "antmicro-footprints:antmicro-logo_scaled_20mm_mask")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ecedd258-95de-47bb-aec8-b2c4683dacab"
       (reference "NT1") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
