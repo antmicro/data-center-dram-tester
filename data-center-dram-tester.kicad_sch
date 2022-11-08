@@ -24466,7 +24466,7 @@
       (reference "U2") (unit 1) (value "TPS65295RJET") (footprint "data-center-dram-tester-footprints:TPS65295RJET")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-00005fead4ea"
-      (reference "U3") (unit 1) (value "S25FL128SAGNFI000") (footprint "data-center-dram-tester-footprints:S25FL128SAGNFI000")
+      (reference "U3") (unit 1) (value "S25FL128SAGNFI000") (footprint "antmicro-footprints:WSON8x6_WSON6x5_dual")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063646ce0"
       (reference "U4") (unit 1) (value "AP62301WU-7") (footprint "data-center-dram-tester-footprints:TSOT23-6")

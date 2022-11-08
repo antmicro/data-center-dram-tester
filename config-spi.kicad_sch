@@ -7283,7 +7283,7 @@
     (property "Value" "S25FL128SAGNFI000" (id 1) (at 89.535 133.35 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "data-center-dram-tester-footprints:S25FL128SAGNFI000" (id 2) (at 80.645 96.774 0)
+    (property "Footprint" "antmicro-footprints:WSON8x6_WSON6x5_dual" (id 2) (at 80.645 96.774 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 106.045 102.87 0)
