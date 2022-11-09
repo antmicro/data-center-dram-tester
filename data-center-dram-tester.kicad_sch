@@ -23979,11 +23979,11 @@
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-00006060669d"
       (reference "R62") (unit 1) (value "R_220R_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006227af4d"
-      (reference "R63") (unit 1) (value "R_120R_0603") (footprint "data-center-dram-tester-footprints:0603-res")
+    (path "/00000000-0000-0000-0000-000061b4860c/9b527202-97a6-452c-bae2-0a9e0501a1c7"
+      (reference "R63") (unit 1) (value "R_80R6_0603") (footprint "antmicro-footprints:0603-res")
     )
-    (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006227af44"
-      (reference "R64") (unit 1) (value "R_120R_0603") (footprint "data-center-dram-tester-footprints:0603-res")
+    (path "/00000000-0000-0000-0000-000061b4860c/4e34be7a-5e4e-4513-b003-d879fc6eb962"
+      (reference "R64") (unit 1) (value "R_80R6_0603") (footprint "antmicro-footprints:0603-res")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006227af2e"
       (reference "R65") (unit 1) (value "R_1k_0603") (footprint "data-center-dram-tester-footprints:0603-res")
