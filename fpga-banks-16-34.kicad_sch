@@ -3445,7 +3445,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 219cbc8b-6aee-4ed8-b766-5e1a6ec1772e)
   )
-  (polyline (pts (xy 196.215 12.065) (xy 196.85 221.615))
+  (polyline (pts (xy 196.85 12.7) (xy 196.85 221.615))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 21d4d38d-69d7-4a74-a0b3-816b7a782e6a)
   )

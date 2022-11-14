@@ -23604,9 +23604,6 @@
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ffb9ed1"
       (reference "FB5") (unit 1) (value "BLM18AG601SN1D") (footprint "data-center-dram-tester-footprints:0603")
     )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000061cb4e54"
-      (reference "FB8") (unit 1) (value "BLM18PG121SN1D") (footprint "data-center-dram-tester-footprints:0603-res")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/ad21c9cc-8f27-43a1-89d0-1a2196754f35"
       (reference "FB9") (unit 1) (value "BLM21PG221SN1D") (footprint "data-center-dram-tester-footprints:0805-res")
     )
@@ -24543,14 +24540,14 @@
     (path "/00000000-0000-0000-0000-000060225b0c/7230c110-4463-41d2-8297-10d5e26f6e7b"
       (reference "U20") (unit 1) (value "PAC1954T-E/4MX") (footprint "antmicro-footprints:VQFN-16-1EP_3x3mm_P0.5mm_EP1.1x1.1mm")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/147b8133-90a3-4c5a-aece-e233465a6fb2"
-      (reference "U21") (unit 1) (value "SN74LVC1G125DBVR") (footprint "antmicro-footprints:SOT-753")
+    (path "/00000000-0000-0000-0000-000060225b0c/7f9051d9-d98a-483d-845d-692c523beddf"
+      (reference "U21") (unit 1) (value "SN74AHCT1G125DBVR") (footprint "antmicro-footprints:SOT-753")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/ad29172f-940a-4b98-b2a0-8e16d6347002"
-      (reference "U22") (unit 1) (value "SN74LVC1G125DBVR") (footprint "antmicro-footprints:SOT-753")
+    (path "/00000000-0000-0000-0000-000060225b0c/0aca0097-5baa-4902-bd25-f9b4e4e6a159"
+      (reference "U22") (unit 1) (value "SN74AHCT1G125DBVR") (footprint "antmicro-footprints:SOT-753")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/d41f41ea-6d62-4604-b792-3df5f23248ba"
-      (reference "U23") (unit 1) (value "SN74LVC1G125DBVR") (footprint "antmicro-footprints:SOT-753")
+    (path "/00000000-0000-0000-0000-000060225b0c/cc35899d-d63b-4e19-9e87-5211216de5fa"
+      (reference "U23") (unit 1) (value "SN74AHCT1G125DBVR") (footprint "antmicro-footprints:SOT-753")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/233e2906-d155-4789-98fb-24fc2f9c1915"
       (reference "U24") (unit 1) (value "74LVC2G07GV") (footprint "antmicro-footprints:SC-74")
