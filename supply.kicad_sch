@@ -8496,11 +8496,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cb8a30f3-0b6a-4ef1-803e-0a4d0b0b5261)
   )
-  (text "To chk:\n-5V0 sys only to DDR PMIC ?\n-Power monitors to raw 3V3 instead after fuse?"
-    (at 1.905 6.985 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid cc381007-b5cb-42b8-a83a-e91814767283)
-  )
   (text "R117: Always ON, U26 can be DNP" (at 17.145 193.04 0)
     (effects (font (size 1 1)) (justify left bottom))
     (uuid ce7bb738-ce1a-45cb-86f9-b55fbcc8ddcf)
