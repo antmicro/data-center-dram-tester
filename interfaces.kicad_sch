@@ -6671,6 +6671,10 @@
     )
   )
 
+  (text "TODO: Replace FT4232HQ with FT4232H-56Q" (at 424.18 82.55 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 0d62341a-96d2-4757-b6c9-0e7ffc15dc3b)
+  )
   (text "User LEDs" (at 16.51 200.66 0)
     (effects (font (size 2.9972 2.9972) (thickness 0.5994) bold) (justify left bottom))
     (uuid 32ee2c4f-9ff7-414a-91fa-efec0515a554)
