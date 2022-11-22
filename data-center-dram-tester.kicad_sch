@@ -13,6 +13,29 @@
   )
 
   (lib_symbols
+    (symbol "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm" (in_bom no) (on_board yes)
+      (property "Reference" "FID" (id 0) (at 4 -4 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 1 4 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Fiducial Marker for use with single board only" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "antmicro_Fiducial_1mm_Mask2mm_0_1"
+        (circle (center 0 0) (radius 2.2361)
+          (stroke (width 0.2) (type default) (color 0 0 0 0))
+          (fill (type background))
+        )
+      )
+    )
     (symbol "antmicroMechanicalParts:1296.2013" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "M" (id 0) (at 0 5.08 0)
         (effects (font (size 1.27 1.27)))
@@ -21295,6 +21318,57 @@
     )
   )
 
+  (symbol (lib_id "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm") (at 208.28 260.985 0) (unit 1)
+    (in_bom no) (on_board yes) (fields_autoplaced)
+    (uuid 05f93b31-a1ea-4295-8253-01d3bec18b66)
+    (property "Reference" "FID1" (id 0) (at 211.2511 260.1503 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 211.2511 262.6872 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 208.28 260.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 208.28 260.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm") (at 249.555 260.985 0) (unit 1)
+    (in_bom no) (on_board yes) (fields_autoplaced)
+    (uuid 3be9e229-d2d5-4c1a-90c0-0c9e11605874)
+    (property "Reference" "FID3" (id 0) (at 252.5261 260.1503 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 252.5261 262.6872 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 249.555 260.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 249.555 260.985 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm") (at 208.28 273.685 0) (unit 1)
+    (in_bom no) (on_board yes) (fields_autoplaced)
+    (uuid 4b40e678-3d6c-4949-96fa-1e15536b1b65)
+    (property "Reference" "FID5" (id 0) (at 211.2511 272.8503 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 211.2511 275.3872 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 208.28 273.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 208.28 273.685 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH") (at 88.9 279.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4d7ac6a2-6294-4556-983c-5446f8c4f7ea)
@@ -21312,6 +21386,23 @@
     )
   )
 
+  (symbol (lib_id "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm") (at 249.555 267.335 0) (unit 1)
+    (in_bom no) (on_board yes) (fields_autoplaced)
+    (uuid 683b1dc5-2531-48bc-90f6-561b83d69231)
+    (property "Reference" "FID4" (id 0) (at 252.5261 266.5003 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 252.5261 269.0372 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 249.555 267.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 249.555 267.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
   (symbol (lib_id "antmicroMechanicalParts:PCB_Mount_Hole_3_NPTH") (at 88.9 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6ad09738-5d12-4303-b619-634d240a9a3f)
@@ -21325,6 +21416,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 113.03 246.38 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm") (at 249.555 274.32 0) (unit 1)
+    (in_bom no) (on_board yes)
+    (uuid 717dab56-7f58-4ac0-8b5d-60cd15734c7d)
+    (property "Reference" "FID6" (id 0) (at 252.5261 273.4853 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 252.5261 276.0222 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 249.555 274.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 249.555 274.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -21382,6 +21490,23 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MPN" "1296.2013" (id 5) (at 169.545 281.305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+  )
+
+  (symbol (lib_id "antmicroFiducialMarks:antmicro_Fiducial_1mm_Mask2mm") (at 208.28 267.335 0) (unit 1)
+    (in_bom no) (on_board yes) (fields_autoplaced)
+    (uuid d287c74b-9a0a-44bc-8485-82a9a24d237d)
+    (property "Reference" "FID2" (id 0) (at 211.2511 266.5003 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "antmicro_Fiducial_1mm_Mask2mm" (id 1) (at 211.2511 269.0372 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "antmicro-footprints:Fiducial_1mm_Mask2mm" (id 2) (at 208.28 267.335 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 208.28 267.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
@@ -22038,17 +22163,11 @@
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006000c7e8"
       (reference "#PWR0220") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006000c9fd"
-      (reference "#PWR0221") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f28"
       (reference "#PWR0222") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f2e"
       (reference "#PWR0223") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f34"
-      (reference "#PWR0224") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060019a5e"
       (reference "#PWR0225") (unit 1) (value "GND") (footprint "")
@@ -23178,9 +23297,6 @@
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005ffdd6cc"
       (reference "C193") (unit 1) (value "C_18p_0402") (footprint "data-center-dram-tester-footprints:0402-cap")
     )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060006da8"
-      (reference "C194") (unit 1) (value "C_100n_0402_6V3") (footprint "data-center-dram-tester-footprints:0402-cap")
-    )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060019562"
       (reference "C195") (unit 1) (value "C_4u7_0402") (footprint "data-center-dram-tester-footprints:0402-cap")
     )
@@ -23189,9 +23305,6 @@
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f19"
       (reference "C197") (unit 1) (value "C_100n_0402_6V3") (footprint "data-center-dram-tester-footprints:0402-cap")
-    )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060010f22"
-      (reference "C198") (unit 1) (value "C_100n_0402_6V3") (footprint "data-center-dram-tester-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000061827943/00000000-0000-0000-0000-00006265ce8b"
       (reference "C199") (unit 1) (value "C_100n_0402_6V3") (footprint "data-center-dram-tester-footprints:0402-cap")
@@ -23625,6 +23738,24 @@
     (path "/00000000-0000-0000-0000-00005f982999/e8a0b8cc-5006-409c-aa81-c11aa6e940cd"
       (reference "FB10") (unit 1) (value "BLM21PG221SN1D") (footprint "data-center-dram-tester-footprints:0805-res")
     )
+    (path "/05f93b31-a1ea-4295-8253-01d3bec18b66"
+      (reference "FID1") (unit 1) (value "antmicro_Fiducial_1mm_Mask2mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask2mm")
+    )
+    (path "/d287c74b-9a0a-44bc-8485-82a9a24d237d"
+      (reference "FID2") (unit 1) (value "antmicro_Fiducial_1mm_Mask2mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask2mm")
+    )
+    (path "/3be9e229-d2d5-4c1a-90c0-0c9e11605874"
+      (reference "FID3") (unit 1) (value "antmicro_Fiducial_1mm_Mask2mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask2mm")
+    )
+    (path "/683b1dc5-2531-48bc-90f6-561b83d69231"
+      (reference "FID4") (unit 1) (value "antmicro_Fiducial_1mm_Mask2mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask2mm")
+    )
+    (path "/4b40e678-3d6c-4949-96fa-1e15536b1b65"
+      (reference "FID5") (unit 1) (value "antmicro_Fiducial_1mm_Mask2mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask2mm")
+    )
+    (path "/717dab56-7f58-4ac0-8b5d-60cd15734c7d"
+      (reference "FID6") (unit 1) (value "antmicro_Fiducial_1mm_Mask2mm") (footprint "antmicro-footprints:Fiducial_1mm_Mask2mm")
+    )
     (path "/00000000-0000-0000-0000-000060225b0c/653b387c-3541-47ad-b5ff-0e947b129569"
       (reference "GND1") (unit 1) (value "RCW-0C") (footprint "antmicro-footprints:PROBE_PAD_1206")
     )
@@ -24018,26 +24149,26 @@
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600d5c20"
       (reference "R69") (unit 1) (value "R_1M8_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-000060112c16"
-      (reference "R70") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/d9eeca7c-e5da-4898-a9b4-80e3730dd850"
+      (reference "R70") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601132f5"
-      (reference "R71") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/75cb4361-b767-4ef4-b8c8-4217db6c9e56"
+      (reference "R71") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601136d6"
-      (reference "R72") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/9d7e82d6-0d13-43c2-8ea7-7afcf52ca187"
+      (reference "R72") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-000060113acf"
-      (reference "R73") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/2264a9f3-6ec8-447e-a912-38958abbafcc"
+      (reference "R73") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-000060113ee8"
-      (reference "R74") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/436196fd-098f-4ede-b3be-6f77ddb4d19a"
+      (reference "R74") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-000060114351"
-      (reference "R75") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/d70dc080-9daa-4f1d-8799-020b53e99162"
+      (reference "R75") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601147e2"
-      (reference "R76") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/fce6366f-c456-4403-88b0-35e10055e667"
+      (reference "R76") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-00006075d996"
       (reference "R77") (unit 1) (value "R_2k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
@@ -24045,14 +24176,14 @@
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-00006068f1c9"
       (reference "R78") (unit 1) (value "R_1k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601152e5"
-      (reference "R79") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/c0908c0a-90d1-4f99-87ff-d1c881145b66"
+      (reference "R79") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601156ee"
-      (reference "R80") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/dd9792e0-93e5-4815-a006-cffa273d192f"
+      (reference "R80") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000601159c7"
-      (reference "R81") (unit 1) (value "R_10k2_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-00005f982999/76ef765f-2001-4f10-81d3-19f1197307dd"
+      (reference "R81") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062c85f6d"
       (reference "R82") (unit 1) (value "R_10k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
@@ -24501,8 +24632,8 @@
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600d5c76"
       (reference "U6") (unit 1) (value "KSZ9031RNXCA") (footprint "data-center-dram-tester-footprints:QFN-48-Microchip-QFN77-48LD-PL-2")
     )
-    (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-0000601044e5"
-      (reference "U7") (unit 1) (value "FT4232HQ") (footprint "data-center-dram-tester-footprints:FT4232HQ")
+    (path "/00000000-0000-0000-0000-0000600e76d8/fdcf14be-5946-4925-90cd-91aedac1ef06"
+      (reference "U7") (unit 1) (value "FT4232H-56Q") (footprint "antmicro-footprints:QFN-56-1EP_8x8mm_P0.5mm_EP5.5.9x5.9mm")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-000061682d3c"
       (reference "U8") (unit 1) (value "PCA9517ADMR2G") (footprint "data-center-dram-tester-footprints:TSSOP-8_W3mm")
