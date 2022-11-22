@@ -8569,7 +8569,7 @@
     (effects (font (size 1 1)) (justify left bottom))
     (uuid de9c6b28-17a1-4825-9517-074323de5429)
   )
-  (text "TODO: Replace 0R01 with 1206L450SLWR fuse" (at 424.18 118.11 0)
+  (text "TODO: Find Replacement for 0R01 " (at 424.18 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e9f8547b-8631-4858-819a-ec3075226be4)
   )
