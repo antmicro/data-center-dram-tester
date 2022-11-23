@@ -16,6 +16,38 @@
 	(layer "In2.Cu")
 )
 
+(rule "PCIe_85Ohm_in9" 
+	(constraint track_width (opt 0.13mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_gap  (opt 0.176mm))
+	(condition "(A.NetClass == '85Ohm-diff_PCIe')&& !A.insideCourtyard('U15')")
+	(layer "In9.Cu")
+)
+
+(rule "PCIe_85Ohm_in9_BGA" 
+	(constraint track_width (opt 0.082mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_gap  (opt 0.09mm))
+	(condition "(A.NetClass == '85Ohm-diff_PCIe') && A.insideCourtyard('U15')")
+	(layer "In9.Cu")
+)
+
+(rule "PCIe_85Ohm_in5" 
+	(constraint track_width (opt 0.105mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_gap  (opt 0.23mm))
+	(condition "(A.NetClass == '85Ohm-diff_PCIe')&& !A.insideCourtyard('U15')")
+	(layer "In5.Cu")
+)
+
+(rule "PCIe_85Ohm_in5_BGA" 
+	(constraint track_width (opt 0.08mm))
+	(constraint clearance (opt 0.1mm))
+	(constraint diff_pair_gap  (opt 0.1mm))
+	(condition "(A.NetClass == '85Ohm-diff_PCIe') && A.insideCourtyard('U15')")
+	(layer "In5.Cu")
+)
+
 (rule "PCIe_85Ohm_outer_BGA" 
 # calculated as 85Ohm @ 50 Ohm SE
 	(constraint track_width (opt 0.1mm) )
