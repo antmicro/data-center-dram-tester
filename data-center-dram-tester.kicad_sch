@@ -22715,9 +22715,6 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000060212554"
       (reference "5V0") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062506200"
-      (reference "12V1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
-    )
     (path "/00000000-0000-0000-0000-000060225b0c/c3c645a3-3735-49d4-8683-450e9a6dd635"
       (reference "C1") (unit 1) (value "C_10u_0402") (footprint "data-center-dram-tester-footprints:0402-cap")
     )
@@ -22776,7 +22773,7 @@
       (reference "C19") (unit 1) (value "C_4u7_0402") (footprint "data-center-dram-tester-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-00006517e142"
-      (reference "C20") (unit 1) (value "C_100u_KEMET_A") (footprint "data-center-dram-tester-footprints:KEMET_A")
+      (reference "C20") (unit 1) (value "C_100u_KEMET_A") (footprint "antmicro-footprints:KEMET_A")
     )
     (path "/00000000-0000-0000-0000-0000600295c1/00000000-0000-0000-0000-000060ddb800"
       (reference "C21") (unit 1) (value "C_100n_0201") (footprint "data-center-dram-tester-footprints:0201-res")
@@ -24775,6 +24772,9 @@
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/acba73aa-e8d5-4b27-9d7f-d8a2b25d78c0"
       (reference "VBUS1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062506200"
+      (reference "VIN1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000600d5bfc"
       (reference "Y1") (unit 1) (value "ABM8G-25.000MHZ-18-D2Y-T") (footprint "data-center-dram-tester-footprints:KX-7")

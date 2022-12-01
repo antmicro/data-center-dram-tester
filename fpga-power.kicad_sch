@@ -11326,7 +11326,7 @@
     (property "Value" "C_100u_KEMET_A" (id 1) (at 158.115 71.12 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (property "Footprint" "data-center-dram-tester-footprints:KEMET_A" (id 2) (at 163.195 62.23 0)
+    (property "Footprint" "antmicro-footprints:KEMET_A" (id 2) (at 163.195 62.23 0)
       (effects (font (size 1.524 1.524)) (justify left) hide)
     )
     (property "Datasheet" "" (id 3) (at 158.115 67.31 0)
