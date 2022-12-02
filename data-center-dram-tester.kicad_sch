@@ -23729,9 +23729,6 @@
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000625ad245"
       (reference "EMCCLK1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000061a090c6"
-      (reference "F5") (unit 1) (value "1206L450SLWR") (footprint "data-center-dram-tester-footprints:1206-res")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/00000000-0000-0000-0000-0000603611f2"
       (reference "FB1") (unit 1) (value "BLM18PG121SN1D") (footprint "data-center-dram-tester-footprints:0603-res")
     )
@@ -23905,6 +23902,12 @@
     )
     (path "/00000000-0000-0000-0000-000060225b0c/7315e6e1-6d84-4fc5-8760-bdcd2b3e2ea0"
       (reference "NT14") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/32441645-1fcc-4c8b-a60e-dc3d0abd6854"
+      (reference "NT15") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/360794c0-c31b-4608-bbdb-a932e69ee656"
+      (reference "NT16") (unit 1) (value "NetTie_2") (footprint "antmicro-footprints:NetTie-2_SMD_Pad0.127mm")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000061af8860"
       (reference "PHY1") (unit 1) (value "TP_SMD1MM") (footprint "data-center-dram-tester-footprints:Testpoint_smd_1mm")
@@ -24439,6 +24442,9 @@
     )
     (path "/00000000-0000-0000-0000-00005f982999/ce5f8984-d3d4-42a2-ab60-e2c902df0564"
       (reference "R161") (unit 1) (value "R_0R_0402") (footprint "antmicro-footprints:0402-res")
+    )
+    (path "/00000000-0000-0000-0000-000060225b0c/ceefcea9-8e0c-4a2a-9f10-94a1a2d59f3c"
+      (reference "R162") (unit 1) (value "R_0R01_1206") (footprint "antmicro-footprints:1206-res")
     )
     (path "/00000000-0000-0000-0000-000061b4860c/00000000-0000-0000-0000-00006157f999"
       (reference "R163") (unit 1) (value "R_10k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
