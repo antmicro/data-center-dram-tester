@@ -1,6 +1,6 @@
 # Data Center DRAM Tester
 
-Copyright (c) 2021-2022 [Antmicro](https://antmicro.com)
+Copyright (c) 2021-2023 [Antmicro](https://antmicro.com)
 
 [![DDR4 RDIMM tester board @ opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/data-center-dram-tester)
 
@@ -30,13 +30,13 @@ The remaining files are stored in the following directories:
 * USB-C debug connector with FT4232HQ FTDI USB controller
 * JTAG
 * microSD card slot
-* 16Mbytes S25FL128S QSPI FLASH memory
+* 16 MBytes S25FL128S QSPI FLASH memory
 * S27KL0641 HyperRAM
 * External 7-12V DC power input
 * PoE++
 * Power consumption monitoring
 * 5 user LEDs
-* FMC HPC expansion connector
+* Optional FMC HPC expansion connector
 
 
 ## License
