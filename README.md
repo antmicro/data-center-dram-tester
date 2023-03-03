@@ -1,10 +1,10 @@
-# Data Center DRAM Tester
+# Data Center RDIMM DDR4 Tester
 
 Copyright (c) 2021-2023 [Antmicro](https://antmicro.com)
 
-[![DDR4 RDIMM tester board @ opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/data-center-dram-tester)
+[![DDR4 RDIMM tester board @ opensource.antmicro.com](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/data-center-rdimm-ddr4-tester)
 
-![DDR4 RDIMM tester board](img/data-center-dram-tester-1.2.0.png)
+![DDR4 RDIMM tester board](img/data-center-rdimm-ddr4-tester-1.2.0.png)
 
 ## Overview
 
