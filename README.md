@@ -38,6 +38,9 @@ The remaining files are stored in the following directories:
 * 5 user LEDs
 * Optional FMC HPC expansion connector
 
+## Board diagram
+
+![Data Center RDIMM DDR4 Tester board diagram](doc/Data-Center-RDIMM-DDR4-Tester-block-diagram.png)
 
 ## License
 
