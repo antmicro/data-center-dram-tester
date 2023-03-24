@@ -6,8 +6,8 @@
 
   (title_block
     (title "Data Center DRAM Tester")
-    (date "2022-11-28")
-    (rev "1.2.0")
+    (date "2023-02-01")
+    (rev "1.2.1")
     (comment 1 "www.antmicro.com")
     (comment 2 "Antmicro Ltd")
   )
@@ -24326,8 +24326,8 @@
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006039308e"
       (reference "R122") (unit 1) (value "R_100k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
     )
-    (path "/00000000-0000-0000-0000-000060225b0c/576d555c-b3a5-4c5b-8857-2455efd9cb9e"
-      (reference "R123") (unit 1) (value "R_100k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
+    (path "/00000000-0000-0000-0000-000060225b0c/e94641d6-08e5-4b51-9381-f951bd47cf4b"
+      (reference "R123") (unit 1) (value "R_10k_0402") (footprint "antmicro-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ef7404a3-7012-4489-a6ba-2ef87e15a50f"
       (reference "R124") (unit 1) (value "R_100k_0402") (footprint "data-center-dram-tester-footprints:0402-res")
