@@ -22433,9 +22433,6 @@
     (path "/00000000-0000-0000-0000-00005f982999/1ed11192-7b1a-4eb1-8acc-f53438a9abd0"
       (reference "#PWR0312") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00005f982999/d010f555-8617-48d5-ad20-33f82ddf4642"
-      (reference "#PWR0313") (unit 1) (value "GNDD") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00005f982999/89ed7d55-821a-4eec-b710-5ccc131a7bc5"
       (reference "#PWR0314") (unit 1) (value "GND") (footprint "")
     )
