@@ -22180,7 +22180,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:antmicro_logo") (at 165.735 281.305 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006003c9b5)
     (property "Reference" "N2" (id 0) (at 171.1706 278.9428 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -22197,7 +22197,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:oshw_logo") (at 166.37 273.685 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000603b54ea)
     (property "Reference" "N1" (id 0) (at 171.2976 273.6088 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -22265,7 +22265,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:PCB_Mount_Hole_3_NPTH") (at 88.9 279.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 4d7ac6a2-6294-4556-983c-5446f8c4f7ea)
     (property "Reference" "MP2" (id 0) (at 94.107 278.5653 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -22299,7 +22299,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:PCB_Mount_Hole_3_NPTH") (at 88.9 266.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 6ad09738-5d12-4303-b619-634d240a9a3f)
     (property "Reference" "MP1" (id 0) (at 94.107 265.8653 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -22333,7 +22333,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:PCB_Mount_Hole_3_NPTH") (at 127 279.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a11342d1-c811-4475-a80f-8e2553b31c01)
     (property "Reference" "MP4" (id 0) (at 132.207 278.5653 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -22350,7 +22350,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:PCB_Mount_Hole_3_NPTH") (at 127 266.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid a4a8edea-3b3f-48a5-b30a-9a448d5392f1)
     (property "Reference" "MP3" (id 0) (at 132.207 265.8653 0)
       (effects (font (size 1.27 1.27)) (justify left))

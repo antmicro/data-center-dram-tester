@@ -9876,7 +9876,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 316.23 227.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0d80bfa2-8153-432e-a4e2-46def7c1debc)
     (property "Reference" "#PWR016" (id 0) (at 316.23 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -9892,7 +9892,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 309.245 227.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 0db962b8-ec55-43ef-8e19-2b6a581a291b)
     (property "Reference" "#PWR0316" (id 0) (at 309.245 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -10090,7 +10090,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 373.38 245.11 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 19e6e500-e4fb-416c-b853-4b9d3031be2a)
     (property "Reference" "#PWR0315" (id 0) (at 373.38 251.46 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -10812,7 +10812,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 260.985 243.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 72996f52-0923-4dd2-a70a-c461817fc425)
     (property "Reference" "#PWR014" (id 0) (at 260.985 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -11055,7 +11055,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 302.26 227.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 8a171f8d-8b2b-4a87-ae74-8d62c0354ea5)
     (property "Reference" "#PWR0318" (id 0) (at 302.26 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -11144,7 +11144,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 272.415 243.84 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 96857750-4e00-47bf-bc70-bfafb8b7573b)
     (property "Reference" "#PWR015" (id 0) (at 272.415 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -11160,7 +11160,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDS") (at 43.18 250.825 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 985186b0-3d58-4f24-bcb1-974b09a16e74)
     (property "Reference" "#PWR0396" (id 0) (at 43.18 257.175 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -11778,7 +11778,7 @@
   )
 
   (symbol (lib_id "data-center-rdimm-ddr4-tester:GNDD") (at 325.755 227.33 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e3f29ab4-395e-4121-9e0f-8145037ccddb)
     (property "Reference" "#PWR0319" (id 0) (at 325.755 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
