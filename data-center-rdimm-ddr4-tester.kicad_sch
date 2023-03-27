@@ -24817,40 +24817,40 @@
       (reference "PWR1") (unit 1) (value "KP-1608CGCK") (footprint "data-center-rdimm-ddr4-tester-footprints:LED_0603")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/a8cc30ac-f97f-48b2-be52-91cda6a4b279"
-      (reference "Q1") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q1") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006090fd8d"
-      (reference "Q2") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q2") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060923b88"
-      (reference "Q3") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q3") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006091f8ac"
-      (reference "Q4") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q4") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00006092108d"
-      (reference "Q5") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q5") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-000060922535"
-      (reference "Q6") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q6") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000610aec42"
-      (reference "Q7") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q7") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-0000610aec4a"
-      (reference "Q8") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q8") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/0fb83486-857c-48e8-8bb3-cb9d15ac5ee7"
-      (reference "Q9") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q9") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/f0f60f35-bef2-4b63-8f41-5e03a541fcc3"
-      (reference "Q10") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q10") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/ec5b0ff9-c5b3-4ebf-b47c-4239d7af922c"
-      (reference "Q11") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q11") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/d1a9c02f-5118-41a2-9c0e-f0fba1bfaaa9"
-      (reference "Q12") (unit 1) (value "BSS138APW") (footprint "data-center-rdimm-ddr4-tester-footprints:SC70-3")
+      (reference "Q12") (unit 1) (value "BSS138PW") (footprint "antmicro-footprints:SC70-3")
     )
     (path "/00000000-0000-0000-0000-0000600e76d8/00000000-0000-0000-0000-00005fe0dd48"
       (reference "R1") (unit 1) (value "R_22R_0402") (footprint "data-center-rdimm-ddr4-tester-footprints:0402-res")
