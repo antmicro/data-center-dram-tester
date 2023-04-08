@@ -10,8 +10,8 @@ Copyright (c) 2021-2023 [Antmicro](https://antmicro.com)
 
 This repository contains open hardware KiCad design files for an experimental platform built around the Xilinx Kintex-7 FPGA which can be used to interface with RDIMM DDR4 RAM modules used in data centers.
 
-This hardware platform is used in Antmicro's and Google's [Rowhammer testing framework](https://github.com/antmicro/litex-rowhammer-tester) which can be used to perform (and potentially mitigate) Rowhammer attacks on DRAM memories. You can learn more about Rowhammer and our work towards mitigating it in a Google Open Source blog note [describing a related platform](https://opensource.googleblog.com/2021/11/Open%20source%20DDR%20controller%20framework%20for%20mitigating%20Rowhammer.html).
-The usage instructions for this board are also provided in the [Rowhammer testing framework documentation](https://litex-rowhammer-tester.readthedocs.io/en/latest/). 
+This hardware platform is used in Antmicro's and Google's [Rowhammer testing framework](https://github.com/antmicro/rowhammer-tester) which can be used to perform (and potentially mitigate) Rowhammer attacks on DRAM memories. You can learn more about Rowhammer and our work towards mitigating it in a Google Open Source blog note [describing a related platform](https://opensource.googleblog.com/2021/11/Open%20source%20DDR%20controller%20framework%20for%20mitigating%20Rowhammer.html).
+The usage instructions for this board are also provided in the [Rowhammer testing framework documentation](https://antmicro.github.io/rowhammer-tester/). 
 
 ## Repository structure
 
