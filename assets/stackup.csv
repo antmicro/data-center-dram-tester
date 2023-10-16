@@ -1,0 +1,26 @@
+Name;Type;Material;Thickness[mm];Constant
+F.Mask;Top Solder Mask;;0.01;
+F.Cu;copper;;0.035;
+dielectric 1;prepreg;1080(69%)+106(74%)S1000-2MB;0.074;3.9
+In1.Cu;copper;;0.035;
+dielectric 2;prepreg;1080(69%)+106(74%)S1000-2MB;0.112;3.9
+In2.Cu;copper;;0.035;
+dielectric 3;prepreg;1080(69%)+106(74%)S1000-2MB;0.126;3.9
+In3.Cu;copper;;0.035;
+dielectric 4;prepreg;1080(69%)+106(74%)S1000-2MB;0.126;3.9
+In4.Cu;copper;;0.035;
+dielectric 5;core;S1000-2M;0.13;4.9
+In5.Cu;copper;;0.035;
+dielectric 6;prepreg;1080(69%)+106(74%)S1000-2MB;0.106;3.9
+In6.Cu;copper;;0.035;
+dielectric 7;prepreg;S1000-2M;0.2;4.9
+In7.Cu;copper;;0.035;
+dielectric 8;core;106(74%)+1080(69%)S1000-2MB;0.114;3.9
+In8.Cu;copper;;0.035;
+dielectric 9;prepreg;106(74%)+1080(69%)S1000-2MB;0.1263;3.9
+In9.Cu;copper;;0.035;
+dielectric 10;core;106(74%)+1080(69%)S1000-2MB;0.112;3.9
+In10.Cu;copper;;0.035;
+dielectric 11;prepreg;106(74%)+1080(69%)S1000-2MB;0.074;3.9
+B.Cu;copper;;0.035;
+B.Mask;Bottom Solder Mask;;0.01;
