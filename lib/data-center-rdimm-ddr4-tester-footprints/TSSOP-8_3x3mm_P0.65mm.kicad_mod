@@ -544,7 +544,7 @@
   (pad "6" smd roundrect (at 2.151 0.338) (size 1.47 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5c070965-49dc-4e30-8156-537e5b8e7985))
   (pad "7" smd roundrect (at 2.151 -0.313) (size 1.47 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 524e114f-e581-4f13-9e6b-ceb62bf67f4f))
   (pad "8" smd roundrect (at 2.151 -0.962) (size 1.47 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 5354aa83-5fc4-40d0-be09-c2f90349fa45))
-  (model "${KIPRJMOD}/lib/3d-models/TSSOP-8 3_1x3_1.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/TSSOP-8 3_1x3_1.step"
     (offset (xyz 0 0 0.59))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -180))

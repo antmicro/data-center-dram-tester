@@ -621,6 +621,11 @@
   (fp_line (start -0.94249 1.85534) (end -0.939927 1.846855) (layer "User.9") (width 0.009999) (tstamp ffe0d5d3-4572-4e3f-ac3b-83dca950f96f))
   (pad "" np_thru_hole circle (at 0 -4.96) (size 1.2 1.2) (drill 1.2) (layers F&B.Cu *.Mask) (tstamp 40c4e867-2a15-43a2-8f4c-d44c04a6dc13))
   (pad "" np_thru_hole circle (at 0 4.24) (size 1.2 1.2) (drill 1.2) (layers F&B.Cu *.Mask) (tstamp 99c69475-db96-47e3-84e4-46574c1c98f1))
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/1296_2013.step"
+    (offset (xyz 1.5 4 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 90 -90))
+  )
   (group "" (id 43f3240b-77d6-42af-af35-e0022fd248ed)
     (members
       00252d37-4d94-40d0-b451-6e88f18e1882
@@ -1210,10 +1215,5 @@
       ff4fd4a1-bb98-4e22-a49f-d7085e4d0f0f
       ffe0d5d3-4572-4e3f-ac3b-83dca950f96f
     )
-  )
-  (model "${KIPRJMOD}/lib/3d-models/1296_2013.step"
-    (offset (xyz 1.5 4 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 90 -90))
   )
 )

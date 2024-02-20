@@ -108,7 +108,7 @@
   (pad "57" smd roundrect (at 0.65 -3.2) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp a95ade50-2720-46d2-a853-774e6b4e1451))
   (pad "57" smd roundrect (at -0.65 -1.9) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp e1e9a59e-eb05-4453-9e68-b7562fd25d8e))
   (pad "57" smd roundrect (at -0.65 -3.2) (size 1 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp f43007f2-c4ad-4f78-ad47-d8f314f616ea))
-  (model "${KIPRJMOD}/lib/3d-models/RHU0056A.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/RHU0056A.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

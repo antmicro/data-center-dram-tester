@@ -292,7 +292,7 @@
   (fp_line (start 4.1 -0.279) (end 4.101 -0.276) (layer "User.9") (width 0.02) (tstamp fff5fa05-a173-4684-b878-38db825ca746))
   (pad "1" smd rect (at -4.472 0.038) (size 1.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 6469e5fd-9929-4d50-b119-4f32d99fbc16))
   (pad "2" smd rect (at 4.428 0.038 180) (size 1.5 1.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp ac11f0da-ea18-4f82-8309-9398a9ad1589))
-  (model "${KIPRJMOD}/lib/3d-models/CUI_DEVICES_DS04-254-1-01BK-SMT.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/CUI_DEVICES_DS04-254-1-01BK-SMT.step"
     (offset (xyz 8.9785 1.461 0.9))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

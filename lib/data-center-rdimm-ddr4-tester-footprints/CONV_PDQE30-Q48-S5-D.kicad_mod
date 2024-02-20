@@ -176,7 +176,7 @@
   (pad "4" thru_hole circle (at 20.318 20.318) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask) (tstamp 7d40d5f2-2ce0-4288-99f0-dd0e8669e554))
   (pad "5" thru_hole circle (at 20.318 10.159) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask) (tstamp 55e12a66-eb63-4408-a754-d23169ef7a12))
   (pad "6" thru_hole circle (at 20.318 0) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask) (tstamp 2262d1d2-7782-4d17-b6ae-9964a0dfe6d3))
-  (model "${KIPRJMOD}/lib/3d-models/PDQE30-Q48.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/PDQE30-Q48.step"
     (offset (xyz 10.16 -10.16 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

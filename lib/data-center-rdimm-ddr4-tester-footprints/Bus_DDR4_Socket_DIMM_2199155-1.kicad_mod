@@ -2734,7 +2734,7 @@
   (pad "MP1" thru_hole roundrect (at -5.651 -2.301 180) (size 1.8 3.05) (drill oval 1.2 2.45) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp cf4079ff-48d4-4b7b-8bcf-9d42e018326a))
   (pad "MP2" thru_hole roundrect (at 68.9 -2.301 180) (size 1.8 3.05) (drill oval 1.2 2.45) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp ca7b0c65-70b2-45c8-a2b3-f45e7e2c3869))
   (pad "MP3" thru_hole roundrect (at 132.3 -2.301 180) (size 1.8 3.05) (drill oval 1.2 2.45) (layers *.Cu *.Mask) (roundrect_rratio 0.5) (tstamp 5d11982d-ea34-44de-9d00-ad930379a42e))
-  (model "${KIPRJMOD}/lib/3d-models/c-2199155-1-b-3d.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/c-2199155-1-b-3d.step"
     (offset (xyz 63.325 2.25 6.15))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

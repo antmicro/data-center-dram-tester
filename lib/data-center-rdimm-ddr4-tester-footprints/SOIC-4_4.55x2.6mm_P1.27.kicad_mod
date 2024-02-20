@@ -233,7 +233,7 @@
   (pad "2" smd roundrect (at -3.125 0.634 90) (size 0.65 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 80b26d30-e6ee-4796-8ec0-a6674ee7ad43))
   (pad "3" smd roundrect (at 3.124 0.634 90) (size 0.65 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp 6b2d247c-a91a-4a64-b682-c1f33a7e3bfd))
   (pad "4" smd roundrect (at 3.124 -0.635 90) (size 0.65 1.85) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.15) (tstamp e6687e8d-fdd3-4d93-b4f4-1954d0e80b2f))
-  (model "${KIPRJMOD}/lib/3d-models/ACPL-217-500E.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/ACPL-217-500E.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

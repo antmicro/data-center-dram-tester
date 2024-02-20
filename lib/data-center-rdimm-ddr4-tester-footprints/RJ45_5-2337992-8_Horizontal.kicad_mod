@@ -310,7 +310,7 @@
   (pad "18" thru_hole circle (at 12.355 12.958) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask) (tstamp 62bc7357-086a-4d52-8545-ffe6f9ad8ddc))
   (pad "19" thru_hole circle (at -2.136 5.85) (size 2.1 2.1) (drill 1.6) (layers *.Cu *.Mask) (tstamp 95cf9f5c-d6c7-46b9-afb4-776e7c31d827))
   (pad "20" thru_hole circle (at 13.563 5.85) (size 2.1082 2.1082) (drill 1.6002) (layers *.Cu *.Mask) (tstamp 2e67abac-bf24-4160-aa83-7872bc33d2ec))
-  (model "${KIPRJMOD}/lib/3d-models/c-5-2337992-8-a-3d.step"
+  (model "/media/HDD/prjs/antmicro-ddr4-datacenter-tester-hw/lib/3d-models/c-5-2337992-8-a-3d.step"
     (offset (xyz 5.75 -19.75 6.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
